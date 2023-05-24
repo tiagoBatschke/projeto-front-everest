@@ -1,14 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
 
-
+.header_home{
+    display: flex;
+    width: 100%;
+    height: 3rem;
+    align-items: center;
+}
 .img_lupa{
     height: 1rem;
 }
 
-.header_container1{
+.header_container_search{
     display: flex;
     justify-content: space-evenly;
     width: 60%;
+   
+    max-height: 2rem;
 }
 
 .links_header{
@@ -27,11 +34,11 @@ text-transform: uppercase;
 
 .search_form_header{
     width: 50%;
-    background-color:rgb(163, 161, 161);
+    background-color:#F4F4F4;
     border-radius: 1rem;
     display: flex;
     justify-content: space-between;
-    padding:0rem 1rem;
+    padding:0.1rem 1rem;
 
 
 }
@@ -40,5 +47,18 @@ text-transform: uppercase;
     width: 90%;
     background-color: transparent;
     border: none;
-   outline: none ;
-}
+   outline: none ;}
+
+.button_header_search{
+    border: none;
+    background-color: transparent;
+   }
+
+   .container_body{
+    display: flex;
+    flex-direction: row-reverse;
+   }
+
+
+
+
