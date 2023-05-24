@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+
+.img_lupa{
+    height: 1rem;
+}
+
+.header_container1{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+.links_header{
+    color: black;
+    font-size: 1rem;
+    text-decoration: none;
+    font-family: 'Baloo 2', cursive;
+ 
+}
+
+.logo_header{
+font-weight: bold;
+text-transform: uppercase;
+
+}
+
+.search_form_header{
+    width: 50%;
+    background-color:rgb(163, 161, 161);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    padding:0rem 1rem;
+
+
+}
+
+.input_search_header{
+    width: 90%;
+    background-color: transparent;
+    border: none;
+   outline: none;
+}
