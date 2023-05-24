@@ -4,7 +4,7 @@
     display: flex;
     width: 100%;
     height: 3rem;
-    align-items: center;
+    border-bottom: 1px solid #d0d0d0;
 }
 .img_lupa{
     height: 1rem;
@@ -14,16 +14,22 @@
     display: flex;
     justify-content: space-evenly;
     width: 60%;
-   
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     max-height: 2rem;
 }
 
 .links_header{
     color: black;
     font-size: 1rem;
+    
+    margin-top: 0.5rem;
+}
+
+.text{
     text-decoration: none;
     font-family: 'Baloo 2', cursive;
- 
+    color: black;
 }
 
 .logo_header{
@@ -39,7 +45,7 @@ text-transform: uppercase;
     display: flex;
     justify-content: space-between;
     padding:0.1rem 1rem;
-
+    
 
 }
 
@@ -47,17 +53,14 @@ text-transform: uppercase;
     width: 90%;
     background-color: transparent;
     border: none;
-   outline: none ;}
+    outline: none ;}
 
 .button_header_search{
     border: none;
     background-color: transparent;
    }
 
-   .container_body{
-    display: flex;
-    flex-direction: row-reverse;
-   }
+
 
 
 

@@ -1,0 +1,23 @@
+  .main_message{
+    background-color: #F4F4F4;
+    width: 60%;
+    margin-left: 10%;
+    margin-top: 3%;
+    display: flex;
+    border-radius: 0.5rem;
+
+  }
+
+  .main_message_title{
+    font-size: 1.5rem;
+    margin-top: 0.5rem
+  }
+
+  .main_message_text{
+    margin-top: 0.5rem;
+  }
+
+  .main_message_container{
+    padding: 4rem 2rem;
+    
+  }
