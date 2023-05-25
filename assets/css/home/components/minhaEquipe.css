@@ -2,13 +2,13 @@
     display: flex;
 }
 
-.minhaEquipe_metics_container{
+.minhaEquipe_metrics_container{
     width: 30%;
-    padding: 5%;
+    padding: 3%;
 }
 
 .minhaEqipe_container{
-    background-color: #F4F4F4;
+    
     border-radius:0.5rem ;
     box-shadow: -0.2rem 0.3rem rgba(0, 0, 0, 0.074);
   
@@ -94,6 +94,7 @@
     width: 100%;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
+    margin-top: 1rem;
 }
 
 .button_img{
@@ -103,5 +104,5 @@
 .button_colaborators_list{
     border: none;
     background-color: transparent;
-   margin-top: -0.5rem;
+    margin-top: -0.5rem;
 }

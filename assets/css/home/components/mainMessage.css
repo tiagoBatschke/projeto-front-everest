@@ -1,12 +1,12 @@
   .main_message{
-    background-color: #F4F4F4;
+    
     width: 52%;
     margin-left: 10%;
     margin-top: 3%;
     display: flex;
     border-radius: 0.5rem;
     box-shadow: -0.2rem 0.3rem rgba(0, 0, 0, 0.074);
-    max-height: 14.5rem;
+    max-height: 12.5rem;
   }
 
   .main_message_title{
@@ -20,13 +20,13 @@
   }
 
   .main_message_container{
-    padding: 4rem 2rem;
+    padding: 2rem 2rem;
    
   }
 
   .main_message_img{
-    width: 18rem;
-    height: 12rem;
+    width: 16rem;
+    height: 10rem;
     margin-top: 5%;
   }
 
