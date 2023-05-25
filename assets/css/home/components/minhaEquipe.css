@@ -10,8 +10,8 @@
 .minhaEqipe_container{
     
     border-radius:0.5rem ;
-    box-shadow: -0.2rem 0.3rem rgba(0, 0, 0, 0.074);
-  
+    box-shadow: -0.1rem 0.2rem rgba(0, 0, 0, 0.074);
+    border: 1px solid  rgba(0, 0, 0, 0.074) ;
 }
 
 .minhaEquipe_titles{
@@ -105,4 +105,20 @@
     border: none;
     background-color: transparent;
     margin-top: -0.5rem;
+}
+
+@media(min-width:1300px){
+    .minhaEquipe_metrics_container{
+        width: 32%;
+        padding: 2%;
+    }
+
+    .colaborators_list{
+        display: flex;
+        justify-content: space-evenly;
+        width: 95%;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        margin-top: 1rem;
+    }
 }
