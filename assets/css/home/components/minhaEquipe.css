@@ -3,17 +3,19 @@
 }
 
 .minhaEquipe_metics_container{
-    margin-left: 5%;
-    margin-top: 5%;
+    width: 40%;
+    padding: 5%;
 }
 
 .minhaEqipe_container{
-  background-color: #d0d0d03b;
-  border-radius:0.5rem 0.5rem 0 0;
+    background-color: #F4F4F4;
+    border-radius:0.5rem ;
+    box-shadow: -0.2rem 0.3rem rgba(0, 0, 0, 0.074);
+  
 }
 
 .minhaEquipe_titles{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: #fff;
     margin-left: 0.5rem;
 }
@@ -24,8 +26,9 @@
 .minhaEquipe_titles_separation{
     
     background-color: #58A5F5;
-    padding: 1rem;
-    
+    padding: 1rem 1rem;
+    width: 50%;
+
 }
 
 .minhaEquipe_titles_separation:hover{
@@ -35,6 +38,12 @@
     
 }
 
+.card_colaborators_container{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem;
+    
+}
 .card_colaborators{
     display: flex;
     margin-top: 1rem;
@@ -63,7 +72,7 @@
 .card_colaborators_icons-container{
     display: flex;
     padding-bottom: 0.6rem;
-    margin-left: 4rem;
+    margin-left: 7rem;
 }
 .card_colaborators_icons{
     margin-left: 0.8rem;
@@ -72,5 +81,26 @@
 .card_colaborators_icons-container_mid{
     display: flex;
     padding-bottom: 0.6rem;
-    margin-left: 3rem;
+    margin-left: 6rem;
+}
+
+.colaborator_img{
+    height: 3rem;
+}
+
+.colaborators_list{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+   padding: 1rem;
+}
+
+.button_img{
+    height: 4rem;
+}
+
+.button_colaborators_list{
+    border: none;
+    background-color: transparent;
+   margin-top: -0.5rem;
 }
