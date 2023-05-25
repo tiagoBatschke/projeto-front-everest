@@ -1,6 +1,6 @@
   .main_message{
     background-color: #F4F4F4;
-    width: 60%;
+    width: 52%;
     margin-left: 10%;
     margin-top: 3%;
     display: flex;
@@ -14,10 +14,17 @@
   }
 
   .main_message_text{
-    margin-top: 0.5rem;
+    margin-top: 1rem;
+    line-height: 1.5rem;
   }
 
   .main_message_container{
     padding: 4rem 2rem;
     
+  }
+
+  .main_message_img{
+    width: 18rem;
+    height: 12rem;
+    margin-top: 5%;
   }
