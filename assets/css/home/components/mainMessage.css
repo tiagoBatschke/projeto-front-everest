@@ -5,7 +5,8 @@
     margin-top: 3%;
     display: flex;
     border-radius: 0.5rem;
-    box-shadow: 1rem;
+    box-shadow: -0.2rem 0.3rem rgba(0, 0, 0, 0.074);
+    max-height: 14rem;
   }
 
   .main_message_title{
@@ -20,7 +21,7 @@
 
   .main_message_container{
     padding: 4rem 2rem;
-    
+   
   }
 
   .main_message_img{
@@ -28,3 +29,5 @@
     height: 12rem;
     margin-top: 5%;
   }
+
+  

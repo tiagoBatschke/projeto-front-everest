@@ -1,0 +1,76 @@
+.main_content_container{
+    display: flex;
+}
+
+.minhaEquipe_metics_container{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.minhaEqipe_container{
+  background-color: #d0d0d03b;
+  border-radius:0.5rem 0.5rem 0 0;
+}
+
+.minhaEquipe_titles{
+    font-size: 1.3rem;
+    color: #fff;
+    margin-left: 0.5rem;
+}
+.minhaEquipe_titles_container{
+    display: flex;
+   
+}
+.minhaEquipe_titles_separation{
+    
+    background-color: #58A5F5;
+    padding: 1rem;
+    
+}
+
+.minhaEquipe_titles_separation:hover{
+    background-color:  #58a4f577;
+    cursor: pointer;
+    transition-delay: 100ms;
+    
+}
+
+.card_colaborators{
+    display: flex;
+    margin-top: 1rem;
+   
+}
+
+.card_colaborators_text-container{
+    padding-top: 0.6rem;
+    padding-left: 1rem;
+    
+    
+}
+
+.card_colaborators_title{
+    font-weight: bold;
+    font-size: 1rem;
+    
+}
+
+.card_colaborators_text{
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.585);
+    margin-top: 0.2rem;
+}
+
+.card_colaborators_icons-container{
+    display: flex;
+    padding-bottom: 0.6rem;
+    margin-left: 4rem;
+}
+.card_colaborators_icons{
+    margin-left: 0.8rem;
+    max-width: 1.5rem;
+}
+.card_colaborators_icons-container_mid{
+    display: flex;
+    padding-bottom: 0.6rem;
+    margin-left: 3rem;
+}
