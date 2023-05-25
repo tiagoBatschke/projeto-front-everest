@@ -1,4 +1,5 @@
 const ctx = document.getElementById('myChart');
+
 var barColors = [
   "rgba(20,75,133)",
   "rgba(42,139,242)",
@@ -26,10 +27,5 @@ var barColors = [
         
       },
 
-      plugins: {
-        customCanvasBackgroundColor: {
-          color: 'lightGreen',
-        }
-    },
-    plugins: [plugin],
+    
   }});
