@@ -5,12 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Everest</title>
+    <!---  charts-->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+     <!--- CSS-->
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/home/header/header.css">
     <link rel="stylesheet" href="./assets/css/home/header/lateralBar.css">
     <link rel="stylesheet" href="./assets/css/home/components/mainMessage.css">
     <link rel="stylesheet" href="./assets/css/home/components/minhaEquipe.css">
     <link rel="stylesheet" href="./assets/css/home/components/metrics.css">
+    <link rel="stylesheet" href="./assets/css/home/components/graficos.css">
 </head>
 <body class="container_body">
    <header  class="header_home">
@@ -48,15 +52,23 @@
     </header>
     <main>
     <section class="main_content_container">
-        <div class="main_message">
-            <div class="main_message_container">
-                <h1 class="main_message_title text">Bem Vindo de volta, <span style="font-weight: bold;">Fernando!</span></h1>
-                 <p class="main_message_text text">Confira aqui embaixo todas as métricas que
-                precisa para um <span style="color:#2A8BF2;">atendimento de sucesso!</span> </p>
+        <div class="main_message_graphcs-container">
+            <div class="main_message">
+                <div class="main_message_container">
+                    <h1 class="main_message_title text">Bem Vindo de volta, <span style="font-weight: bold;">Fernando!</span></h1>
+                     <p class="main_message_text text">Confira aqui embaixo todas as métricas que
+                    precisa para um <span style="color:#2A8BF2;">atendimento de sucesso!</span> </p>
+                </div>
+                
+                <img class="main_message_img" src="./assets/imgs/image 31.png" alt="">
+                
             </div>
-            
-            <img class="main_message_img" src="./assets/imgs/image 31.png" alt="">
+    
+            <div class="graph_pie">
+                <canvas id="myChart"></canvas>
+              </div>
         </div>
+       
         <div class="minhaEquipe_metrics_container">
             <div class="minhaEqipe_container">   
                 <div class="minhaEquipe_titles_container">
@@ -144,8 +156,10 @@
             </div>
         </div>
     </section>
+
+    
        
     </main>
-    
+    <script src="./assets/js/chart.js"></script>
 </body>
 </html>
