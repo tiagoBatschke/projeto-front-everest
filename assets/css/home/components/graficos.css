@@ -1,11 +1,24 @@
+
 .graph_bar{
     margin-left: 10%;
+    
 }
 
 .graph_pie{
-    max-height: 250px;
-    margin-left: 15%;
-    
+    margin-left: 60%;
+    border-radius: 0.5rem ;
+}
+
+.canva_graph_pie{
+    margin-left: 6rem;
+    margin-top: -5rem;
+    margin-bottom: 1rem;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.graph_pie ul {
+    margin-top: 5%;
 }
 
 .google-visualization-table-tr-head{
