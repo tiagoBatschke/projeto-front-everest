@@ -7,6 +7,7 @@
     <title>Everest</title>
     <!---  charts-->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
      <!--- CSS-->
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/home/header/header.css">
@@ -63,7 +64,7 @@
                 <img class="main_message_img" src="./assets/imgs/image 31.png" alt="">
                 
             </div>
-    
+            
             <div class="graph_pie" id="graph_pie-id">
                 <ul>
                     <li>SP</li>
@@ -73,6 +74,8 @@
                 </ul>
                 <canvas class="canva_graph_pie" id="myChart"></canvas>
               </div>
+
+              <div id="columnchart_material"></div>
         </div>
        
         <div class="minhaEquipe_metrics_container">
@@ -167,5 +170,7 @@
        
     </main>
     <script src="./assets/js/pieChart.js"></script>
+    <script src="./assets/js/barChart.js"></script>
+    
 </body>
 </html>
