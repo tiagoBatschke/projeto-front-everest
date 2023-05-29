@@ -1,0 +1,49 @@
+  .main_message{
+    display: flex;
+    width: 80%;
+    margin-left: 15%;
+    margin-top: 3%;
+    border-radius: 0.5rem;
+    box-shadow: -0.1rem 0.2rem rgba(0, 0, 0, 0.074);
+    max-height: 12.5rem;
+    border: 1px solid  rgba(0, 0, 0, 0.074) ;
+  }
+
+  .main_message_title{
+    font-size: 1.5rem;
+    margin-top: 0.5rem
+  }
+
+  .main_message_text{
+    margin-top: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .main_message_container{
+    padding: 2rem 2rem;
+   
+  }
+
+  .main_message_img{
+    width: 30rem;
+    height: 10rem;
+    margin-top: 5%;
+  }
+
+  @media(min-width:1400px){
+    .main_message{
+    
+      width: 52%;
+      margin-left: 10%;
+      margin-top: 2%;
+      display: flex;
+      border-radius: 0.5rem;
+      box-shadow: -0.1rem 0.2rem rgba(0, 0, 0, 0.074);
+      max-height: 12.5rem;
+      border: 1px solid  rgba(0, 0, 0, 0.074) ;
+    }
+  
+  }
+
+
+  
