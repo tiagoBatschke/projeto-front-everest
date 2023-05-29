@@ -5,7 +5,7 @@
 }
 
 .graph_pie{
-    margin-left: 60%;
+    margin-left: 10%;
     border-radius: 0.5rem ;
 }
 
@@ -25,10 +25,25 @@
     display: flex;
     margin-top: 5%;
     width: 80%;
-    padding-left: 10%;
+    padding-left: 15%;
 }
 
 
-.socialChart{
-   
+.bar_father{
+    background-color: rgb(252, 241, 241);
+    border-radius: 0.5rem;
+    color: transparent;
+    height: 1rem;
+    margin-top: 1.2rem;
+    margin-left: 1rem;
+}
+
+.bar_son{
+    background-color: rgb(219, 33, 33);
+    border-radius: 0.5rem 0rem 0rem 0.5rem;
+}
+
+.socialChart_li{
+    display: flex;
+    margin-top: 1rem;
 }
