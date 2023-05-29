@@ -118,6 +118,7 @@ var barColors = [
         },
         legend: {
           display: false,
+          
         }
       }
     },
