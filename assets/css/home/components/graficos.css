@@ -24,7 +24,7 @@
 .charts_paralelos{
     display: flex;
     margin-top: 5%;
-    width: 80%;
+    width: 60%;
     padding-left: 15%;
 }
 
@@ -34,8 +34,9 @@
     border-radius: 0.5rem;
     color: transparent;
     height: 1rem;
-    margin-top: 1.2rem;
+    margin-top: 1rem;
     margin-left: 1rem;
+    width: 100%;
 }
 
 .bar_son{
@@ -45,5 +46,33 @@
 
 .socialChart_li{
     display: flex;
-    margin-top: 1rem;
+    width: 40%;
+    padding: 0.5rem 1rem;
+  
+   
+    
+}
+
+.title_social_chart{
+    font-family: 'Baloo 2', cursive;
+    padding: 1rem;
+    width: 3rem;
+}
+
+.social_titles_separation{
+    
+    background-color: #58A5F5;
+    padding: 1rem 1rem;
+    width: 92%;
+
+}
+.socialChart{
+    width: 80%;
+    background-color: #f4f4f4;
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
+}
+
+.socialChart_ul{
+    display: flex;
+    flex-direction: column;
 }
