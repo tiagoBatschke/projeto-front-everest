@@ -1,5 +1,17 @@
 const ctx = document.getElementById('myChart');
 
+const plugin = {
+  id: 'customCanvasBackgroundColor',
+  beforeDraw: (chart, args, options) => {
+    const {ctx} = chart;
+    ctx.save();
+    ctx.globalCompositeOperation = 'destination-over';
+    ctx.fillStyle = options.color || '#99ffff';
+    ctx.fillRect(0, 0, chart.width, chart.height);
+    ctx.restore();
+  }
+};
+
 var barColors = [
   "rgba(20,75,133)",
   "rgba(42,139,242)",
@@ -10,7 +22,7 @@ var barColors = [
   new Chart(ctx, {
     type: "pie",
     data: {
-      labels: ['Red', 'Blue', 'Yellow', 'Green'],
+      labels: ['SP', 'RJ', 'AM', 'MG'],
       datasets: [{
         label: '# of Votes',
         backgroundColor: barColors,
@@ -20,12 +32,11 @@ var barColors = [
       }]
     },
     options: {
-      scales: {
-        y: {
-          beginAtZero: true
-        },
-        
-      },
-
-    
-  }});
+      plugins: {
+        customCanvasBackgroundColor: {
+          color: '#FFF',
+        }
+      }
+    },
+    plugins: [plugin],
+  });
