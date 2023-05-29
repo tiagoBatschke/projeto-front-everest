@@ -24,8 +24,8 @@
 .charts_paralelos{
     display: flex;
     margin-top: 5%;
-    width: 60%;
-    padding-left: 15%;
+    width: 45%;
+    padding-left: 13%;
 }
 
 
@@ -46,7 +46,7 @@
 
 .socialChart_li{
     display: flex;
-    width: 40%;
+    width: 35%;
     padding: 0.5rem 1rem;
   
    
@@ -67,7 +67,7 @@
 
 }
 .socialChart{
-    width: 80%;
+    width: 100%;
     background-color: #f4f4f4;
     border-radius: 0rem 0rem 0.5rem 0.5rem;
 }
@@ -75,4 +75,8 @@
 .socialChart_ul{
     display: flex;
     flex-direction: column;
+}
+
+.img_social_chart{
+    height: 3rem;
 }
