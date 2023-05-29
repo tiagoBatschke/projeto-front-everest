@@ -21,6 +21,14 @@
     margin-top: 5%;
 }
 
-.google-visualization-table-tr-head{
-    background-color: black;
+.charts_paralelos{
+    display: flex;
+    margin-top: 5%;
+    width: 80%;
+    padding-left: 10%;
+}
+
+
+.socialChart{
+   
 }
