@@ -29,7 +29,7 @@
     margin-top: 5%;
     width: 45%;
     padding-left: 13%;
-    height: 20rem;
+    height: 18rem;
 }
 
 
@@ -59,10 +59,12 @@
     font-size: 0.8rem;
 }
 
-.social_titles_separation{
+.social_titles_separatio_graficos{
     background-color: #58A5F5;
-    padding: 1rem 1rem;
+    padding: 0.5rem 1rem;
     width: 93%;
+    margin-bottom: 0.5rem;
+    
 }
 .socialChart{
     width: 100%;
@@ -75,11 +77,13 @@
 .socialChart_ul{
     display: flex;
     flex-direction: column;
-    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    
 }
 
 .img_social_chart{
     height: 2rem;
+    margin-top: 0.3rem;
 }
 
 .text_none{
