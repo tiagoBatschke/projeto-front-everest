@@ -110,19 +110,3 @@
     background-color: transparent;
     margin-top: -0.5rem;
 }
-
-@media(min-width:1300px){
-    .minhaEquipe_metrics_container{
-        width: 32%;
-        padding: 2%;
-    }
-
-    .colaborators_list{
-        display: flex;
-        justify-content: space-evenly;
-        width: 95%;
-        margin-left: 0.5rem;
-        margin-right: 0.5rem;
-        margin-top: 1rem;
-    }
-}
