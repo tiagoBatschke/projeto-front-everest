@@ -2,7 +2,7 @@ google.charts.load('current', {'packages':['bar']});
 google.charts.setOnLoadCallback(drawChart);
 function drawChart() {
     var data = google.visualization.arrayToDataTable([
-      ['Year', 'Sales', 'Expenses', 'Profit'],
+      ['Months', 'Sales', 'Expenses', 'Profit'],
       ['JAN', 1000, 400, 200],
       ['FEV', 1170, 460, 250],
       ['MAR', 660, 1120, 300],
