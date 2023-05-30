@@ -1,0 +1,17 @@
+.chats_cards_notifications{
+width: 30%;
+margin-left: 8%;
+margin-top: 2%;
+}
+
+.chats_cards_notifications{
+    display: flex;
+    border-bottom: 1px solid black;
+    padding-bottom: 0.5rem;
+    
+}
+
+.chats_cards_notifications-text{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
