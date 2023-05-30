@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./assets/css/home/header/header.css">
     <link rel="stylesheet" href="./assets/css/home/header/lateralBar.css">
     <link rel="stylesheet" href="./assets/css/home/components/chats.css">
+    <link rel="stylesheet" href="./assets/css/home/components/openedChat.css">
 </head>
 <body class="container_body">
     <header  class="header_home">
@@ -43,25 +44,38 @@
     </div>
    </header>
    <main>
-        <div class="chats_container">
+    <div class="menssager_container">
+        <div class="chats_container_notifications">
             <div class="chats_cards_notifications">
-                <img src="./assets/imgs/icon_chats.svg" alt="">
+                <img class="chats_cards_notifications-img" src="./assets/imgs/icon_chats.svg" alt="">
                 <div class="chats_cards_notifications-text">
-                    <h2 class="text">Arquivos</h2>
-                    <p class="text">Ver chats antigos</p>
+                    <h2 class="chats_cards-title text">Arquivos</h2>
+                    <p class="chats_cards-text text">Ver chats antigos</p>
                 </div>
               
             </div>
             <div class="chats_cards_notifications">
-                <img src="./assets/imgs/icon_chats.svg" alt="">
+                <img class="chats_cards_notifications-img" src="./assets/imgs/icon_chats.svg" alt="">
                 <div class="chats_cards_notifications-text">
-                    <h2 class="text">Novas</h2>
-                    <p class="text">03 Solicitações</p>
+                    <h2 class="chats_cards-title text">Novas</h2>
+                    <p class="chats_cards-text text">03 Solicitações</p>
                 </div>
-              
+              </div>
+              <div class="chat_container_search">
+                <form class="search_form_chat" action="">
+                    <button class="button_header_chat" type="submit"><img class="img_lupa" src="./assets/imgs/lupa-arredondada.png" alt=""></button>
+                    
+                    <input placeholder="Buscar" class="input_search_chat" type="text">
+            </form>
             </div>
-            
         </div>
+        <div class="opened_chat-container">
+            <div class="opened_chat_name-container">
+                <h1 class="opened_chat-name text">Alissa Melo</h1>
+            </div>
+        </div>
+    </div>
+    
    </main>
 </body>
 </html>

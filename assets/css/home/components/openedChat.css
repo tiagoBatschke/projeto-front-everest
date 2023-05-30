@@ -1,0 +1,13 @@
+.menssager_container{
+    display: flex;
+    flex-direction: row;
+}
+.opened_chat-container{
+    background-color: black;
+    width: 40%;
+}
+
+
+.opened_chat_name-container{
+    background-color: black;
+}
