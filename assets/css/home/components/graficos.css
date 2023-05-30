@@ -30,9 +30,9 @@
 
 
 .bar_father{
-    background-color: rgb(252, 241, 241);
+
     border-radius: 0.5rem;
-    color: transparent;
+    
     height: 1rem;
     margin-top: 1rem;
     margin-left: 1rem;
@@ -40,8 +40,9 @@
 }
 
 .bar_son{
-    background-color: rgb(219, 33, 33);
+    
     border-radius: 0.5rem 0rem 0rem 0.5rem;
+    
 }
 
 .socialChart_li{
@@ -79,4 +80,12 @@
 
 .img_social_chart{
     height: 3rem;
+}
+
+.text_none{
+    display: none;
+}
+
+.text_hidden{
+visibility: hidden;    
 }
