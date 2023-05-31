@@ -48,3 +48,33 @@
     height: 0.5rem;
     margin-top: 0.2rem;
 }
+
+.text_box-container{
+   padding: 0 1rem;
+    border:1px solid rgba(0, 0, 0, 0.308);
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    
+}
+.text_box{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    padding: 0.5rem 0rem;
+    margin-left: 1rem;
+}
+.text_box-button{
+    background-color: #000;
+    border: none;
+    height: 2rem;
+    width: 2rem;
+
+}
+.text_box-form{
+    border: none;
+    width: 90%;
+    margin-left: 1rem;
+    outline: none ;
+    
+}
+
