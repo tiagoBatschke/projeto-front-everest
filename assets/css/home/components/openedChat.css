@@ -85,3 +85,66 @@
 .text_box-button-img-nav{
     height: 2rem;
 }
+
+.chat_response-container{
+    display: flex;
+    margin-top: 1rem;
+}
+
+.user_img_chat{
+    height: 2.5rem;
+}
+
+.chat_response_text{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chat_response{
+    background-color: #58A5F5;
+    margin-left: 1rem;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    font-size: 0.95rem;
+}
+
+.chat_response-hour{
+    width: 70%;
+    margin-left: 30%;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    color: rgba(0, 0, 0, 0.611);
+}
+
+.chat_message_text{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.chat_message{
+    background-color: #C4C4C4;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: #707C97;
+    margin-left: 60%;
+}
+
+.chat_message-hour{
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    color: rgba(0, 0, 0, 0.611);
+    margin-left: 80%;
+}
+
+.chat_response_archive{
+    background-color: #58A5F5;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-left: 1rem;
+}
