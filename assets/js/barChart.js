@@ -20,7 +20,7 @@ function drawChart() {
 
     var options = {
       chart: {
-        title: 'Número de chats, vendas e não efetuadas total por mês',
+        title: '',
        
       },
       colors: ['#2A8BF2', '#144B85', '#2A8BF2']
