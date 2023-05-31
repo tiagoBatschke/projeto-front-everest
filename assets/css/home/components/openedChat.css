@@ -148,3 +148,8 @@
     border-radius: 0.5rem;
     margin-left: 1rem;
 }
+
+.chat_response_archive img {
+    width: 50%;
+    height: 50%;
+}
