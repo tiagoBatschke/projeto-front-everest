@@ -1,0 +1,119 @@
+.filtro_everest_chat-container{
+    width: 24%;
+    background-color: #58A5F5;
+    border-radius: 0rem 0.5rem 0rem 0rem;
+   
+}
+
+
+.filtro_everest_chat-search-logo{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1.5rem;
+    
+}
+
+.filtro_everest_chat-search{
+   
+   
+    width: 100%;
+    padding-bottom: 3rem;
+}
+
+.filtro_everest_chat-title{
+    color: #fff;
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.close_button{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.logo_everest{
+    display: flex;
+}
+
+
+.input_search_filtro{
+    width: 90%;
+    background-color: transparent;
+    border: none;
+    outline: none ;}
+
+.button_search_filtro{
+    border: none;
+    background-color: transparent;
+    
+   }
+
+   .search_form_filtro{
+    width: 70%;
+    background-color:#F4F4F4;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.6rem 1.2rem;
+    height: 1.5rem;
+    margin-top: 10%;
+    margin-left: 8%;
+   
+   }
+
+
+   .filtro_everest_chat-arquivos{
+    border-radius: 2.2rem  0rem 0rem 0rem;
+    background-color: #fff ;
+    margin-top: 1rem;
+  
+    padding: 3rem 1rem;
+
+   }
+  
+
+   .filtro_everest_chat-arquivos-buttons-container{
+       
+        display: flex;
+       justify-content: space-evenly;
+        z-index: 6;
+        position: absolute;
+       width: 24%;
+   }
+
+   .filtro_everest_chat-arquivos-buttons{
+    border: none;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 0.3rem 1rem;
+    width: 6rem;
+    color: #58A5F5;
+    font-size: 1rem;
+    font-weight: 500;
+    box-shadow: -0.1rem 0.2rem rgba(0, 0, 0, 0.074);
+   }
+
+
+.filtro_everest_chat-arquivos-buttons:hover{
+    background-color:  #2A8BF2;
+    cursor: pointer;
+    transition-delay: 100ms;
+    color: #fff;
+}
+
+.filtarPor_img{
+    height: 2rem;
+}
+
+.filtro_everest_chat-arquivos_filtrarPor{
+    display: flex;
+}
+
+.filtarPor_text{
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+

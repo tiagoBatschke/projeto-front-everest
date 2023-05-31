@@ -3,11 +3,48 @@
     flex-direction: row;
 }
 .opened_chat-container{
-    background-color: black;
     width: 40%;
+    padding: 1.8rem;
 }
 
 
 .opened_chat_name-container{
-    background-color: black;
+    display: flex;
+    margin-top: 0.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.308);
+    padding-bottom: 1rem;
+}
+
+.online_off{
+    display: flex;
+    padding-top: 0.2rem
+}
+
+.img_online{
+    margin-right: 0.5rem;
+    margin-top: 0.3rem;
+}
+
+.opened_chat-name{
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.img_profile_chat{
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+}
+
+
+.icon_opitions_opened_chat-conteiner{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    margin-left: 50%;
+    
+}
+
+.icon_opitions_opened_chat{
+    height: 0.5rem;
+    margin-top: 0.2rem;
 }
