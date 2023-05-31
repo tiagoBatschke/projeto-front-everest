@@ -64,10 +64,9 @@
     margin-left: 1rem;
 }
 .text_box-button{
-    background-color: #000;
     border: none;
-    height: 2rem;
-    width: 2rem;
+    
+    background-color: transparent;
 
 }
 .text_box-form{
@@ -78,3 +77,11 @@
     
 }
 
+.text_box-button-img-add{
+    height: 2.2rem;
+    
+}
+
+.text_box-button-img-nav{
+    height: 2rem;
+}
