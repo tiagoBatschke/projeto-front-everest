@@ -53,7 +53,7 @@
    padding: 0 1rem;
     border:1px solid rgba(0, 0, 0, 0.308);
     border-radius: 0.5rem;
-    margin-top: 0.5rem;
+    margin-top: 5%;
     
 }
 .text_box{
@@ -151,5 +151,26 @@
 
 .chat_response_archive img {
     width: 50%;
-    height: 50%;
+    height: 100%;
+}
+
+.chat_response_mb{
+    background-color: #58A5F5;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    font-size: 0.95rem;
+}
+
+.chat_container{
+    overflow-y: scroll;
+    max-height: 28rem;
+    margin-bottom: 15%;
+}
+
+.chat_text-data {
+    margin-left: 35%;
+    margin-top: 2rem;
+    color: rgba(0, 0, 0, 0.611);
 }
