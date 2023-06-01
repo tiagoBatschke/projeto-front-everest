@@ -131,20 +131,29 @@ margin-top: 0.5rem;
 }
 
 .img_crm-button{
-    height: 0.75rem;
-    margin-top: 30% ;
+    height: 1.6rem;
+    margin-top: 60%;
    
 }
 
 .card_crm-buttons-circle{
     border-radius: 100%;
+    background: none;
     border: none;
-    background-color: #2A8BF2;
-    width: 1.5rem;
-    height: 1.5rem;
-    
-    margin-top: 0.3rem;
+    margin-left: -0.1rem;
 }
+
+.card_crm-buttons-circle-1 {
+    width: 2rem;
+    height: 2rem;
+    margin-top: 0.7rem;
+
+}
+
+.card_crm-buttons-circle-2 {
+    width: 50%;
+}
+
 
 .card_crm-buttons{
     display: flex;
@@ -162,7 +171,7 @@ margin-top: 0.5rem;
     border-radius: 0.5rem;
     padding: 0.1rem 0.7rem;
     margin-left: 0.5rem;
-    margin-top: 0.3rem;
+    margin-top: 0.9rem;
     color: #fff;
 }
 
