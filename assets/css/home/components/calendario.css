@@ -61,7 +61,7 @@ select {
   }
 
   .calendario_card-container{
-    margin-top: 60%;
+    margin-top: 57%;
     display: flex;
     justify-content: space-between;
     width: 95%;
@@ -74,6 +74,8 @@ select {
     border-radius: 0.5rem;
     border: 1px solid rgba(0, 0, 0, 0.074);
     width: 100%;
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
   }
 
   
@@ -91,10 +93,12 @@ select {
     align-items: center;
     justify-content: space-evenly;
    
+   
   }
 
   .calendario_card-icons{
     height: 1.5rem;
+    margin-right: 0.2rem;
   }
 
   .card_number{
@@ -113,4 +117,29 @@ select {
 .calendario_card-icons-button{
     border: none;
     color: transparent;
+}
+
+.text_hidden{
+    visibility: hidden;    
+    }
+
+.calendario_card-icons-button{
+    border-radius: 0.5rem;
+    width: 25%;
+    height: 1.5rem;
+}
+
+.calendarioCard_text-container{
+    margin-left: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.calendarioCard_text-title{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.calendarioCard_text{
+    font-size: 0.8rem;
 }

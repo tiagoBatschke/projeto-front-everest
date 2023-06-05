@@ -3,6 +3,7 @@
     width: 92%;
     margin-left: 8%;
     margin-top: 3%;
+    max-height: 85vh;
 }
 .perfilConfig_container{
     box-shadow: -0.1rem 0.2rem rgba(0, 0, 0, 0.074);
@@ -12,7 +13,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 0.5rem
+    margin-left: 0.5rem;
+    
 }
 
 .perfilConfig_img{
