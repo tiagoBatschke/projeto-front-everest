@@ -1,0 +1,116 @@
+table {
+    border-collapse: collapse;
+}
+
+ td {
+    padding: 0.4rem 0.8rem;
+    padding-top: 0.6rem;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    font-family: 'Baloo 2', cursive;
+    
+}
+
+.calendario_dias{
+    background-color:  #2A8BF2;
+    border: 1px solid  #2A8BF2;
+    color: #fff;
+    padding: 0.4rem;
+    margin-bottom: 1rem;
+}
+.calendario_options-container {
+    border: none;
+    outline: none;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    
+}
+.calendario_options{
+    font-size: 0.8rem;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td:hover {
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: #2A8BF2;
+    color: #fff;
+    border-radius:100%;
+}
+
+.calendario{
+    margin-top: 1rem;
+    max-height: 5rem;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance:    none;
+    appearance:         none;
+   
+  }
+
+  .calendario_card-container{
+    margin-top: 60%;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .calendario_card{
+    box-shadow: -0.1rem 0.2rem rgba(0, 0, 0, 0.074);
+    border-radius: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.074);
+    width: 100%;
+  }
+
+  
+  .calendario_Card-text{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+  }
+
+
+
+  .calendario_card-icons-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+  }
+
+  .calendario_card-icons{
+    height: 1.5rem;
+  }
+
+  .card_number{
+    background-color: red;
+    color: #fff;
+    border-radius: 2rem;
+    padding: 0rem 0.5rem;
+    font-size: 0.8rem;
+   
+}
+
+.calendario_card-icon-img{
+    height: 2.5rem;
+}
+
+.calendario_card-icons-button{
+    border: none;
+    color: transparent;
+}

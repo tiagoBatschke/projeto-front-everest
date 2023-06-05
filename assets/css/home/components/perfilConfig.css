@@ -1,0 +1,79 @@
+.main_config-container{
+    display: flex;
+    width: 92%;
+    margin-left: 8%;
+    margin-top: 3%;
+}
+.perfilConfig_container{
+    box-shadow: -0.1rem 0.2rem rgba(0, 0, 0, 0.074);
+    border-radius: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.074);
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0.5rem
+}
+
+.perfilConfig_img{
+    height: 10rem;
+    margin-top: 15%;
+    margin-bottom: 1rem;
+    
+}
+.perfilConfig_text-container{
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perfilConfig_text-title{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.perfilConfig_text{
+    font-size: 1rem;
+
+}
+
+.perfilConfig_icons-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    margin-top: 1rem;
+}
+
+.perfilConfig_icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perfilConfig_input{
+    height: 10%;
+    width: 95%;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    margin-left: 2.5%;
+    outline: none;
+    margin-top: 1rem;
+}
+
+.perfilConfig_form{
+    margin-top: 1.1rem;
+    margin-bottom: 1.1rem;
+    height: 12rem;
+    width: 80%;
+    background-color:  #58A5F5;
+    border-radius: 0.5rem;
+    
+
+}
+
+.perfilConfig_input::placeholder{
+    color: #fff;
+}
