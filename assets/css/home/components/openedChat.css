@@ -165,8 +165,8 @@
 
 .chat_container{
     overflow-y: scroll;
-    max-height: 28rem;
-    margin-bottom: 15%;
+    max-height: 21rem;
+    margin-bottom: 8%;
 }
 
 .chat_text-data {
