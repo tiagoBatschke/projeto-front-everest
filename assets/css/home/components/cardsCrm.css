@@ -48,13 +48,13 @@
 .card_crm-contrainer{
     margin-left: 1%;
     margin-top: 3%;
-    width: 31%;
+    width: 22%;
 
 }
 
 .main_card-container{
     display: flex;
-    width: 67.5%;
+    width: 92%;
     margin-left: 6%;
     padding-left: 1rem;
 }
@@ -152,7 +152,7 @@ margin-top: 0.5rem;
 }
 
 .card_crm-buttons-circle-2 {
-    width: 50%;
+    width: 20%;
 }
 
 
@@ -186,7 +186,7 @@ box-shadow: -0.1rem 0.2rem rgba(0, 0, 0, 0.074);
 border-radius: 0.5rem;
 border: 1px solid rgba(0, 0, 0, 0.074);
 padding: 1rem;
-max-height: 75vh;
+max-height: 70vh;
 overflow-y: scroll;
 overflow-x: hidden;
 }
