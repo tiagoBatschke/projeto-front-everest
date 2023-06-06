@@ -32,6 +32,16 @@
     height: 3rem;
 }
 
+.dashBoardCard_icons-linear {
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+.perfilConfig_img {
+    width: 40%;
+    height: 50%;
+}
+
 .dashBoardCard_icons-container{
     display: flex;
     justify-content: space-evenly;
@@ -41,15 +51,19 @@
 .dashBoard_card-container{
     display: flex;
     flex-direction: column;
-    width: 32%;
+    width: 33%;
     padding: 0rem 0.9rem;
    
 }
 
 .dashBoardCard_subtitle-img{
-    height: 1rem;
-    margin-top: 5.5%;
-    margin-left: 0.5rem;
+    height: 1.5rem;
+    margin-top: 4.5%;
+    margin-left: 0.4rem;
+}
+
+.dashBoard_card-img {
+    width: 70%;
 }
 
 .dashBoardCard_subtitle-container{

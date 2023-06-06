@@ -98,7 +98,7 @@ select {
 
   .calendario_card-icons{
     height: 1.5rem;
-    margin-right: 0.2rem;
+    margin-right: 0.5rem;
   }
 
   .card_number{
@@ -116,7 +116,15 @@ select {
 
 .calendario_card-icons-button{
     border: none;
-    color: transparent;
+    background-color: #2A8BF2;
+}
+
+.calendario_card-icons-button-1{
+    border: none;
+    background-color: #FFD80C;
+    width: 24%;
+    height: 1.4rem;
+    border-radius: 8px;
 }
 
 .text_hidden{
