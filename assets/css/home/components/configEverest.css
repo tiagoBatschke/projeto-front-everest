@@ -4,6 +4,7 @@
 .configEverest_container{
     width: 90%;
     margin-left: 8%;
+    display: flex;
 }
 
 .configEverest_title{
@@ -30,7 +31,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+<<<<<<< HEAD
     position: relative;
+=======
+    overflow-y: scroll;
+>>>>>>> 695fee49cf756360cd7c2cb416997a2ef1355762
 }
 
 .card_lembrete{
@@ -60,6 +65,7 @@
     width: 85%;
     margin-top: 1.5rem;
     border-bottom:1px solid rgba(0, 0, 0, 0.074) ;
+    
 }
 
 .configEverest_configs-cards-img{
@@ -80,12 +86,14 @@
 .configEverest_configs-cards-text-container{
     margin-left: 1rem;
     margin-bottom: 1rem;
+   
 }
 
 .last_card{
     border:none
 }
 
+<<<<<<< HEAD
 .integraçoes_configs {
     font-family: (Poppins);
     margin-top: 2rem;
@@ -102,3 +110,9 @@
 .integracoes_intro {
  display: flex;
 }
+=======
+
+.configEverest_configs-container::-webkit-scrollbar {
+    width: 5px;               /* width of the entire scrollbar */
+  }
+>>>>>>> 695fee49cf756360cd7c2cb416997a2ef1355762
