@@ -169,5 +169,5 @@ select {
 
 
 .calendario_card-container::-webkit-scrollbar {
-    width: 5px;               /* width of the entire scrollbar */
+    width: 5px;        /* width of the entire scrollbar */
   }
