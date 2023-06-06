@@ -9,6 +9,10 @@
     margin-top: 2rem;
 }
 
+.metrics_img_arrow-1 {
+    margin-left: 20rem;
+} 
+
 .configEverest_configs-container{
     box-shadow: -0.1rem 0.2rem rgba(0, 0, 0, 0.074);
     border-radius: 0.5rem;
