@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./assets/css/home/header/header.css">
     <link rel="stylesheet" href="./assets/css/home/header/lateralBar.css">
     <link rel="stylesheet" href="./assets/css/home/components/configEverest.css">
+    
 </head>
 <body>
     <header  class="header_home">
@@ -83,7 +84,7 @@
                 <img class="metrics_img_arrow-1"  src="./assets/imgs/arrow.svg" alt="">
             </div>
         </div>
-        <div class="configEverest_configs-cards">
+        <div onclick="openPage('./assets/html/integracoes.html', integracoesId)" class="configEverest_configs-cards">
             <img class="configEverest_configs-cards-img" src="./assets/imgs/Rectangle 3285 pink.png
             " alt="">
             <div class="configEverest_configs-cards-text-container">
@@ -101,6 +102,10 @@
             </div>
         </div>
     </div>
-   </main>
-</body>
+    <div   id="integracoesId"></div>
+    
+</div>
+</main>
+<script src="./assets/js/noRefresh.js"></script>
+   </body>
 </html>
