@@ -1,6 +1,7 @@
 .configEverest_container{
     width: 90%;
     margin-left: 8%;
+    
 }
 
 .configEverest_title{
@@ -25,6 +26,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-y: scroll;
 }
 
 .card_lembrete{
@@ -54,6 +56,7 @@
     width: 85%;
     margin-top: 1.5rem;
     border-bottom:1px solid rgba(0, 0, 0, 0.074) ;
+    
 }
 
 .configEverest_configs-cards-img{
@@ -74,8 +77,14 @@
 .configEverest_configs-cards-text-container{
     margin-left: 1rem;
     margin-bottom: 1rem;
+   
 }
 
 .last_card{
     border:none
 }
+
+
+.configEverest_configs-container::-webkit-scrollbar {
+    width: 5px;               /* width of the entire scrollbar */
+  }
