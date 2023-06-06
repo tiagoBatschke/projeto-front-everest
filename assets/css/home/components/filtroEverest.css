@@ -170,3 +170,7 @@
 .chat_card_filtro-container{
     margin-top: 1rem;
 }
+
+.chat_card_filtro-container::-webkit-scrollbar {
+    width: 5px;               /* width of the entire scrollbar */
+  }

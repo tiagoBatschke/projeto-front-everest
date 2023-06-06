@@ -124,3 +124,7 @@ padding: 0.8rem;
     border-top: 1px solid rgba(0, 0, 0, 0.308);
     margin-top: 0.5rem;
 }
+
+.chat_card_conversas-container::-webkit-scrollbar {
+    width: 5px;               /* width of the entire scrollbar */
+  }

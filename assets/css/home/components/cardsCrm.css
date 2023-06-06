@@ -190,3 +190,9 @@ max-height: 70vh;
 overflow-y: scroll;
 overflow-x: hidden;
 }
+
+
+
+.card_crm-contrainer::-webkit-scrollbar {
+    width: 5px;               /* width of the entire scrollbar */
+  }

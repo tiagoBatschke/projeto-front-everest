@@ -149,3 +149,7 @@
     margin-top: 25%;
     margin-left: 0.3rem;
 }
+
+.perfil_lead_crm-container::-webkit-scrollbar {
+  width: 5px;               /* width of the entire scrollbar */
+}
