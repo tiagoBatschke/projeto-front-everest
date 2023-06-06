@@ -17,6 +17,7 @@ li{
     height:100vh;
     justify-content: center;
     border-radius: 0.5rem;
+    z-index: 1;
 }
 
 .container_icons_lateral_bar{
