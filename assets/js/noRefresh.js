@@ -1,20 +1,19 @@
 
 
-function openPage( PagConteudo, idConteudo ){
-    var indice = PagConteudo;
-    var target = idConteudo;
-    var url = indice
+function openPage(x, y) {
+    var indice = x
+    var target = y
+    var url = './assets/html/'+ indice +'.html'
 
-    var xml =  new XMLHttpRequest()
+    var xml = new XMLHttpRequest()
 
-    xml.onreadystatechange = ()=>{
-        if(xml.readyState == 4 && xml.status == 200){
+    xml.onreadystatechange = function () {
+        if (xml.readyState == 4 && xml.status == 200) {
             document.getElementById(target).innerHTML = xml.responseText
         }
     }
 
-    xml.open('GET', url);
+    xml.open("GET", url, true)
 
-    xml.send();
+    xml.send()
 }
-
