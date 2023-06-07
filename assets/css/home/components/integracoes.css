@@ -4,7 +4,9 @@
     display: flex;
     flex-wrap: wrap;
     margin-left: 2rem;
-     width: 95%;
+    width: 95%;
+    max-height: 85vh;
+    overflow-y: scroll;
 }
 
 .integracoes_intro {
@@ -29,6 +31,7 @@
     font-size: 1.125rem;
     color: rgba(0, 0, 0, 0.611);
     margin-top: 1rem;
+  
 }
 
 
@@ -41,6 +44,7 @@
     box-shadow: -0.1rem 0.2rem rgba(0, 0, 0, 0.074);
     border-radius: 0.5rem;
     border: 1px solid rgba(0, 0, 0, 0.074);
+   
 }
 
 .integracoes_card_title-container{
@@ -93,3 +97,7 @@
     background-color: #58A5F5
     ;
 }
+
+.integraçoes_configs::-webkit-scrollbar {
+    width: 5px;               /* width of the entire scrollbar */
+  }
