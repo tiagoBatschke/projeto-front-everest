@@ -11,8 +11,7 @@ input[type=radio]{
     padding-top: 2rem;
     margin-left: 1rem;
     overflow-y: scroll;
-    max-height: 78vh;
-   
+    max-height: 73vh;
     margin-top: 0.5rem;
 }
 
@@ -45,7 +44,7 @@ input[type=radio]{
   }
 
   .config_colab_butons-container{
-    width: 90%;
+    width: 80%;
     margin-left: 5%;
     margin-top: 0.5rem;
     display: flex;
@@ -54,14 +53,16 @@ input[type=radio]{
   }
 
   .config_colab_butons{
-    width: 43%;
+    width: 30%;
+    height: 3.3rem;
     padding: 1rem;
     border: none;
-    font-size: 1.125rem;
+    font-size: 1rem;
     background-color:  #58A5F5;
     color: #fff;
     border-radius: 0.5rem;
     cursor: pointer;
+    margin-top: -0.3rem;
   }
 
   .config_colab_butons:hover{
