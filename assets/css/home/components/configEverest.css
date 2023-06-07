@@ -90,24 +90,16 @@
     border:none
 }
 
-.integraçoes_configs {
-    font-family: (Poppins);
-    margin-top: 2rem;
-    margin-left: 70rem;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-}
 
-.integracoes_tittle {
-    margin-right: 5rem;
-}
-
-.integracoes_intro {
- display: flex;
-}
 
 .configEverest_configs-container::-webkit-scrollbar {
-    width: 5px;                                       
+    width: 5px;               /* width of the entire scrollbar */
+  }
+
+.hidden{
+    display: none;
 }
-/* width of the entire scrollbar */
+
+.div_configs-container{
+    width: 60%;
+}
