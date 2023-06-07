@@ -31,11 +31,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-<<<<<<< HEAD
     position: relative;
-=======
     overflow-y: scroll;
->>>>>>> 695fee49cf756360cd7c2cb416997a2ef1355762
 }
 
 .card_lembrete{
@@ -93,7 +90,6 @@
     border:none
 }
 
-<<<<<<< HEAD
 .integraçoes_configs {
     font-family: (Poppins);
     margin-top: 2rem;
@@ -110,9 +106,8 @@
 .integracoes_intro {
  display: flex;
 }
-=======
 
 .configEverest_configs-container::-webkit-scrollbar {
-    width: 5px;               /* width of the entire scrollbar */
-  }
->>>>>>> 695fee49cf756360cd7c2cb416997a2ef1355762
+    width: 5px;                                       
+}
+/* width of the entire scrollbar */
