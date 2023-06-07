@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./assets/css/home/components/configEverest.css">
     <link rel="stylesheet" href="./assets/css/home/components/integracoes.css">
     <link rel="stylesheet" href="./assets/css/home/components/configColab.css">
+    <link rel="stylesheet" href="./assets/css/home/components/cadastroUsuario.css">
     
     
 </head>
@@ -55,7 +56,7 @@
             <h1 class="lembrete_title text">Lembrete de Pagamento</h1>
             <p class="Lembrete_text text">Você pode adicionar mais <span style="color:black;">10 funcionários</span> com o Plano de pagamento atual. Acesse “Pagamentos” para obter mais usuários.</p>
         </div>
-        <div onclick="openPage('configGeralId', ['integracoesId', 'configColabId', 'configGeralId'])"  class="configEverest_configs-cards">
+        <div onclick="openPage('configGeralId', ['integracoesId', 'configColabId', 'configGeralId', 'cadastroUsuario'])"  class="configEverest_configs-cards">
             <img class="configEverest_configs-cards-img" src="./assets/imgs/Rectangle 3281 blue.png" alt="">
             <div class="configEverest_configs-cards-text-container">
                 <h2 class="configEverest_configs-cards-title text">Permissões Gerais</h2>
@@ -63,7 +64,7 @@
                 <img class="metrics_img_arrow-1"  src="./assets/imgs/arrow.svg" alt="">
             </div>
         </div>
-        <div  onclick="openPage('configColabId', ['integracoesId', 'configColabId', 'configGeralId'])" class="configEverest_configs-cards">
+        <div  onclick="openPage('configColabId', ['integracoesId', 'configColabId', 'configGeralId', 'cadastroUsuario'])" class="configEverest_configs-cards">
             <img class="configEverest_configs-cards-img" src="./assets/imgs/Rectangle 3282 green.png" alt="">
             <div class="configEverest_configs-cards-text-container">
                 <h2 class="configEverest_configs-cards-title text">Permissões Colaboradores</h2>
@@ -71,7 +72,7 @@
                 <img class="metrics_img_arrow-1"  src="./assets/imgs/arrow.svg" alt="">
             </div>
         </div>
-        <div class="configEverest_configs-cards">
+        <div onclick="openPage('cadastroUsuario', ['integracoesId', 'configColabId', 'configGeralId', 'cadastroUsuario'])"  class="configEverest_configs-cards">
             <img class="configEverest_configs-cards-img" src="./assets/imgs/Rectangle 3283 yellow.png" alt="">
             <div class="configEverest_configs-cards-text-container">
                 <h2 class="configEverest_configs-cards-title text">Cadastro de Usuário</h2>
@@ -87,7 +88,7 @@
                 <img class="metrics_img_arrow-1"  src="./assets/imgs/arrow.svg" alt="">
             </div>
         </div>
-        <div onclick="openPage('integracoesId', ['integracoesId', 'configColabId', 'configGeralId'])" class="configEverest_configs-cards">
+        <div onclick="openPage('integracoesId', ['integracoesId', 'configColabId', 'configGeralId', 'cadastroUsuario'])" class="configEverest_configs-cards">
             <img class="configEverest_configs-cards-img" src="./assets/imgs/Rectangle 3285 pink.png
             " alt="">
             <div class="configEverest_configs-cards-text-container">
@@ -186,7 +187,7 @@
             <div class="config_colab">
             <h1 class="integracoes_tittle text">Configurações Gerais</h1>
             <span class="integracoes_subtitle text"> Atribuição</span>
-            <p class="integrações_tittle-text text"> Distribuição dos Chamados para os Colaboradores::</p>
+            <p class="integrações_tittle-text text"> Distribuição dos Chamados para os Colaboradores:</p>
                 
                    <form class="config_colab-form" action="">
                     <label for="" class="config_colab-form-label  text">
@@ -248,7 +249,7 @@
             </div>
     </div>
   <div id="integracoesId" class="div_configs-container hidden">
-    <div class="integraçoes_configs ">
+      <div class="integraçoes_configs ">
         <div class="integracoes_intro">
             <h1 class="integracoes_tittle text">Integrações</h1>
             <span class="integracoes_subtitle text">Atribuições</span>
@@ -336,7 +337,38 @@
             </div>
         </div>
   </div>
-   
+  <div id="cadastroUsuario" class="div_configs-container hidde">
+        <div class="config_colab-container">
+                <h1 class="integracoes_tittle text">Cadastro de Usuário</h1>
+                <span class="integracoes_subtitle text">Editar Perfil Existente?</span>
+                <p class="integrações_tittle-text text"> Selecione abaixo o perfil e edite as informações necessárias.</p>
+                <div class="card_cadastro-container">
+                    <div   class="border_card-cadastro">
+                        <img class="configEverest_configs-cards-img" src="./assets/imgs/circle-name.svg" alt="">
+                        <div class="card_cadastro-text">
+                            <h2 class="card_cadastro-title text">Meus Colaboradores</h2>
+                            <p class="card_cadastro-subtitle text">40 Colaboradores</p>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <span class="integracoes_subtitle text">Novo Cadastro</span>
+                <p class="integrações_tittle-text text">insira abaixo informações de um novo colaborador para criar seu
+                   <br>  perfil Everest.</p>
+                <br>
+                <span class="integracoes_subtitle text">Informações Iniciais</span>    
+               <form action="">
+                    <input class="cadastro_form-input" placeholder="Nome*" type="text">
+                    <input class="cadastro_form-input" placeholder="Sobrenome*" type="text">
+                    <input class="cadastro_form-input" placeholder="Nascimento*" type="text">
+                    <input class="cadastro_form-input" placeholder="CPF" type="text">
+                    <input class="cadastro_form-input" placeholder="E-mail Profissional*" type="text">
+                    <input class="cadastro_form-input" placeholder="Contratação" type="text">
+               </form>
+        </div>
+        
+    </div>
 
    </main>
    <script src="./assets/js/noRefresh.js"></script>

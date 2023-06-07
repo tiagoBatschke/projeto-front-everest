@@ -1,0 +1,45 @@
+.border_card-cadastro{
+    box-shadow: -0.1rem 0.2rem rgba(0, 0, 0, 0.285);
+    border-radius: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.074);
+    width: 70%;
+    padding: 0.8rem;
+    display: flex;
+    
+}
+
+.card_cadastro-container{
+    display: flex;
+    width: 100%;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.card_cadastro-text{
+    margin-left: 1rem;
+}
+
+.card_cadastro-title{
+    font-size:1.063rem;
+    font-weight: bold;
+}
+
+.card_cadastro-subtitle{
+    font-size: 0.938rem;
+    color: rgba(0, 0, 0, 0.611);
+    margin-top: 0.2rem;
+}
+
+.cadastro_form-input{
+    width: 40%;
+    padding: 0.8rem ;
+    margin: 0.3rem;
+    background-color:  #58A5F5;
+    color: #fff;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+input::placeholder{
+    color: #fff;
+}

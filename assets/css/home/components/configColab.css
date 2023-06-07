@@ -9,7 +9,7 @@ input[type=radio]{
     flex-direction: column;
     
     padding-top: 2rem;
-    margin-left: 1rem;
+    margin-left: 1.8rem;
     overflow-y: scroll;
     max-height: 73vh;
     margin-top: 0.5rem;
