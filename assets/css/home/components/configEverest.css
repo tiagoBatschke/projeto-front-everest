@@ -96,6 +96,9 @@
     margin-top: 1rem;
 }
 
+.div_configs-container::-webkit-scrollbar {
+    width: 5px;               /* width of the entire scrollbar */
+  }
 
 .configEverest_configs-container::-webkit-scrollbar {
     width: 5px;               /* width of the entire scrollbar */
@@ -107,4 +110,6 @@
 
 .div_configs-container{
     width: 60%;
+    overflow-y: scroll;
+    max-height: 95vh;
 }
