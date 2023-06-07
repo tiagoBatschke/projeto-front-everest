@@ -90,6 +90,10 @@
     border:none
 }
 
+.img_circle_container {
+    display: inline-flex;
+    margin-top: 1rem;
+}
 
 
 .configEverest_configs-container::-webkit-scrollbar {
