@@ -10,15 +10,14 @@
 .integracoes_intro {
  display: flex;
  flex-direction: column;
- align-items:start;
  margin-bottom: 1rem;
- 
+ margin-left: 1rem;
 }
 
 .integracoes_tittle{
     font-size: 1.563rem;
     font-weight: bold;
-   margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .integracoes_subtitle{
@@ -36,7 +35,7 @@
  
     margin-bottom: 1rem;
     margin-left: 1rem;
-    width: 35%;
+    width: 38%;
     padding: 1rem;
     box-shadow: -0.1rem 0.2rem rgba(0, 0, 0, 0.074);
     border-radius: 0.5rem;
@@ -62,7 +61,7 @@
     padding: 0.3rem 0.6rem;
     font-size: 0.75rem;
     margin-bottom: 0.5rem;
-   
+    max-width: 85%;
 }
 
 .img_title-card{
