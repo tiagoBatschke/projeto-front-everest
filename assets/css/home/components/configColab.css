@@ -11,8 +11,8 @@ input[type=radio]{
     padding-top: 2rem;
     margin-left: 1rem;
     overflow-y: scroll;
-    max-height: 85vh;
-    
+    max-height: 78vh;
+   
     margin-top: 0.5rem;
 }
 
@@ -40,3 +40,30 @@ input[type=radio]{
     font-weight: bold;
 }
 
+.config_colab-container::-webkit-scrollbar {
+    width: 5px;               /* width of the entire scrollbar */
+  }
+
+  .config_colab_butons-container{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 0.5rem;
+    display: flex;
+   
+    justify-content: space-evenly;
+  }
+
+  .config_colab_butons{
+    width: 43%;
+    padding: 1rem;
+    border: none;
+    font-size: 1.125rem;
+    background-color:  #58A5F5;
+    color: #fff;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+
+  .config_colab_butons:hover{
+    background-color:  #58a4f5c3;
+  }

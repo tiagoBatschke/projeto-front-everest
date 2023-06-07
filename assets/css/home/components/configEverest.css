@@ -25,14 +25,15 @@
     border: 1px solid rgba(0, 0, 0, 0.074);
     margin-top: 1rem;
     margin-left: 0.5rem;
-    height: 85vh;
-    max-height: 85vh;
+    height: 90vh;
+    max-height: 90vh;
     width: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
     overflow-y: scroll;
+    border-bottom: none;
 }
 
 .card_lembrete{
@@ -62,7 +63,7 @@
     width: 85%;
     margin-top: 1.5rem;
     border-bottom:1px solid rgba(0, 0, 0, 0.074) ;
-    
+    cursor: pointer;
 }
 
 .configEverest_configs-cards-img{
