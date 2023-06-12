@@ -38,8 +38,21 @@
     color: #fff;
     border-radius: 0.3rem;
     border: none;
+    margin-top: -1rem;
 }
 
 input::placeholder{
     color: #fff;
+}
+
+.cadastro_form-input {
+    margin-bottom: 1.5rem;
+}
+
+.integrações_tittle-text {
+    margin-bottom: 1.5rem;
+}
+
+.integracoes_subtitle{
+    margin-bottom: 1.5rem;
 }
