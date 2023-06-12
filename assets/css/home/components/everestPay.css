@@ -1,0 +1,59 @@
+.everstPay_title-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    width: 90%;
+    margin-top: 1rem;
+}
+
+.everstPay_title{
+    font-size: 1.5rem;
+    color: #F4F4F4;
+    font-weight: bold;
+    margin-left: 0.5rem;
+}
+
+.everestPay-contaiener{
+    background-color: #58A5F5;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.9rem;
+    align-items: center;
+    width: 35%;
+}
+
+.everestPay_subtitle{
+    color: #F4F4F4;
+    width: 85%;
+}
+
+
+.cartao_card-container{
+    margin-top: 1rem;
+    display: flex;
+    width: 90%;
+ 
+}
+
+.cartao_card{
+    border: 1px solid #fff;
+    height: 5.125rem;
+    width: 6.688rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.cartao_card{
+    border: 1px solid #fff;
+    height: 5.125rem;
+    width: 6.688rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.5rem;
+    border-radius: 0.5rem;
+}
