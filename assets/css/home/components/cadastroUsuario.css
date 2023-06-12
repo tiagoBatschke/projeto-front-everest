@@ -56,3 +56,17 @@ input::placeholder{
 .integracoes_subtitle{
     margin-bottom: 1.5rem;
 }
+
+
+.cadastro_usuario-button{
+    border: none;
+    background-color:#4CE364;
+    border-radius: 0.5rem;
+    padding: 0.3rem 2rem;
+    width: 30%;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    box-shadow: -0.1rem 0.2rem rgba(0, 0, 0, 0.074);
+    margin-left: 30%;
+}
