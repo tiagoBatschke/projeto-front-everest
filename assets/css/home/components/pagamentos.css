@@ -2,8 +2,8 @@
    
 
     width: 90%;
-    margin-left: 8%;
-    margin-top: 3%;
+    margin-left: 7%;
+    margin-top: -1%;
     
 }
 
@@ -44,17 +44,19 @@
 .tipoPagamento_select{
     width: 40%;
     margin-top: 1rem;
+    margin-bottom: -1rem;
     border-radius: 0.5rem  0.5rem  0rem 0rem;
     padding: 0.5rem;
 }
 
 .pagamentos_cards{
     display: flex;
-    width: 80%;
+    width: 70%;
     justify-content: space-between;
     margin-top: 1rem;
     padding: 1rem;
     align-items: center;
+    margin-bottom: -2rem;
 }
 
 .contador_container{
@@ -98,5 +100,10 @@
 
 .pagamento_card-saldo{
     font-weight: bold;
-    font-size: 1.563rem;
+    font-size: 1.2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.icon_user_pagamentos {
+    width: 15%;
+} 
