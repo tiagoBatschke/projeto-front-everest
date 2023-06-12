@@ -61,6 +61,7 @@
 
 .contador_container{
     display: flex;
+    margin-right: -3rem ;
 }
 
 .button_contador{
@@ -100,10 +101,12 @@
 
 .pagamento_card-saldo{
     font-weight: bold;
+    margin-right: -5rem;
     font-size: 1.2rem;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .icon_user_pagamentos {
     width: 15%;
+    margin-right: -2rem;
 } 
