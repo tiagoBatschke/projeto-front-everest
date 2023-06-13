@@ -15,5 +15,7 @@ function openList(id){
 }
 
 function openNavBar(id) {
-    document.getElementById(id).classList.remove('hidden')
+
+    document.getElementById(id).classList.toggle('hidden')
+  
 }
