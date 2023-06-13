@@ -38,7 +38,7 @@
 
 .pagamentos_everest-container{
     width: 55%;
-    margin-left: 8%;
+    margin-left: 6%;
 }
 
 .tipoPagamento_select{
@@ -100,13 +100,13 @@
 
 .pagamento_card-saldo{
     font-weight: bold;
-    margin-right: -5rem;
+    margin-right: -2rem;
     font-size: 1.2rem;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .icon_user_pagamentos {
-    width: 15%;
+    width: 13%;
     margin-right: -2rem;
 } 
 
