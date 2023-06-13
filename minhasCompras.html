@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./assets/css/home/components/minhasCompras.css">
     <link rel="stylesheet" href="./assets/css/home/components/everestPay.css">
     <link rel="stylesheet" href="./assets/css/home/components/variaveisDarkmode.css">
+    <link rel="stylesheet" href="./assets/css/home/components/configEverest.css">
    
 </head>
 <body>
@@ -61,10 +62,15 @@
                 <form class="everestPay_form" action="">
                     <input class="everestPay_form-input" placeholder=" Mastercard 2412 2412 2412 2412" type="text">
                 </form>
-                <select class="tipoPagamento_select-everestPay" name="" id="">
-                    <option class="text" selected value="">Pagamento Anual</option>
-                    <option class="text" value="">Pagamento Mensal</option>
-                </select>
+                <div onclick="openList('listaPagamento1Id')" class="tipoPagamento_select-everestPay" name="" id="">
+                    <p class="tipoPagamento_select-text text">Pagamento Anual</p>
+                </div>
+                <div id="listaPagamento1Id" class="listaPagameto_container hidden">
+                    <ul class="listaPagamento">
+                        <li class="listaPagameto_item">Pagamento Mensal</li>
+                        
+                    </ul>
+                </div>
                 <div class="everestPay_valores-container">
                     <div class="minhasCompras_card-img_text">
                     <img class="img_everestMinhasCompras-card" src="./assets/imgs/Facebook user-pagamento.png" alt="">
@@ -129,10 +135,15 @@
                 <form class="everestPay_form" action="">
                     <input class="everestPay_form-input" placeholder=" Mastercard 2412 2412 2412 2412" type="text">
                 </form>
-                <select class="tipoPagamento_select-everestPay" name="" id="">
-                    <option class="text" selected value="">Pagamento Anual</option>
-                    <option class="text" value="">Pagamento Mensal</option>
-                </select>
+                <div onclick="openList('listaPagamento2Id')" class="tipoPagamento_select-everestPay" name="" id="">
+                    <p class="tipoPagamento_select-text text">Pagamento Anual</p>
+                </div>
+                <div id="listaPagamento2Id" class="listaPagameto_container hidden">
+                    <ul class="listaPagamento">
+                        <li class="listaPagameto_item">Pagamento Mensal</li>
+                        
+                    </ul>
+                </div>
                 <div class="everestPay_valores-container">
                     <div class="minhasCompras_card-img_text">
                     <img class="img_everestMinhasCompras-card" src="./assets/imgs/Facebook user-pagamento.png" alt="">
@@ -196,10 +207,17 @@
                 <form class="everestPay_form" action="">
                     <input class="everestPay_form-input" placeholder=" Mastercard 2412 2412 2412 2412" type="text">
                 </form>
-                <select class="tipoPagamento_select-everestPay" name="" id="">
-                    <option class="text" selected value="">Pagamento Anual</option>
-                    <option class="text" value="">Pagamento Mensal</option>
-                </select>
+                <div onclick="openList('listaPagamento3Id')" class="tipoPagamento_select-everestPay" name="" id="">
+                    <p class="tipoPagamento_select-text text">Pagamento Anual</p>
+                </div>
+                <div id="listaPagamento3Id" class="listaPagameto_container hidden">
+                    <ul class="listaPagamento">
+                        <li class="listaPagameto_item">Pagamento Mensal</li>
+                        
+                    </ul>
+                </div>
+
+
                 <div class="everestPay_valores-container">
                     <div class="minhasCompras_card-img_text">
                     <img class="img_everestMinhasCompras-card" src="./assets/imgs/Facebook user-pagamento.png" alt="">
@@ -258,5 +276,7 @@
         
     </div>
    </main>
+   <script src="./assets/js/noRefresh.js"></script>
 </body>
+
 </html>

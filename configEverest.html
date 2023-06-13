@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/home/header/header.css">
     <link rel="stylesheet" href="./assets/css/home/header/lateralBar.css">
-    <link rel="stylesheet" href="./assets/css/home/components/configEverest.css">
     <link rel="stylesheet" href="./assets/css/home/components/integracoes.css">
     <link rel="stylesheet" href="./assets/css/home/components/configColab.css">
     <link rel="stylesheet" href="./assets/css/home/components/cadastroUsuario.css">
     <link rel="stylesheet" href="./assets/css/home/components/variaveisDarkmode.css">
+    <link rel="stylesheet" href="./assets/css/home/components/configEverest.css">
     
     
 </head>
@@ -343,18 +343,34 @@
                 <h1 class="integracoes_tittle text">Cadastro de Usuário</h1>
                 <span class="integracoes_subtitle text">Editar Perfil Existente?</span>
                 <p class="integrações_tittle-text text"> Selecione abaixo o perfil e edite as informações necessárias.</p>
-                <div class="card_cadastro-container">
-                    <div   class="border_card-cadastro">
+                
+                <div  onclick="openList('listatopId')" class="cadastro_card-container">
+                    <div  class="cadastro_card">
+                        
                         <img class="configEverest_configs-cards-img" src="./assets/imgs/Ellipse.yellow.user.png" alt="">
                         <div class="card_cadastro-text">
-                            <h2 class="card_cadastro-title text">Meus Colaboradores</h2>
-                            <p class="card_cadastro-subtitle text">40 Colaboradores</p>
-                            
+                            <h2 class="card_cadastro-title text">Perfil do Colaborador</h2>
+                            <p class="card_cadastro-subtitle text">Cargo</p>
                         </div>
-                    </div>
+                       </div>
+                      
                 </div>
+                <div id="listatopId" class="listBottom-container  hidden">
+                    <form class="search_form_cardConfig" action="">
+                        <input class="input_search_header" type="text">
+                        <button class="button_header_search" type="submit"><img class="img_lupa" src="./assets/imgs/lupa-arredondada.png" alt=""></button>
+                    </form>
+                    <ul class="list-cardCadastro">
+                        <li class="list_item-cardCadastro background_blue text"><button class="button_list_item-cardCadastro"></button>Supervisor de Vendas</li>
+                        <li class="list_item-cardCadastro background_green text"><button class="button_list_item-cardCadastro"></button>Vendedor</li>
+                        <li class="list_item-cardCadastro background_yellow text"><button class="button_list_item-cardCadastro"></button>Supervisor de Atendimento</li>
+                        <li class="list_item-cardCadastro background_gray text"><button class="button_list_item-cardCadastro"></button>Atendente</li>
+                    </ul>
+                   </div>
+               
+               
 
-                <span class="integracoes_subtitle text">Novo Cadastro</span>
+                <span class="integracoes_subtitle  text">Novo Cadastro</span>
                 <p class="integrações_tittle-text text">insira abaixo informações de um novo colaborador para criar seu
                    <br>  perfil Everest.</p>
                    
@@ -384,20 +400,31 @@
                <p class="integrações_tittle-text text">Supervisor de Vendas, de Atendimento, Vendedor ou Atendente? </p>
                
 
-               <div class="cadastro_card-container">
-                    <div class="cadastro_card">
+               <div  onclick="openList('listaBottomId')" class="cadastro_card-container">
+                    <div  class="cadastro_card">
                         
                         <img class="configEverest_configs-cards-img" src="./assets/imgs/Ellipse.yellow.user.png" alt="">
                         <div class="card_cadastro-text">
                             <h2 class="card_cadastro-title text">Perfil do Colaborador</h2>
                             <p class="card_cadastro-subtitle text">Cargo</p>
                         </div>
-                        <select class="select_card_cadastro" name="" id="">
-                        </select>
-                        </div>
-                    
-                    </div>
+                       </div>
+                      
+                </div>
+                <div id="listaBottomId" class="listBottom-container hidden">
+                    <form class="search_form_cardConfig" action="">
+                        <input class="input_search_header" type="text">
+                        <button class="button_header_search" type="submit"><img class="img_lupa" src="./assets/imgs/lupa-arredondada.png" alt=""></button>
+                    </form>
+                    <ul class="list-cardCadastro">
+                        <li class="list_item-cardCadastro background_blue text"><button class="button_list_item-cardCadastro"></button>Supervisor de Vendas</li>
+                        <li class="list_item-cardCadastro background_green text"><button class="button_list_item-cardCadastro"></button>Vendedor</li>
+                        <li class="list_item-cardCadastro background_yellow text"><button class="button_list_item-cardCadastro"></button>Supervisor de Atendimento</li>
+                        <li class="list_item-cardCadastro background_gray text"><button class="button_list_item-cardCadastro"></button>Atendente</li>
+                    </ul>
+                   </div>
                </div>
+               
                <div class="config_colab_butons-container">
                 <button class="config_colab_butons text">Criar evento</button>
                 <button class="config_colab_butons text">Criar evento</button>
