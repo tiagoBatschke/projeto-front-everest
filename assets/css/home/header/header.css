@@ -21,16 +21,15 @@
 }
 
 .links_header{
-    color: black;
+    color: var(--tittle-color);
     font-size: 1rem;
-    
     margin-top: 0.5rem;
 }
 
 .text{
     text-decoration: none;
     font-family: 'Baloo 2', cursive;
-    color: black;
+    color: var(--tittle-color);
 }
 
 .logo_header{
@@ -41,7 +40,7 @@ text-transform: uppercase;
 
 .search_form_header{
     width: 40%;
-    background-color:#F4F4F4;
+    background-color: var(--container-light);
     border-radius: 1rem;
     display: flex;
     justify-content: space-between;

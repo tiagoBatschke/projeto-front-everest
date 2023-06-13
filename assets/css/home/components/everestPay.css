@@ -15,15 +15,14 @@
 
 .everestPay-contaiener{
     background-color: #58A5F5;
-    margin-top: 1.5rem;
+    margin-top: -1rem;
     display: flex;
     flex-direction: column;
     border-radius: 0.9rem;
     align-items: center;
     width: 35%;
     justify-content: space-evenly;
-    max-height: 85vh;
-    height: 85vh;
+    height: 0%;
     margin-left: 1rem;
 }
 

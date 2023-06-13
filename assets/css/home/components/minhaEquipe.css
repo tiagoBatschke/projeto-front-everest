@@ -12,30 +12,31 @@
 .minhaEqipe_container{
     
     border-radius:0.5rem ;
-    box-shadow: -0.1rem 0.2rem rgba(0, 0, 0, 0.074);
-    border: 1px solid  rgba(0, 0, 0, 0.074) ;
+    box-shadow: var(--box-shadow-container);
+    border: var(--border-box-shadow-container)
     
 }
 
 .minhaEquipe_titles{
     font-size: 1rem;
-    color: #fff;
+    color: var(--text-container-color);
     margin-left: 0.5rem;
 }
 .minhaEquipe_titles_container{
     display: flex;
+    color: var(--container-color);
    
 }
 .minhaEquipe_titles_separation{
     
-    background-color: #58A5F5;
+    background-color: var(--container-color);
     padding: 1rem 1rem;
     width: 50%;
 
 }
 
 .minhaEquipe_titles_separation:hover{
-    background-color:  #58a4f577;
+    background-color:  var(--button-color-hover);
     cursor: pointer;
     transition-delay: 100ms;
     
@@ -45,7 +46,7 @@
     display: flex;
     flex-direction: column;
     padding: 0rem 1.6rem;
-    
+    background-color: var(--container-light);
 }
 .card_colaborators{
     display: flex;
@@ -63,12 +64,12 @@
 .card_colaborators_title{
     font-weight: bold;
     font-size: 0.8rem;
-    
+    color: var(--tittle-color);
 }
 
 .card_colaborators_text{
     font-size: 0.7rem;
-    color: rgba(0, 0, 0, 0.585);
+    color: var(--box-shadow-container);
     margin-top: 0.2rem;
 }
 
