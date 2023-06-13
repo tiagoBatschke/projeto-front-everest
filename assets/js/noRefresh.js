@@ -8,3 +8,14 @@ function openPage(id, ids) {
 
     document.getElementById(id).classList.toggle('hidden')
 }
+
+
+function openList(id){
+    document.getElementById(id).classList.toggle('hidden')
+}
+
+function openNavBar(id) {
+
+    document.getElementById(id).classList.toggle('hidden')
+  
+}

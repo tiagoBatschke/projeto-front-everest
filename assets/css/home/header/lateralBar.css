@@ -37,3 +37,135 @@ li{
 .last_nav_icon {
     margin-top: 8rem;
 }
+
+
+.nav_icon_imgs-aberto{
+    width: 1.5rem;
+   margin-right: 1rem;
+}
+
+.container_icons_lateral_bar-aberto{
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    align-items: start;
+    margin-left: 1rem;
+    justify-content: space-evenly;
+    margin-top: 0.5rem
+   
+}
+
+.container_lateral_bar-aberto{
+    display: flex;
+    flex-direction: column;
+    background-color:#58A5F5;
+    width: 5rem;
+    height:100vh;
+    
+    border-radius: 0.5rem;
+    position: absolute;
+    z-index: 10;
+    width: 15%;
+}
+
+.last_nav_icon-aberto{
+  
+}
+
+.link_nav_var-aberta{
+    color: #fff;
+    align-items: center;
+    display: flex;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.link_nav_var-aberta:hover{
+    background-color: #f4f4f4ff;
+    color: #58A5F5;
+}
+
+.logo_nav-aberta{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.logo_nav-aberta-img{
+   height: 1.5rem;
+   margin-top: 0.5rem;
+}
+
+.logo_nav-aberta-img-container{
+    display: flex;
+    align-items: center;
+}
+
+.logo_nav_bar-aberta-container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 0.8rem;
+}
+
+.search_form_navBar-aberta{
+    width: 70%;
+    background-color:#F4F4F4;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    height: 2.5rem;
+    margin-top: 2rem;
+    margin-left: 8%;
+}
+
+.button_navBar-aberta_search{
+    border: none;
+    background-color: #58A5F5;
+    height: 2rem;
+    width: 2rem;
+    margin-top: 0.2rem;
+    margin-right: 1rem;
+    border-radius: 0.5rem;
+}
+
+.img_lupa-navBar-aberta{
+   height: 1rem;
+}
+
+.navBar_aberta-card-icon{
+    height: 1.5rem;
+    cursor: pointer;
+}
+
+.navBar_aberta-card-title{
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navBar_aberta-card-subtitle{
+    color: #F4F4F4;
+    font-size: 0.9rem;
+}
+
+.navBar_aberta-card-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 110%;
+    background-color: #78b8fd;
+    padding: 1rem 0 ;
+}
+
+.hidden{
+    display: none;
+}
+
+.notHidden{
+    display: flex;
+}

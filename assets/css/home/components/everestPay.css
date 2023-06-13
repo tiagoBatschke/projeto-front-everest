@@ -86,11 +86,12 @@
     width: 85%;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    border-radius: 0.5rem ;
+    border-radius: 0.5rem 0.5rem 0 0;
     padding: 0.5rem;
     background-color: #2A8BF2;
     color: #fff;
     border: none;
+    cursor: pointer;
 }
 
 .everestPay_valores-container{

@@ -129,3 +129,25 @@
    padding-top: 0.5rem;
 }
 
+.tipoPagamento_select-text{
+   color: #fff;
+}
+
+.listaPagameto_item{
+   color: #2A8BF2;
+   background-color: #fff;
+   width: 100%;
+}
+
+.listaPagameto_container{
+   width: 89%;
+   margin-top: -1rem;
+   z-index: 1;
+   margin-bottom: 0.5rem;
+}
+
+.listaPagamento{
+   background-color: #fff;
+   border-radius: 0 0 0.5rem 0.5rem;
+   padding: 0.5rem;
+}
