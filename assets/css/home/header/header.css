@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
 
+
+:root {
+    background-color: var( --body-color);
+}
+
 .header_home{
     display: flex;
     width: 100%;
@@ -40,7 +45,7 @@ text-transform: uppercase;
 
 .search_form_header{
     width: 40%;
-    background-color: var(--container-light);
+    background-color: var(--container-search);
     border-radius: 1rem;
     display: flex;
     justify-content: space-between;
@@ -69,7 +74,6 @@ text-transform: uppercase;
     
     
 }
-
 
 
 .header_search_icons_container{
