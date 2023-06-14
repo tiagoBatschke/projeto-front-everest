@@ -20,9 +20,9 @@
 } 
 
 .configEverest_configs-container{
-    box-shadow: -0.1rem 0.2rem rgba(0, 0, 0, 0.074);
+    box-shadow: var(--box-shadow-container);
     border-radius: 0.5rem;
-    border: 1px solid rgba(0, 0, 0, 0.074);
+    border: var(--border-box-shadow-container);
     margin-top: 1rem;
     margin-left: 0.5rem;
     height: 90vh;
@@ -37,16 +37,17 @@
 }
 
 .card_lembrete{
-    box-shadow: -0.1rem 0.2rem rgba(0, 0, 0, 0.074);
+    box-shadow: var(--box-shadow-container);
     border-radius: 0.5rem;
-    border: 1px solid rgba(0, 0, 0, 0.074);
+    border: var(--border-box-shadow-container);
     width: 85%;
     margin-top: 1rem;
     padding: 0.5rem;
+    background-color: var(--container-light);
 }
 
 .lembrete_title{
-    color: #2A8BF2;
+    color: var(--subtittle-color);
     font-size: 1.25;
     margin-top: 0.5rem;
 }
@@ -72,7 +73,6 @@
 
 .configEverest_configs-cards-title {
     font-size: 1.188rem;
-    font-weight: bold;
 }
 
 .configEverest_configs-cards-text{
@@ -85,6 +85,7 @@
 .configEverest_configs-cards-text-container{
     margin-left: 1rem;
     margin-bottom: 1rem;
+    color: var(--color-text);
    
 }
 
