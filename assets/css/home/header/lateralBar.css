@@ -157,7 +157,7 @@ li{
     width: 100%;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 110%;
+    margin-top: 120%;
     background-color: #78b8fd;
     padding: 1rem 0 ;
 }
@@ -166,6 +166,3 @@ li{
     display: none;
 }
 
-.notHidden{
-    display: flex;
-}
