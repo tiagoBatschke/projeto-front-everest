@@ -14,9 +14,9 @@ table {
 }
 
 .calendario_dias{
-    background-color:  #2A8BF2;
-    border: 1px solid  #2A8BF2;
-    color: #fff;
+    background-color:  var(--subtittle-color);
+    border: var(--border-box-shadow-container);
+    color: var(--tittle-color);
     padding: 0.4rem;
     margin-bottom: 1rem;
 }
@@ -28,6 +28,7 @@ table {
     text-decoration: none;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+    background-color: var(--body-color);
     
 }
 .calendario_options{
@@ -35,17 +36,17 @@ table {
 }
 
 th {
-    background-color: #f2f2f2;
+    background-color: var(--tittle-color);
 }
 
 td:hover {
-    background-color: #f2f2f2;
+    background-color: var(--text-container-color);
     cursor: pointer;
 }
 
 .selected {
-    background-color: #2A8BF2;
-    color: #fff;
+    background-color: var(--subtittle-color);
+    color: var(--text-container-color);
     border-radius:100%;
 }
 
@@ -73,9 +74,9 @@ select {
   }
 
   .calendario_card{
-    box-shadow: -0.1rem 0.2rem rgba(0, 0, 0, 0.074);
+    box-shadow: var(--box-shadow-container);
     border-radius: 0.5rem;
-    border: 1px solid rgba(0, 0, 0, 0.074);
+    border: var(--border-box-shadow-container);
     width: 98%;
     margin-top: 0.5rem;
     padding-top: 0.5rem;
@@ -89,13 +90,10 @@ select {
     justify-content: space-between;
   }
 
-
-
   .calendario_card-icons-container{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-   
    
   }
 
@@ -106,7 +104,7 @@ select {
 
   .card_number{
     background-color: red;
-    color: #fff;
+    color: var(--text-container-color);
     border-radius: 2rem;
     padding: 0rem 0.5rem;
     font-size: 0.8rem;
@@ -119,7 +117,7 @@ select {
 
 .calendario_card-icons-button{
     border: none;
-    background-color: #2A8BF2;
+    background-color: var(--subtittle-color);
 }
 
 .calendario_card-icons-button-1{
@@ -150,19 +148,21 @@ select {
 .calendarioCard_text-title{
     font-weight: bold;
     font-size: 1rem;
+    color: var(--tittle-color);
 }
 
 .calendarioCard_text{
     font-size: 0.8rem;
+    color: var(--text-color);
 }
 
 .button_calendario{
     padding: 1rem 5rem;
-    background-color: #2A8BF2;
+    background-color: var(--subtittle-color);
     border: none;
     border-radius: 0.5rem;
     margin-top: 1rem;
-    color: #fff;
+    color: var(--text-container-color);
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
 }

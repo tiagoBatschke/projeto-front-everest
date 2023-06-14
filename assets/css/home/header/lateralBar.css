@@ -20,6 +20,7 @@ li{
     z-index: 1;
     box-shadow: var(--box-shadow-container);
     border: var(--border-box-shadow-container);
+    z-index: 1;
 }
 
 .container_icons_lateral_bar{
