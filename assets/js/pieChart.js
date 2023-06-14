@@ -110,7 +110,7 @@ var barColors = [
     options: {
       plugins: {
         customCanvasBackgroundColor: {
-          color: '#FFF',
+          color: 'transparent',
         },
         htmlLegend: {
           // ID of the container to put the legend in

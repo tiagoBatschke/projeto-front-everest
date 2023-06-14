@@ -19,11 +19,16 @@ function drawChart() {
     ]);
 
     var options = {
+     
       chart: {
         title: '',
-       
+        
       },
-      colors: ['#2A8BF2', '#144B85', '#2A8BF2']
+      colors: ['#2A8BF2', '#144B85', '#2A8BF2'],
+      backgroundColor: 'transparent',
+      chartArea :{
+        backgroundColor: 'transparent',
+      }
     };
 
     var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
