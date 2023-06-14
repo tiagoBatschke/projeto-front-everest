@@ -23,7 +23,7 @@
 
 .main_message_container{
   padding: 2rem 2rem;
-  color: var(--container-light);
+  color: var(--container-color);
 }
 
 .main_message_img{

@@ -24,12 +24,12 @@
 }
 .minhaEquipe_titles_container{
     display: flex;
-    color: var(--container-color);
+    background-color: var(--container-light);
    
 }
 .minhaEquipe_titles_separation{
     
-    background-color: var(--container-color);
+    background-color: var(--subtittle-color);
     padding: 1rem 1rem;
     width: 50%;
 
@@ -50,15 +50,12 @@
 }
 .card_colaborators{
     display: flex;
-    margin-top: 1rem;
-   
+    margin-top: 1rem;  
 }
 
 .card_colaborators_text-container{
     padding-top: 0.6rem;
     padding-left: 1rem;
-    
-    
 }
 
 .card_colaborators_title{
@@ -69,8 +66,9 @@
 
 .card_colaborators_text{
     font-size: 0.7rem;
-    color: var(--box-shadow-container);
+    color: var(--text-color);
     margin-top: 0.2rem;
+    font-weight: bold;
 }
 
 .card_colaborators_icons-container{

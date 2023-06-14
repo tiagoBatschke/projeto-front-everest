@@ -16,7 +16,7 @@
 }
 
 
-.dark-mode {
+:root {
     --body-color: #2A2C2E;
     --tittle-color: #ffffff;
     --subtittle-color: #2A8BF2;

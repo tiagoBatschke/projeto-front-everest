@@ -24,7 +24,7 @@
 
 .graph_pie ul {
     margin-top: 5%;
-    background-color: var(--container-light);
+    background-color: var(--container-color);
 }
 
 .charts_paralelos{
@@ -56,7 +56,6 @@
     width: 35%;
     padding: 0rem 2rem;
     margin-top: 0.3rem;
-    background-color: var(--container-light);
 }
 
 .title_social_chart{

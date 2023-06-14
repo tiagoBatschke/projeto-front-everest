@@ -28,7 +28,6 @@
 .metrics_text-container{
     width: 60%;
     padding-left: 1rem;
-    background-color: var(--container-light);
 }
 
 .metrics_img_arrow{
