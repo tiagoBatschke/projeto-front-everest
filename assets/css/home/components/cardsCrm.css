@@ -103,9 +103,9 @@
 .card_crm{
 
 padding: 0.2rem 0.8rem;
-box-shadow: -0.1rem 0.2rem rgba(0, 0, 0, 0.074);
+box-shadow: var(--box-shadow-container);
 border-radius: 0.5rem;
-border: 1px solid rgba(0, 0, 0, 0.074);
+border: var(--border-box-shadow-container);
 margin-top: 0.5rem;
 }
 
@@ -166,7 +166,7 @@ margin-top: 0.5rem;
 
 .card_crm-button{
     max-height: 1.5rem;
-    background-color: #2A8BF2;
+    background-color: var(--container-color);
     border: none;
     border-radius: 0.5rem;
     padding: 0.1rem 0.7rem;
@@ -181,13 +181,13 @@ margin-top: 0.5rem;
 }
 
 .card_crm-contrainer{
-box-shadow: -0.1rem 0.2rem rgba(0, 0, 0, 0.074);
-border-radius: 0.5rem;
-border: 1px solid rgba(0, 0, 0, 0.074);
-padding: 1rem;
-max-height: 70vh;
-overflow-y: scroll;
-overflow-x: hidden;
+  box-shadow: var(--box-shadow-container);
+  border-radius: 0.5rem;
+  border: var(--border-box-shadow-container);
+  padding: 1rem;
+  max-height: 70vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 
