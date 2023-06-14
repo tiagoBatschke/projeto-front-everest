@@ -5,13 +5,12 @@
 
 .icons_title_crm-text{
     margin-left: 1rem;
-    color: rgba(0, 0, 0, 0.584);
     margin-top: 0.2rem;
 }
 
 .border_icon-crm{
-    border-left: 1px solid rgba(0, 0, 0, 0.667);
-    border-right: 1px solid rgba(0, 0, 0, 0.667);
+    border-left:  var(--border-box-shadow-container);
+    border-right: var(--border-box-shadow-container);
     margin-left: 1rem;
     margin-right: 1rem;
     padding-left: 0.3rem;
@@ -22,10 +21,12 @@
     display: flex;
     margin-left: 10%;
     margin-top: 3%;
+    color: var(--tittle-color);
 }
 
 .title_crm{
     font-size: 1.5rem;
+    color: var(--tittle-color);
     font-weight: bold;
     margin-right: 1rem;
     margin-top: 0.4rem;
@@ -49,7 +50,6 @@
     margin-left: 1%;
     margin-top: 3%;
     width: 22%;
-
 }
 
 .main_card-container{
@@ -68,7 +68,7 @@
 
 .search_form_card-crm{
     width: 90%;
-    background-color:#F4F4F4;
+    background-color: var(--container-search);
     border-radius: 1rem;
     display: flex;
     justify-content: space-between;
@@ -97,8 +97,7 @@
 }
 
 .card_crm-text{
-    color: rgba(0, 0, 0, 0.584);
-    
+    color: var(--text-color);   
 }
 
 .card_crm{
@@ -111,9 +110,9 @@ margin-top: 0.5rem;
 }
 
 .card_crm-text-container{
-   
     margin-top:0.8rem;
     margin-left: 1rem;
+    color: var(--text-color);
 }
 
 
@@ -121,7 +120,7 @@ margin-top: 0.5rem;
 .card_crm-number{
     margin-left: 0.5rem;
     font-size: 0.8rem;
-    color: rgba(0, 0, 0, 0.584);
+    color: var(--tittle-color)
 
 }
 
