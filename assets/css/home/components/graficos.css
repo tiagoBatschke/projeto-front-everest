@@ -31,9 +31,10 @@
     display: flex;
     margin-top: 2%;
     width: 45%;
-    padding-left: 15%;
+    margin-left: 8rem;
     height: 16rem; 
     margin-bottom: 1rem;
+    background-color: var(--container-light);
 }
 
 

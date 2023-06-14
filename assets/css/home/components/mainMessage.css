@@ -23,13 +23,18 @@
 
 .main_message_container{
   padding: 2rem 2rem;
-  color: var(--container-color);
+  width: 37rem;
+  background-color: var(--container-light);
+  border-radius: 8px 0px 0px 8px;
 }
 
 .main_message_img{
-  width: 12rem;
-  height: 5rem;
-  margin-top: 2%;
+  width: 11rem;
+  height: 5%;
+  margin-top: 0%;
+  margin-right: 1rem;
+  background-color: var(--container-light);
+  border-radius: 0 0 0 0px;
 }
 
 @media(min-width:1400px){
