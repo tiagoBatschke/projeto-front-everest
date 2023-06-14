@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html id="page" lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -76,7 +76,7 @@
          
             <a href="" class="links_header "><img class="img_icon_header" src="./assets/imgs/bell-outline.png" alt=""></a>
             <a href="" class="links_header "><img class="img_icon_header icon_person_header" src="./assets/imgs/person-circle.svg" alt=""></a>
-            <a href="" class="links_header "><img class="img_icon_header" src="./assets/imgs/sun_theme.svg" alt=""></a>
+            <a onclick='toggleClass()'  id='sun-set'  class='links_header dark_mode '><span id='button_img'></span></a>
         </div>
     </div>
    </header>
@@ -520,5 +520,6 @@
     
    </main>
    <script src="./assets/js/noRefresh.js"></script>
+   <script src='./assets/js/changeTheme.js'></script>
 </body>
 </html>
