@@ -33,7 +33,7 @@
  }
 
  .minhasCompras_card{
-    background-color: #58A5F5;
+   background-color: var( --container-color) ;
     margin-left: 1rem;
     width: 100%;
     display: flex;
@@ -100,9 +100,7 @@
 .minhasCompras_card-container{
    margin-left: 1rem;
    width: 50%;
- 
-  
-  
+   
 }
 
 .background_green{
@@ -130,7 +128,7 @@
 }
 
 .tipoPagamento_select-text{
-   color: #fff;
+   color: var(--tittle-color);
 }
 
 .listaPagameto_item{

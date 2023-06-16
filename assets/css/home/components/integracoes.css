@@ -20,6 +20,7 @@
     font-size: 1.563rem;
     font-weight: bold;
     margin-bottom: 1.8rem;
+   
 }
 
 .integracoes_subtitle{
@@ -29,7 +30,7 @@
 }
 .integrações_tittle-text{
     font-size: 1.125rem;
-    color: rgba(0, 0, 0, 0.611);
+    color: var(--text-color);
     margin-top: 1rem;
   
 }

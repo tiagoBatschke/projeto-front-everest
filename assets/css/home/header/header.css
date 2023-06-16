@@ -5,6 +5,16 @@
     background-color: var( --body-color);
 }
 
+.svg{
+    stroke: var(--svg);
+  
+}
+.svg:hover{
+    stroke: #58A5F5;
+    
+}
+
+
 .header_home{
     display: flex;
     width: 100%;

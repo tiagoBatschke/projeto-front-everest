@@ -23,7 +23,7 @@
 }
 
 .Lembrete_text{
-    color: rgba(0, 0, 0, 0.611);
+    color: var(--text-color);
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     font-size: 0.875rem;
@@ -94,7 +94,7 @@
 
 .card_text{
     font-size: 0.875rem;
-    color: rgba(0, 0, 0, 0.585);
+    color: var(--text-color);
     margin-top: 0.5rem;
 }
 
@@ -103,6 +103,7 @@
     margin-right: -2rem;
     font-size: 1.2rem;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--tittle-color);
 }
 
 .icon_user_pagamentos {

@@ -96,7 +96,7 @@ padding: 0.8rem;
 
 .chats_cards-text-conversas{
     font-size: 0.6rem;
-    color: var(--color-text);
+    color: var(--text-color);
     margin-top: 0.3rem;
     margin-bottom: 0.5rem;
 }

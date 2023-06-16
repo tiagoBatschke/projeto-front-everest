@@ -26,7 +26,7 @@
 
 .card_cadastro-subtitle{
     font-size: 0.938rem;
-    color: rgba(0, 0, 0, 0.611);
+    color: var(--text-color);
     margin-top: 0.2rem;
 }
 
@@ -145,7 +145,7 @@ input::placeholder{
 
 .listBottom-container {
     width: 75%;
-    background-color: #fff;
+    background-color: var( --container-color);
     margin-top: -2rem;
     display: flex;
     flex-direction: column;

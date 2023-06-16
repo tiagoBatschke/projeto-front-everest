@@ -5,8 +5,14 @@ li{
 
 
 .nav_icon_imgs{
-   
-    width: 3rem;
+   width: 3rem;
+   background-color: var(--container-svg);
+   height: 3rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 0.5rem;
+   border-radius: 0.5rem;
  }
 
  .container_lateral_bar{
@@ -28,11 +34,13 @@ li{
     flex-direction: column;
     padding: 0;
     align-items: center;
+    height: 100%;
+    justify-content: center;
 
 }
 
 .first_nav_icon{
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 }
 
 .last_nav_icon {
@@ -41,8 +49,11 @@ li{
 
 
 .nav_icon_imgs-aberto{
-    width: 1.5rem;
-   margin-right: 1rem;
+    width: 2rem;
+    margin-right: 1rem;
+    background-color: var(--container-svg);
+    height: 2rem;
+    border-radius: 0.5rem;
 }
 
 .container_icons_lateral_bar-aberto{
@@ -59,7 +70,7 @@ li{
 .container_lateral_bar-aberto{
     display: flex;
     flex-direction: column;
-    background-color:#58A5F5;
+    background-color: var(--container-lateral-bar);
     width: 5rem;
     height:100vh;
     
@@ -159,7 +170,7 @@ li{
     justify-content: space-evenly;
     align-items: center;
     margin-top: 120%;
-    background-color: #78b8fd;
+    background-color: var(--container-color);
     padding: 1rem 0 ;
 }
 

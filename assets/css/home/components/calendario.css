@@ -10,7 +10,7 @@ table {
     border: none;
     text-decoration: none;
     font-family: 'Baloo 2', cursive;
-    
+    color: var(--text-color);
 }
 
 .calendario_dias{
@@ -46,7 +46,7 @@ td:hover {
 
 .selected {
     background-color: var(--subtittle-color);
-    color: var(--text-container-color);
+    color: var(--text-color);
     border-radius:100%;
 }
 
