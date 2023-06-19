@@ -1,7 +1,7 @@
 .filtro_everest_chat-container{
     width: 24%;
     height: 22%;
-    background-color: var(--body-color);
+    background-color: var(--container-lateral-bar);
     border-radius: 2rem 0rem 0rem 0rem;
     border: var(--border-box-shadow-container);
    
@@ -18,10 +18,11 @@
 .filtro_everest_chat-search{
     width: 100%;
     padding-bottom: 3rem;
+   
 }
 
 .filtro_everest_chat-title{
-    color: var(--tittle-color);
+    color: var(--text-container-color);
     margin-top: 0.5rem;
     font-size: 1.5rem;
     font-weight: bold;
@@ -30,7 +31,7 @@
 .close_button{
     background-color: transparent;
     border: none;
-    color: var(--tittle-color);
+    color: var(--text-container-color);
     font-size: 1.5rem;
     font-weight: bold;
 }
@@ -80,7 +81,7 @@
         display: flex;
        justify-content: space-evenly;
         z-index: 6;
-        position: absolute;
+    position: absolute;
        width: 24%;
    }
 
@@ -90,7 +91,7 @@
     border-radius: 0.5rem;
     padding: 0.3rem 1rem;
     width: 6rem;
-    color: var(--tittle-color);
+    color: var(--text-container-color);
     font-size: 1rem;
     font-weight: 500;
     box-shadow: var(--border-box-shadow-container);

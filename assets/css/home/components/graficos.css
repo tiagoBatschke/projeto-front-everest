@@ -118,6 +118,7 @@ visibility: hidden;
 
 .grafic_img {
     margin-left: 8rem;
+    fill:var(--tittle-color) ;
     }
 
 .text_grafic {

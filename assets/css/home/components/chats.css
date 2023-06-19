@@ -30,10 +30,20 @@ padding: 0.8rem;
     margin-top: 0.3rem;
    
 }
+.chats_cards_notifications-img{
+    stroke: #ffffffc4;
+}
 
+.notifications-img{
+    background-color: var(--container-img-notification);
+    padding: 0.9rem;
+    border-radius: 0.5rem;
+}
 .chats_cards_notifications-img-1{
     width: 30%;
     margin-top: -1.3rem;
+    
+ 
 }
 
 .chats_cards-title{
