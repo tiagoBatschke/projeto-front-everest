@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
 
 
 :root {
@@ -14,6 +14,11 @@
     
 }
 
+.text{
+    text-decoration: none;
+    font-family: 'Baloo 2', cursive;
+    color: var(--tittle-color);
+}
 
 .header_home{
     display: flex;
@@ -41,11 +46,7 @@
     margin-top: 0.5rem;
 }
 
-.text{
-    text-decoration: none;
-    font-family: 'Baloo 2', cursive;
-    color: var(--tittle-color);
-}
+
 
 .logo_header{
 font-weight: bold;

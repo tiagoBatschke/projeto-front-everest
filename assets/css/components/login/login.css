@@ -1,0 +1,81 @@
+body{
+    background-color: #c2c2c2;
+}
+
+
+.card_login{
+    background-color: #fff;
+    width: 60%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 3rem;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+
+.logo_nav-aberta-img{
+    height: 2rem;
+   
+}
+
+
+.imagem_bemVindo{
+    height: 55vh;
+    width: 45%;
+    margin-top: 5%;
+    margin-left: 2rem;
+}
+
+.form_div{
+    width: 50%;
+    margin-left: 3rem;
+    background-color: transparent;
+    margin-top: 3.5rem;
+}
+
+.login_title{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    
+}
+
+.login_subtitle{
+    margin-top: 1rem;
+    color: var(--text-color) ;
+}
+
+.form_login{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: space-evenly;
+}
+
+.input_form-login{
+    padding: 0.8rem;
+    margin-top: 1rem;
+    border: none;
+    border-bottom: 1px solid #5c5c5c59;
+    outline: none;
+}
+
+.button_login{
+    background-color:  #3a3a3afa;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    width: 80%;
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+   
+}
+
+.button_login:hover{
+    background-color:  #3a3a3a99;
+    cursor: pointer;
+}
