@@ -21,12 +21,17 @@ body{
    
 }
 
-
-.imagem_bemVindo{
+.imagem_registro{
     height: 55vh;
     width: 45%;
     margin-top: 5%;
     margin-left: 2rem;
+}
+.imagem_bemVindo{
+    height: 55vh;
+    width: 45%;
+    margin-top: 5%;
+    margin-right: 2rem;
 }
 
 .form_div{
