@@ -97,7 +97,7 @@
 }
 
 .card_crm-text{
-    color: var(--subttitle-color);   
+    color: var(--subtittle-color);   
     margin-left: 7rem;
     font-size: 0.7rem;
     margin-top: -1rem;
@@ -106,7 +106,9 @@
 .card_crm-text-status {
     display: flex;
     font-size: 0.7rem;
-     margin-top: 0.1rem;
+     margin-top: 0.5rem;
+     margin: 0.3rem;
+     margin-left: -0rem;
 }
 
 .card_crm{
@@ -130,7 +132,7 @@ margin-top: 0.5rem;
     font-size: 0.6rem;
     margin-top: 1rem;
     margin: 0.1rem;
-    color: var(--tittle-color)
+    color: var(--tittle-color);
 
 }
 
@@ -168,8 +170,8 @@ margin-top: 0.5rem;
 .card_crm-buttons{
     display: flex;
     justify-content: space-between;
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
     width: 90%;
     margin-left: 5%;
 }
