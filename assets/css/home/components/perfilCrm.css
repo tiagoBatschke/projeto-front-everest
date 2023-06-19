@@ -67,7 +67,7 @@
    .card_info-data{
     font-size: 0.8rem;
     margin-left: 1rem;
-    color: rgba(0, 0, 0, 0.584);
+    color: var(--text-color);
     margin-top: 0.3rem;
    }
 
