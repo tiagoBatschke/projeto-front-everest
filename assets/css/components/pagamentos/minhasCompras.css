@@ -128,12 +128,19 @@
 }
 
 .tipoPagamento_select-text{
-   color: var(--tittle-color);
+   color: var(--text-container-color);
 }
 
+.select_page{
+   background-color: var(--container-lateral-bar);
+   width: 30%;
+}
+
+
+
 .listaPagameto_item{
-   color: #2A8BF2;
-   background-color: #fff;
+   color: var( --svg);
+   background-color: var(--container-light) ;
    width: 100%;
 }
 
@@ -145,7 +152,15 @@
 }
 
 .listaPagamento{
-   background-color: #fff;
+   background-color: var(--container-light) ;
    border-radius: 0 0 0.5rem 0.5rem;
    padding: 0.5rem;
+}
+
+.select_page-item{
+   box-shadow: -0.1rem 0.2rem rgba(0, 0, 0, 0.074);
+   border-radius: 0 0  0.5rem  0.5rem  ;
+   border: 1px solid rgba(0, 0, 0, 0.074);
+   width: 33.5%;
+  
 }

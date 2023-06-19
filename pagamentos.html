@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Everest</title>
+    <title>Everest - Pagamento</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/header/header.css">
     <link rel="stylesheet" href="./assets/css/header/lateralBar.css">
     <link rel="stylesheet" href="./assets/css//components/pagamentos/pagamentos.css">
     <link rel="stylesheet" href="./assets/css/components/pagamentos/everestPay.css">
-    <link rel="stylesheet" href="./assets/css/components/pagamentos/minhasCompras.css">
     <link rel="stylesheet" href="./assets/css/components/variaveisDarkmode.css">
+    <link rel="stylesheet" href="./assets/css/components/configEverest/configEverest.css">
+    <link rel="stylesheet" href="./assets/css/components/pagamentos/minhasCompras.css">
 </head>
 <body>
     <header  class="header_home">
@@ -176,10 +177,15 @@
                 <p class="Lembrete_text text">Adicione abaixo a quantidade de usuários e contas em Redes Sociais que deseja conectar ao seu Everest. E ah, fique de olho no seu <span style="color: #2A8BF2;">desconto progressivo</span> á partir de 10 usuários!</p>
             </div>
 
-            <select class="tipoPagamento_select" name="" id="">
-                <option class="text" selected value="">Pagamento Anual</option>
-                <option class="text" value="">Pagamento Mensal</option>
-            </select>
+            <div onclick="openList('listaPagamento2Id')" class="tipoPagamento_select-everestPay select_page" name="" id="">
+                <p class="tipoPagamento_select-text text">Pagamento Anual</p>
+            </div>
+            <div id="listaPagamento2Id" class="listaPagameto_container hidden">
+                <ul class="listaPagamento select_page-item">
+                    <li class="listaPagameto_item ">Pagamento Mensal</li>
+                    
+                </ul>
+            </div>
 
             <div class="pagamentos_card-container">
                 <div class="pagamentos_cards">
