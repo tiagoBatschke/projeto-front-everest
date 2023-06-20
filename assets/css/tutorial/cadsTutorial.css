@@ -227,8 +227,7 @@
 
 .card_buttons-green{
     padding: 0.5rem;
-    background-color:#4CE364
-    ;
+    background-color:#4CE364;
     border: none;
     border-radius: 0.5rem;
     color: var( --text-container-color);
@@ -243,7 +242,7 @@
 .input_card{
     width: 100%;
     border: none;
-    border-bottom: 1px solid #393939;
+    border-bottom: 1px solid #626161;
     padding: 1rem 0;
     background-color: transparent;
     outline: none;
