@@ -1,0 +1,115 @@
+.x_fechar-container{
+ 
+    background-color: var(--span-color);
+    padding: 0.3rem 0;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row-reverse;
+    
+    border-radius: 0.5rem 0.5rem  0 0;
+}
+
+.x_fechar{
+    margin-right: 1rem;
+    color: var(--text-container-color);
+}
+
+.card_Tutorial{
+    background-color: transparent;
+    border-radius: 0.5rem;
+    height: 75vh;
+    margin-left: 1rem;
+    
+}
+
+.card_Tutorial-container{
+    background-color: var(--container-tutorial);
+    border-radius: 0 0 0.5rem  0.5rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 95%;
+}
+
+.carrousel{
+    width: 78%;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.img_container{
+    background-color: var(--span-color);
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+    padding: 1.5rem 0.5rem;
+}
+
+.card_text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 88%;
+    height: 30vh;
+    justify-content: space-evenly;
+}
+
+.card_title{
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: var( --tittle-color);
+}
+
+.card_text{
+    font-size: 1rem;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.card_text-blue{
+    font-size: 1rem;
+    color: var(--span-color);
+}
+
+.card_buttons{
+    padding: 0.5rem;
+    background-color:var(--span-color);
+    border: none;
+    border-radius: 0.5rem;
+    color: var( --text-container-color);
+    width: 45%;
+}
+
+.card_buttons-fechar{
+    padding: 0.5rem ;
+    background-color:var( --container-search);
+    border: none;
+    border-radius: 0.5rem;
+    color: var( --text-container-color);
+    width: 45%;
+}
+
+.card_buttons-container{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.card_buttons:hover{
+    background-color: #2a8bf29d;
+    cursor: pointer;
+}
+
+.card_buttons-fechar:hover{
+    cursor: pointer;
+    background-color:#c2c2c2cb;
+}
+
+.img_card{
+    
+}
