@@ -11,20 +11,19 @@
 
 .minhaEqipe_container{
     
-    border-radius:0.5rem ;
+    border-radius:0.5rem;
     box-shadow: var(--box-shadow-container);
     border: var(--border-box-shadow-container)
     
 }
 
-.minhaEquipe_titles{
+.minhaEquipe_titles {
     font-size: 1rem;
-    color: var(--text-container-color);
     margin-left: 0.5rem;
 }
 .minhaEquipe_titles_container{
     display: flex;
-    background-color: var(--container-light);
+    background-color: var( --button-color-hover);
    
 }
 .minhaEquipe_titles_separation{
