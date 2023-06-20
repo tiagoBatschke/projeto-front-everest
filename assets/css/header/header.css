@@ -3,6 +3,7 @@
 
 :root {
     background-color: var( --body-color);
+    overflow-x: hidden;
 }
 
 .svg{
@@ -11,6 +12,7 @@
 }
 .svg:hover{
     stroke: #58A5F5;
+    
     
 }
 
@@ -82,6 +84,7 @@ text-transform: uppercase;
 .img_icon_header{
     height: 1.2rem;
     margin-left: 0.3rem;
+    margin-top: -1rem;
     
     
 }
