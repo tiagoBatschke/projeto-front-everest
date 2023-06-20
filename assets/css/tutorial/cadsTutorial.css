@@ -196,8 +196,7 @@
 
 
 .img_container-Black{
-    background-color: #393939
-    ;
+    background-color: var(--black-tutorial);
     width: 20%;
     display: flex;
     justify-content: center;
@@ -206,19 +205,19 @@
 }
 .card_buttons-Black{
     padding: 0.5rem;
-    background-color:#393939;
+    background-color: var(--black-tutorial);
     border: none;
     border-radius: 0.5rem;
     color: var( --text-container-color);
     width: 45%;
 }
 .card_buttons-Black:hover{
-    background-color:#393939;
+    background-color:#535353;
     cursor: pointer;
 }
 
 .x_fechar-container-Black{
-    background-color:#393939;
+    background-color: var( --black-tutorial);
     padding: 0.3rem 0;
     width: 100%;
     display: flex;
