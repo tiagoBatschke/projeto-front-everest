@@ -80,8 +80,8 @@
 }
 
 .card_text-blue{
-    font-size: 1rem;
-    color: var( --svg);
+   
+    color: var(--subtittle-color);
     text-align: center;
 }
 
@@ -121,5 +121,138 @@
 }
 
 .img_card{
+    max-height: 6.5rem;
+}
+
+.span_red-title{
+    color: #FF4F4F;
+}
+
+.x_fechar-container-red{
+    background-color: #FF4F4F;
+    padding: 0.3rem 0;
+    width: 100%;
     
+    display: flex;
+    flex-direction: row-reverse;
+    
+    border-radius: 0.5rem 0.5rem  0 0;
+}
+
+.card_buttons-red{
+    padding: 0.5rem;
+    background-color:#FF4F4F;
+    border: none;
+    border-radius: 0.5rem;
+    color: var( --text-container-color);
+    width: 45%;
+}
+
+.card_buttons-red:hover{
+    background-color:#ff4f4fb1;
+    cursor: pointer;
+}
+
+.img_container-red{
+    background-color: #FF4F4F;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+    padding: 1.5rem 0.5rem;
+}
+.img_container-yellow{
+    background-color: #FFC700;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+    padding: 1.5rem 0.5rem;
+}
+.card_buttons-yellow{
+    padding: 0.5rem;
+    background-color:#FFC700;
+    border: none;
+    border-radius: 0.5rem;
+    color: var( --text-container-color);
+    width: 45%;
+}
+.card_buttons-yellow:hover{
+    background-color:#ffc800a8;
+    cursor: pointer;
+}
+
+.x_fechar-container-yellow{
+    background-color: #FFC700
+    ;
+    padding: 0.3rem 0;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row-reverse;
+    
+    border-radius: 0.5rem 0.5rem  0 0;
+}
+
+
+.img_container-Black{
+    background-color: #393939
+    ;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+    padding: 1.5rem 0.5rem;
+}
+.card_buttons-Black{
+    padding: 0.5rem;
+    background-color:#393939;
+    border: none;
+    border-radius: 0.5rem;
+    color: var( --text-container-color);
+    width: 45%;
+}
+.card_buttons-Black:hover{
+    background-color:#393939;
+    cursor: pointer;
+}
+
+.x_fechar-container-Black{
+    background-color:#393939;
+    padding: 0.3rem 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 0.5rem 0.5rem  0 0;
+}
+
+.card_buttons-green{
+    padding: 0.5rem;
+    background-color:#4CE364
+    ;
+    border: none;
+    border-radius: 0.5rem;
+    color: var( --text-container-color);
+    width: 45%;
+}
+
+.card_buttons-green:hover{
+    background-color:#4ce365ae;
+    cursor: pointer;
+}
+
+.input_card{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #393939;
+    padding: 1rem 0;
+    background-color: transparent;
+    outline: none;
+   
+}
+
+.input_card-container{
+    width: 95%;
+    display: flex;
+    justify-content: start;
 }
