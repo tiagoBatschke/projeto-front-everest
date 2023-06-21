@@ -1,31 +1,31 @@
-.x_fechar-container{
- 
+.x_fechar-container {
+
     background-color: var(--span-color);
     padding: 0.3rem 0;
     width: 100%;
-    
+
     display: flex;
     flex-direction: row-reverse;
-    
-    border-radius: 0.5rem 0.5rem  0 0;
+
+    border-radius: 0.5rem 0.5rem 0 0;
 }
 
-.x_fechar{
+.x_fechar {
     margin-right: 1rem;
     color: var(--text-container-color);
 }
 
-.card_Tutorial{
+.card_Tutorial {
     background-color: transparent;
     border-radius: 0.5rem;
     height: 75vh;
     margin-left: 1rem;
-    
+
 }
 
-.card_Tutorial-container{
+.card_Tutorial-container {
     background-color: var(--container-tutorial);
-    border-radius: 0 0 0.5rem  0.5rem ;
+    border-radius: 0 0 0.5rem 0.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,13 +34,13 @@
     height: 95%;
 }
 
-.carrousel{
+.carrousel {
     width: 78%;
     margin-left: 15%;
     margin-top: 5%;
 }
 
-.img_container{
+.img_container {
     background-color: var(--span-color);
     width: 20%;
     display: flex;
@@ -49,7 +49,7 @@
     padding: 1.5rem 0.5rem;
 }
 
-.card_text-container{
+.card_text-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -58,7 +58,7 @@
     justify-content: space-evenly;
 }
 
-.card_text-container1{
+.card_text-container1 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -67,93 +67,93 @@
     justify-content: space-evenly;
 }
 
-.card_title{
+.card_title {
     font-size: 1.75rem;
     font-weight: bold;
-    color: var( --tittle-color);
+    color: var(--tittle-color);
 }
 
-.card_text{
+.card_text {
     font-size: 1rem;
     text-align: center;
     color: var(--text-color);
 }
 
-.card_text-blue{
-   
+.card_text-blue {
+
     color: var(--subtittle-color);
     text-align: center;
 }
 
-.card_buttons{
+.card_buttons {
     padding: 0.5rem;
-    background-color:var(--span-color);
+    background-color: var(--span-color);
     border: none;
     border-radius: 0.5rem;
-    color: var( --text-container-color);
+    color: var(--text-container-color);
     width: 45%;
 }
 
-.card_buttons-fechar{
-    padding: 0.5rem ;
-    background-color:var( --container-search);
+.card_buttons-fechar {
+    padding: 0.5rem;
+    background-color: var(--container-search);
     border: none;
     border-radius: 0.5rem;
-    color: var( --text-container-color);
+    color: var(--text-container-color);
     width: 45%;
 }
 
-.card_buttons-container{
+.card_buttons-container {
     width: 90%;
     display: flex;
     justify-content: space-evenly;
 }
 
 
-.card_buttons:hover{
+.card_buttons:hover {
     background-color: #2a8bf29d;
     cursor: pointer;
 }
 
-.card_buttons-fechar:hover{
+.card_buttons-fechar:hover {
     cursor: pointer;
-    background-color:#c2c2c2cb;
+    background-color: #c2c2c2cb;
 }
 
-.img_card{
+.img_card {
     max-height: 6.5rem;
 }
 
-.span_red-title{
+.span_red-title {
     color: #FF4F4F;
 }
 
-.x_fechar-container-red{
+.x_fechar-container-red {
     background-color: #FF4F4F;
     padding: 0.3rem 0;
     width: 100%;
-    
+
     display: flex;
     flex-direction: row-reverse;
-    
-    border-radius: 0.5rem 0.5rem  0 0;
+
+    border-radius: 0.5rem 0.5rem 0 0;
 }
 
-.card_buttons-red{
+.card_buttons-red {
     padding: 0.5rem;
-    background-color:#FF4F4F;
+    background-color: #FF4F4F;
     border: none;
     border-radius: 0.5rem;
-    color: var( --text-container-color);
+    color: var(--text-container-color);
     width: 45%;
 }
 
-.card_buttons-red:hover{
-    background-color:#ff4f4fb1;
+.card_buttons-red:hover {
+    background-color: #ff4f4fb1;
     cursor: pointer;
 }
 
-.img_container-red{
+.img_container-red {
     background-color: #FF4F4F;
     width: 20%;
     display: flex;
@@ -161,7 +161,8 @@
     border-radius: 100%;
     padding: 1.5rem 0.5rem;
 }
-.img_container-yellow{
+
+.img_container-yellow {
     background-color: #FFC700;
     width: 20%;
     display: flex;
@@ -169,33 +170,34 @@
     border-radius: 100%;
     padding: 1.5rem 0.5rem;
 }
-.card_buttons-yellow{
+
+.card_buttons-yellow {
     padding: 0.5rem;
-    background-color:#FFC700;
+    background-color: #FFC700;
     border: none;
     border-radius: 0.5rem;
-    color: var( --text-container-color);
+    color: var(--text-container-color);
     width: 45%;
 }
-.card_buttons-yellow:hover{
-    background-color:#ffc800a8;
+
+.card_buttons-yellow:hover {
+    background-color: #ffc800a8;
     cursor: pointer;
 }
 
-.x_fechar-container-yellow{
-    background-color: #FFC700
-    ;
+.x_fechar-container-yellow {
+    background-color: #FFC700;
     padding: 0.3rem 0;
     width: 100%;
-    
+
     display: flex;
     flex-direction: row-reverse;
-    
-    border-radius: 0.5rem 0.5rem  0 0;
+
+    border-radius: 0.5rem 0.5rem 0 0;
 }
 
 
-.img_container-Black{
+.img_container-Black {
     background-color: var(--black-tutorial);
     width: 20%;
     display: flex;
@@ -203,53 +205,55 @@
     border-radius: 100%;
     padding: 1.5rem 0.5rem;
 }
-.card_buttons-Black{
+
+.card_buttons-Black {
     padding: 0.5rem;
     background-color: var(--black-tutorial);
     border: none;
     border-radius: 0.5rem;
-    color: var( --text-container-color);
+    color: var(--text-container-color);
     width: 45%;
 }
-.card_buttons-Black:hover{
-    background-color:#535353;
+
+.card_buttons-Black:hover {
+    background-color: #535353;
     cursor: pointer;
 }
 
-.x_fechar-container-Black{
-    background-color: var( --black-tutorial);
+.x_fechar-container-Black {
+    background-color: var(--black-tutorial);
     padding: 0.3rem 0;
     width: 100%;
     display: flex;
     flex-direction: row-reverse;
-    border-radius: 0.5rem 0.5rem  0 0;
+    border-radius: 0.5rem 0.5rem 0 0;
 }
 
-.card_buttons-green{
+.card_buttons-green {
     padding: 0.5rem;
-    background-color:#4CE364;
+    background-color: #4CE364;
     border: none;
     border-radius: 0.5rem;
-    color: var( --text-container-color);
+    color: var(--text-container-color);
     width: 45%;
 }
 
-.card_buttons-green:hover{
-    background-color:#4ce365ae;
+.card_buttons-green:hover {
+    background-color: #4ce365ae;
     cursor: pointer;
 }
 
-.input_card{
+.input_card {
     width: 100%;
     border: none;
     border-bottom: 1px solid #626161;
     padding: 1rem 0;
     background-color: transparent;
     outline: none;
-   
+
 }
 
-.input_card-container{
+.input_card-container {
     width: 95%;
     display: flex;
     justify-content: start;

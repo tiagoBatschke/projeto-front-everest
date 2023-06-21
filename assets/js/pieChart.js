@@ -1,13 +1,13 @@
-const ctx = document.getElementById('myChart');
+const ctx = document.getElementById("myChart");
 
 const getOrCreateLegendList = (chart, id) => {
   const legendContainer = document.getElementById(id);
-  let listContainer = legendContainer.querySelector('ul');
+  let listContainer = legendContainer.querySelector("ul");
 
   if (!listContainer) {
-    listContainer = document.createElement('ul');
-    listContainer.style.display = 'flex';
-    listContainer.style.flexDirection = 'row';
+    listContainer = document.createElement("ul");
+    listContainer.style.display = "flex";
+    listContainer.style.flexDirection = "row";
     listContainer.style.margin = 0;
     listContainer.style.padding = 0;
 
@@ -18,7 +18,7 @@ const getOrCreateLegendList = (chart, id) => {
 };
 
 const htmlLegendPlugin = {
-  id: 'htmlLegend',
+  id: "htmlLegend",
   afterUpdate(chart, args, options) {
     const ul = getOrCreateLegendList(chart, options.containerID);
 
@@ -30,41 +30,44 @@ const htmlLegendPlugin = {
     // Reuse the built-in legendItems generator
     const items = chart.options.plugins.legend.labels.generateLabels(chart);
 
-    items.forEach(item => {
-      const li = document.createElement('li');
-      li.style.alignItems = 'center';
-      li.style.cursor = 'pointer';
-      li.style.display = 'flex';
-      li.style.flexDirection = 'row';
-      li.style.marginLeft = '10px';
+    items.forEach((item) => {
+      const li = document.createElement("li");
+      li.style.alignItems = "center";
+      li.style.cursor = "pointer";
+      li.style.display = "flex";
+      li.style.flexDirection = "row";
+      li.style.marginLeft = "10px";
 
       li.onclick = () => {
-        const {type} = chart.config;
-        if (type === 'pie' || type === 'doughnut') {
+        const { type } = chart.config;
+        if (type === "pie" || type === "doughnut") {
           // Pie and doughnut charts only have a single dataset and visibility is per item
           chart.toggleDataVisibility(item.index);
         } else {
-          chart.setDatasetVisibility(item.datasetIndex, !chart.isDatasetVisible(item.datasetIndex));
+          chart.setDatasetVisibility(
+            item.datasetIndex,
+            !chart.isDatasetVisible(item.datasetIndex)
+          );
         }
         chart.update();
       };
 
       // Color box
-      const boxSpan = document.createElement('span');
+      const boxSpan = document.createElement("span");
       boxSpan.style.background = item.fillStyle;
       boxSpan.style.borderColor = item.strokeStyle;
-      boxSpan.style.borderWidth = item.lineWidth + 'px';
-      boxSpan.style.display = 'inline-block';
-      boxSpan.style.height = '20px';
-      boxSpan.style.marginRight = '10px';
-      boxSpan.style.width = '20px';
+      boxSpan.style.borderWidth = item.lineWidth + "px";
+      boxSpan.style.display = "inline-block";
+      boxSpan.style.height = "20px";
+      boxSpan.style.marginRight = "10px";
+      boxSpan.style.width = "20px";
 
       // Text
-      const textContainer = document.createElement('p');
+      const textContainer = document.createElement("p");
       textContainer.style.color = item.fontColor;
       textContainer.style.margin = 0;
       textContainer.style.padding = 0;
-      textContainer.style.textDecoration = item.hidden ? 'line-through' : '';
+      textContainer.style.textDecoration = item.hidden ? "line-through" : "";
 
       const text = document.createTextNode(item.text);
       textContainer.appendChild(text);
@@ -73,19 +76,19 @@ const htmlLegendPlugin = {
       li.appendChild(textContainer);
       ul.appendChild(li);
     });
-  }
+  },
 };
 
 const plugin = {
-  id: 'customCanvasBackgroundColor',
+  id: "customCanvasBackgroundColor",
   beforeDraw: (chart, args, options) => {
-    const {ctx} = chart;
+    const { ctx } = chart;
     ctx.save();
-    ctx.globalCompositeOperation = 'destination-over';
-    ctx.fillStyle = options.color || '#99ffff';
+    ctx.globalCompositeOperation = "destination-over";
+    ctx.fillStyle = options.color || "#99ffff";
     ctx.fillRect(0, 0, chart.width, chart.height);
     ctx.restore();
-  }
+  },
 };
 
 var barColors = [
@@ -95,36 +98,32 @@ var barColors = [
   "rgba(0,119,182)",
   ,
 ];
-  new Chart(ctx, {
-    type: "pie",
-    data: {
-      labels: ['SP', 'RJ', 'AM', 'MG'],
-      datasets: [{
+new Chart(ctx, {
+  type: "pie",
+  data: {
+    labels: ["SP", "RJ", "AM", "MG"],
+    datasets: [
+      {
         label: false,
         backgroundColor: barColors,
         data: [12, 19, 3, 5],
-        borderWidth: 0
-        
-      }]
+        borderWidth: 0,
+      },
+    ],
+  },
+  options: {
+    plugins: {
+      customCanvasBackgroundColor: {
+        color: "transparent",
+      },
+      htmlLegend: {
+        // ID of the container to put the legend in
+        containerID: "graph_pie-id",
+      },
+      legend: {
+        display: false,
+      },
     },
-    options: {
-      plugins: {
-        customCanvasBackgroundColor: {
-          color: 'transparent',
-        },
-        htmlLegend: {
-          // ID of the container to put the legend in
-          containerID: 'graph_pie-id',
-        },
-        legend: {
-          display: false,
-          
-        }
-      }
-    },
-    plugins: [plugin, htmlLegendPlugin],
-  });
-
-
-
-  
+  },
+  plugins: [plugin, htmlLegendPlugin],
+});

@@ -1,9 +1,9 @@
 table {
     border-collapse: collapse;
-    
+
 }
 
- td {
+td {
     padding: 0.4rem 0.5rem;
     padding-top: 0.6rem;
     text-align: center;
@@ -13,13 +13,14 @@ table {
     color: var(--text-color);
 }
 
-.calendario_dias{
-    background-color:  var(--subtittle-color);
+.calendario_dias {
+    background-color: var(--subtittle-color);
     border: var(--border-box-shadow-container);
     color: var(--tittle-color);
     padding: 0.4rem;
     margin-bottom: 1rem;
 }
+
 .calendario_options-container {
     border: none;
     outline: none;
@@ -29,9 +30,10 @@ table {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     background-color: var(--body-color);
-    
+
 }
-.calendario_options{
+
+.calendario_options {
     font-size: 0.8rem;
 }
 
@@ -47,22 +49,22 @@ td:hover {
 .selected {
     background-color: var(--subtittle-color);
     color: var(--text-color);
-    border-radius:100%;
+    border-radius: 100%;
 }
 
-.calendario{
+.calendario {
     margin-top: 1rem;
     max-height: 5rem;
 }
 
 select {
     -webkit-appearance: none;
-    -moz-appearance:    none;
-    appearance:         none;
-   
-  }
+    -moz-appearance: none;
+    appearance: none;
 
-  .calendario_card-container{
+}
+
+.calendario_card-container {
     margin-top: 54%;
     display: flex;
     justify-content: space-between;
@@ -70,57 +72,57 @@ select {
     align-items: center;
     flex-direction: column;
     overflow-y: scroll;
-  
-  }
 
-  .calendario_card{
+}
+
+.calendario_card {
     box-shadow: var(--box-shadow-container);
     border-radius: 0.5rem;
     border: var(--border-box-shadow-container);
     width: 98%;
     margin-top: 0.5rem;
     padding-top: 0.5rem;
-  }
+}
 
-  
-  .calendario_Card-text{
+
+.calendario_Card-text {
     display: flex;
     flex-direction: row;
     width: 90%;
     justify-content: space-between;
-  }
+}
 
-  .calendario_card-icons-container{
+.calendario_card-icons-container {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-   
-  }
 
-  .calendario_card-icons{
+}
+
+.calendario_card-icons {
     height: 1.5rem;
     margin-right: 0.5rem;
-  }
+}
 
-  .card_number{
+.card_number {
     background-color: red;
     color: var(--text-container-color);
     border-radius: 2rem;
     padding: 0rem 0.5rem;
     font-size: 0.8rem;
-   
+
 }
 
-.calendario_card-icon-img{
+.calendario_card-icon-img {
     height: 2.5rem;
 }
 
-.calendario_card-icons-button{
+.calendario_card-icons-button {
     border: none;
     background-color: var(--subtittle-color);
 }
 
-.calendario_card-icons-button-1{
+.calendario_card-icons-button-1 {
     border: none;
     background-color: #FFD80C;
     width: 24%;
@@ -128,35 +130,35 @@ select {
     border-radius: 8px;
 }
 
-.text_hidden{
-    visibility: hidden;    
-    }
+.text_hidden {
+    visibility: hidden;
+}
 
-.calendario_card-icons-button{
+.calendario_card-icons-button {
     border-radius: 0.5rem;
     width: 25%;
     height: 1.5rem;
 }
 
-.calendarioCard_text-container{
+.calendarioCard_text-container {
     margin-left: 10%;
     margin-top: 1rem;
     margin-bottom: 0.5rem;
-   
+
 }
 
-.calendarioCard_text-title{
+.calendarioCard_text-title {
     font-weight: bold;
     font-size: 1rem;
     color: var(--tittle-color);
 }
 
-.calendarioCard_text{
+.calendarioCard_text {
     font-size: 0.8rem;
     color: var(--text-color);
 }
 
-.button_calendario{
+.button_calendario {
     padding: 1rem 5rem;
     background-color: var(--subtittle-color);
     border: none;
@@ -169,5 +171,6 @@ select {
 
 
 .calendario_card-container::-webkit-scrollbar {
-    width: 5px;        /* width of the entire scrollbar */
-  }
+    width: 5px;
+    /* width of the entire scrollbar */
+}

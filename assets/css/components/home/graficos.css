@@ -1,19 +1,18 @@
-
-.graph_bar{
+.graph_bar {
     margin-left: 10%;
 
 }
 
-.graph_pie{
+.graph_pie {
     margin-left: 4%;
-    border-radius: 0.5rem ;
+    border-radius: 0.5rem;
     border: var(--border-box-shadow-container);
     box-shadow: var(--box-shadow-container);
     background-color: var(--container-light);
- 
+
 }
 
-.canva_graph_pie{
+.canva_graph_pie {
     margin-left: 6rem;
     margin-top: -5rem;
     margin-bottom: 1rem;
@@ -31,18 +30,18 @@
 }
 
 
-.charts_paralelos{
+.charts_paralelos {
     display: flex;
     margin-top: 2%;
     width: 45%;
     margin-left: 8rem;
-    height: 16rem; 
+    height: 16rem;
     margin-bottom: 1rem;
     background-color: var(--container-light);
 }
 
 
-.bar_father{
+.bar_father {
     border-radius: 0.5rem;
     height: 0.5rem;
     margin-top: 0.7rem;
@@ -50,67 +49,67 @@
     width: 100%;
 }
 
-.bar_son{
+.bar_son {
     border-radius: 0.5rem 0rem 0rem 0.5rem;
     height: 0.5rem;
     color: var(--tittle-color);
 }
 
-.socialChart_li{
+.socialChart_li {
     display: flex;
     width: 35%;
     padding: 0rem 2rem;
     margin-top: 0.3rem;
 }
 
-.title_social_chart{
+.title_social_chart {
     font-family: 'Baloo 2', cursive;
-    padding:0.7rem 0.5rem;
+    padding: 0.7rem 0.5rem;
     width: 2rem;
     font-size: 0.8rem;
     color: var(--tittle-color);
 }
 
-.social_titles_separation_graficos{
+.social_titles_separation_graficos {
     background-color: var(--container-color);
     padding: 0.5rem 1rem;
     width: 92%;
     margin-bottom: 0.5rem;
-    
-}
-.socialChart{
-    width: 100%;
-    border-radius: 0.5rem ;
-    border: var(--border-box-shadow-container);
-    box-shadow: var(--box-shadow-container)
-    
+
 }
 
-.socialChart_ul{
+.socialChart {
+    width: 100%;
+    border-radius: 0.5rem;
+    border: var(--border-box-shadow-container);
+    box-shadow: var(--box-shadow-container)
+}
+
+.socialChart_ul {
     display: flex;
     flex-direction: column;
     margin-bottom: 0.5rem;
-    
+
 }
 
-.img_social_chart{
+.img_social_chart {
     height: 1.8rem;
     margin-top: 0.2rem;
 }
 
-.text_none{
+.text_none {
     display: none;
 }
 
-.text_hidden{
-visibility: hidden;    
+.text_hidden {
+    visibility: hidden;
 }
 
-.columnchart_material{
-  height: 100%;
+.columnchart_material {
+    height: 100%;
 }
 
-.columnchart_container{
+.columnchart_container {
     width: 10%;
     margin-left: 15%;
     height: 5rem;
@@ -118,8 +117,8 @@ visibility: hidden;
 
 .grafic_img {
     margin-left: 8rem;
-    fill:var(--tittle-color) ;
-    }
+    fill: var(--tittle-color);
+}
 
 .text_grafic {
     font-family: 'Baloo 2', cursive;
