@@ -1,155 +1,158 @@
+.perfil_lead_crm-container {
+  width: 21%;
 
-.perfil_lead_crm-container{
-    width: 21%;
-    
-    margin-left: 1%;
-    margin-top: 3%;
-    box-shadow: -0.1rem 0.2rem rgba(0, 0, 0, 0.074);
-    border-radius: 0.5rem;
-    border: 1px solid rgba(0, 0, 0, 0.074);
-    padding: 1rem;
-    max-height: 70vh;
-    overflow-y: scroll;
-    overflow-x: hidden;
+  margin-left: 1%;
+  margin-top: 3%;
+  box-shadow: -0.1rem 0.2rem rgba(0, 0, 0, 0.074);
+  border-radius: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.074);
+  padding: 1rem;
+  max-height: 70vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
-.search_form_lead-crm{
-    width: 85%;
-    background-color:#979797;
-    border-radius: 1rem;
-    display: flex;
-    justify-content: space-between;
-    padding: 0.5rem 1.2rem;
-    height: 1.5rem;
-    margin-top: 10%;
-    
+.search_form_lead-crm {
+  width: 85%;
+  background-color: #979797;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1.2rem;
+  height: 1.5rem;
+  margin-top: 10%;
+
 
 }
 
-.input_search_lead-crm{
-    width: 90%;
-    background-color: transparent;
-    border: none;
-    outline: none ;}
-
-.button_search_lead-crm{
-    border: none;
-    background-color: transparent;
-    
-   }
-
-   .title_crm-lead{
-    font-size: 1.3rem; 
-    font-weight: bold;
-    margin-top: 25%;
-   }
-
-   .title_informações{
-    font-weight: bold;
-    margin-top: 1rem;
-   }
-
-   .card_info-img{
-    height: 3rem;
-    margin-top: 1rem;
-   }
-
-   .card_info_container{
-    display: flex;
-   }
-
-   .card_info_name{
-    margin-top: 1.3rem;
-    margin-left: 1rem;
-    font-weight: bold;
-   }
-
-   .card_info-data{
-    font-size: 0.8rem;
-    margin-left: 1rem;
-    color: var(--text-color);
-    margin-top: 0.3rem;
-   }
-
-   .card_info_icons-img{
-    height: 0.5rem;
-    margin-top: 0.5rem;
-   }
-
-   .card_info_icons{
-    display: flex;
-    flex-direction: column;
-    margin-left: 1.2rem;
-   }
-
-   .card_info-input{
-    height: 100%;
-    border: none;
-    background-color: transparent;
-    outline: none;
-   }
-
-   .card_info-form{
-    margin-left: 1rem;
-    background-color: #2A8BF2;
-    border-radius: 0.5rem;
-    margin-top: 0.3rem;
-   
-   }
-
-   .card_info{
-    margin-top: 0.5rem;
-   }
-   
-   .card_perfil{
-    box-shadow: -0.1rem 0.2rem rgba(0, 0, 0, 0.074);
-    border-radius: 0.5rem;
-    border: 1px solid rgba(0, 0, 0, 0.074);
-    width: 50%;
-    margin-top: 1rem;
-    margin-left: 0.5rem;
-   }
-
-   .card_perfil-button{
-    margin-bottom: 3rem;
-    margin-top: 1rem;
-    margin-left: 0.5rem;
-    border: none;
-    color: transparent;
-    border-radius: 0.3rem;
-    width: 30%;
-   }
-   .text_hidden{
-    visibility: hidden;    
-    }
-
-    .card_perfil-text{
-        font-size: 0.8rem;
-        width: 80%;
-        margin-left: 0.5rem;
-        margin-bottom: 0.5rem;
-    }
-
-    .card_perfil:hover{
-        background-color: #2A8BF2;
-        cursor: pointer;
-        transition-delay: 100ms;
-    
+.input_search_lead-crm {
+  width: 90%;
+  background-color: transparent;
+  border: none;
+  outline: none;
 }
-  .card_perfil-text:hover{
-    color: #fff;
-  }
 
-  .card_perfil-container{
-    display: flex;
-  }
-    
-.card_perfil-icon{
-    height: 2rem;
-    margin-top: 25%;
-    margin-left: 0.3rem;
+.button_search_lead-crm {
+  border: none;
+  background-color: transparent;
+
+}
+
+.title_crm-lead {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 25%;
+}
+
+.title_informações {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.card_info-img {
+  height: 3rem;
+  margin-top: 1rem;
+}
+
+.card_info_container {
+  display: flex;
+}
+
+.card_info_name {
+  margin-top: 1.3rem;
+  margin-left: 1rem;
+  font-weight: bold;
+}
+
+.card_info-data {
+  font-size: 0.8rem;
+  margin-left: 1rem;
+  color: var(--text-color);
+  margin-top: 0.3rem;
+}
+
+.card_info_icons-img {
+  height: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.card_info_icons {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.2rem;
+}
+
+.card_info-input {
+  height: 100%;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.card_info-form {
+  margin-left: 1rem;
+  background-color: #2A8BF2;
+  border-radius: 0.5rem;
+  margin-top: 0.3rem;
+
+}
+
+.card_info {
+  margin-top: 0.5rem;
+}
+
+.card_perfil {
+  box-shadow: -0.1rem 0.2rem rgba(0, 0, 0, 0.074);
+  border-radius: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.074);
+  width: 50%;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+
+.card_perfil-button {
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+  border: none;
+  color: transparent;
+  border-radius: 0.3rem;
+  width: 30%;
+}
+
+.text_hidden {
+  visibility: hidden;
+}
+
+.card_perfil-text {
+  font-size: 0.8rem;
+  width: 80%;
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.card_perfil:hover {
+  background-color: #2A8BF2;
+  cursor: pointer;
+  transition-delay: 100ms;
+
+}
+
+.card_perfil-text:hover {
+  color: #fff;
+}
+
+.card_perfil-container {
+  display: flex;
+}
+
+.card_perfil-icon {
+  height: 2rem;
+  margin-top: 25%;
+  margin-left: 0.3rem;
 }
 
 .perfil_lead_crm-container::-webkit-scrollbar {
-  width: 5px;               /* width of the entire scrollbar */
+  width: 5px;
+  /* width of the entire scrollbar */
 }

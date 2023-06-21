@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
 
 
-.configEverest_container{
+.configEverest_container {
     width: 90%;
     margin-left: 8%;
     display: flex;
 }
 
-.configEverest_title{
+.configEverest_title {
     font-size: 1.563rem;
     font-weight: bold;
     margin-top: 2rem;
@@ -17,9 +17,9 @@
     margin-left: 21rem;
     transform: rotate(270deg);
 
-} 
+}
 
-.configEverest_configs-container{
+.configEverest_configs-container {
     box-shadow: var(--box-shadow-container);
     border-radius: 0.5rem;
     border: var(--border-box-shadow-container);
@@ -36,7 +36,7 @@
     border-bottom: none;
 }
 
-.card_lembrete{
+.card_lembrete {
     box-shadow: var(--box-shadow-container);
     border-radius: 0.5rem;
     border: var(--border-box-shadow-container);
@@ -46,28 +46,28 @@
     background-color: var(--container-light);
 }
 
-.lembrete_title{
+.lembrete_title {
     color: var(--subtittle-color);
     font-size: 1.25;
     margin-top: 0.5rem;
 }
 
-.Lembrete_text{
+.Lembrete_text {
     color: var(--text-color);
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     font-size: 0.875rem;
 }
 
-.configEverest_configs-cards{
+.configEverest_configs-cards {
     display: flex;
     width: 85%;
     margin-top: 1.5rem;
-   border: var(--border-box-shadow-container);
+    border: var(--border-box-shadow-container);
     cursor: pointer;
 }
 
-.configEverest_configs-cards-img{
+.configEverest_configs-cards-img {
     height: 2.375rem;
 }
 
@@ -75,22 +75,22 @@
     font-size: 1.188rem;
 }
 
-.configEverest_configs-cards-text{
+.configEverest_configs-cards-text {
     font-size: 1rem;
     color: var(--text-color);
     font-weight: bold;
     margin-top: 0.6rem;
 }
 
-.configEverest_configs-cards-text-container{
+.configEverest_configs-cards-text-container {
     margin-left: 1rem;
     margin-bottom: 1rem;
     color: var(--color-text);
-   
+
 }
 
-.last_card{
-    border:none
+.last_card {
+    border: none
 }
 
 .img_circle_container {
@@ -99,22 +99,22 @@
 }
 
 .div_configs-container::-webkit-scrollbar {
-    width: 5px;               /* width of the entire scrollbar */
-  }
+    width: 5px;
+    /* width of the entire scrollbar */
+}
 
 .configEverest_configs-container::-webkit-scrollbar {
-    width: 5px;               /* width of the entire scrollbar */
-  }
+    width: 5px;
+    /* width of the entire scrollbar */
+}
 
-.hidden{
+.hidden {
     display: none;
 }
 
-.div_configs-container{
+.div_configs-container {
     width: 60%;
     overflow-y: scroll;
     max-height: 95vh;
     z-index: 1;
 }
-
-

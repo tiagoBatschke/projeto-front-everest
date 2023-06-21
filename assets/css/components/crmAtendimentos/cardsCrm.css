@@ -1,15 +1,15 @@
-.icons_title_crm{
+.icons_title_crm {
     display: flex;
     margin-top: 0.5rem;
 }
 
-.icons_title_crm-text{
+.icons_title_crm-text {
     margin-left: 1rem;
     margin-top: 0.2rem;
 }
 
-.border_icon-crm{
-    border-left:  var(--border-box-shadow-container);
+.border_icon-crm {
+    border-left: var(--border-box-shadow-container);
     border-right: var(--border-box-shadow-container);
     margin-left: 1rem;
     margin-right: 1rem;
@@ -17,14 +17,14 @@
     padding-right: 0.3rem;
 }
 
-.title_crm-container{
+.title_crm-container {
     display: flex;
     margin-left: 10%;
     margin-top: 3%;
     color: var(--tittle-color);
 }
 
-.title_crm{
+.title_crm {
     font-size: 1.5rem;
     color: var(--tittle-color);
     font-weight: bold;
@@ -32,41 +32,42 @@
     margin-top: 0.4rem;
 }
 
-.filtarPor_Crm{
-     margin-left: 1rem;
+.filtarPor_Crm {
+    margin-left: 1rem;
 }
 
-.filtarPor_img-crm{
+.filtarPor_img-crm {
     height: 1.5rem;
 }
 
-.filtarPor_text-crm{
+.filtarPor_text-crm {
     font-size: 1rem;
     margin-top: 0.3rem;
     margin-left: 0.5rem;
 }
 
-.card_crm-contrainer{
+.card_crm-contrainer {
     margin-left: 1%;
     margin-top: 3%;
     width: 21%;
 }
 
-.main_card-container{
+.main_card-container {
     display: flex;
     width: 92%;
     margin-left: 6%;
     padding-left: 1rem;
+    max-height: 90vh;
 }
 
-.title_crm-card{
+.title_crm-card {
     font-size: 1.3rem;
     color: #2A8BF2;
     border-bottom: 0.1rem solid #2A8BF2;
     padding-bottom: 0.3rem;
 }
 
-.search_form_card-crm{
+.search_form_card-crm {
     width: 90%;
     background-color: var(--container-search);
     border-radius: 1rem;
@@ -75,30 +76,31 @@
     padding: 0.5rem 1.2rem;
     height: 1.5rem;
     margin-top: 5%;
-    
+
 
 }
 
-.input_search_card-crm{
+.input_search_card-crm {
     width: 90%;
     background-color: transparent;
     border: none;
-    outline: none ;}
+    outline: none;
+}
 
-.button_search_card-crm{
+.button_search_card-crm {
     border: none;
     background-color: transparent;
-    
-   }
+
+}
 
 
-.card_crm-title{
+.card_crm-title {
     font-size: 1.1rem;
     font-weight: bold;
 }
 
-.card_crm-text{
-    color: var(--subtittle-color);   
+.card_crm-text {
+    color: var(--subtittle-color);
     margin-left: 7rem;
     font-size: 0.7rem;
     margin-top: -1rem;
@@ -107,28 +109,28 @@
 .card_crm-text-status {
     display: flex;
     font-size: 0.7rem;
-     margin-top: 0.5rem;
-     margin: 0.3rem;
-     margin-left: -0rem;
+    margin-top: 0.5rem;
+    margin: 0.3rem;
+    margin-left: -0rem;
 }
 
-.card_crm{
-padding: 0.2rem 0.8rem;
-box-shadow: var(--box-shadow-container);
-border-radius: 0.5rem;
-border: var(--border-box-shadow-container);
-margin-top: 0.5rem;
+.card_crm {
+    padding: 0.2rem 0.8rem;
+    box-shadow: var(--box-shadow-container);
+    border-radius: 0.5rem;
+    border: var(--border-box-shadow-container);
+    margin-top: 0.5rem;
 }
 
-.card_crm-text-container{
-    margin-top:0.8rem;
+.card_crm-text-container {
+    margin-top: 0.8rem;
     margin-left: 1rem;
     color: var(--text-color);
 }
 
 
 
-.card_crm-number{
+.card_crm-number {
     margin-left: 0.5rem;
     font-size: 0.6rem;
     margin-top: 1rem;
@@ -137,19 +139,19 @@ margin-top: 0.5rem;
 
 }
 
-.card_crm-content{
+.card_crm-content {
     display: flex;
     margin-top: 1rem;
     justify-content: space-evenly;
 }
 
-.img_crm-button{
+.img_crm-button {
     height: 1.6rem;
     margin-top: 50%;
-   
+
 }
 
-.card_crm-buttons-circle{
+.card_crm-buttons-circle {
     border-radius: 100%;
     background: none;
     border: none;
@@ -168,7 +170,7 @@ margin-top: 0.5rem;
 }
 
 
-.card_crm-buttons{
+.card_crm-buttons {
     display: flex;
     justify-content: space-between;
     margin-top: 1rem;
@@ -177,7 +179,7 @@ margin-top: 0.5rem;
     margin-left: 5%;
 }
 
-.card_crm-button{
+.card_crm-button {
     max-height: 1.5rem;
     background-color: var(--container-color);
     border: none;
@@ -188,24 +190,24 @@ margin-top: 0.5rem;
     color: #fff;
 }
 
-.card_crm-buttons-container{
+.card_crm-buttons-container {
     display: flex;
-    
+
 }
 
-.card_crm-contrainer{
-  box-shadow: var(--box-shadow-container);
-  border-radius: 0.5rem;
-  border: var(--border-box-shadow-container);
-  padding: 1rem;
-  max-height: 70vh;
-  overflow-y: scroll;
-  overflow-x: hidden;
+.card_crm-contrainer {
+    box-shadow: var(--box-shadow-container);
+    border-radius: 0.5rem;
+    border: var(--border-box-shadow-container);
+    padding: 1rem;
+    max-height: 70vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 
 
 .card_crm-contrainer::-webkit-scrollbar {
-    width: 5px;               /* width of the entire scrollbar */
-  }
-
+    width: 5px;
+    /* width of the entire scrollbar */
+}

@@ -1,59 +1,60 @@
-.filtro_everest_chat-container{
+.filtro_everest_chat-container {
     width: 24%;
     height: 22%;
     background-color: var(--container-lateral-bar);
     border-radius: 2rem 0rem 0rem 0rem;
     border: var(--border-box-shadow-container);
-   
+
 }
 
 
-.filtro_everest_chat-search-logo{
+.filtro_everest_chat-search-logo {
     display: flex;
     justify-content: space-evenly;
     padding-top: 1.5rem;
-    
+
 }
 
-.filtro_everest_chat-search{
+.filtro_everest_chat-search {
     width: 100%;
     padding-bottom: 3rem;
-   
+
 }
 
-.filtro_everest_chat-title{
+.filtro_everest_chat-title {
     color: var(--text-container-color);
     margin-top: 0.5rem;
     font-size: 1.5rem;
     font-weight: bold;
 }
 
-.close_button{
+.close_button {
     background-color: transparent;
     border: none;
     color: var(--text-container-color);
     font-size: 1.5rem;
     font-weight: bold;
 }
-.logo_everest{
+
+.logo_everest {
     display: flex;
 }
 
 
-.input_search_filtro{
+.input_search_filtro {
     width: 90%;
     background-color: transparent;
     border: none;
-    outline: none ;
+    outline: none;
 }
 
-.button_search_filtro{
+.button_search_filtro {
     border: none;
     background-color: transparent;
-    
-   }
 
-   .search_form_filtro{
+}
+
+.search_form_filtro {
     width: 70%;
     background-color: var(--container-search);
     border-radius: 1rem;
@@ -63,27 +64,27 @@
     height: 1.5rem;
     margin-top: 10%;
     margin-left: 8%;
-   
-   }
+
+}
 
 
-   .filtro_everest_chat-arquivos{
-    border-radius: 2.2rem  0rem 0rem 0rem;
+.filtro_everest_chat-arquivos {
+    border-radius: 2.2rem 0rem 0rem 0rem;
     background-color: var(--container-light);
     margin-top: 1rem;
-  
+
     padding: 3rem 1rem;
 }
 
-   .filtro_everest_chat-arquivos-buttons-container{
-        display: flex;
-       justify-content: space-evenly;
-        z-index: 6;
+.filtro_everest_chat-arquivos-buttons-container {
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 6;
     position: absolute;
-       width: 24%;
-   }
+    width: 24%;
+}
 
-   .filtro_everest_chat-arquivos-buttons{
+.filtro_everest_chat-arquivos-buttons {
     border: none;
     background-color: var(--subtittle-color);
     border-radius: 0.5rem;
@@ -93,31 +94,31 @@
     font-size: 1rem;
     font-weight: 500;
     box-shadow: var(--border-box-shadow-container);
-   }
+}
 
 
-.filtro_everest_chat-arquivos-buttons:hover{
+.filtro_everest_chat-arquivos-buttons:hover {
     background-color: var(--button-color-hover);
     cursor: pointer;
     transition-delay: 100ms;
     color: var(--tittle-color);
 }
 
-.filtarPor_img{
+.filtarPor_img {
     height: 2rem;
 }
 
-.filtro_everest_chat-arquivos_filtrarPor{
+.filtro_everest_chat-arquivos_filtrarPor {
     display: flex;
 }
 
-.filtarPor_text{
+.filtarPor_text {
     margin-top: 0.5rem;
     margin-left: 0.5rem;
 }
 
 
-.chat_card_filtro{
+.chat_card_filtro {
     display: flex;
     border: var(--border-box-shadow-container);
     padding: 0.2rem;
@@ -126,49 +127,45 @@
     margin-bottom: 0.5rem;
 }
 
-.chat_card_filtro-container{
+.chat_card_filtro-container {
     width: 100%;
     max-height: 36vh;
     overflow-y: scroll;
-    padding: 0rem 0.8rem ;
+    padding: 0rem 0.8rem;
     margin-top: 0.5rem
 }
 
-.chats_cards_filtro-img{
+.chats_cards_filtro-img {
     height: 2.5rem;
 }
 
-.chats_cards-title-filtro{
+.chats_cards-title-filtro {
     font-size: 0.8rem;
     margin-top: 0.5rem;
 }
 
-.chats_cards-text-filtro{
+.chats_cards-text-filtro {
     font-size: 0.6rem;
     color: var(--text-color);
     margin-top: 0.3rem;
     margin-bottom: 0.5rem;
 }
 
-.messages_number{
-    color: var(--tittle-color);
-    border-radius: 2rem;
-    padding: 0rem 0.5rem;
-    font-size: 0.8rem;
-}
 
-.chats_cards_filtro-texticon{
+
+.chats_cards_filtro-texticon {
     margin-left: 22%;
 }
 
-.chats_cards_filtro-text{
+.chats_cards_filtro-text {
     margin-left: 1rem;
 }
 
-.chat_card_filtro-container{
+.chat_card_filtro-container {
     margin-top: 1rem;
 }
 
 .chat_card_filtro-container::-webkit-scrollbar {
-    width: 5px;               /* width of the entire scrollbar */
-  }
+    width: 5px;
+    /* width of the entire scrollbar */
+}

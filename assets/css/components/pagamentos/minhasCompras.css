@@ -1,85 +1,86 @@
-.minhasCompras_everest-container-main{
+.minhasCompras_everest-container-main {
    display: flex;
    flex-direction: column;
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 2%;
-  
-   
+   width: 80%;
+   margin-left: 10%;
+   margin-top: 2%;
+
+
 }
 
-.minhasComprasEverest_title{
-    font-size: 1.563rem;
-    font-weight: bold;
-    margin-top: 2rem;
-    border-bottom: 1px solid  rgba(0, 0, 0, 0.074);
-    padding-bottom: 1rem;
+.minhasComprasEverest_title {
+   font-size: 1.563rem;
+   font-weight: bold;
+   margin-top: 2rem;
+   border-bottom: 1px solid rgba(0, 0, 0, 0.074);
+   padding-bottom: 1rem;
 }
- .minhasCompras_everest-container{
-    margin-top: 1rem;
- }
 
- .icon_minhasCompras{
-    background-color: #2A8BF2;
-    padding: 0.8rem;
-    border-radius: 0.5rem;
-    width: 1.5rem;
-    max-height: 1.5rem;
- }
+.minhasCompras_everest-container {
+   margin-top: 1rem;
+}
 
- .minhasCompras_everest-container{
-    display: flex;
-    width: 100%;
- }
+.icon_minhasCompras {
+   background-color: #2A8BF2;
+   padding: 0.8rem;
+   border-radius: 0.5rem;
+   width: 1.5rem;
+   max-height: 1.5rem;
+}
 
- .minhasCompras_card{
-   background-color: var( --container-color) ;
-    margin-left: 1rem;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 65vh;
-    max-height: 65vh;
-    border-radius: 0.9rem;
-    justify-content: space-evenly;
- }
+.minhasCompras_everest-container {
+   display: flex;
+   width: 100%;
+}
 
- .img_everestMinhasCompras-card{
-    width: 1rem;
-    margin-right: 0.5rem;
- }
+.minhasCompras_card {
+   background-color: var(--container-color);
+   margin-left: 1rem;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 65vh;
+   max-height: 65vh;
+   border-radius: 0.9rem;
+   justify-content: space-evenly;
+}
 
- .minhasCompras_card-img_text{
-    display: flex;
-   
-  
- }
+.img_everestMinhasCompras-card {
+   width: 1rem;
+   margin-right: 0.5rem;
+}
+
+.minhasCompras_card-img_text {
+   display: flex;
 
 
- .number_minhasCompras-card{
+}
+
+
+.number_minhasCompras-card {
    color: #f4f4f4df;
-   
- }
+
+}
 
 
- .valores_container{
+.valores_container {
    width: 5rem;
    margin-right: 1rem;
- }
+}
 
- .bold {
+.bold {
    font-weight: bold;
- }
+}
 
- .minhasCompras_button_container-card{
+.minhasCompras_button_container-card {
    height: 3rem;
    display: flex;
    justify-content: space-between;
    width: 80%;
- }
+}
 
- .minhasCompras_button-card{
+.minhasCompras_button-card {
    width: 48%;
    padding: 0.7rem;
    border-radius: 0.5rem;
@@ -88,29 +89,29 @@
    color: #fff;
    cursor: pointer;
    margin-bottom: 0.5rem;
- }
+}
 
- 
 
-.background_red{
+
+.background_red {
    background-color: #FF4F4F;
    width: 100%;
 }
 
-.minhasCompras_card-container{
+.minhasCompras_card-container {
    margin-left: 1rem;
    width: 50%;
-   
+
 }
 
-.background_green{
+.background_green {
    background-color: #4CE364;
    width: 100%;
-  
+
 }
 
 
-.background_white{
+.background_white {
    width: 100%;
    background-color: #fff;
    color: #2A8BF2;
@@ -118,7 +119,8 @@
    border-radius: 0.5rem;
    border: 1px solid rgba(0, 0, 0, 0.074);
 }
-.minhasCompras_button_container{
+
+.minhasCompras_button_container {
    height: 3rem;
    display: flex;
    justify-content: space-between;
@@ -127,40 +129,40 @@
    padding-top: 0.5rem;
 }
 
-.tipoPagamento_select-text{
+.tipoPagamento_select-text {
    color: var(--tittle-color);
 }
 
-.select_page{
+.select_page {
    background-color: var(--container-lateral-bar);
    width: 30%;
 }
 
 
 
-.listaPagameto_item{
-   color: var( --svg);
-   background-color: var(--container-light) ;
+.listaPagameto_item {
+   color: var(--svg);
+   background-color: var(--container-light);
    width: 100%;
 }
 
-.listaPagameto_container{
+.listaPagameto_container {
    width: 89%;
    margin-top: -1rem;
    z-index: 1;
    margin-bottom: 0.5rem;
 }
 
-.listaPagamento{
-   background-color: var(--container-light) ;
+.listaPagamento {
+   background-color: var(--container-light);
    border-radius: 0 0 0.5rem 0.5rem;
    padding: 0.5rem;
 }
 
-.select_page-item{
+.select_page-item {
    box-shadow: -0.1rem 0.2rem rgba(0, 0, 0, 0.074);
-   border-radius: 0 0  0.5rem  0.5rem  ;
+   border-radius: 0 0 0.5rem 0.5rem;
    border: 1px solid rgba(0, 0, 0, 0.074);
    width: 33.5%;
-  
+
 }

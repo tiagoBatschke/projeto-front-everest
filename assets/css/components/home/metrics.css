@@ -1,5 +1,4 @@
-
-.metrics_cards{
+.metrics_cards {
     display: flex;
     padding: 1rem;
     justify-content: space-evenly;
@@ -10,32 +9,32 @@
     border: var(--border-box-shadow-container);
 }
 
-.metrics_imgs{
+.metrics_imgs {
     height: 3rem;
 }
 
-.metrics_text{
+.metrics_text {
     font-size: 0.8rem;
     color: var(--text-color);
 }
 
-.metrics_title{
+.metrics_title {
     font-size: 1.2rem;
     font-weight: bold;
     color: var(--tittle-color);
 }
 
-.metrics_text-container{
+.metrics_text-container {
     width: 60%;
     padding-left: 1rem;
 }
 
-.metrics_img_arrow{
+.metrics_img_arrow {
     margin-bottom: 0rem;
 }
 
-@media(min-width:1300px){
-    .metrics_cards{
+@media(min-width:1300px) {
+    .metrics_cards {
         display: flex;
         padding: 0.5rem;
         justify-content: space-evenly;
@@ -45,9 +44,9 @@
         box-shadow: var(--box-shadow-container);
     }
 
-    .metrics_imgs{
+    .metrics_imgs {
         height: 3.5rem;
     }
 
-    
+
 }

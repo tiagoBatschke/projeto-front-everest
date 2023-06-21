@@ -1,99 +1,103 @@
-.main_content_container{
+.main_content_container {
     display: flex;
     margin-left: 2rem;
 }
 
-.minhaEquipe_metrics_container{
+.minhaEquipe_metrics_container {
     width: 33%;
     padding: 3%;
-   
+
 }
 
-.minhaEqipe_container{
-    
-    border-radius:0.5rem;
+.minhaEqipe_container {
+
+    border-radius: 0.5rem;
     box-shadow: var(--box-shadow-container);
     border: var(--border-box-shadow-container)
-    
 }
 
 .minhaEquipe_titles {
     font-size: 1rem;
     color: var(--text-container-color);
     margin-left: 0.5rem;
-    color:var(--text-container-color);
+    color: var(--text-container-color);
 }
-.minhaEquipe_titles_container{
+
+.minhaEquipe_titles_container {
     display: flex;
-    background-color: var( --button-color-hover);
-   
+    background-color: var(--button-color-hover);
+
 }
-.minhaEquipe_titles_separation{
-    
+
+.minhaEquipe_titles_separation {
+
     background-color: var(--subtittle-color);
     padding: 1rem 1rem;
     width: 50%;
 
 }
 
-.minhaEquipe_titles_separation:hover{
-    background-color:  var(--button-color-hover);
+.minhaEquipe_titles_separation:hover {
+    background-color: var(--button-color-hover);
     cursor: pointer;
     transition-delay: 100ms;
-    
+
 }
 
-.card_colaborators_container{
+.card_colaborators_container {
     display: flex;
     flex-direction: column;
     padding: 0rem 1.6rem;
     background-color: var(--container-light);
 }
-.card_colaborators{
+
+.card_colaborators {
     display: flex;
-    margin-top: 1rem;  
+    margin-top: 1rem;
 }
 
-.card_colaborators_text-container{
+.card_colaborators_text-container {
     padding-top: 0.6rem;
     padding-left: 1rem;
 }
 
-.card_colaborators_title{
+.card_colaborators_title {
     font-weight: bold;
     font-size: 0.8rem;
     color: var(--tittle-color);
 }
 
-.card_colaborators_text{
+.card_colaborators_text {
     font-size: 0.7rem;
     color: var(--text-color);
     margin-top: 0.2rem;
     font-weight: bold;
 }
 
-.card_colaborators_icons-container{
+.card_colaborators_icons-container {
     display: flex;
     padding-bottom: 0.6rem;
     margin-left: 7rem;
 }
-.card_colaborators_icons{
+
+.card_colaborators_icons {
     margin-left: 0.8rem;
     max-width: 1.5rem;
     height: 0.8rem;
 }
-.card_colaborators_icons-container_mid{
+
+.card_colaborators_icons-container_mid {
     display: flex;
     padding-bottom: 0.6rem;
     margin-left: 6rem;
     height: 0.8rem;
 }
 
-.colaborator_img{
+.colaborator_img {
     height: 2rem;
 }
 
-.colaborators_list{
+.colaborators_list {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
@@ -102,23 +106,23 @@
     margin-top: 1rem;
 }
 
-.button_img{
+.button_img {
     height: 3rem;
 }
 
-.button_colaborators_list{
+.button_colaborators_list {
     border: none;
     background-color: transparent;
     margin-top: -0.5rem;
 }
 
-@media(min-width:1300px){
-    .minhaEquipe_metrics_container{
+@media(min-width:1300px) {
+    .minhaEquipe_metrics_container {
         width: 32%;
         padding: 2%;
     }
 
-    .colaborators_list{
+    .colaborators_list {
         display: flex;
         justify-content: space-evenly;
         width: 95%;

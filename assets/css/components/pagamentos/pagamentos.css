@@ -1,13 +1,13 @@
-.pagamentos_everest-container-main{
-   
+.pagamentos_everest-container-main {
+
     display: flex;
     width: 90%;
     margin-left: 7%;
     margin-top: 2%;
-    
+
 }
 
-.card_lembrete{
+.card_lembrete {
     box-shadow: var(--box-shadow-container);
     border-radius: 0.5rem;
     border: var(--border-box-shadow-container);
@@ -16,13 +16,13 @@
     padding: 1rem;
 }
 
-.lembrete_title{
+.lembrete_title {
     color: #2A8BF2;
     font-size: 1.25;
     margin-top: 0.5rem;
 }
 
-.Lembrete_text{
+.Lembrete_text {
     color: var(--text-color);
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
@@ -30,26 +30,26 @@
 }
 
 
-.pagamentosEverest_title{
+.pagamentosEverest_title {
     font-size: 1.563rem;
     font-weight: bold;
     margin-top: 2rem;
 }
 
-.pagamentos_everest-container{
+.pagamentos_everest-container {
     width: 55%;
     margin-left: 6%;
 }
 
-.tipoPagamento_select{
+.tipoPagamento_select {
     width: 40%;
     margin-top: 1rem;
     margin-bottom: -1rem;
-    border-radius: 0.5rem  0.5rem  0rem 0rem;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
     padding: 0.5rem;
 }
 
-.pagamentos_cards{
+.pagamentos_cards {
     display: flex;
     width: 80%;
     justify-content: space-between;
@@ -59,12 +59,12 @@
     margin-bottom: -2rem;
 }
 
-.contador_container{
+.contador_container {
     display: flex;
-    margin-right: -3rem ;
+    margin-right: -3rem;
 }
 
-.button_contador{
+.button_contador {
     height: 1.5rem;
     width: 1.5rem;
     margin-left: 0.5rem;
@@ -72,11 +72,11 @@
     border: none;
     background-color: transparent;
     font-size: 1.2rem;
-    font-weight:lighter;
+    font-weight: lighter;
     cursor: pointer;
 }
 
-.contador_number{
+.contador_number {
     font-size: 1rem;
     height: 1.5rem;
     width: 1.5rem;
@@ -87,27 +87,26 @@
     border: 1px solid #979797;
 }
 
-.card_title{
+.card_title {
     font-size: 1.25rem;
     font-weight: bold;
 }
 
-.card_text{
+.card_text {
     font-size: 0.875rem;
     color: var(--text-color);
     margin-top: 0.5rem;
 }
 
-.pagamento_card-saldo{
+.pagamento_card-saldo {
     font-weight: bold;
     margin-right: -2rem;
     font-size: 1.2rem;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: var(--tittle-color);
 }
 
 .icon_user_pagamentos {
     width: 11%;
     margin-right: -2rem;
-} 
-
+}

@@ -1,11 +1,12 @@
-.main_config-container{
+.main_config-container {
     display: flex;
     width: 92%;
     margin-left: 8%;
     margin-top: 3%;
-    max-height: 86vh;
+    max-height: 83vh;
 }
-.perfilConfig_container{
+
+.perfilConfig_container {
     box-shadow: var(--box-shadow-container);
     border-radius: 0.5rem;
     border: var(--border-box-shadow-container);
@@ -14,16 +15,18 @@
     flex-direction: column;
     align-items: center;
     margin-left: 0.5rem;
-    
+
 }
 
-.perfilConfig_img{
-    height: 10rem;
-    margin-top: 15%;
+.perfilConfig_img {
+    background-color: transparent;
     margin-bottom: 1rem;
-    
+    margin-top: 15%;
+    max-height: 10rem;
+    max-width: 10rem;
 }
-.perfilConfig_text-container{
+
+.perfilConfig_text-container {
     margin-top: 0.5rem;
     margin-bottom: 0rem;
     display: flex;
@@ -31,51 +34,52 @@
     align-items: center;
 }
 
-.perfilConfig_text-title{
+.perfilConfig_text-title {
     font-weight: bold;
     font-size: 1.2rem;
 }
 
-.perfilConfig_text{
+.perfilConfig_text {
     font-size: 1rem;
 
 }
 
-.perfilConfig_icons-container{
+.perfilConfig_icons-container {
     display: flex;
     justify-content: space-evenly;
     width: 60%;
     margin-top: 1rem;
 }
 
-.perfilConfig_icons{
+.perfilConfig_icons {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.perfilConfig_input{
+.perfilConfig_input {
     height: 10%;
     width: 95%;
     border: none;
     background-color: transparent;
-    color: var(--tittle-color);
     margin-left: 2.5%;
     outline: none;
     margin-top: 1rem;
+    color: var(--text-container-color);
 }
 
-.perfilConfig_form{
+
+.perfilConfig_form {
     margin-top: 1.1rem;
     margin-bottom: 1.1rem;
     height: 12rem;
     width: 80%;
-    background-color:  var(--container-light);
+    background-color: var(--container-color);
     border-radius: 0.5rem;
-    
+
 
 }
 
-.perfilConfig_input::placeholder{
-    color: var(--text-color);
+.perfilConfig_input::placeholder {
+    color: var(--text-container-color);
 }

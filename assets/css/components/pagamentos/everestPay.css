@@ -1,4 +1,4 @@
-.everstPay_title-container{
+.everstPay_title-container {
     display: flex;
     align-items: center;
     margin-bottom: 1rem;
@@ -6,14 +6,14 @@
     margin-top: 1rem;
 }
 
-.everstPay_title{
+.everstPay_title {
     font-size: 1.5rem;
     color: var(--text-container-color);
     font-weight: bold;
     margin-left: 0.5rem;
 }
 
-.everestPay-contaiener{
+.everestPay-contaiener {
     background-color: var(--container-color);
     margin-top: -1rem;
     display: flex;
@@ -26,20 +26,20 @@
     margin-left: 1rem;
 }
 
-.everestPay_subtitle{
+.everestPay_subtitle {
     color: #F4F4F4;
     width: 85%;
 }
 
 
-.cartao_card-container{
+.cartao_card-container {
     margin-top: 1rem;
     display: flex;
     width: 90%;
     margin-bottom: 1.5rem;
 }
 
-.cartao_card{
+.cartao_card {
     border: 1px solid #fff;
     height: 4.688rem;
     max-height: 4.688rem;
@@ -53,11 +53,12 @@
 
 
 
-.img_cartao-card{
-    
+.img_cartao-card {
+
     width: 2.5rem;
 }
-.everestPay_form-input{
+
+.everestPay_form-input {
     width: 100%;
     background-color: var(--container-light);
     margin-top: 1rem;
@@ -66,7 +67,7 @@
     border: none;
 }
 
-.everestPay_form-input1{
+.everestPay_form-input1 {
     width: 40%;
     background-color: var(--container-light);
     margin-top: 1rem;
@@ -75,14 +76,14 @@
     border: none;
 }
 
-.everestPay_form{
+.everestPay_form {
     width: 85%;
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.tipoPagamento_select-everestPay{
+.tipoPagamento_select-everestPay {
     width: 85%;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -93,7 +94,7 @@
     cursor: pointer;
 }
 
-.everestPay_valores-container{
+.everestPay_valores-container {
     width: 85%;
     display: flex;
     justify-content: space-between;
@@ -101,16 +102,16 @@
 }
 
 
-.everestPay_valores{
+.everestPay_valores {
     color: var(--text-container-color);
 }
 
-.everestPay_checkout-text{
+.everestPay_checkout-text {
     font-size: 1.25rem;
     color: var(--subtittle-color);
 }
 
-.everestPay_checkout-container{
+.everestPay_checkout-container {
     background-color: var(--container-lateral-bar);
     width: 85%;
     padding: 1rem;
