@@ -11,7 +11,7 @@
 .opened_chat_name-container{
     display: flex;
     margin-top: 0.5rem;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.308);
+    border-bottom: var(--border-container-color);
     padding-bottom: 1rem;
 }
 
@@ -108,7 +108,6 @@
     padding: 1rem;
     margin-top: 0.5rem;
     border-radius: 0.5rem;
-    color: #fff;
     font-size: 0.95rem;
 }
 

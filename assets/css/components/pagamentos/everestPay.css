@@ -8,7 +8,7 @@
 
 .everstPay_title{
     font-size: 1.5rem;
-    color: #fff;
+    color: var(--text-container-color);
     font-weight: bold;
     margin-left: 0.5rem;
 }
@@ -88,8 +88,7 @@
     margin-bottom: 1rem;
     border-radius: 0.5rem 0.5rem 0 0;
     padding: 0.5rem;
-    background-color: var(--body-color);
-    color: #fff;
+    background-color: var(--container-lateral-bar);
     border: none;
     cursor: pointer;
 }
@@ -112,7 +111,7 @@
 }
 
 .everestPay_checkout-container{
-    background-color: var(--body-color);
+    background-color: var(--container-lateral-bar);
     width: 85%;
     padding: 1rem;
     display: flex;

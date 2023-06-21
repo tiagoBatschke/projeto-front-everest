@@ -44,7 +44,8 @@
     width: 90%;
     background-color: transparent;
     border: none;
-    outline: none ;}
+    outline: none ;
+}
 
 .button_search_filtro{
     border: none;
@@ -72,12 +73,9 @@
     margin-top: 1rem;
   
     padding: 3rem 1rem;
-
-   }
-  
+}
 
    .filtro_everest_chat-arquivos-buttons-container{
-       
         display: flex;
        justify-content: space-evenly;
         z-index: 6;

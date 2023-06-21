@@ -19,6 +19,7 @@
 
 .minhaEquipe_titles {
     font-size: 1rem;
+    color: var(--text-container-color);
     margin-left: 0.5rem;
 }
 .minhaEquipe_titles_container{
