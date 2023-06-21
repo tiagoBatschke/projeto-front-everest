@@ -21,6 +21,7 @@
     font-size: 1rem;
     color: var(--text-container-color);
     margin-left: 0.5rem;
+    color:var(--text-container-color);
 }
 .minhaEquipe_titles_container{
     display: flex;

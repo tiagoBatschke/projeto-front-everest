@@ -102,7 +102,7 @@
 
 
 .everestPay_valores{
-    color: var(--text-color);
+    color: var(--text-container-color);
 }
 
 .everestPay_checkout-text{
