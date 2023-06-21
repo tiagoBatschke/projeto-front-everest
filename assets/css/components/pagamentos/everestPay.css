@@ -82,9 +82,14 @@
    justify-content: space-between;
 }
 
+.img_everestPay {
+    margin-top: 2rem;
+    width: 10%;
+}
+
 .tipoPagamento_select-everestPay{
     width: 85%;
-    margin-top: 1rem;
+    margin-top: 0.2rem;
     margin-bottom: 1rem;
     border-radius: 0.5rem 0.5rem 0 0;
     padding: 0.5rem;
@@ -93,13 +98,19 @@
     cursor: pointer;
 }
 
+
 .everestPay_valores-container{
     width: 85%;
+    height: 4%;
     display: flex;
     justify-content: space-between;
     margin-bottom: 0.5rem;
 }
 
+
+.tipoPagamento_select-text {
+    padding: 0.2rem 0.4rem 0rem 1.5rem;
+}
 
 .everestPay_valores{
     color: var(--text-color);
