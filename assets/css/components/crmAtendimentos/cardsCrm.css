@@ -67,6 +67,20 @@
     padding-bottom: 0.3rem;
 }
 
+.title_crm-card2 {
+    font-size: 1.3rem;
+    color: #4CE364;
+    border-bottom: 0.1rem solid #4CE364;
+    padding-bottom: 0.3rem;
+}
+
+.title_crm-card3 {
+    font-size: 1.3rem;
+    color: #FFD80C;
+    border-bottom: 0.1rem solid #FFD80C;
+    padding-bottom: 0.3rem;
+}
+
 .search_form_card-crm {
     width: 90%;
     background-color: var(--container-search);
@@ -97,6 +111,7 @@
 .card_crm-title {
     font-size: 1.1rem;
     font-weight: bold;
+    color: var(--tittle-color);
 }
 
 .card_crm-text {
@@ -182,6 +197,29 @@
 .card_crm-button {
     max-height: 1.5rem;
     background-color: var(--container-color);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.1rem 0.7rem;
+    margin-left: 0.5rem;
+    margin-top: 0.9rem;
+    color: #fff;
+}
+
+.card_crm-button1 {
+    max-height: 1.5rem;
+    background-color: #4CE364;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.1rem 0.7rem;
+    margin-left: 0.5rem;
+    margin-top: 0.9rem;
+    color: #fff;
+}
+
+
+.card_crm-button2 {
+    max-height: 1.5rem;
+    background-color: #FFD80C;
     border: none;
     border-radius: 0.5rem;
     padding: 0.1rem 0.7rem;
