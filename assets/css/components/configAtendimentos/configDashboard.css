@@ -20,11 +20,13 @@
 .dashBoardCard_text-title {
     font-weight: bold;
     font-size: 1.5rem;
+    color: var(--tittle-color);
 }
 
 .dashBoardCard_text {
     font-size: 1.2rem;
     margin-top: 5%;
+    color: var(--tittle-color);
 }
 
 .dashBoardCard_icons {

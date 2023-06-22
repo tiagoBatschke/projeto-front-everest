@@ -37,10 +37,12 @@
 .perfilConfig_text-title {
     font-weight: bold;
     font-size: 1.2rem;
+    color: var(--tittle-color);
 }
 
 .perfilConfig_text {
     font-size: 1rem;
+    color: var(--tittle-color);
 
 }
 
