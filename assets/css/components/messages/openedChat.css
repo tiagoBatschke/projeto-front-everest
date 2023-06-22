@@ -69,9 +69,15 @@
 
 .text_box-button {
     border: none;
-
     background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 2.5rem;
+}
 
+.text_box-button:hover{
+    cursor: pointer;
 }
 
 .text_box-form {
@@ -114,6 +120,7 @@
     margin-top: 0.5rem;
     border-radius: 0.5rem;
     font-size: 0.95rem;
+    color: var(--text-container-color)
 }
 
 .chat_response-hour {
@@ -134,7 +141,7 @@
     background-color: #C4C4C4;
     padding: 1rem;
     border-radius: 0.5rem;
-    color: var(--text-color);
+    color: var(--text-container-color);
     margin-left: 60%;
 }
 
@@ -164,7 +171,7 @@
     margin-left: 1rem;
     margin-top: 0.5rem;
     border-radius: 0.5rem;
-    color: #fff;
+    color: var(--text-container-color);
     font-size: 0.95rem;
 }
 
@@ -183,4 +190,24 @@
 .chat_container::-webkit-scrollbar {
     width: 5px;
     /* width of the entire scrollbar */
+}
+
+.button_aberto{
+
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    position: static;
+    align-items: start;
+    position: absolute;
+   margin-top: -9.5rem;
+   margin-left: 1.7rem;
+}
+
+.text_button-aberto{
+    background-color: var(--container-tutorial) ;
+    padding: 0.3rem;
+    margin-left: 0.5rem;
+    border-radius: 0.5rem;
+    color: var(--tittle-color);
 }

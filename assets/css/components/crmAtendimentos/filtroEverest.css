@@ -86,22 +86,31 @@
 
 .filtro_everest_chat-arquivos-buttons {
     border: none;
-    background-color: var(--subtittle-color);
+    background-color: var(--container-tutorial);
     border-radius: 0.5rem;
     padding: 0.3rem 1rem;
     width: 6rem;
-    color: var(--text-container-color);
+    color: var(--svg);
     font-size: 1rem;
     font-weight: 500;
     box-shadow: var(--border-box-shadow-container);
 }
 
+.button_evidencia{
+    background-color: var(--svg);
+    color: var(--text-container-color);
+}
 
 .filtro_everest_chat-arquivos-buttons:hover {
-    background-color: var(--button-color-hover);
+    background-color: var(--svg);
     cursor: pointer;
     transition-delay: 100ms;
-    color: var(--tittle-color);
+    color: var(--text-container-color);
+}
+
+.button_evidencia:hover{
+    background-color: var(--container-lateral-bar);
+    color: var(--text-container-color);
 }
 
 .filtarPor_img {
@@ -129,6 +138,7 @@
 
 .chat_card_filtro-container {
     width: 100%;
+    height: 36vh;
     max-height: 36vh;
     overflow-y: scroll;
     padding: 0rem 0.8rem;
