@@ -42,11 +42,13 @@
   font-size: 1.3rem;
   font-weight: bold;
   margin-top: 25%;
+  color: var(--tittle-color);
 }
 
 .title_informações {
   font-weight: bold;
   margin-top: 1rem;
+  color: var(--tittle-color);
 }
 
 .card_info-img {
@@ -62,6 +64,7 @@
   margin-top: 1.3rem;
   margin-left: 1rem;
   font-weight: bold;
+  color: var(--tittle-color);
 }
 
 .card_info-data {
@@ -129,6 +132,7 @@
   width: 80%;
   margin-left: 0.5rem;
   margin-bottom: 0.5rem;
+  color: var(--tittle-color);
 }
 
 .card_perfil:hover {
