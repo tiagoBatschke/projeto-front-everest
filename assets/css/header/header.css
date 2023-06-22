@@ -136,3 +136,61 @@
     cursor: pointer;
     color: var( --span-color);
 }
+
+
+.menu_notifications-container{
+    background-color: var(--container-tutorial);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 3;
+    margin-left: -21%;
+    margin-top: 1rem;
+    height: 80vh;
+    max-height: 80vh;
+    overflow-y: scroll;
+    padding: 1rem;
+    width: 22%;
+    border-radius: 0.5rem;
+    border: 1px solid var(--text-color) ;
+}
+
+.card_menuNotifications-title{
+    font-weight: bold;
+}
+
+.card_menuNotifications-subtitle{
+    font-size: 0.875rem;
+    margin-top: 0.3rem;
+}
+
+.card_menuNotifications{
+    display: flex;
+   
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 1rem;
+   
+}
+
+.menuNotifications-title {
+    font-size: 2.063rem;
+    margin-left: 3%;
+
+}
+
+.menuNotifications-subtitle{
+    font-size: 1.25rem;
+    margin-top: 1rem;
+    margin-left: 3%;
+}
+
+.img_card_menuNotifications{
+    margin-right: 1.8rem;
+}
+
+
+.menu_notifications-container::-webkit-scrollbar {
+    width: 5px;
+    /* width of the entire scrollbar */
+}
