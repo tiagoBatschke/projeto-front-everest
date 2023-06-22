@@ -212,3 +212,66 @@
     border-radius: 0.5rem;
     color: var(--tittle-color);
 }
+
+.list_chatOpened-container{
+    position: fixed;
+    z-index: 1;
+    margin-left: 25%;
+    margin-top: -1.8rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--text-color) ;
+}
+
+.icon_opitions_opened_chat-conteiner:hover{
+    cursor: pointer;
+}
+
+.card_confirmation-chat{
+    background-color:var( --container-light);
+    position: fixed;
+    z-index: 1;
+    margin-top: 4rem;
+    margin-left: 5%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--text-color) ;
+    height: 22vh;
+    width: 25rem;
+}
+.card_confirmation-chat-fechar{
+    background-color: var(--span-color);
+    width: 104%;
+    margin-left: -1rem;
+    margin-top: -1rem;
+    border-radius:  0.5rem 0.5rem 0 0;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: flex-end;
+    color: #fff;
+}
+
+.card_confirmation-chat-title{
+    font-size: 1.75rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+.blue_title{
+    color: var(--span-color);
+}
+
+.card_confirmation-chat-subtitle{
+    margin-top: 1rem;
+}
+
+.card_confirmation-chat-buttons-container{
+    margin-top: 2rem;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    height: 2rem;
+    
+}

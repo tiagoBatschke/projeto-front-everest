@@ -43,13 +43,6 @@
     --black-tutorial: #4e4d4d;
 }
 
-
-.text {
-    text-decoration: none;
-    font-family: 'Baloo 2', cursive;
-
-}
-
 .title_color{
     color: var(--tittle-color);
 }
@@ -57,3 +50,10 @@
 .text_color{
     color: var(--text-color);
 }
+
+.text {
+    text-decoration: none;
+    font-family: 'Baloo 2', cursive;
+    
+}
+
