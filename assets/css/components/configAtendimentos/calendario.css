@@ -35,6 +35,7 @@ td {
 
 .calendario_options {
     font-size: 0.8rem;
+    color: var(--tittle-color);
 }
 
 th {
