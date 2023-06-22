@@ -109,3 +109,30 @@
     margin-right: 0.7rem;
     margin-top: 0.5rem;
 }
+
+.list_meuPerfil-container{
+    
+    z-index: 1;
+    position: fixed;
+    margin-top: 1rem;
+    margin-left: 3.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--text-color) ;
+}
+
+.list_meuPerfil-text{
+    background-color: var(--container-tutorial);
+    padding: 0.5rem;
+    
+    width: 8rem;
+}
+
+.border_meuPerfil-list{
+    border-top: 1px solid var(--text-color);
+    border-bottom:1px solid var(--text-color) ;
+}
+
+.list_meuPerfil-text:hover{
+    cursor: pointer;
+    color: var( --span-color);
+}

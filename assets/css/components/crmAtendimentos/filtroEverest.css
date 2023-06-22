@@ -98,14 +98,14 @@
 
 .button_evidencia{
     background-color: var(--svg);
-    color: var(--text-container-color);
+    color: var( --container-light);
 }
 
 .filtro_everest_chat-arquivos-buttons:hover {
     background-color: var(--svg);
     cursor: pointer;
     transition-delay: 100ms;
-    color: var(--text-container-color);
+    color: var( --container-light);
 }
 
 .button_evidencia:hover{
@@ -121,9 +121,13 @@
     display: flex;
 }
 
+.filtro_everest_chat-arquivos_filtrarPor:hover{
+    cursor: pointer;
+}
 .filtarPor_text {
     margin-top: 0.5rem;
     margin-left: 0.5rem;
+    color: var(--tittle-color);
 }
 
 
@@ -152,6 +156,7 @@
 .chats_cards-title-filtro {
     font-size: 0.8rem;
     margin-top: 0.5rem;
+    color: var(--tittle-color);
 }
 
 .chats_cards-text-filtro {
@@ -178,4 +183,40 @@
 .chat_card_filtro-container::-webkit-scrollbar {
     width: 5px;
     /* width of the entire scrollbar */
+}
+
+.filtro_aberto-buttons-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 8%;
+    margin-top: 1rem;
+}
+
+.aberto-buttons{
+    width: 48%;
+    margin-bottom: 2rem;
+}
+
+.subtitle_filtro-aberto{
+    color: var(--tittle-color);
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1rem;
+}
+
+.aberto-buttons-fora {
+    width: 48%;
+}
+
+.filtro_aberto-buttons-container-fora{
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    margin-top: -3rem;
+    width: 20%;
+    margin-left: 0.3rem;
+    background-color: var(--container-light);
+    padding-top: 0.2rem;
 }

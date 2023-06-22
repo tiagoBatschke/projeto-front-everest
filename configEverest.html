@@ -158,48 +158,49 @@
         </form>
         </div>
         <div class="header_container-icons">
-         
-            
-                <svg class="img_icon_header " width="34" height="34" viewBox="0 0 34 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="img_icon_header " width="34" height="34" viewBox="0 0 34 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                    <rect opacity="0.01" width="33.7143" height="33.7143" fill="black"/>
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M28.8251 21.3662L26.2966 18.8236V12.5584C26.3661 7.74754 22.8766 3.62252 18.1208 2.89361C15.4206 2.538 12.6979 3.36246 10.6485 5.15634C8.59914 6.95023 7.42152 9.53977 7.41655 12.2634V18.8236L4.88798 21.3662C4.23865 22.0264 4.04767 23.0112 4.40317 23.8662C4.75866 24.7212 5.59153 25.2803 6.5175 25.2855H11.2375V25.7631C11.3741 28.7323 13.8869 31.0315 16.8566 30.9046C19.8262 31.0315 22.339 28.7323 22.4756 25.7631V25.2855H27.1956C28.1216 25.2803 28.9544 24.7212 29.3099 23.8662C29.6654 23.0112 29.4745 22.0264 28.8251 21.3662ZM19.6661 25.7631C19.5043 27.1669 18.2661 28.1945 16.8566 28.095C15.447 28.1945 14.2089 27.1669 14.0471 25.7631V25.2855H19.6661V25.7631ZM9.39725 20.8184L7.73963 22.476H25.9734L24.3018 20.8184C23.7759 20.2882 23.4827 19.5704 23.487 18.8236V12.5022C23.559 9.09999 21.1145 6.16424 17.7556 5.61885C15.848 5.3699 13.9274 5.97075 12.5018 7.26242C11.0572 8.52302 10.2276 10.3461 10.2261 12.2634V18.8236C10.2266 19.5724 9.9283 20.2905 9.39725 20.8184Z" fill="var(--text-color)"/>
                 </svg>
-                    
-           
-            <a href="" class="links_header "><img class="img_icon_header icon_person_header" src="./assets/imgs/person-circle.svg" alt=""></a>
-            <a onclick='toggleClass()'  id='sun-set'  class='links_header dark_mode '><span id='button_img'></span></a>
-        </div>
+               <span onclick="openList('meuPerfil-list')" href="" class="links_header "><img class="img_icon_header icon_person_header" src="./assets/imgs/person-circle.svg" alt=""></span>
+               <a onclick='toggleClass()'  id='sun-set'  class='links_header dark_mode '><span id='button_img'></span></a>
+               <div id="meuPerfil-list" class="list_meuPerfil-container hidden" >
+                   <p class="list_meuPerfil-text  title_color text" style="border-radius: 0.5rem 0.5rem 0 0 ;">Ver meu perfil</p>
+                   <p class="list_meuPerfil-text  title_color border_meuPerfil-list text">Mensagens</p>
+                   <p class="list_meuPerfil-text  title_color text" style="border-radius: 0 0 0.5rem 0.5rem  ;">Sac Everest</p>
+               </div>
+           </div>
     </div>
    </header>
    <main class="configEverest_container">
     <div class="configEverest_configs-container">
-        <h1 class="configEverest_title text">Configurações Everest</h1>
+        <h1 class="configEverest_title title_color text">Configurações Everest</h1>
 
         <div class="card_lembrete">
-            <h1   class="lembrete_title text ">Lembrete de Pagamento</h1>
+            <h1   class="lembrete_title title_color text ">Lembrete de Pagamento</h1>
             <p style="color: var(--text-color);" class="Lembrete_text text">Você pode adicionar mais <span style="font-weight: bold; color: var(--text-color);">10 funcionários</span> com o Plano de pagamento atual. Acesse “Pagamentos” para obter mais usuários.</p>
         </div>
         <div onclick="openPage('configGeralId', ['integracoesId', 'configColabId', 'configGeralId', 'cadastroUsuario'])"  class="configEverest_configs-cards">
             <img class="configEverest_configs-cards-img" src="./assets/imgs/Rectangle 3281 blue.png" alt="">
             <div class="configEverest_configs-cards-text-container">
-                <h2 class="configEverest_configs-cards-title text">Permissões Gerais</h2>
-                <p class="configEverest_configs-cards-text text">Configure as permissões do Sistema</p>
+                <h2 class="configEverest_configs-cards-title title_color  text">Permissões Gerais</h2>
+                <p class="configEverest_configs-cards-text title_color text">Configure as permissões do Sistema</p>
                 <img class="metrics_img_arrow-1"  src="./assets/imgs/arrow.svg" alt="">
             </div>
         </div>
         <div  onclick="openPage('configColabId', ['integracoesId', 'configColabId', 'configGeralId', 'cadastroUsuario'])" class="configEverest_configs-cards">
             <img class="configEverest_configs-cards-img" src="./assets/imgs/Rectangle 3282 green.png" alt="">
             <div class="configEverest_configs-cards-text-container">
-                <h2 class="configEverest_configs-cards-title text">Permissões Colaboradores</h2>
-                <p class="configEverest_configs-cards-text text">Configure as permissões de seus funcionários</p>
+                <h2 class="configEverest_configs-cards-title title_color text">Permissões Colaboradores</h2>
+                <p class="configEverest_configs-cards-text title_color text">Configure as permissões de seus funcionários</p>
                 <img class="metrics_img_arrow-1"  src="./assets/imgs/arrow.svg" alt="">
             </div>
         </div>
         <div onclick="openPage('cadastroUsuario', ['integracoesId', 'configColabId', 'configGeralId', 'cadastroUsuario'])"  class="configEverest_configs-cards">
             <img class="configEverest_configs-cards-img" src="./assets/imgs/Rectangle 3283 yellow.png" alt="">
             <div class="configEverest_configs-cards-text-container">
-                <h2 class="configEverest_configs-cards-title text">Cadastro de Usuário</h2>
-                <p class="configEverest_configs-cards-text text">Cadastre novos usuários no seu Everest</p>
+                <h2 class="configEverest_configs-cards-title title_color text">Cadastro de Usuário</h2>
+                <p class="configEverest_configs-cards-text title_color text">Cadastre novos usuários no seu Everest</p>
                 <img class="metrics_img_arrow-1"  src="./assets/imgs/arrow.svg" alt="">
             </div>
         </div>
@@ -215,8 +216,8 @@
             <img class="configEverest_configs-cards-img" src="./assets/imgs/Rectangle 3285 pink.png
             " alt="">
             <div class="configEverest_configs-cards-text-container">
-                <h2 class="configEverest_configs-cards-title text">Integrações</h2>
-                <p class="configEverest_configs-cards-text text">Cadastre suas Redes Sociais no Everest</p>
+                <h2 class="configEverest_configs-cards-title title_color text">Integrações</h2>
+                <p class="configEverest_configs-cards-text title_color text">Cadastre suas Redes Sociais no Everest</p>
                 <img class="metrics_img_arrow-1"  src="./assets/imgs/arrow.svg" alt="">
             </div>
         </div>
@@ -232,21 +233,21 @@
     <div id="configColabId" class="div_configs-container hidden">
         <div class="config_colab-container">
             <div class="config_colab">
-            <h1 class="integracoes_tittle text">Configurações Colaboradores </h1>
-            <span class="integracoes_subtitle text"> Atendente</span>
-            <p class="integrações_tittle-text text"> Permissões do perfil de Atendente para geração de Lead, Chamado e
+            <h1 class="integracoes_tittle title_color text">Configurações Colaboradores </h1>
+            <span class="integracoes_subtitle title_color text"> Atendente</span>
+            <p class="integrações_tittle-text text_color text"> Permissões do perfil de Atendente para geração de Lead, Chamado e
                 Personalização Everest:</p>
                 
                    <form class="config_colab-form" action="">
-                    <label for="" class="config_colab-form-label  text">
+                    <label for="" class="config_colab-form-label text_color  text">
                         <input class="config_colab-form-input" type="radio" checked>
                        
                         Lead</label>
-                    <label for="" class="config_colab-form-label  text">
+                    <label for="" class="config_colab-form-label text_color  text">
                         <input class="config_colab-form-input" type="radio" checked>
                         
                         Chamados</label>
-                    <label for="" class="config_colab-form-label text">
+                    <label for="" class="config_colab-form-label text_color text">
                         <input class="config_colab-form-input" type="radio" checked>
                         
                         Configurações Everest</label>
@@ -256,20 +257,20 @@
             </div>
             <div class="config_colab">
                
-                <span class="integracoes_subtitle text">Supervisor de Vendas</span>
-                <p class="integrações_tittle-text text"> Permissões do perfil de Supervisor de Vendas para geração de Lead, 
+                <span class="integracoes_subtitle title_color text">Supervisor de Vendas</span>
+                <p class="integrações_tittle-text text_color text"> Permissões do perfil de Supervisor de Vendas para geração de Lead, 
                     Chamado e Personalização Everest:</p>
                     
                        <form class="config_colab-form" action="">
-                        <label for="" class="config_colab-form-label  text">
+                        <label for="" class="config_colab-form-label text_color  text">
                             <input class="config_colab-form-input" type="radio" checked>
                            
                             Lead</label>
-                        <label for="" class="config_colab-form-label  text">
+                        <label for="" class="config_colab-form-label text_color  text">
                             <input class="config_colab-form-input" type="radio" checked>
                             
                             Chamados</label>
-                        <label for="" class="config_colab-form-label text">
+                        <label for="" class="config_colab-form-label text_color text">
                             <input class="config_colab-form-input" type="radio" checked>
                             
                             Configurações Everest</label>
@@ -278,20 +279,20 @@
                         
                 </div>
                 <div class="config_colab">
-                    <span class="integracoes_subtitle text"> Supervisor de Atendimento</span>
-                    <p class="integrações_tittle-text text"> Permissões do perfil de Supervisor de Atendimento para geração de Lead,
+                    <span class="integracoes_subtitle title_color text"> Supervisor de Atendimento</span>
+                    <p class="integrações_tittle-text text_color text"> Permissões do perfil de Supervisor de Atendimento para geração de Lead,
                         Chamado e Personalização Everest:</p>
                         
                            <form class="config_colab-form" action="">
-                            <label for="" class="config_colab-form-label  text">
+                            <label for="" class="config_colab-form-label text_color text">
                                 <input class="config_colab-form-input" type="radio" checked>
                                
                                 Lead</label>
-                            <label for="" class="config_colab-form-label  text">
+                            <label for="" class="config_colab-form-label text_color text">
                                 <input class="config_colab-form-input" type="radio" checked>
                                 
                                 Chamados</label>
-                            <label for="" class="config_colab-form-label text">
+                            <label for="" class="config_colab-form-label text_color text">
                                 <input class="config_colab-form-input" type="radio" checked>
                                 
                                 Configurações Everest</label>
@@ -301,37 +302,37 @@
                     </div>
                 </div>
                 <div class="config_colab_butons-container">
-                    <button class="config_colab_butons text">Criar evento</button>
-                    <button class="config_colab_butons text">Criar evento</button>
+                    <button class="config_colab_butons  text">Criar evento</button>
+                    <button class="config_colab_butons  text">Criar evento</button>
                 </div>
     </div>
     <div id="configGeralId" class="div_configs-container hidden">
         <div class="config_colab-container">
             <div class="config_colab">
-            <h1 class="integracoes_tittle text">Configurações Gerais</h1>
-            <span class="integracoes_subtitle text"> Atribuição</span>
-            <p class="integrações_tittle-text text"> Distribuição dos Chamados para os Colaboradores:</p>
+            <h1 class="integracoes_tittle title_color text">Configurações Gerais</h1>
+            <span class="integracoes_subtitle title_color text"> Atribuição</span>
+            <p class="integrações_tittle-text text_color text"> Distribuição dos Chamados para os Colaboradores:</p>
                 
                    <form class="config_colab-form" action="">
-                    <label for="" class="config_colab-form-label  text">
+                    <label for="" class="config_colab-form-label text_color text">
                         <input class="config_colab-form-input" type="radio" checked>
                        
                         Distribuição Manual</label>
-                    <label for="" class="config_colab-form-label  text">
+                    <label for="" class="config_colab-form-label text_color  text">
                         <input class="config_colab-form-input" type="radio" checked>
                         
                         Distribuição Automática</label>
-                    <label for="" class="config_colab-form-label text">
+                    <label for="" class="config_colab-form-label text_color text">
                         <input class="config_colab-form-input" type="radio" checked>
                         
                         Configurações Everest</label>
                
                    </form>
 
-                   <p class="integrações_tittle-text text"> Se acionado, somente usuários logados recebem Chamados:</p>
+                   <p class="integrações_tittle-text text_color text"> Se acionado, somente usuários logados recebem Chamados:</p>
 
                    <form class="config_colab-form" action="">
-                   <label for="" class="config_colab-form-label text">
+                   <label for="" class="config_colab-form-label text_color text">
                     <input class="config_colab-form-input" type="radio" checked>
                     
                     Somente usuários logados</label>
@@ -340,23 +341,23 @@
             </div>
             <div class="config_colab">
                
-                <span class="integracoes_subtitle text">Interação com o Chat</span>
-                <p class="integrações_tittle-text text"> Configurações a respeito dos Chats:</p>
+                <span class="integracoes_subtitle title_color text">Interação com o Chat</span>
+                <p class="integrações_tittle-text text_color text"> Configurações a respeito dos Chats:</p>
                     
                        <form class="config_colab-form" action="">
-                        <label for="" class="config_colab-form-label  text">
+                        <label for="" class="config_colab-form-label text_color text">
                             <input class="config_colab-form-input" type="radio" checked>
                            
                             Mascarar informações pessoais do Cliente</label>
-                        <label for="" class="config_colab-form-label  text">
+                        <label for="" class="config_colab-form-label text_color  text">
                             <input class="config_colab-form-input" type="radio" checked>
                             
                             Administrador interage com os Chats</label>
-                        <label for="" class="config_colab-form-label text">
+                        <label for="" class="config_colab-form-label text_color text">
                             <input class="config_colab-form-input" type="radio" checked>
                             
                             Supervisor de Vendas interage com Chatst</label>
-                            <label for="" class="config_colab-form-label text">
+                            <label for="" class="config_colab-form-label text_color text">
                                 <input class="config_colab-form-input" type="radio" checked>
                                 
                                 Supervisor de Atendimento interage com Chats</label>
@@ -374,21 +375,21 @@
   <div id="integracoesId" class="div_configs-container hidden">
       <div class="integraçoes_configs ">
         <div class="integracoes_intro">
-            <h1 class="integracoes_tittle text">Integrações</h1>
-            <span class="integracoes_subtitle text">Atribuições</span>
-            <p class="integrações_tittle-text text">Selecione seus Colaboradores e suas respectivas conexões no Everest.</p>
+            <h1 class="integracoes_tittle title_color text">Integrações</h1>
+            <span class="integracoes_subtitle title_color text">Atribuições</span>
+            <p class="integrações_tittle-text title_color text">Selecione seus Colaboradores e suas respectivas conexões no Everest.</p>
        </div>
             <div class="container_integracoes">
                 <div class="integracoes_card_title-container">
                     <img class="img_title-card" src="./assets/imgs/Rectangle 3284 gray.png" alt="">
                     <div>
-                        <h2 class="tittle_midias-sociais text">Facebook</h2>
-                        <p class="text_integrações_container fundo_azul text">Foco Solution Provi...</p>
+                        <h2 class="tittle_midias-sociais text_color text">Facebook</h2>
+                        <p class="text_integrações_container  fundo_azul text">Foco Solution Provi...</p>
                     </div>
                   
                 </div>
                 <p class="text_integrações_container fundo_azul text">Total de Conexões Disponíveis:</p>
-                <p class="text_subtittle_container text">Colaboradores Conectados</p>
+                <p class="text_subtittle_container text_color text">Colaboradores Conectados</p>
                 <img class="img_circle_container" src="assets/imgs/Ellipse.png" alt="">
                 <img class="img_circle_container" src="assets/imgs/Ellipse.png" alt="">
                 <img class="img_circle_container" src="assets/imgs/Ellipse.png" alt="">
@@ -398,13 +399,13 @@
                 <div class="integracoes_card_title-container">
                     <img class="img_title-card" src="./assets/imgs/Rectangle 3284 gray.png" alt="">
                     <div>
-                        <h2 class="tittle_midias-sociais text">Instagram</h2>
-                        <p class="text_integrações_container fundo_vermelho text">@app-everest</p>
+                        <h2 class="tittle_midias-sociais text_color text">Instagram</h2>
+                        <p class="text_integrações_container fundo_vermelho  text">@app-everest</p>
                     </div>
                   
                 </div>
                   <p class="text_integrações_container fundo_vermelho text">Total de Conexões Disponíveis:</p>
-                  <p class="text_subtittle_container text">Colaboradores Conectados</p>
+                  <p class="text_subtittle_container text_color text">Colaboradores Conectados</p>
                   <img class="img_circle_container" src="assets/imgs/Ellipse red.png" alt="">
                   <img class="img_circle_container" src="assets/imgs/Ellipse red.png" alt="">
                   <img class="img_circle_container" src="assets/imgs/Ellipse red.png" alt="">
@@ -414,13 +415,13 @@
                 <div class="integracoes_card_title-container">
                     <img class="img_title-card" src="./assets/imgs/Rectangle 3284 gray.png" alt="">
                     <div>
-                        <h2 class="tittle_midias-sociais text">WhatsApp</h2>
-                        <p class="text_integrações_container fundo_verde text">+55 11 9678-9090</p>
+                        <h2 class="tittle_midias-sociais text_color text">WhatsApp</h2>
+                        <p class="text_integrações_container fundo_verde  text">+55 11 9678-9090</p>
                     </div>
                   
                 </div>
                   <p class="text_integrações_container fundo_verde text">Total de Conexões Disponíveis:</p>
-                  <p class="text_subtittle_container text">Colaboradores Conectados</p>
+                  <p class="text_subtittle_container text_color text">Colaboradores Conectados</p>
                   <img class="img_circle_container"  src="assets/imgs/Ellipse green.png" alt="">
                   <img class="img_circle_container"  src="assets/imgs/Ellipse green.png" alt="">
                   <img class="img_circle_container"  src="assets/imgs/Ellipse green.png" alt="">
@@ -430,13 +431,13 @@
                 <div class="integracoes_card_title-container">
                     <img class="img_title-card" src="./assets/imgs/Rectangle 3284 gray.png" alt="">
                     <div>
-                        <h2 class="tittle_midias-sociais text">Telegram</h2>
+                        <h2 class="tittle_midias-sociais text_color text">Telegram</h2>
                         <p class="text_integrações_container fundo_azul-claro text">+55 11 9678-9090</p>
                     </div>
                   
                 </div>
                   <p class="text_integrações_container fundo_azul-claro text">Total de Conexões Disponíveis:</p>
-                  <p class="text_subtittle_container text">Colaboradores Conectados</p>
+                  <p class="text_subtittle_container text_color text">Colaboradores Conectados</p>
                   <img class="img_circle_container"  src="assets/imgs/Ellipse.png" alt="">
                   <img class="img_circle_container"  src="assets/imgs/Ellipse.png" alt="">
                   <img class="img_circle_container"  src="assets/imgs/Ellipse.png" alt="">
@@ -446,13 +447,13 @@
                 <div class="integracoes_card_title-container">
                     <img class="img_title-card" src="./assets/imgs/Rectangle 3284 gray.png" alt="">
                     <div>
-                        <h2 class="tittle_midias-sociais text">ChatBot Everest</h2>
+                        <h2 class="tittle_midias-sociais text_color text">ChatBot Everest</h2>
                         <p class="text_integrações_container fundo_azul text">Website #1</p>
                     </div>
                   
                 </div>
                   <p class="text_integrações_container fundo_azul text">Total de Conexões Disponíveis:</p>
-                  <p class="text_subtittle_container text">Colaboradores Conectados</p>
+                  <p class="text_subtittle_container text_color text">Colaboradores Conectados</p>
                   <img class="img_circle_container"  src="assets/imgs/Ellipse.png" alt="">
                   <img class="img_circle_container"  src="assets/imgs/Ellipse.png" alt="">
                   <img class="img_circle_container"  src="assets/imgs/Ellipse.png" alt="">
@@ -462,16 +463,16 @@
   </div>
   <div id="cadastroUsuario" class="div_configs-container hidde">
         <div class="config_colab-container">
-                <h1 class="integracoes_tittle text">Cadastro de Usuário</h1>
-                <span class="integracoes_subtitle text">Editar Perfil Existente?</span>
-                <p class="integrações_tittle-text text"> Selecione abaixo o perfil e edite as informações necessárias.</p>
+                <h1 class="integracoes_tittle title_color text">Cadastro de Usuário</h1>
+                <span class="integracoes_subtitle title_color text">Editar Perfil Existente?</span>
+                <p class="integrações_tittle-text text_color text"> Selecione abaixo o perfil e edite as informações necessárias.</p>
                 
                 <div  onclick="openList('listatopId')" class="cadastro_card-container">
                     <div  class="cadastro_card">
                         
                         <img class="configEverest_configs-cards-img" src="./assets/imgs/Ellipse.yellow.user.png" alt="">
                         <div class="card_cadastro-text">
-                            <h2 class="card_cadastro-title text">Perfil do Colaborador</h2>
+                            <h2 class="card_cadastro-title text_color text">Perfil do Colaborador</h2>
                             <p class="card_cadastro-subtitle text">Cargo</p>
                         </div>
                        </div>
@@ -492,11 +493,11 @@
                
                
 
-                <span class="integracoes_subtitle  text">Novo Cadastro</span>
-                <p class="integrações_tittle-text text">insira abaixo informações de um novo colaborador para criar seu
+                <span class="integracoes_subtitle title_color  text">Novo Cadastro</span>
+                <p class="integrações_tittle-text text_color text">insira abaixo informações de um novo colaborador para criar seu
                    <br>  perfil Everest.</p>
                    
-                <span class="integracoes_subtitle text">Informações Iniciais</span>    
+                <span class="integracoes_subtitle title_color text">Informações Iniciais</span>    
                <form action="">
                     <input class="cadastro_form-input" placeholder="Nome*" type="text">
                     <input class="cadastro_form-input" placeholder="Sobrenome*" type="text">
@@ -511,15 +512,15 @@
                     <input class="cadastro_form-input-3" placeholder="Bairro, Rua/Avenida" type="text">
                    
                </form>
-                <span class="integracoes_subtitle text">ID & Senha</span>
-                <p class="integrações_tittle-text text">Gere um ID e Senha únicos para cada Cadastro. Ao salvar, você e seu novo cadastro receberão uma cópia das informações por e-mail. </p>
+                <span class="integracoes_subtitle title_color text">ID & Senha</span>
+                <p class="integrações_tittle-text text_color text">Gere um ID e Senha únicos para cada Cadastro. Ao salvar, você e seu novo cadastro receberão uma cópia das informações por e-mail. </p>
                <form class="id-senha_container" action="">
                 <input class="cadastro_form-input-3" placeholder="ID" type="text">
                 <input class="cadastro_form-input-3" placeholder="SENHA*" type="text">
                </form>
-               <button class="cadastro_usuario-button text">Gerar</button>
-               <span class="integracoes_subtitle text">Selecionar Tipo de Perfil</span>
-               <p class="integrações_tittle-text text">Supervisor de Vendas, de Atendimento, Vendedor ou Atendente? </p>
+               <button class="cadastro_usuario-button  text">Gerar</button>
+               <span class="integracoes_subtitle title_color text">Selecionar Tipo de Perfil</span>
+               <p class="integrações_tittle-text text_color text">Supervisor de Vendas, de Atendimento, Vendedor ou Atendente? </p>
                
 
                <div  onclick="openList('listaBottomId')" class="cadastro_card-container">
@@ -527,7 +528,7 @@
                         
                         <img class="configEverest_configs-cards-img" src="./assets/imgs/Ellipse.yellow.user.png" alt="">
                         <div class="card_cadastro-text">
-                            <h2 class="card_cadastro-title text">Perfil do Colaborador</h2>
+                            <h2 class="card_cadastro-title text_color text">Perfil do Colaborador</h2>
                             <p class="card_cadastro-subtitle text">Cargo</p>
                         </div>
                        </div>

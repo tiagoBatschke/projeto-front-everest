@@ -254,44 +254,40 @@
                 </form>
             </div>
             <div class="header_container-icons">
-
-
-                <svg class="img_icon_header " width="34" height="34" viewBox="0 0 34 30" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <rect opacity="0.01" width="33.7143" height="33.7143" fill="black" />
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M28.8251 21.3662L26.2966 18.8236V12.5584C26.3661 7.74754 22.8766 3.62252 18.1208 2.89361C15.4206 2.538 12.6979 3.36246 10.6485 5.15634C8.59914 6.95023 7.42152 9.53977 7.41655 12.2634V18.8236L4.88798 21.3662C4.23865 22.0264 4.04767 23.0112 4.40317 23.8662C4.75866 24.7212 5.59153 25.2803 6.5175 25.2855H11.2375V25.7631C11.3741 28.7323 13.8869 31.0315 16.8566 30.9046C19.8262 31.0315 22.339 28.7323 22.4756 25.7631V25.2855H27.1956C28.1216 25.2803 28.9544 24.7212 29.3099 23.8662C29.6654 23.0112 29.4745 22.0264 28.8251 21.3662ZM19.6661 25.7631C19.5043 27.1669 18.2661 28.1945 16.8566 28.095C15.447 28.1945 14.2089 27.1669 14.0471 25.7631V25.2855H19.6661V25.7631ZM9.39725 20.8184L7.73963 22.476H25.9734L24.3018 20.8184C23.7759 20.2882 23.4827 19.5704 23.487 18.8236V12.5022C23.559 9.09999 21.1145 6.16424 17.7556 5.61885C15.848 5.3699 13.9274 5.97075 12.5018 7.26242C11.0572 8.52302 10.2276 10.3461 10.2261 12.2634V18.8236C10.2266 19.5724 9.9283 20.2905 9.39725 20.8184Z"
-                        fill="var(--text-color)" />
-                </svg>
-
-
-                <a href="" class="links_header "><img class="img_icon_header icon_person_header"
-                        src="./assets/imgs/person-circle.svg" alt=""></a>
-                <a onclick='toggleClass()' id='sun-set' class='links_header dark_mode '><span
-                        id='button_img'></span></a>
-            </div>
+                <svg class="img_icon_header " width="34" height="34" viewBox="0 0 34 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                       <rect opacity="0.01" width="33.7143" height="33.7143" fill="black"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M28.8251 21.3662L26.2966 18.8236V12.5584C26.3661 7.74754 22.8766 3.62252 18.1208 2.89361C15.4206 2.538 12.6979 3.36246 10.6485 5.15634C8.59914 6.95023 7.42152 9.53977 7.41655 12.2634V18.8236L4.88798 21.3662C4.23865 22.0264 4.04767 23.0112 4.40317 23.8662C4.75866 24.7212 5.59153 25.2803 6.5175 25.2855H11.2375V25.7631C11.3741 28.7323 13.8869 31.0315 16.8566 30.9046C19.8262 31.0315 22.339 28.7323 22.4756 25.7631V25.2855H27.1956C28.1216 25.2803 28.9544 24.7212 29.3099 23.8662C29.6654 23.0112 29.4745 22.0264 28.8251 21.3662ZM19.6661 25.7631C19.5043 27.1669 18.2661 28.1945 16.8566 28.095C15.447 28.1945 14.2089 27.1669 14.0471 25.7631V25.2855H19.6661V25.7631ZM9.39725 20.8184L7.73963 22.476H25.9734L24.3018 20.8184C23.7759 20.2882 23.4827 19.5704 23.487 18.8236V12.5022C23.559 9.09999 21.1145 6.16424 17.7556 5.61885C15.848 5.3699 13.9274 5.97075 12.5018 7.26242C11.0572 8.52302 10.2276 10.3461 10.2261 12.2634V18.8236C10.2266 19.5724 9.9283 20.2905 9.39725 20.8184Z" fill="var(--text-color)"/>
+                    </svg>
+                   <span onclick="openList('meuPerfil-list')" href="" class="links_header "><img class="img_icon_header icon_person_header" src="./assets/imgs/person-circle.svg" alt=""></span>
+                   <a onclick='toggleClass()'  id='sun-set'  class='links_header dark_mode '><span id='button_img'></span></a>
+                   <div id="meuPerfil-list" class="list_meuPerfil-container hidden" >
+                       <p class="list_meuPerfil-text  title_color text" style="border-radius: 0.5rem 0.5rem 0 0 ;">Ver meu perfil</p>
+                       <p class="list_meuPerfil-text  title_color border_meuPerfil-list text">Mensagens</p>
+                       <p class="list_meuPerfil-text  title_color text" style="border-radius: 0 0 0.5rem 0.5rem  ;">Sac Everest</p>
+                   </div>
+               </div>
         </div>
     </header>
     <main class="main_config-container">
         <div class="perfilConfig_container">
             <img class="perfilConfig_img" src="./assets/imgs/Group 795.png" alt="">
             <div class="perfilConfig_text-container text">
-                <h2 class="perfilConfig_text-title text">Fernado bandeira</h2>
-                <p style="font-weight: bold;" class="perfilConfig_text text">Atendente</p>
+                <h2 class="perfilConfig_text-title title_color text">Fernado bandeira</h2>
+                <p style="font-weight: bold;" class="perfilConfig_text title_color text">Atendente</p>
             </div>
             <div class="perfilConfig_icons-container">
                 <div class="perfilConfig_icons">
                     <img class="dashBoard_card-img" src="./assets/imgs/Group 785.png" alt="">
                     <div class="perfilConfig_text-container text">
-                        <h2 class="perfilConfig_text-title text">1.1K</h2>
-                        <p class="perfilConfig_text text">Vendas</p>
+                        <h2 class="perfilConfig_text-title title_color text">1.1K</h2>
+                        <p class="perfilConfig_text title_color text">Vendas</p>
                     </div>
                 </div>
                 <div class="perfilConfig_icons">
                     <img class="dashBoard_card-img" src="./assets/imgs/Group 784.png" alt="">
                     <div class="perfilConfig_text-container text">
-                        <h2 class="perfilConfig_text-title text">2.5K</h2>
-                        <p class="perfilConfig_text text">Chats de att</p>
+                        <h2 class="perfilConfig_text-title title_color text">2.5K</h2>
+                        <p class="perfilConfig_text title_color text">Chats de att</p>
                     </div>
                 </div>
             </div>
@@ -303,8 +299,8 @@
         <div class="dashBoard_card-container">
             <div class="dashBoard_card">
                 <div class="dashBoardCard_text-container text">
-                    <h2 class="dashBoardCard_text-title text">Minha DashBoard</h2>
-                    <p class="dashBoardCard_text text">Tamanho da Fonte</p>
+                    <h2 class="dashBoardCard_text-title title_color text">Minha DashBoard</h2>
+                    <p class="dashBoardCard_text title_color text">Tamanho da Fonte</p>
                 </div>
                 <div class="dashBoardCard_icons-container">
                     <img class="dashBoardCard_icons" src="./assets/imgs/Group 786.png" alt="">
@@ -316,10 +312,10 @@
             </div>
             <div class="dashBoard_card">
                 <div class="dashBoardCard_text-container text">
-                    <h2 style="font-weight: 500;" class="dashBoardCard_text-title text">Cores da Plataforma</h2>
+                    <h2 style="font-weight: 500;" class="dashBoardCard_text-title title_color text">Cores da Plataforma</h2>
                     <img class="dashBoardCard_icons-linear" src="./assets/imgs/Group 791.png" alt="">
                     <div class="dashBoardCard_subtitle-container">
-                        <p class="dashBoardCard_text text">Subtom</p>
+                        <p class="dashBoardCard_text title_color text">Subtom</p>
                         <img class="dashBoardCard_subtitle-img" src="./assets/imgs/Group 792.png" alt="">
                         <img class="dashBoardCard_subtitle-img" src="./assets/imgs/Group 793 gray.png" alt="">
                         <img class="dashBoardCard_subtitle-img" src="./assets/imgs/Group 794 white.png" alt="">
@@ -328,13 +324,13 @@
                 </div>
                 <div class="dashBoardCard_icons-container">
                     <div class="dashBoardCard_subtitle-container">
-                        <p class="dashBoardCard_text text">Hex</p>
+                        <p class="dashBoardCard_text title_color text">Hex</p>
                         <div class="dashBoardCard_hex-container">
                             <p class="dashBoardCard_hex text">#2D8DF2</p>
                         </div>
                     </div>
                     <div class="dashBoardCard_subtitle-container">
-                        <p class="dashBoardCard_text text">Hex 2</p>
+                        <p class="dashBoardCard_text title_color text">Hex 2</p>
                         <div class="dashBoardCard_hex-container">
                             <p class="dashBoardCard_hex text">#58A5F5</p>
                         </div>
@@ -350,6 +346,7 @@
 
             <div class="calendario">
                 <div>
+<<<<<<< HEAD
                     <select class="calendario_options-container text" id="month" onchange="generateCalendar()">
                         <option class="calendario_options text" value="1" style="  color: var(--tittle-color);">Janeiro</option>
                         <option class="calendario_options text" value="2" style="  color: var(--tittle-color);">Fevereiro</option>
@@ -368,6 +365,26 @@
                         <option class="calendario_options text" value="2021" style="  color: var(--tittle-color);">2021</option>
                         <option class="calendario_options text" value="2022" style="  color: var(--tittle-color);">2022</option>
                         <option class="calendario_options text" value="2023" style="  color: var(--tittle-color);">2023</option>
+=======
+                    <select class="calendario_options-container title_color text" id="month" onchange="generateCalendar()">
+                        <option class="calendario_options title_color text" value="1">Janeiro</option>
+                        <option class="calendario_options title_color text" value="2">Fevereiro</option>
+                        <option class="calendario_options title_color text" value="3">Março</option>
+                        <option class="calendario_options title_color text" value="4">Abril</option>
+                        <option class="calendario_options title_color text" value="5">Maio</option>
+                        <option class="calendario_options title_color text" value="6">Junho</option>
+                        <option class="calendario_options title_color text" value="7">Julho</option>
+                        <option class="calendario_options title_color text" value="8">Agosto</option>
+                        <option class="calendario_options title_color text" value="9">Setembro</option>
+                        <option class="calendario_options title_color text" value="10">Outubro</option>
+                        <option class="calendario_options title_color text" value="11">Novembro</option>
+                        <option class="calendario_options title_color text" value="12">Dezembro</option>
+                    </select>
+                    <select class="calendario_options-container title_color text" id="year" onchange="generateCalendar()">
+                        <option class="calendario_options title_color text" value="2021">2021</option>
+                        <option class="calendario_options title_color text" value="2022">2022</option>
+                        <option class="calendario_options title_color text" value="2023">2023</option>
+>>>>>>> 4037007621002c9514eb7eb6994051dbbb0c22e2
                         <!-- Adicione mais anos aqui, se necessário -->
                     </select>
                 </div>
@@ -390,8 +407,8 @@
             </div>
             <div class="calendario_card-container">
                 <div class="calendario_Card-text">
-                    <h2 class="perfilConfig_text-title text">Próximas Datas</h2>
-                    <p style="font-weight: bold;" class="perfilConfig_text text">Ver tudo</p>
+                    <h2 class="perfilConfig_text-title title_color text">Próximas Datas</h2>
+                    <p style="font-weight: bold;" class="perfilConfig_text title_color text">Ver tudo</p>
                 </div>
 
                 <div class="calendario_card">

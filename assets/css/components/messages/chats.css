@@ -49,6 +49,7 @@
     font-weight: bold;
     font-size: 1.1rem;
     margin-top: -1rem;
+    color: var(--tittle-color);
 }
 
 
@@ -103,6 +104,7 @@
     font-size: 0.8rem;
     margin-top: 0.8rem;
     font-weight: bold;
+    
 }
 
 .chats_cards-text-conversas {
