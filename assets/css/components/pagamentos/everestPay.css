@@ -84,12 +84,33 @@
 }
 
 .tipoPagamento_select-everestPay{
-    width: 81%;
+    width: 85%;
     margin-top: 0.2rem;
     margin-bottom: 1rem;
     border-radius: 0.5rem 0.5rem 0 0;
     padding: 0.5rem;
     background-color: var(--container-lateral-bar);
+    border: none;
+    cursor: pointer;
+}
+
+.listaPagameto_container2 {
+    width: 88.5%;
+    margin-top: -0.97rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem 0 0.5rem 0.5rem;
+    background-color: var(--container-light);
+    border: none;
+    cursor: pointer;
+}
+
+
+.listaPagameto_container1 {
+    width: 85%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem 0 0.5rem 0.5rem;
+    background-color: var(--container-light);
     border: none;
     cursor: pointer;
 }
