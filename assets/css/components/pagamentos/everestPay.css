@@ -32,6 +32,21 @@
 }
 
 
+.everestPay_valores1 {
+    color: #fff;
+}
+
+.tipoPagamento_select-text2 {
+    color: #fff;
+}
+
+.icon_mastercard {
+    width: 6%;
+    height: 6%;
+    margin-top: -1.4rem;
+    margin-left: 0.4rem
+}
+
 .cartao_card-container {
     margin-top: 1rem;
     display: flex;
@@ -51,11 +66,22 @@
     border-radius: 0.5rem;
 }
 
-
+.listaPagameto_item1 {
+    color: var(--subtittle-color);
+     width: 100%;
+}
 
 .img_cartao-card {
 
     width: 2.5rem;
+}
+
+.tipoPagamento_select-everestPay {
+   background-color: var(--subtittle-color);
+}
+
+.tipoPagamento_select-text {
+    color: var(--text-container-color);
 }
 
 .everestPay_form-input {
@@ -85,7 +111,7 @@
 
 .tipoPagamento_select-everestPay{
     width: 85%;
-    margin-top: 0.2rem;
+    margin-top: 1rem;
     margin-bottom: 1rem;
     border-radius: 0.5rem 0.5rem 0 0;
     padding: 0.5rem;

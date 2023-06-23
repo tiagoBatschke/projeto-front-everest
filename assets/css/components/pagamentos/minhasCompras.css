@@ -17,7 +17,7 @@
     padding-bottom: 1rem;
    }
 
-.minhasComprasEverest_title {
+.minhasComprasEverest_title{
    font-size: 1.563rem;
    font-weight: bold;
    margin-top: 2rem;
@@ -84,12 +84,16 @@
 .minhasCompras_card-img_text {
    display: flex;
 
-
 }
 
+.minhasCompras_button-card {
+   width: 48%;
+   color: #fff;
+} 
 
 .number_minhasCompras-card {
    color: #f4f4f4df;
+   font-size: 0.8rem
 
 }
 
@@ -170,10 +174,56 @@
    padding-top: 0.5rem;
 }
 
+.minhasCompras_button-card1 {
+   font-size: 0.8rem;
+   color: var(--subtittle-color);
+}
+
+.minhasCompras_button_container1 {
+   height: 2rem;
+   display: flex;
+   justify-content: space-between;
+   width: 90%;
+   margin-left: 10%;
+   padding-top: 0.5rem;
+}
+
+
+.everestPay_valores1 {
+   font-size: 0.8rem;
+   color: #fff;
+}
+
 
 .tipoPagamento_select-text {
    color: var(--tittle-color);
 }
+
+.tipoPagamento_select-text1 {
+   color: #fff;
+    width: 88.2%;
+   height: 110%;
+    border-radius: 4px;
+     padding-top: 0rem;
+     margin-top: -0.1rem;
+}
+
+.everstPay_title {
+   color: #fff;
+    font-size: 1.1rem;
+     margin-top: 2rem;
+}
+
+.everestPay_valores-bold {
+   color: #fff;
+   font-size: 0.8rem
+}
+
+.everestPay_valores text{
+   color: #fff;
+   font-size: 0.8rem
+}
+
 
 .select_page {
    background-color: var(--container-lateral-bar);
@@ -181,18 +231,16 @@
 }
 
 
-
 .listaPagameto_item {
-   color: var(--svg);
-   background-color: var(--container-light);
-   width: 85%;
-   }
+   color: var(--subtittle-color);
+}
+
 
 .listaPagameto_container {
-   width: 89%;
-   margin-top: -1rem;
-   z-index: 1;
-   margin-bottom: 0.5rem;
+   width: 61.5%;
+    margin-right: -33.5rem;
+     margin-top: -3rem;
+      position: fixed;
 }
 
 .listaPagamento {
