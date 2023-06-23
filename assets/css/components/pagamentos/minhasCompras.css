@@ -197,6 +197,7 @@
 
 .tipoPagamento_select-text {
    color: var(--tittle-color);
+   margin-top: 1rem;
 }
 
 .tipoPagamento_select-text1 {
@@ -205,7 +206,7 @@
    height: 110%;
     border-radius: 4px;
      padding-top: 0rem;
-     margin-top: -0.1rem;
+     margin-top: 0.1rem;
 }
 
 .everstPay_title {
@@ -239,7 +240,7 @@
 .listaPagameto_container {
    width: 61.5%;
     margin-right: -33.5rem;
-     margin-top: -3rem;
+     margin-top: -2rem;
       position: fixed;
 }
 
