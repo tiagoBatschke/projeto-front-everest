@@ -21,6 +21,7 @@
    font-size: 1.563rem;
    font-weight: bold;
    margin-top: 2rem;
+   color: var(--tittle-color);
    border-bottom: var(--border-box-shadow-container);
    padding-bottom: 1rem;
 }
