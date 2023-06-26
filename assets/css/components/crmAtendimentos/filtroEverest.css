@@ -96,6 +96,23 @@
     box-shadow: var(--border-box-shadow-container);
 }
 
+.filtro_everest_chat-arquivos-buttons-fixo {
+    border: none;
+    background-color: var(--container-tutorial);
+    border-radius: 0.5rem;
+    padding: 0.3rem 1rem;
+    width: 6rem;
+    color: var(--svg);
+    font-size: 1rem;
+    font-weight: 500;
+    box-shadow: var(--border-box-shadow-container);
+}
+
+.filtro_everest_chat-arquivos-buttons1 {
+   outline: hidden;
+   width: 100%; 
+}
+
 .button_evidencia{
     background-color: var(--svg);
     color: var( --container-light);
