@@ -38,6 +38,7 @@
     font-weight: bold;
     font-size: 1.2rem;
     color: var(--tittle-color);
+    width: 80%;
 }
 
 .perfilConfig_text {
