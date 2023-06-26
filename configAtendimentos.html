@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./assets/css/components/variaveisDarkmode.css">
     <link rel="stylesheet" href="./assets/css/components/configAtendimentos/perfilConfig.css">
     <link rel="stylesheet" href="./assets/css/components/configAtendimentos/calendario.css">
+    <link rel="stylesheet" href="./assets/css/tutorial/cadsTutorial.css">
     <link rel="stylesheet" href="./assets/css/header/lateralBar.css">
 </head>
 
@@ -391,7 +392,7 @@
 
 
 
-        <div  id="calendario" class="perfilConfig_container hidden " >
+        <div  id="calendario" class="perfilConfig_container hidde" >
 
             <div class="calendario ">
                 <div>
@@ -475,7 +476,7 @@
                 </div>
 
             </div>
-            <button class="button_calendario">Criar Evento</button>
+            <button onclick="openList('reunioesId'), openList('calendario') " class="button_calendario">Criar Evento</button>
         </div>
         
         <div id="agendaId" class="agenda_container hidden" >
@@ -621,45 +622,128 @@
                  </div>
             </div>
         </div>
-        <div id="agendaId" class="agenda_container hidde" >
+        <div id="reunioesId" class="add_reunioes hidden" >
             <div class="calendario_text-container text">
                 <p class="perfilConfig_text title_color text">Nome do Evento</p>
                 <h2 class="dashBoardCard_text-title title_color text">Reunião Everest</h2>
             </div>
-            <div class="checkbox_reunioes-container text">
-                <h2 class="reinioes_text-title title_color text">Categorias</h2>
-                <div class="checkbox_reunioes checkbox_blue">
-                    <input type="radio">
-                    <label class="label_checkbox text" for="">Reunião</label>
+            <div class="content_reunioes-container">
+                <div class="checkbox_reunioes-container text">
+                    <h2 class="reinioes_text-title title_color text">Categorias</h2>
+                    <div class="checkbox_reunioes checkbox_blue">
+                        <input type="radio">
+                        <label class="label_checkbox text" for="">Reunião</label>
+                    </div>
+                    <div class="checkbox_reunioes checkbox_green">
+                        <input type="radio">
+                        <label class="label_checkbox text" for="">Tarefa</label>
+                    </div>
+                    <img onclick="openList('card_categorias')" class="icon_reunioes-plus" src="./assets/imgs/Vector Mais.png" alt="">
+                    
                 </div>
-                <div class="checkbox_reunioes checkbox_green">
-                    <input type="radio">
-                    <label class="label_checkbox text" for="">Tarefa</label>
+    
+                <div class="checkbox_reunioes-container text">
+                    <h2 class="reinioes_text-title title_color text">Adicionar Membros</h2>
+                    <img class="icon_reunioes"  src="./assets/imgs/Group 753.png" alt="">
+                    <img class="icon_reunioes"  src="./assets/imgs/Group 753.png" alt="">
+                    <img class="icon_reunioes"  src="./assets/imgs/Group 753.png" alt="">
+                    <img class="icon_reunioes"  src="./assets/imgs/Group 753.png" alt="">
+                    <img onclick="openList('addMembrosId')"  class="icon_reunioes-plus" src="./assets/imgs/Vector Mais.png" alt="">
+                    
                 </div>
-                <img class="icon_reunioes-plus" src="./assets/imgs/Vector Mais.png" alt="">
+    
+                <div class="checkbox_reunioes-container text">
+                    <h2 class="reinioes_text-title title_color text">Horário</h2>
+                    <input class="input_date-reunioes" type="date">
+                    <div class="checkbox_reunioes checkbox_blue">
+                        <input type="radio">
+                        <label class="label_checkbox text" for="">Reunião</label>
+                    </div>
+                </div>
                 
+                <div class="checkbox_reunioes-container text">
+                    <input class="input_datetime-reunioes" type="datetime">
+                    <label class="label_dateTime text" for="">Até</label>
+                    <input class="input_datetime-reunioes" type="datetime">
+                </div>
             </div>
-
-            <div class="checkbox_reunioes-container text">
-                <h2 class="reinioes_text-title title_color text">Adicionar Membros</h2>
-                <img class="icon_reunioes"  src="./assets/imgs/Group 753.png" alt="">
-                <img class="icon_reunioes"  src="./assets/imgs/Group 753.png" alt="">
-                <img class="icon_reunioes"  src="./assets/imgs/Group 753.png" alt="">
-                <img class="icon_reunioes"  src="./assets/imgs/Group 753.png" alt="">
-                <img class="icon_reunioes-plus" src="./assets/imgs/Vector Mais.png" alt="">
-                
+            
+            <div class="card_buttons-container">
+                <button class="card_buttons-red text">Cancelar</button>
+                <button onclick="location.reload()" class="card_buttons text">Agendar</button>
             </div>
+        </div>
 
-            <div class="checkbox_reunioes-container text">
-                <h2 class="reinioes_text-title title_color text">Horário</h2>
-                <input class="input_date-reunioes" type="date">
-                <div class="checkbox_reunioes checkbox_blue">
-                    <input type="radio">
-                    <label class="label_checkbox text" for="">Reunião</label>
+        <div id="card_categorias" class="card_categorias-container hidden">
+            <div class="x_fechar-container "><p  class="x_fechar text">X</p></div>
+            <div onclick="openList('card_categorias')"  class="checkbox_reunioes-card checkbox_blue">
+                <input type="radio">
+                <label class="label_checkbox text" for="">Reunião</label>
+            </div>
+            <div  onclick="openList('card_categorias')"  class="checkbox_reunioes-card checkbox_green">
+                <input type="radio">
+                <label class="label_checkbox text" for="">Tarefa</label>
+            </div>
+            <div  onclick="openList('card_categorias')"  class="checkbox_reunioes-card checkbox_yellow">
+                <input type="radio">
+                <label class="label_checkbox text" for="">Curso</label>
+            </div>
+            <div onclick="openList('card_categorias')"  class="checkbox_reunioes-card checkbox_gray">
+                <input type="radio">
+                <label class="label_checkbox text" for="">Novo</label>
+            </div>
+        </div>
+        <div id="addMembrosId" class="card_membros-container hidden">
+            <div class="x_fechar-container "><p  class="x_fechar text">X</p></div>
+
+            <div onclick="openList('addMembrosId')"   class="card_membros">
+                <div class="calendario_card-icons-container">
+                <img class="calendario_card-icon-img" src="./assets/imgs/circle-name.svg" alt="">
+                </div>
+                <div class="calendarioCard_text-container text">
+                    <h2 class="calendarioCard_text-title text">Curso de Atendimento ao Cliente</h2>
+                    <p class="calendarioCard_text text">21 de Novembro, 11:45AM</p>
+                </div>
+            </div>
+            <div onclick="openList('addMembrosId')"  class="card_membros">
+                <div class="calendario_card-icons-container">
+                <img class="calendario_card-icon-img" src="./assets/imgs/circle-name.svg" alt="">
+                </div>
+                <div class="calendarioCard_text-container text">
+                    <h2 class="calendarioCard_text-title text">Curso de Atendimento ao Cliente</h2>
+                    <p class="calendarioCard_text text">21 de Novembro, 11:45AM</p>
+                </div>
+            </div>
+            <div onclick="openList('addMembrosId')"  class="card_membros">
+                <div class="calendario_card-icons-container">
+                <img class="calendario_card-icon-img" src="./assets/imgs/circle-name.svg" alt="">
+                </div>
+                <div class="calendarioCard_text-container text">
+                    <h2 class="calendarioCard_text-title text">Curso de Atendimento ao Cliente</h2>
+                    <p class="calendarioCard_text text">21 de Novembro, 11:45AM</p>
+                </div>
+            </div>
+            <div onclick="openList('addMembrosId')"  class="card_membros">
+                <div class="calendario_card-icons-container">
+                <img class="calendario_card-icon-img" src="./assets/imgs/circle-name.svg" alt="">
+                </div>
+                <div class="calendarioCard_text-container text">
+                    <h2 class="calendarioCard_text-title text">Curso de Atendimento ao Cliente</h2>
+                    <p class="calendarioCard_text text">21 de Novembro, 11:45AM</p>
+                </div>
+            </div>
+            <div onclick="openList('addMembrosId')"  class="card_membros">
+                <div class="calendario_card-icons-container">
+                <img class="calendario_card-icon-img" src="./assets/imgs/circle-name.svg" alt="">
+                </div>
+                <div class="calendarioCard_text-container text">
+                    <h2 class="calendarioCard_text-title text">Curso de Atendimento ao Cliente</h2>
+                    <p class="calendarioCard_text text">21 de Novembro, 11:45AM</p>
                 </div>
             </div>
             
         </div>
+           
     </main>
     <script src="./assets/js/calendario.js"></script>
     <script src="./assets/js/noRefresh.js"></script>
