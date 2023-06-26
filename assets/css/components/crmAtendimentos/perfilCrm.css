@@ -85,6 +85,49 @@
   margin-left: 1.2rem;
 }
 
+.card_info_icons-audio {
+  width: 60%;
+  margin-left: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.card_info_icons-img-midias {
+  width: 80%;
+  margin-left: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.cadastro_pos_vendas-input-1 {
+  width: 30%;
+  height: 40%;
+  border-radius: 0.5rem;
+  margin: 0.3rem;
+  border: none;
+  background-color: #2A8BF2;
+  color: #fff;
+}
+
+.cadastro_pos_vendas-input-2 {
+  width: 67%;
+  height: 40%;
+  margin: 0.3rem;
+  border-radius: 0.5rem;
+  border: none;
+  color: #fff;
+  background-color: #2A8BF2;
+}
+
+
+.card_info-pos-vendas {
+  margin-left: 1rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+
+input::placeholder {
+  color: #fff;
+  padding: 0.5rem;
+}
 .card_info-input {
   height: 100%;
   border: none;
