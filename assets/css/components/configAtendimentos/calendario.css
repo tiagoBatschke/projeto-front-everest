@@ -172,7 +172,143 @@ select {
 }
 
 
+.text_blue{
+    color: var(--svg);
+}
+
+.calendario_text-container{
+    display: flex;
+    flex-direction: column;
+    height: 8vh;
+    justify-content: space-around;
+    width: 80%;
+    margin-top: 1rem;
+    
+}
+
+.agenda_card-container{
+    width: 80%;
+    margin-top: 2rem;
+    
+}
+
+.calendario_card-content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.calendario_card-point{
+    display: flex;
+    flex-direction: column;
+    width: 12%;
+    align-items: center;
+}
+
+
+.agenda_container{
+    box-shadow: var(--box-shadow-container);
+    border-radius: 0.5rem;
+    border: var(--border-box-shadow-container);
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0.5rem;
+    overflow-y: scroll;
+}
+
+.calendario_card-content-container{
+    margin-top: 2rem;
+}
+
+.checkbox_reunioes{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+
+.label_checkbox {
+    margin-left: 0.5rem;
+    color: var(--text-container-color);
+}
+
+
+.checkbox_blue{
+    background-color: var(--span-color) ;
+}
+
+.checkbox_green{
+    background-color: #4CE364;
+}
+
+
+
+.checkbox_reunioes-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3rem;
+    justify-content: space-evenly;
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+.icon_reunioes-plus{
+    background-color: var(--subtittle-color);
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    width: 1.5rem;
+    max-height: 1.5rem;
+    margin-top: 1rem;
+}
+
+
+.reinioes_text-title{
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: var(--tittle-color);
+    width: 100%;
+}
+
+.icon_reunioes{
+    width: 3.2rem;
+    max-height: 3.2rem;
+    margin-top: 1rem;
+    
+}
+
+.icon_reunioes:hover, .icon_reunioes-plus:hover, .checkbox_reunioes:hover{
+    cursor: pointer;
+}
+
+.icon_reunioes-plus:hover, .checkbox_blue:hover{
+    background-color:#2a8bf2c5 ;
+}
+
+.checkbox_green:hover{
+    background-color: #4ce365d0;
+}
+
+
+.input_date-reunioes{
+    height: 1rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
 .calendario_card-container::-webkit-scrollbar {
     width: 5px;
     /* width of the entire scrollbar */
 }
+
+.agenda_container::-webkit-scrollbar {
+    width: 5px;
+    /* width of the entire scrollbar */
+}
+

@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./assets/css/components/crmAtendimentos/filtroEverest.css">
     <link rel="stylesheet" href="./assets/css/components/variaveisDarkmode.css">
     <link rel="stylesheet" href="./assets/css/header/header.css">
+    <link rel="stylesheet" href="./assets/css/components/home/graficos.css">
     <link rel="stylesheet" href="./assets/css/components/messages/openedChat.css">
     <link rel="stylesheet" href="./assets/css/header/lateralBar.css">
 </head>
@@ -503,6 +504,89 @@
                         
                     </div>
                 </div>
+                <div id="card_confirmation-add_usuario" class="card_confirmation-chat  hidden">
+                    <div class="card_confirmation-chat-fechar text" >X</div>
+                    <h2 class="card_confirmation-chat-title title_color text">Adicionar<span class="blue_title"> Usuário?</span></h2>
+                    <p  class="card_confirmation-chat-subtitle title_color text">Deseja adicionar este usuário no chat atual?</p>
+                    <div class="card_confirmation-chat-buttons-container">
+                        <a href=""><button  class="filtro_everest_chat-arquivos-buttons ">Cancelar</button></a> 
+                        <button onclick="openList('menu_Atendentes'),openList('card_confirmation-add_usuario') "  class="filtro_everest_chat-arquivos-buttons button_evidencia ">Adicionar</button>
+                        
+                    </div>
+                </div>
+
+                <div class='socialChart hidden ' id='menu_Atendentes'>
+                    <div class='social_titles_separation_graficos' style='border-radius: 0.5rem 0.5rem 0 0; background-color: var(--subtittle-color);'>
+                        <h2 class='minhaEquipe_titles text' style='font-size: 0.9rem; '>Atendimentos por Redes Sociais</h2>
+                    </div>
+                    <ul class='socialChart_ul'>
+                        <div onclick="openList('menu_Atendentes') " class="chat_card_filtro">
+                            <img class="chats_cards_filtro-img" src="./assets/imgs/Group 773.png" alt="">
+                            <div class="chats_cards_filtro-text">
+                                <h2 class="chats_cards-title-filtro text">Jacques Webster</h2>
+                                <p class="chats_cards-text-filtro text">yeah! I know!</p>
+                            </div>
+                            <div class="chats_cards_filtro-texticon">
+                                <p class="chats_cards-text-filtro text">17:31</p>
+                            </div>
+                        </div>
+                        <div onclick="openList('menu_Atendentes') " class="chat_card_filtro">
+                            <img class="chats_cards_filtro-img" src="./assets/imgs/Group 773.png" alt="">
+                            <div class="chats_cards_filtro-text">
+                                <h2 class="chats_cards-title-filtro text">Jacques Webster</h2>
+                                <p class="chats_cards-text-filtro text">yeah! I know!</p>
+                            </div>
+                            <div class="chats_cards_filtro-texticon">
+                                <p class="chats_cards-text-filtro text">17:31</p>
+                            </div>
+                        </div>
+                        <div onclick="openList('menu_Atendentes') " class="chat_card_filtro">
+                            <img class="chats_cards_filtro-img" src="./assets/imgs/Group 773.png" alt="">
+                            <div class="chats_cards_filtro-text">
+                                <h2 class="chats_cards-title-filtro text">Jacques Webster</h2>
+                                <p class="chats_cards-text-filtro text">yeah! I know!</p>
+                            </div>
+                            <div class="chats_cards_filtro-texticon">
+                                <p class="chats_cards-text-filtro text">17:31</p>
+                            </div>
+                        </div>
+                        <div onclick="openList('menu_Atendentes') " class="chat_card_filtro">
+                            <img class="chats_cards_filtro-img" src="./assets/imgs/Group 773.png" alt="">
+                            <div class="chats_cards_filtro-text">
+                                <h2 class="chats_cards-title-filtro text">Jacques Webster</h2>
+                                <p class="chats_cards-text-filtro text">yeah! I know!</p>
+                            </div>
+                            <div class="chats_cards_filtro-texticon">
+                                <p class="chats_cards-text-filtro text">17:31</p>
+                            </div>
+                        </div>
+                        <div onclick="openList('menu_Atendentes') " class="chat_card_filtro">
+                            <img class="chats_cards_filtro-img" src="./assets/imgs/Group 773.png" alt="">
+                            <div class="chats_cards_filtro-text">
+                                <h2 class="chats_cards-title-filtro text">Jacques Webster</h2>
+                                <p class="chats_cards-text-filtro text">yeah! I know!</p>
+                            </div>
+                            <div class="chats_cards_filtro-texticon">
+                                <p class="chats_cards-text-filtro text">17:31</p>
+                            </div>
+                        </div>
+                        <div onclick="openList('menu_Atendentes') " class="chat_card_filtro">
+                            <img class="chats_cards_filtro-img" src="./assets/imgs/Group 773.png" alt="">
+                            <div class="chats_cards_filtro-text">
+                                <h2 class="chats_cards-title-filtro text">Jacques Webster</h2>
+                                <p class="chats_cards-text-filtro text">yeah! I know!</p>
+                            </div>
+                            <div class="chats_cards_filtro-texticon">
+                                <p class="chats_cards-text-filtro text">17:31</p>
+                            </div>
+                        </div>
+                        
+                        
+                       
+                       
+                    </ul>
+                </div>
+                
                 <div class="chat_container">
                     <p class="chat_text-data text">Segunda, 12/11/22</p>
 
@@ -637,7 +721,7 @@
                             src="./assets/imgs/Icon add.png" alt="">
                         <p class="text_button-aberto text">Add Mídia</p>
                     </button>
-                    <button class="text_box-button"><img class="text_box-button-img-add"
+                    <button onclick="openList('card_confirmation-add_usuario')"  class="text_box-button"><img class="text_box-button-img-add"
                             src="./assets/imgs/Icon add.png" alt="">
                         <p class="text_button-aberto text">Add Atendente</p>
                     </button>

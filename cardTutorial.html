@@ -154,17 +154,66 @@
         </form>
         </div>
         <div class="header_container-icons">
-            <svg onclick="openList('menu_notifications')"  class="img_icon_header notification_icon" width="34" height="34" viewBox="0 0 34 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg onclick="openList('menu_notifications')" class="img_icon_header notification_icon" width="34" height="34" viewBox="0 0 34 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                    <rect opacity="0.01" width="33.7143" height="33.7143" fill="black"/>
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M28.8251 21.3662L26.2966 18.8236V12.5584C26.3661 7.74754 22.8766 3.62252 18.1208 2.89361C15.4206 2.538 12.6979 3.36246 10.6485 5.15634C8.59914 6.95023 7.42152 9.53977 7.41655 12.2634V18.8236L4.88798 21.3662C4.23865 22.0264 4.04767 23.0112 4.40317 23.8662C4.75866 24.7212 5.59153 25.2803 6.5175 25.2855H11.2375V25.7631C11.3741 28.7323 13.8869 31.0315 16.8566 30.9046C19.8262 31.0315 22.339 28.7323 22.4756 25.7631V25.2855H27.1956C28.1216 25.2803 28.9544 24.7212 29.3099 23.8662C29.6654 23.0112 29.4745 22.0264 28.8251 21.3662ZM19.6661 25.7631C19.5043 27.1669 18.2661 28.1945 16.8566 28.095C15.447 28.1945 14.2089 27.1669 14.0471 25.7631V25.2855H19.6661V25.7631ZM9.39725 20.8184L7.73963 22.476H25.9734L24.3018 20.8184C23.7759 20.2882 23.4827 19.5704 23.487 18.8236V12.5022C23.559 9.09999 21.1145 6.16424 17.7556 5.61885C15.848 5.3699 13.9274 5.97075 12.5018 7.26242C11.0572 8.52302 10.2276 10.3461 10.2261 12.2634V18.8236C10.2266 19.5724 9.9283 20.2905 9.39725 20.8184Z" fill="var(--text-color)"/>
                 </svg>
                <span onclick="openList('meuPerfil-list')" href="" class="links_header "><img class="img_icon_header icon_person_header" src="./assets/imgs/person-circle.svg" alt=""></span>
                <a onclick='toggleClass()'  id='sun-set'  class='links_header dark_mode '><span id='button_img'></span></a>
+   
                <div id="meuPerfil-list" class="list_meuPerfil-container hidden" >
                    <p class="list_meuPerfil-text  title_color text" style="border-radius: 0.5rem 0.5rem 0 0 ;">Ver meu perfil</p>
                    <p class="list_meuPerfil-text  title_color border_meuPerfil-list text">Mensagens</p>
                    <p class="list_meuPerfil-text  title_color text" style="border-radius: 0 0 0.5rem 0.5rem  ;">Sac Everest</p>
                </div>
+               <div id="menu_notifications" class="menu_notifications-container hidden">
+                   <h2 class="menuNotifications-title  title_color text">Notificações</h2>
+                   <p class="menuNotifications-subtitle title_color text">Novas</p>
+                   <div class="card_menuNotifications">
+                       <img class="img_card_menuNotifications" src="./assets/imgs/circle-name.svg" alt="">
+                       <div>
+                           <p class="card_menuNotifications-title title_color text">Alexa W. + Cliente quer se conectar</p>
+                           <P class="card_menuNotifications-subtitle text_color   text">Há 29 minutos</P>
+                       </div>
+                   </div>
+                   <div class="card_menuNotifications">
+                       <img class="img_card_menuNotifications" src="./assets/imgs/circle-name.svg" alt="">
+                       <div>
+                           <p class="card_menuNotifications-title title_color text">Novidades da Everest</p>
+                           <P class="card_menuNotifications-subtitle text_color   text">Há 34 minutos</P>
+                       </div>
+                   </div>
+                   <div class="card_menuNotifications">
+                       <img class="img_card_menuNotifications" src="./assets/imgs/circle-name.svg" alt="">
+                       <div>
+                           <p class="card_menuNotifications-title title_color text">Jessica G. + Cliente quer se conec...</p>
+                           <P class="card_menuNotifications-subtitle text_color   text">Há 59 minutos</P>
+                       </div>
+                   </div>
+                   <p class="menuNotifications-subtitle title_color text">Antigas</p>
+                   <div class="card_menuNotifications">
+                       <img class="img_card_menuNotifications" src="./assets/imgs/circle-name.svg" alt="">
+                       <div>
+                           <p class="card_menuNotifications-title title_color text">Você foi adicionado em um grupo</p>
+                           <P class="card_menuNotifications-subtitle text_color   text">Há uma hora</P>
+                       </div>
+                   </div>
+                   <div class="card_menuNotifications">
+                       <img class="img_card_menuNotifications" src="./assets/imgs/circle-name.svg" alt="">
+                       <div>
+                           <p class="card_menuNotifications-title title_color text">Fernando B. + Cliente quer se con....</p>
+                           <P class="card_menuNotifications-subtitle text_color   text">Ás 14:30 PM</P>
+                       </div>
+                   </div>
+                   <div class="card_menuNotifications">
+                       <img class="img_card_menuNotifications" src="./assets/imgs/circle-name.svg" alt="">
+                       <div>
+                           <p class="card_menuNotifications-title title_color text">Você foi adicionado em um grupo</p>
+                           <P class="card_menuNotifications-subtitle text_color   text">Em 14/05/2021 ás 14:24 PM</P>
+                       </div>
+                   </div>
+               </div>
+   
            </div>
     </div>
    </header>

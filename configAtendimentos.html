@@ -8,12 +8,12 @@
     <title>Everest</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/header/header.css">
-    <link rel="stylesheet" href="./assets/css/header/lateralBar.css">
-    <link rel="stylesheet" href="./assets/css/components/configAtendimentos/calendario.css">
     <link rel="stylesheet" href="./assets/css/components/messages/chats.css">
     <link rel="stylesheet" href="./assets/css/components/configAtendimentos/configDashboard.css">
     <link rel="stylesheet" href="./assets/css/components/variaveisDarkmode.css">
     <link rel="stylesheet" href="./assets/css/components/configAtendimentos/perfilConfig.css">
+    <link rel="stylesheet" href="./assets/css/components/configAtendimentos/calendario.css">
+    <link rel="stylesheet" href="./assets/css/header/lateralBar.css">
 </head>
 
 <body>
@@ -260,11 +260,60 @@
                     </svg>
                    <span onclick="openList('meuPerfil-list')" href="" class="links_header "><img class="img_icon_header icon_person_header" src="./assets/imgs/person-circle.svg" alt=""></span>
                    <a onclick='toggleClass()'  id='sun-set'  class='links_header dark_mode '><span id='button_img'></span></a>
+       
                    <div id="meuPerfil-list" class="list_meuPerfil-container hidden" >
                        <p class="list_meuPerfil-text  title_color text" style="border-radius: 0.5rem 0.5rem 0 0 ;">Ver meu perfil</p>
                        <p class="list_meuPerfil-text  title_color border_meuPerfil-list text">Mensagens</p>
                        <p class="list_meuPerfil-text  title_color text" style="border-radius: 0 0 0.5rem 0.5rem  ;">Sac Everest</p>
                    </div>
+                   <div id="menu_notifications" class="menu_notifications-container hidden">
+                       <h2 class="menuNotifications-title  title_color text">Notificações</h2>
+                       <p class="menuNotifications-subtitle title_color text">Novas</p>
+                       <div class="card_menuNotifications">
+                           <img class="img_card_menuNotifications" src="./assets/imgs/circle-name.svg" alt="">
+                           <div>
+                               <p class="card_menuNotifications-title title_color text">Alexa W. + Cliente quer se conectar</p>
+                               <P class="card_menuNotifications-subtitle text_color   text">Há 29 minutos</P>
+                           </div>
+                       </div>
+                       <div class="card_menuNotifications">
+                           <img class="img_card_menuNotifications" src="./assets/imgs/circle-name.svg" alt="">
+                           <div>
+                               <p class="card_menuNotifications-title title_color text">Novidades da Everest</p>
+                               <P class="card_menuNotifications-subtitle text_color   text">Há 34 minutos</P>
+                           </div>
+                       </div>
+                       <div class="card_menuNotifications">
+                           <img class="img_card_menuNotifications" src="./assets/imgs/circle-name.svg" alt="">
+                           <div>
+                               <p class="card_menuNotifications-title title_color text">Jessica G. + Cliente quer se conec...</p>
+                               <P class="card_menuNotifications-subtitle text_color   text">Há 59 minutos</P>
+                           </div>
+                       </div>
+                       <p class="menuNotifications-subtitle title_color text">Antigas</p>
+                       <div class="card_menuNotifications">
+                           <img class="img_card_menuNotifications" src="./assets/imgs/circle-name.svg" alt="">
+                           <div>
+                               <p class="card_menuNotifications-title title_color text">Você foi adicionado em um grupo</p>
+                               <P class="card_menuNotifications-subtitle text_color   text">Há uma hora</P>
+                           </div>
+                       </div>
+                       <div class="card_menuNotifications">
+                           <img class="img_card_menuNotifications" src="./assets/imgs/circle-name.svg" alt="">
+                           <div>
+                               <p class="card_menuNotifications-title title_color text">Fernando B. + Cliente quer se con....</p>
+                               <P class="card_menuNotifications-subtitle text_color   text">Ás 14:30 PM</P>
+                           </div>
+                       </div>
+                       <div class="card_menuNotifications">
+                           <img class="img_card_menuNotifications" src="./assets/imgs/circle-name.svg" alt="">
+                           <div>
+                               <p class="card_menuNotifications-title title_color text">Você foi adicionado em um grupo</p>
+                               <P class="card_menuNotifications-subtitle text_color   text">Em 14/05/2021 ás 14:24 PM</P>
+                           </div>
+                       </div>
+                   </div>
+       
                </div>
         </div>
     </header>
@@ -342,9 +391,9 @@
 
 
 
-        <div class="perfilConfig_container">
+        <div  id="calendario" class="perfilConfig_container hidden " >
 
-            <div class="calendario">
+            <div class="calendario ">
                 <div>
                     <select class="calendario_options-container text" id="month" onchange="generateCalendar()"  style="color: var(--tittle-color);">
                         <option class="calendario_options text" value="1" style=" color: var(--tittle-color);">Janeiro</option>
@@ -388,7 +437,7 @@
             <div class="calendario_card-container">
                 <div class="calendario_Card-text">
                     <h2 class="perfilConfig_text-title title_color text">Próximas Datas</h2>
-                    <p style="font-weight: bold;" class="perfilConfig_text title_color text">Ver tudo</p>
+                    <p onclick="openList('agendaId'), openList('calendario') " style="font-weight: bold;" class="perfilConfig_text title_color text">Ver tudo</p>
                 </div>
 
                 <div class="calendario_card">
@@ -427,6 +476,189 @@
 
             </div>
             <button class="button_calendario">Criar Evento</button>
+        </div>
+        
+        <div id="agendaId" class="agenda_container hidden" >
+            <div class="calendario_text-container text">
+                <h2 class="dashBoardCard_text-title title_color text">Minha Agenda</h2>
+                <p class="perfilConfig_text text_blue text">21 de Novembro, 2021</p>
+            </div>
+            <div class="agenda_card-container">
+                <div class="calendario_card-content">
+                    <p   class=" title_color text">06 AM</p>
+                    <div class=" title_color text">------------------------------------------</div>
+                </div>
+                <div class="calendario_card-content">
+                    <div class="calendario_card-point">
+                        <p class="text_color text">.</p>
+                        <p class="text_color text">.</p>
+                        <p class="text_color text">.</p>
+                    </div>
+                    <div class="calendario_card">
+                        <div class="calendario_card-icons-container">
+                            <button class="calendario_card-icons-button"><span class="text_hidden">aaaa</span></button>
+                            <div class="calendario_card-icons-container">
+                                <img class="calendario_card-icons" src="./assets/imgs/Ellipse 199.png" alt="">
+                                <img class="calendario_card-icons" src="./assets/imgs/Ellipse 199.png" alt="">
+                                <img class="calendario_card-icons" src="./assets/imgs/Ellipse 199.png" alt="">
+                                <span class="card_number">1</span>
+                            </div>
+                            <img class="calendario_card-icon-img" src="./assets/imgs/circle-name.svg" alt="">
+                        </div>
+                        <div class="calendarioCard_text-container text">
+                            <h2 class="calendarioCard_text-title text">Reunião de Revisão Everest</h2>
+                            <p class="calendarioCard_text text">21 de Novembro, 06:00AM</p>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+            <div class="agenda_card-container">
+                <div class="calendario_card-content">
+                    <p   class=" title_color text">07 AM</p>
+                    <div class=" title_color text">------------------------------------------</div>
+                </div>
+                <div class="calendario_card-content">
+                    <div class="calendario_card-point">
+                        <p class="text_color text">.</p>
+                        <p class="text_color text">.</p>
+                        <p class="text_color text">.</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="agenda_card-container">
+                <div class="calendario_card-content">
+                    <p   class=" title_color text">08 AM</p>
+                    <div class=" title_color text">------------------------------------------</div>
+                </div>
+                <div class="calendario_card-content">
+                    <div class="calendario_card-point">
+                        <p class="text_color text">.</p>
+                        <p class="text_color text">.</p>
+                        <p class="text_color text">.</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="agenda_card-container">
+                <div class="calendario_card-content">
+                    <p   class=" title_color text">09 AM</p>
+                    <div class=" title_color text">------------------------------------------</div>
+                </div>
+                <div class="calendario_card-content">
+                    <div class="calendario_card-point">
+                        <p class="text_color text">.</p>
+                        <p class="text_color text">.</p>
+                        <p class="text_color text">.</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="agenda_card-container">
+                <div class="calendario_card-content">
+                    <p   class=" title_color text">10 AM</p>
+                    <div class=" title_color text">------------------------------------------</div>
+                </div>
+                <div class="calendario_card-content">
+                    <div class="calendario_card-point">
+                        <p class="text_color text">.</p>
+                        <p class="text_color text">.</p>
+                        <p class="text_color text">.</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="agenda_card-container">
+                <div class="calendario_card-content">
+                    <p   class=" title_color text">11 AM</p>
+                    <div class=" title_color text">------------------------------------------</div>
+                </div>
+                <div class="calendario_card-content">
+                    <div class="calendario_card-point">
+                        <p class="text_color text">.</p>
+                        <p class="text_color text">.</p>
+                        <p class="text_color text">.</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="agenda_card-container">
+                <div class="calendario_card-content">
+                    <p   class=" title_color text">12 AM</p>
+                    <div class=" title_color text">------------------------------------------</div>
+                </div>
+                <div class="calendario_card-content">
+                    <div class="calendario_card-point">
+                        <p class="text_color text">.</p>
+                        <p class="text_color text">.</p>
+                        <p class="text_color text">.</p>
+                    </div>
+                    <div class="calendario_card">
+                        <div class="calendario_card-icons-container">
+                            <button class="calendario_card-icons-button-1"><span class="text_hidden">aaaa</span></button>
+                            <div class="calendario_card-icons-container">
+                                <img class="calendario_card-icons" src="./assets/imgs/Ellipse 199.png" alt="">
+                                <img class="calendario_card-icons" src="./assets/imgs/Ellipse 199.png" alt="">
+                                <img class="calendario_card-icons" src="./assets/imgs/Ellipse 199.png" alt="">
+                                <span class="card_number">1</span>
+                            </div>
+                            <img class="calendario_card-icon-img" src="./assets/imgs/circle-name.svg" alt="">
+                        </div>
+                        <div class="calendarioCard_text-container text">
+                            <h2 class="calendarioCard_text-title text">Curso de Atendimento ao Cliente</h2>
+                            <p class="calendarioCard_text text">21 de Novembro, 11:45AM</p>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+            <div class="agenda_card-container">
+                <div class="calendario_card-content">
+                    <p   class=" title_color text">13 AM</p>
+                    <div class=" title_color text">------------------------------------------</div>
+                </div>
+                <div class="calendario_card-content">
+                    <div class="calendario_card-point">
+                        <p class="text_color text">.</p>
+                        <p class="text_color text">.</p>
+                        <p class="text_color text">.</p>
+                    </div>
+                 </div>
+            </div>
+        </div>
+        <div id="agendaId" class="agenda_container hidde" >
+            <div class="calendario_text-container text">
+                <p class="perfilConfig_text title_color text">Nome do Evento</p>
+                <h2 class="dashBoardCard_text-title title_color text">Reunião Everest</h2>
+            </div>
+            <div class="checkbox_reunioes-container text">
+                <h2 class="reinioes_text-title title_color text">Categorias</h2>
+                <div class="checkbox_reunioes checkbox_blue">
+                    <input type="radio">
+                    <label class="label_checkbox text" for="">Reunião</label>
+                </div>
+                <div class="checkbox_reunioes checkbox_green">
+                    <input type="radio">
+                    <label class="label_checkbox text" for="">Tarefa</label>
+                </div>
+                <img class="icon_reunioes-plus" src="./assets/imgs/Vector Mais.png" alt="">
+                
+            </div>
+
+            <div class="checkbox_reunioes-container text">
+                <h2 class="reinioes_text-title title_color text">Adicionar Membros</h2>
+                <img class="icon_reunioes"  src="./assets/imgs/Group 753.png" alt="">
+                <img class="icon_reunioes"  src="./assets/imgs/Group 753.png" alt="">
+                <img class="icon_reunioes"  src="./assets/imgs/Group 753.png" alt="">
+                <img class="icon_reunioes"  src="./assets/imgs/Group 753.png" alt="">
+                <img class="icon_reunioes-plus" src="./assets/imgs/Vector Mais.png" alt="">
+                
+            </div>
+
+            <div class="checkbox_reunioes-container text">
+                <h2 class="reinioes_text-title title_color text">Horário</h2>
+                <input class="input_date-reunioes" type="date">
+                <div class="checkbox_reunioes checkbox_blue">
+                    <input type="radio">
+                    <label class="label_checkbox text" for="">Reunião</label>
+                </div>
+            </div>
+            
         </div>
     </main>
     <script src="./assets/js/calendario.js"></script>

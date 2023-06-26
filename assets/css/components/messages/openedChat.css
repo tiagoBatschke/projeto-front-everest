@@ -275,3 +275,33 @@
     height: 2rem;
     
 }
+
+.socialChart{
+    max-width: 20%;
+    position: fixed;
+    z-index: 3;
+    background-color: var(--container-light);
+    max-height: 45vh;
+    margin-top: 8%;
+    margin-left: 2.1rem;
+    
+}
+
+.socialChart_ul{
+    padding: 1rem;
+    overflow-y: scroll;
+    max-height: 35vh;
+}
+
+
+.chat_card_filtro:hover{
+    cursor: pointer;
+}
+
+.social_titles_separation_graficos{
+    max-width: 88%;
+}
+.socialChart_ul::-webkit-scrollbar {
+    width: 5px;
+    /* width of the entire scrollbar */
+}
