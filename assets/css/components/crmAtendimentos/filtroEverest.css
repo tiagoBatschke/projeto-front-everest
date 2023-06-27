@@ -125,7 +125,7 @@
     background-color: var(--svg);
     cursor: pointer;
     transition-delay: 100ms;
-    color: var( --container-light);
+    color: var(--container-light);
 }
 
 .button_evidencia:hover{

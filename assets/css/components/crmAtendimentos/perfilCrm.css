@@ -195,8 +195,7 @@ input::placeholder {
 }
 
 .card_buttons-perfil{
-  display: flex;
-  
+ display: flex;
 }
 
 .card_perfil-icon {
