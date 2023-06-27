@@ -118,7 +118,7 @@
 
 .button_evidencia{
     background-color: var(--svg);
-    color: var( --container-light);
+    color: var(--container-light);
 }
 
 .filtro_everest_chat-arquivos-buttons:hover {

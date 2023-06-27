@@ -1,14 +1,9 @@
 $(document).ready(function () {
   $(".regular").slick({
-    dots: true,
+    dots: false,
     infinite: true,
-    slidesToShow: 3,
-    slidesToScroll: 3,
-    appendArrows: $(".custom-arrows"),
-    prevArrow:
-      '<div class="container_prev"><button class="slick-prev">‹</button></div>',
-    nextArrow:
-      '<div class="container_next"><button class="slick-next">›</button></div>',
+    slidesToShow: 2,
+    slidesToScroll: 2,
     responsive: [
       {
         breakpoint: 1024,
