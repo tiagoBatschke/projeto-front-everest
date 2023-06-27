@@ -38,10 +38,14 @@
 }
 
 .carrousel {
-    width: 78%;
+    width: 90%;
     
 }
 
+
+.custom-arrows{
+    
+}
 .img_container {
     background-color: var(--span-color);
     width: 20%;
