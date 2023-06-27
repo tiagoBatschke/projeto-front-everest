@@ -294,9 +294,10 @@
 }
 
 
-.chat_card_filtro:hover{
+.chat_card_filtro:hover, .card_confirmation-chat-fechar:hover{
     cursor: pointer;
 }
+
 
 .social_titles_separation_graficos{
     max-width: 88%;

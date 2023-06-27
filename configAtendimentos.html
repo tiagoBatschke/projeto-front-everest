@@ -438,7 +438,7 @@
             <div class="calendario_card-container">
                 <div class="calendario_Card-text">
                     <h2 class="perfilConfig_text-title title_color text">Próximas Datas</h2>
-                    <p onclick="openList('agendaId'), openList('calendario') " style="font-weight: bold;" class="perfilConfig_text title_color text">Ver tudo</p>
+                    <p onclick="openList('agendaId'), openList('calendario') " style="font-weight: bold;" class="perfilConfig_text pointer title_color text">Ver tudo</p>
                 </div>
 
                 <div class="calendario_card">
@@ -476,7 +476,7 @@
                 </div>
 
             </div>
-            <button onclick="openList('reunioesId'), openList('calendario') " class="button_calendario">Criar Evento</button>
+            <button onclick="openList('reunioesId'), openList('calendario') " class="button_calendario pointer">Criar Evento</button>
         </div>
         
         <div id="agendaId" class="agenda_container hidden" >
@@ -495,7 +495,7 @@
                         <p class="text_color text">.</p>
                         <p class="text_color text">.</p>
                     </div>
-                    <div class="calendario_card">
+                    <div onclick="location.reload()"  class="calendario_card pointer">
                         <div class="calendario_card-icons-container">
                             <button class="calendario_card-icons-button"><span class="text_hidden">aaaa</span></button>
                             <div class="calendario_card-icons-container">
@@ -590,7 +590,7 @@
                         <p class="text_color text">.</p>
                         <p class="text_color text">.</p>
                     </div>
-                    <div class="calendario_card">
+                    <div onclick="location.reload()"  class="calendario_card pointer">
                         <div class="calendario_card-icons-container">
                             <button class="calendario_card-icons-button-1"><span class="text_hidden">aaaa</span></button>
                             <div class="calendario_card-icons-container">
@@ -669,78 +669,108 @@
             </div>
             
             <div class="card_buttons-container">
-                <button class="card_buttons-red text">Cancelar</button>
+                <button onclick="location.reload()"  class="card_buttons-red text">Cancelar</button>
                 <button onclick="location.reload()" class="card_buttons text">Agendar</button>
             </div>
         </div>
 
         <div id="card_categorias" class="card_categorias-container hidden">
-            <div class="x_fechar-container "><p  class="x_fechar text">X</p></div>
-            <div onclick="openList('card_categorias')"  class="checkbox_reunioes-card checkbox_blue">
+            <div class="haeader_card-container ">
+                <p  class="haeader_card-text text">Add Categoria</p>
+                <p onclick="openList('card_categorias')"  class="haeader_card-text text">X</p>
+            </div>
+            <div onclick="openList('card_categorias')"  class="checkbox_reunioes-card checkbox_blue pointer">
                 <input type="radio">
                 <label class="label_checkbox text" for="">Reunião</label>
             </div>
-            <div  onclick="openList('card_categorias')"  class="checkbox_reunioes-card checkbox_green">
+            <div  onclick="openList('card_categorias')"  class="checkbox_reunioes-card checkbox_green pointer">
                 <input type="radio">
                 <label class="label_checkbox text" for="">Tarefa</label>
             </div>
-            <div  onclick="openList('card_categorias')"  class="checkbox_reunioes-card checkbox_yellow">
+            <div  onclick="openList('card_categorias')"  class="checkbox_reunioes-card checkbox_yellow pointer">
                 <input type="radio">
                 <label class="label_checkbox text" for="">Curso</label>
             </div>
-            <div onclick="openList('card_categorias')"  class="checkbox_reunioes-card checkbox_gray">
+            <div onclick="openList('card_categorias')"  class="checkbox_reunioes-card checkbox_gray pointer">
                 <input type="radio">
                 <label class="label_checkbox text" for="">Novo</label>
             </div>
         </div>
         <div id="addMembrosId" class="card_membros-container hidden">
-            <div class="x_fechar-container "><p  class="x_fechar text">X</p></div>
+            <div class="haeader_card-container ">
+                <p  class="haeader_card-text text">Adicionar Membros</p>
+                <p onclick="openList('addMembrosId')"  class="haeader_card-text text">X</p>
+            </div>
 
             <div onclick="openList('addMembrosId')"   class="card_membros">
                 <div class="calendario_card-icons-container">
-                <img class="calendario_card-icon-img" src="./assets/imgs/circle-name.svg" alt="">
-                </div>
-                <div class="calendarioCard_text-container text">
-                    <h2 class="calendarioCard_text-title text">Curso de Atendimento ao Cliente</h2>
-                    <p class="calendarioCard_text text">21 de Novembro, 11:45AM</p>
+                    <img class="calendario_card-icon-img" src="./assets/imgs/circle-name.svg" alt="">
+                    <div class="text_card-container">
+                        <h2 class="calendarioCard_text-title text">Neelesh Chaud</h2>
+                        <p class="calendarioCard_text text">Supervisor</p>
+                    </div>
+                    <img class="calendario_card-icon-img-small"  src="./assets/imgs/circle_green.svg" alt="">
+                    <span  onclick="openList('addMembrosId')"  class="calendarioCard_text-blue text">add</span>
                 </div>
             </div>
-            <div onclick="openList('addMembrosId')"  class="card_membros">
+            <div onclick="openList('addMembrosId')"   class="card_membros">
                 <div class="calendario_card-icons-container">
-                <img class="calendario_card-icon-img" src="./assets/imgs/circle-name.svg" alt="">
-                </div>
-                <div class="calendarioCard_text-container text">
-                    <h2 class="calendarioCard_text-title text">Curso de Atendimento ao Cliente</h2>
-                    <p class="calendarioCard_text text">21 de Novembro, 11:45AM</p>
+                    <img class="calendario_card-icon-img" src="./assets/imgs/circle-name.svg" alt="">
+                    <div class="text_card-container">
+                        <h2 class="calendarioCard_text-title text">Guy Fisher</h2>
+                        <p class="calendarioCard_text text">Atendente</p>
+                    </div>
+                    <img class="calendario_card-icon-img-small"  src="./assets/imgs/circle_green.svg" alt="">
+                    <p  onclick="openList('addMembrosId')"  class="calendarioCard_text-blue text">add</p>
                 </div>
             </div>
-            <div onclick="openList('addMembrosId')"  class="card_membros">
+            <div onclick="openList('addMembrosId')"   class="card_membros">
                 <div class="calendario_card-icons-container">
-                <img class="calendario_card-icon-img" src="./assets/imgs/circle-name.svg" alt="">
-                </div>
-                <div class="calendarioCard_text-container text">
-                    <h2 class="calendarioCard_text-title text">Curso de Atendimento ao Cliente</h2>
-                    <p class="calendarioCard_text text">21 de Novembro, 11:45AM</p>
+                    <img class="calendario_card-icon-img" src="./assets/imgs/circle-name.svg" alt="">
+                    <div class="text_card-container">
+                        <h2 class="calendarioCard_text-title text">Diane Hawkins</h2>
+                        <p class="calendarioCard_text text">Atendente</p>
+                    </div>
+                    <img class="calendario_card-icon-img-small"  src="./assets/imgs/circle_green.svg" alt="">
+                    <p  onclick="openList('addMembrosId')"  class="calendarioCard_text-blue text">add</p>
                 </div>
             </div>
-            <div onclick="openList('addMembrosId')"  class="card_membros">
+            <div onclick="openList('addMembrosId')"   class="card_membros">
                 <div class="calendario_card-icons-container">
-                <img class="calendario_card-icon-img" src="./assets/imgs/circle-name.svg" alt="">
-                </div>
-                <div class="calendarioCard_text-container text">
-                    <h2 class="calendarioCard_text-title text">Curso de Atendimento ao Cliente</h2>
-                    <p class="calendarioCard_text text">21 de Novembro, 11:45AM</p>
+                    <img class="calendario_card-icon-img" src="./assets/imgs/circle-name.svg" alt="">
+                    <div class="text_card-container">
+                        <h2 class="calendarioCard_text-title text">Dustin Mccoy</h2>
+                        <p class="calendarioCard_text text">Atendente</p>
+                    </div>
+                    <img class="calendario_card-icon-img-small"  src="./assets/imgs/circle_green.svg" alt="">
+                    <p  onclick="openList('addMembrosId')"  class="calendarioCard_text-blue text">add</p>
                 </div>
             </div>
-            <div onclick="openList('addMembrosId')"  class="card_membros">
+            <div onclick="openList('addMembrosId')"   class="card_membros">
                 <div class="calendario_card-icons-container">
-                <img class="calendario_card-icon-img" src="./assets/imgs/circle-name.svg" alt="">
-                </div>
-                <div class="calendarioCard_text-container text">
-                    <h2 class="calendarioCard_text-title text">Curso de Atendimento ao Cliente</h2>
-                    <p class="calendarioCard_text text">21 de Novembro, 11:45AM</p>
+                    <img class="calendario_card-icon-img" src="./assets/imgs/circle-name.svg" alt="">
+                    <div class="text_card-container">
+                        <h2 class="calendarioCard_text-title text">Philip Cooper</h2>
+                        <p class="calendarioCard_text text">Atendente</p>
+                    </div>
+                    <img class="calendario_card-icon-img-small"  src="./assets/imgs/circle_green.svg" alt="">
+                    <p  onclick="openList('addMembrosId')"  class="calendarioCard_text-blue text">add</p>
                 </div>
             </div>
+            <div onclick="openList('addMembrosId')"   class="card_membros">
+                <div class="calendario_card-icons-container">
+                    <img class="calendario_card-icon-img" src="./assets/imgs/circle-name.svg" alt="">
+                    <div class="text_card-container">
+                        <h2 class="calendarioCard_text-title text">Scarlett Murphy</h2>
+                        <p class="calendarioCard_text text">Atendente</p>
+                    </div>
+                    <img class="calendario_card-icon-img-small"  src="./assets/imgs/circle_green.svg" alt="">
+                    <p  onclick="openList('addMembrosId')"  class="calendarioCard_text-blue text">add</p>
+                </div>
+            </div>
+            
+           
+        
             
         </div>
            
