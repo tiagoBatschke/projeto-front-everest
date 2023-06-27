@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Everest - Configurações</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/header/header.css">
     <link rel="stylesheet" href="./assets/css/header/lateralBar.css">
     <link rel="stylesheet" href="./assets/css/components/configEverest/integracoes.css">
     <link rel="stylesheet" href="./assets/css//components/configEverest/configColab.css">
     <link rel="stylesheet" href="./assets/css/components/configEverest/cadastroUsuario.css">
     <link rel="stylesheet" href="./assets/css/components/variaveisDarkmode.css">
-    <link rel="stylesheet" href="./assets/css/components/configEverest/configEverest.css">
     <link rel="stylesheet" href="./assets/css/tutorial/cadsTutorial.css">
+    <link rel="stylesheet" href="./assets/css/header/header.css">
+    <link rel="stylesheet" href="./assets/css/components/configEverest/configEverest.css">
     
     
 </head>
@@ -606,7 +606,216 @@
             </div>
         
     </div>
-    
+    <div id="tutorialId"  class="card_Tutorial hidden">
+        <div class="x_fechar-container "><p class="x_fechar text">X</p></div>
+        <div class="card_Tutorial-container">
+           
+            <div class="img_container"><img src="./assets/imgs/everest.svg" alt=""></div>
+            <div class="card_text-container">
+                <h2 class="card_title text">Tutorial Everest</h2>
+                <p class="card_text text">Olá Admin! <span class="card_text-blue text">Seja bem-vind@ ao Everest</span>, nosso software de Atendimento e CRM. </p>
+                <p class="card_text text">Á seguir, mostraremos em alguns passos tudo o que precisa saber para iniciar-se no Everest com muito sucesso. <span class="card_text-blue text">Vamos lá?</span></p>
+            </div>
+            <div class="card_buttons-container">
+                <button onclick="location.reload()" class="card_buttons-fechar text">Fechar</button>
+                <button onclick="openList('tutorialHomeiId'),openList('tutorialId') "   class="card_buttons text">Proximo</button>
+            </div>
+        </div>
+    </div>
+    <div id="tutorialHomeiId" class="card_Tutorial hidden">
+        <div class="x_fechar-container "><p class="x_fechar text">X</p></div>
+        <div class="card_Tutorial-container">
+           
+            <div class="img_container"><img class="img_card" src="./assets/imgs/img home.svg" alt=""></div>
+            <div class="card_text-container">
+                <h2 class="card_title text">Home</h2>
+                <p class="card_text text">As Métricas são<span class="card_text-blue text"> apontamentos</span> de atendimentos e outras infos gerais da empresa. Elas são preenchidas automaticamente com <span class="card_text-blue text"> informações geradas pelos seus usuários;</span> </p>
+                
+            </div>
+            <div class="card_buttons-container">
+                <button onclick="location.reload()" class="card_buttons-fechar text">Fechar</button>
+                <button onclick="openList('tutorialMenuiId'), openList('tutorialHomeiId') "    class="card_buttons text">Proximo</button>
+            </div>
+        </div>
+    </div>
+    <div id="tutorialMenuiId" class="card_Tutorial hidden">
+        <div class="x_fechar-container "><p class="x_fechar text">X</p></div>
+        <div class="card_Tutorial-container">
+           
+            <div class="img_container"><img class="img_card" src="./assets/imgs/menu.svg" alt=""></div>
+            <div class="card_text-container">
+                <h2 class="card_title text">Menu</h2>
+                <p class="card_text text">Veja as notificações no Sino, atalhos importantes em sua foto de perfil e mude para o<span class="card_text-blue text"> Dark Mode</span>  rapidamente clicando em cima do Sol;</p>
+                
+            </div>
+            <div class="card_buttons-container">
+                <button onclick="location.reload()" class="card_buttons-fechar text">Fechar</button>
+                <button onclick="openList('tutorialMenssegerId'), openList('tutorialMenuiId') "  class="card_buttons text">Proximo</button>
+            </div>
+        </div>
+    </div>
+    <div  id="tutorialMenssegerId"  class="card_Tutorial hidden">
+        <div class="x_fechar-container "><p class="x_fechar text">X</p></div>
+        <div class="card_Tutorial-container">
+           
+            <div class="img_container"><img class="img_card" src="./assets/imgs/messge.svg" alt=""></div>
+            <div class="card_text-container">
+                <h2 class="card_title text">Messenger</h2>
+                <p class="card_text text">Tela de Atendimento com <span class="card_text-blue text"> atalho para a visualização e criação do Perfil CRM</span>  do Cliente e outras funções no lado esquerdo: atalhos para “Novas”, “Finalizados” e “Arquivo”.</p>
+                
+            </div>
+            <div class="card_buttons-container">
+                <button onclick="location.reload()" class="card_buttons-fechar text">Fechar</button>
+                <button onclick="openList('tutorialAtendimentoId'), openList('tutorialMenssegerId') " class="card_buttons text">Proximo</button>
+            </div>
+        </div>
+    </div>
+    <div id="tutorialAtendimentoId"  class="card_Tutorial hidden">
+        <div class="x_fechar-container "><p class="x_fechar text">X</p></div>
+        <div class="card_Tutorial-container">
+           
+            <div class="img_container"><img class="img_card" src="./assets/imgs/atendimento.svg" alt=""></div>
+            <div class="card_text-container">
+                <h2 class="card_title text">O Atendimento</h2>
+                <p class="card_text text">Acesse  <span class="card_text-blue text">"Novas"</span> para aceitar novos chats, <span class="card_text-blue text">"Arquivo"</span> para ver mensagens antigas e reabrir chamados e  <span class="card_text-blue text"> "Finalizados" </span>para ver chats terminados no dia atual.</p>
+                
+            </div>
+            <div class="card_buttons-container">
+                <button onclick="location.reload()" class="card_buttons-fechar text">Fechar</button>
+                <button onclick="openList('tutorialButtonAtendimentoId'), openList('tutorialAtendimentoId') " class="card_buttons text">Proximo</button>
+            </div>
+        </div>
+    </div>
+    <div id="tutorialButtonAtendimentoId"  class="card_Tutorial hidden">
+        <div class="x_fechar-container "><p class="x_fechar text">X</p></div>
+        <div class="card_Tutorial-container">
+           
+            <div class="img_container"><img class="img_card" src="./assets/imgs/botaoAtendimento.svg" alt=""></div>
+            <div class="card_text-container">
+                <h2 class="card_title text">Botões de Atendimento</h2>
+                <p class="card_text text">Realize o Atendimento com o<span class="card_text-blue text"> auxílio dos botões:</span> "Criar Lead CRM", "Criar Pós-Venda", Add Mídia, Add Atendente, Transferir Chat e mais!</p>
+                
+            </div>
+            <div class="card_buttons-container">
+                <button onclick="location.reload()" class="card_buttons-fechar text">Fechar</button>
+                <button onclick="openList('tutorialCrmId'), openList('tutorialButtonAtendimentoId') " class="card_buttons text">Proximo</button>
+            </div>
+        </div>
+    </div>
+    <div id="tutorialCrmId"  class="card_Tutorial hidden">
+        <div class="x_fechar-container "><p class="x_fechar text">X</p></div>
+        <div class="card_Tutorial-container">
+           
+            <div class="img_container"><img class="img_card" src="./assets/imgs/crm.svg" alt=""></div>
+            <div class="card_text-container">
+                <h2 class="card_title text">CRM</h2>
+                <p class="card_text text">CRM Padrão para a visualização geral dos Leads, Vendas e Pós-Vendas. Basta mover os quadrinhos de setor em setor para formalizar a Venda e Pós, ou o retorno ao estado de Lead.</p>
+                <span class="card_text-blue text">Filte por Atendimentos em que participou rapidamente em "Filtrar Por"</span> 
+                
+            </div>
+            <div class="card_buttons-container">
+                <button onclick="location.reload()" class="card_buttons-fechar text">Fechar</button>
+                <button onclick="openList('tutorialPersonalizaçãoId'), openList('tutorialCrmId') "  class="card_buttons text">Proximo</button>
+            </div>
+        </div>
+    </div>
+    <div id="tutorialPersonalizaçãoId" class="card_Tutorial hidden">
+        <div class="x_fechar-container "><p class="x_fechar text">X</p></div>
+        <div class="card_Tutorial-container">
+           
+            <div class="img_container"><img class="img_card" src="./assets/imgs/personalizacao.svg" alt=""></div>
+            <div class="card_text-container">
+                <h2 class="card_title text">Personalização</h2>
+                <p class="card_text text">Adicione sua foto de perfil, escreva lembretes e mude  as cores do Everest para as da sua Empresa.</p>
+                
+                
+            </div>
+            <div class="card_buttons-container">
+                <button onclick="location.reload()" class="card_buttons-fechar text">Fechar</button>
+                <button onclick="openList('tutorialCalendarioId'), openList('tutorialPersonalizaçãoId') "  class="card_buttons text">Proximo</button>
+            </div>
+        </div>
+    </div>
+    <div id="tutorialCalendarioId"  class="card_Tutorial hidden">
+        <div class="x_fechar-container "><p class="x_fechar text">X</p></div>
+        <div class="card_Tutorial-container">
+           
+            <div class="img_container"><img class="img_card" src="./assets/imgs/calendario.svg" alt=""></div>
+            <div class="card_text-container">
+                <h2 class="card_title text">Calendário</h2>
+                <p class="card_text text">Agende rapidamente reuniões, eventos e lembretes pessoais e gerais dentro do Everest!</p>
+                
+                
+            </div>
+            <div class="card_buttons-container">
+                <button onclick="location.reload()" class="card_buttons-fechar text">Fechar</button>
+                <button onclick="openList('tutorialConfigEverestId'), openList('tutorialCalendarioId') " class="card_buttons text">Proximo</button>
+            </div>
+        </div>
+    </div>
+    <div id="tutorialConfigEverestId"  class="card_Tutorial hidden">
+        <div class="x_fechar-container "><p class="x_fechar text">X</p></div>
+        <div class="card_Tutorial-container">
+           
+            <div class="img_container"><img class="img_card" src="./assets/imgs/config.svg" alt=""></div>
+            <div class="card_text-container">
+                <h2 class="card_title text">Configurações Everest </h2>
+                <p class="card_text text">Configure as Permissão Gerais e dos Colaboradores no Sistema, Cadastre Usuários, Integre suas Redes Sociais fazendo o Login - ou excluindo ele -  e vá para Pagamentos realizar suas compras.</p>
+                
+                
+            </div>
+            <div class="card_buttons-container">
+                <button onclick="location.reload()" class="card_buttons-fechar text">Fechar</button>
+                <button onclick=" openList('tutorialPagamentosId'),openList('tutorialConfigEverestId')" class="card_buttons text">Proximo</button>
+            </div>
+        </div>
+    </div>
+    <div id="tutorialPagamentosId"  class="card_Tutorial hidden">
+        <div class="x_fechar-container "><p class="x_fechar text">X</p></div>
+        <div class="card_Tutorial-container">
+           
+            <div class="img_container"><img class="img_card" src="./assets/imgs/pagamento.svg" alt=""></div>
+            <div class="card_text-container">
+                <h2 class="card_title text">Pagamentos</h2>
+                <p class="card_text text">Selecione a quantidade de usuários e contas em redes sociais que deseja cadastrar no seu Everest e realize o pagamento. Depois, cadastre-os oficialmente na tela <br><span class="card_text-blue text"> Configurações Everest > Cadastro de Usuário</span></p>
+            </div>
+            <div class="card_buttons-container">
+                <button onclick="location.reload()" class="card_buttons-fechar text">Fechar</button>
+                <button onclick=" openList('tutorialMinhasComprasId'),openList('tutorialPagamentosId')" class="card_buttons text">Proximo</button>
+            </div>
+        </div>
+    </div>
+    <div id="tutorialMinhasComprasId" class="card_Tutorial hidden">
+        <div class="x_fechar-container "><p class="x_fechar text">X</p></div>
+        <div class="card_Tutorial-container">
+           
+            <div class="img_container"><img class="img_card" src="./assets/imgs/minhasCompras.svg" alt=""></div>
+            <div class="card_text-container">
+                <h2 class="card_title text">Minhas Compras</h2>
+                <p class="card_text text">Veja todas as compras realizadas por você no Everest, ativas e canceladas.<span class="card_text-blue text">  Edite informações sobre quantidade e método de pagamento</span> também.</p>
+            </div>
+            <div class="card_buttons-container">
+                <button onclick="location.reload()" class="card_buttons-fechar text">Fechar</button>
+                <button onclick=" openList('tutorialLastCardId'),openList('tutorialMinhasComprasId')" class="card_buttons text">Proximo</button>
+            </div>
+        </div>
+    </div>
+    <div id="tutorialLastCardId"  class="card_Tutorial hidden">
+        <div class="x_fechar-container "><p class="x_fechar text">X</p></div>
+        <div class="card_Tutorial-container">
+            <div class="card_text-container1">
+                <h2 class="card_title text">Como envio o acesso ás 
+                    contas de usuário aos meus 
+                    colaboradores?</h2>
+                <p class="card_text text">Ao cadastrar o usuário<span class="card_text-blue text">  digite um e-mail</span>  válido<span class="card_text-blue text">  e gere uma senha </span>para seu colaborador. Ele irá utilizá-lo para o login: e-mail cadastrado + senha. </p>
+                <p class="card_text text">E não se preocupe! Estas informações serão enviadas automaticamente para o seu e-mail - e o dele também</p>
+            </div>
+            <div class="card_buttons-container">
+                <button onclick="location.reload()" class="card_buttons-fechar text">Fechar</button>
+                <button onclick="location.reload()" class="card_buttons text">Finalizar</button>
+            </div>
+        </div>
+    </div>
    </main>
    <script src="./assets/js/noRefresh.js"></script>
    <script src="./assets/js/changeTheme.js"></script>

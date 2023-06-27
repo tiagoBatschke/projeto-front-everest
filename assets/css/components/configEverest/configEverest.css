@@ -116,5 +116,5 @@
     width: 60%;
     overflow-y: scroll;
     max-height: 95vh;
-    z-index: 1;
+    z-index: 0;
 }
