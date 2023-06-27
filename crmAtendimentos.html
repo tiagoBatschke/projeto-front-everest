@@ -5,14 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Everest - Atendimentos</title>
+    <link rel="stylesheet" href="./assets/css/reset.css ">
     <link rel="stylesheet" href="./assets/css/header/header.css">
     <link rel="stylesheet" href="./assets/css/header/lateralBar.css">
-    <link rel="stylesheet" href="./assets/css/reset.css ">
     <link rel="stylesheet" href="./assets/css/components/crmAtendimentos/cardsCrm.css">
     <link rel="stylesheet" href="./assets/css/components/crmAtendimentos/filtroEverest.css">
     <link rel="stylesheet" href="./assets/css/components/crmAtendimentos/perfilCrm.css">
     <link rel="stylesheet" href="./assets/css/components/variaveisDarkmode.css">
     <link rel="stylesheet" href="./assets/css/tutorial/cadsTutorial.css">
+    <link rel="stylesheet" type="text/css" href="./assets/slick-1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/slick-1.8.1/slick/slick-theme.css"/>
   
 </head>
 <body>
@@ -599,26 +601,43 @@
             <h2 class="title_crm-lead text">Perfil Lead CRM</h2>
             <div class="card_perfil-container">
                 <div class="card_buttons-perfil">
-                    <div id="button_perfil-lead-crm" onclick="openListMessages('perfilPosVenda', 'button_perfil-lead-crm', ['button_medias','button_perfil-lead-crm'], ['midias', 'trilhaDeAtendimento','perfilPosVenda', 'perfilLeadCrm'])"
-                     class=" card_perfil-text text card_perfil">
-                    <button class="card_perfil-button"><span class="text_hidden">aaaa</span></button>
-                    <p class="">Perfil
-                        Lead CRM</p>
-                   
+                    <div class="carrousel">
+                        <div class="regular slider">
+                            
+                           <div id="button_perfil-lead-crm" onclick="openListMessages('perfilLeadCrm', 'button_perfil-lead-crm', ['button_perfil-lead-crm','button_medias','button_trilhaDeAtendimento','button_perfilPosVenda'  ], ['midias', 'trilhaDeAtendimento','perfilPosVenda', 'perfilLeadCrm'])"
+                           class=" card_perfil-text text card_perfil">
+                          <button class="card_perfil-button"><span class="text_hidden">aaaa</span></button>
+                          <p class="">Perfil
+                              Lead CRM</p>
+                         
+                          </div>
+                          <div id="button_medias" onclick="openListMessages('midias', 'button_medias', ['button_perfil-lead-crm','button_medias','button_trilhaDeAtendimento', 'button_perfilPosVenda' ], ['midias', 'trilhaDeAtendimento','perfilPosVenda', 'perfilLeadCrm'])"
+                          class=" card_perfil-text text card_perfil">
+                         <button class="card_perfil-button"><span class="text_hidden">aaaa</span></button>
+                         <p class="">Medias</p>
+                        
+                         </div>
+                         <div id="button_trilhaDeAtendimento" onclick="openListMessages('trilhaDeAtendimento', 'button_trilhaDeAtendimento', ['button_perfil-lead-crm','button_medias','button_trilhaDeAtendimento', 'button_perfilPosVenda' ], ['midias', 'trilhaDeAtendimento','perfilPosVenda', 'perfilLeadCrm'])"
+                         class=" card_perfil-text text card_perfil">
+                        <button class="card_perfil-button"><span class="text_hidden">aaaa</span></button>
+                        <p class="">Trilha de 
+                          Atendimento</p>
+                       
+                        </div>
+                        <div id="button_perfilPosVenda" onclick="openListMessages('perfilPosVenda', 'button_perfilPosVenda', ['button_perfil-lead-crm','button_medias','button_trilhaDeAtendimento', 'button_perfilPosVenda' ], ['midias', 'trilhaDeAtendimento','perfilPosVenda', 'perfilLeadCrm'])"
+                         class=" card_perfil-text text card_perfil">
+                        <button class="card_perfil-button"><span class="text_hidden">aaaa</span></button>
+                        <p class="">Perfil
+                          Pós-Venda</p>
+                       
+                        </div>
+                         
+                        </div>
+                      
                     </div>
-                    <div id="button_medias" onclick="openListMessages('midias', 'button_medias', ['button_perfil-lead-crm','button_medias'], ['midias', 'trilhaDeAtendimento','perfilPosVenda', 'perfilLeadCrm'])"
-                    class=" card_perfil-text text card_perfil">
-                   <button class="card_perfil-button"><span class="text_hidden">aaaa</span></button>
-                   <p class="">Medias</p>
+                
+                    
                   
-                   </div>
-                   <div id="button_perfil-lead-crm" onclick="openListMessages('midias', 'button_perfil-lead-crm', ['button_perfil-lead-crm'], ['midias', 'trilhaDeAtendimento','perfilPosVenda', 'perfilLeadCrm'])"
-                   class=" card_perfil-text text card_perfil">
-                  <button class="card_perfil-button"><span class="text_hidden">aaaa</span></button>
-                  <p class="">Perfil
-                      Lead CRM</p>
-                 
-                  </div>
                 
                 
                 <img class="card_perfil-icon" src="./assets/imgs/button_minhaEquipe.png" alt="">
@@ -700,7 +719,7 @@
 
       
       
-      
+     
       
       <div id="trilhaDeAtendimento" class="chat_card_filtro-container hidden">
             <div class="informações_iniciais-container">
@@ -759,15 +778,16 @@
              
                 <img class="card_info_icons-img-midias" src="assets/imgs/img-Midias.png" alt="">
 
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-
+      </div>
     
     
 
 
- <div id="perfilPosVenda" class="chat_card_filtro-container hidden"></div>
+ <div id="perfilPosVenda" class="chat_card_filtro-container hidden">
   <div class="informações_iniciais-container">
     <h3 class="title_informações text">Trilha de 
             Atendimento</h3>
@@ -839,11 +859,12 @@
             </div>
         </div>
     </div>
-
+ </div>
             
                  
-        
-     <div id="perfilLeadCrm" class="chat_card_filtro-container hidden"></div>
+ <div id="perfilLeadCrm" class="chat_card_filtro-container hiddn">
+    
+    
       <div class="informações_iniciais-container">
         <h3 class="title_informações text">Informações Iniciais</h3>
         <div class="card_info">
@@ -916,10 +937,15 @@
              </div>
         </div>  
      </div>
-    
+    </div>
     
    </main>
    <script src="./assets/js/noRefresh.js"></script>
    <script src='./assets/js/changeTheme.js'></script>
+   <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+   <script type="text/javascript" src="./assets/slick-1.8.1/slick/slick.js"></script>
+   <script type="text/javascript" src="./assets/slick-1.8.1/slick/slick.min.js"></script>
+   <script type="text/javascript" src="./assets/js/slick.js"></script>
+   
 </body>
 </html>
