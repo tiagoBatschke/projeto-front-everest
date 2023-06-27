@@ -4,6 +4,9 @@ $(document).ready(function () {
     infinite: true,
     slidesToShow: 2,
     slidesToScroll: 2,
+    appendArrows: $(".custom-arrows"),
+    nextArrow:
+    '<img class="card_perfil-icon" src="./assets/imgs/button_minhaEquipe.png" alt="">',
     responsive: [
       {
         breakpoint: 1024,
