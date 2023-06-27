@@ -151,9 +151,11 @@ input::placeholder {
   box-shadow: -0.1rem 0.2rem rgba(0, 0, 0, 0.074);
   border-radius: 0.5rem;
   border: 1px solid rgba(0, 0, 0, 0.074);
-  width: 50%;
+  width: 80%;
   margin-top: 1rem;
+  margin-bottom: 0.5rem;
   margin-left: 0.5rem;
+  color: var(--tittle-color);
 }
 
 .card_perfil-button {
@@ -170,13 +172,7 @@ input::placeholder {
   visibility: hidden;
 }
 
-.card_perfil-text {
-  font-size: 0.8rem;
-  width: 80%;
-  margin-left: 0.5rem;
-  margin-bottom: 0.5rem;
-  color: var(--tittle-color);
-}
+
 
 .card_perfil:hover {
   background-color: #2A8BF2;
@@ -185,9 +181,6 @@ input::placeholder {
 
 }
 
-.card_perfil-text:hover {
-  color: #fff;
-}
 
 .card_perfil-container {
   display: flex;
@@ -205,6 +198,12 @@ input::placeholder {
   margin-left: 0.3rem;
 }
 
+.card_button-text{
+  color: var(--black-tutorial) ;
+  margin-bottom: 0.5rem;
+  margin-left: 0.3rem;
+  font-size: 0.8rem;
+}
 .perfil_lead_crm-container::-webkit-scrollbar {
   width: 5px;
   /* width of the entire scrollbar */
