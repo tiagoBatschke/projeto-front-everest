@@ -602,25 +602,36 @@
                         Lead CRM</p>
                    
                 </div>
-                <button id="button_midias"
-                onclick="openListMessages('midias', 'button_midias', ['button_midias', 'button_trilha_de_atendimento', 'button_perfil-pos-venda', 'button_perfil-lead-crm'], ['midias', 'trilha de atendimento','perfil pos venda', 'perfil lead crm'])"
-                class="filtro_everest_chat-arquivos-buttons-fixo button_evidencia text">Midias</button>
-
+                <div class="filtro_everest_chat-arquivos-buttons-container1">
+                    <button id="button_midias"
+                    onclick="openListMessages('midias', 'button_midias', ['button_midias', 'button_trilha_de_atendimento', 'button_perfil-pos-venda', 'button_perfil-lead-crm'], ['midias', 'trilha de atendimento','perfil pos venda', 'perfil lead crm'])"
+                    class="filtro_everest_chat-arquivos-buttons button_evidencia text">Midias</button>
+                    <button id="button_trilha_de_atendimento"
+                    onclick="openListMessages('trilha de atendimento', 'button_trilha_de_atendimento', ['button_midias', 'button_trilha_de_atendimento', 'button_perfil-pos-venda', 'button_perfil-lead-crm'], ['midias', 'trilha de atendimento','perfil pos venda', 'perfil lead crm'])"
+                    class="filtro_everest_chat-arquivos-buttons text">Trilha de Atendimento</button>
+                    <button id="button_perfil-pos-venda"
+                    onclick="openListMessages('perfil pos venda', 'button_perfil-pos-venda', ['button_midias', 'button_trilha_de_atendimento', 'button_perfil-pos-venda','button_perfil-lead-crm'], ['midias', 'trilha de atendimento','perfil pos venda','perfil lead crm'])"
+                    class="filtro_everest_chat-arquivos-buttons text">Perfil-Pós Venda</button>
+                    <button id="button_perfil-lead-crm"
+                    onclick="openListMessages('perfil lead crm', 'button_perfil-lead-crm', ['button_midias', 'button_trilha_de_atendimento', 'button_perfil-pos-venda','button_perfil-lead-crm'], ['midias', 'trilha de atendimento','perfil pos venda', 'perfil lead crm'])"
+                    class="filtro_everest_chat-arquivos-buttons text">Perfil Lead CRM</button>
+                </div>
+                
                 <img class="card_perfil-icon" src="./assets/imgs/button_minhaEquipe.png" alt="">
-
-            <div id="midias" class="chat_card_filtro-container hidden">
-
-              <div class="informações_iniciais-container">
-                <h3 class="title_informações text">Informações Iniciais</h3>
-                <div class="card_info">
-                    <div class="card_info_container">
-                        <img class="card_info-img" src="./assets/imgs/circle-name.svg" alt="">
-                        <div class="card_info-text">
-                            <h4 class="card_info_name text">Nome Completo</h4>
-                            <p class="card_info-data text">31 Out 2021  14:29PM</p>
-                        </div>
-                    </div>
-                    <div class="card_info_container">
+                
+                
+             <div id="midias" class="chat_card_filtro-container">
+                <div class="informações_iniciais-container">
+                    <h3 class="title_informações text">Informações Iniciais</h3>
+                    <div class="card_info">
+                      <div class="card_info_container">
+                         <img class="card_info-img" src="./assets/imgs/circle-name.svg" alt="">
+                          <div class="card_info-text">
+                              <h4 class="card_info_name text">Nome Completo</h4>
+                              <p class="card_info-data text">31 Out 2021  14:29PM</p>
+                          </div>
+                      </div>
+                     <div class="card_info_container">
                         <div class="card_info_icons" >
                             <img class="card_info_icons-img" src="./assets/imgs/circle_blue.svg" alt="">
                             <img class="card_info_icons-img" src="./assets/imgs/circle_blue.svg" alt="">
@@ -631,9 +642,9 @@
                             <input class="card_info-input" type="text">
                         </form>
                      
-                    </div>
-                </div>
-                <div class="card_info">
+                      </div>
+                  </div>
+                 <div class="card_info">
                     <div class="card_info_container">
                         <img class="card_info-img" src="./assets/imgs/circle-name.svg" alt="">
                         <div class="card_info-text">
@@ -675,32 +686,20 @@
                             <input class="card_info-input" type="text">
                         </form>
                      
-                    </div>
-                 </div>
+                   </div>
                </div>
             </div>
-   </div>
+         </div>
+      </div>
 
-   <div class="perfil_lead_crm-container">
-    <h2 class="title_crm-lead text">Mídias</h2>
-    <div class="card_perfil-container">
-        <div class="card_perfil">
-            <button class="card_perfil-button"><span class="text_hidden">aaaa</span></button>
-            <p class="card_perfil-text text">Mídias</p>
-           
-</div>
-   <button id="button_trilha_de_atendimento"
-    onclick="openListMessages('trilha de atendimento', 'button_trilha_de_atendimento', ['button_midias', 'button_trilha_de_atendimento', 'button_perfil-pos-venda', 'button_perfil-lead-crm'], ['midias', 'trilha de atendimento','perfil pos venda', 'button perfil lead crm'])"
-    class="filtro_everest_chat-arquivos-buttons1 text">Trilha de Atendimento</button>
-
-        <img class="card_perfil-icon" src="./assets/imgs/button_minhaEquipe.png" alt="">
-    </div>
-
-    <div id="trilha de atendimento" class="chat_card_filtro-container hidden">
-
-      <div class="informações_iniciais-container">
-        <h3 class="title_informações text">Mídias</h3>
-        <div class="card_info">
+      
+      
+      <img class="card_perfil-icon" src="./assets/imgs/button_minhaEquipe.png" alt="">
+      
+      <div id="trilha de atendimento" class="chat_card_filtro-container hidden">
+            <div class="informações_iniciais-container">
+                <h3 class="title_informações text">Mídias</h3>
+                <div class="card_info">
             <div class="card_info_container">
                 <img class="card_info-img" src="./assets/imgs/circle_blue.svg" alt="">
                 <div class="card_info-text">
@@ -716,8 +715,7 @@
                 </div>
                   <img class="card_info_icons-audio" src="assets/imgs/Group 857 Áudio.png" alt="">
             </div>
-        </div>
-        <div class="card_info">
+         <div class="card_info">
             <div class="card_info_container">
                 <img class="card_info-img" src="./assets/imgs/circle_blue.svg" alt="">
                 <div class="card_info-text">
@@ -757,32 +755,15 @@
 
             </div>
         </div>
-     </div>
-   </div>
-</div>
-    
-
-<div class="perfil_lead_crm-container">
-    <h2 class="title_crm-lead text">Trilha de 
-        Atendimento</h2>
-    <div class="card_perfil-container">
-        <div class="card_perfil">
-            <button class="card_perfil-button"><span class="text_hidden">aaaa</span></button>
-            <p class="card_perfil-text text">Trilha de 
-                Atendimento</p>
-           
-        </div>
-        <button id="button_perfil-pos-venda"
-        onclick="openListMessages('perfil pos venda', 'button_perfil-pos-venda', ['button_midias', 'button_trilha_de_atendimento', 'button_perfil-pos-venda'], ['midias', 'trilha de atendimento','perfil pos venda',])"
-        class="filtro_everest_chat-arquivos-buttons1 text">Perfil-Pós Venda</button>
-
-        <img class="card_perfil-icon" src="./assets/imgs/button_minhaEquipe.png" alt="">
     </div>
 
-    <div id="perfil pos venda" class="chat_card_filtro-container hidden"></div>
+    
+    <img class="card_perfil-icon" src="./assets/imgs/button_minhaEquipe.png" alt="">
 
-    <div class="informações_iniciais-container">
-        <h3 class="title_informações text">Trilha de 
+
+ <div id="perfil pos venda" class="chat_card_filtro-container hidden"></div>
+  <div class="informações_iniciais-container">
+    <h3 class="title_informações text">Trilha de 
             Atendimento</h3>
         <div class="card_info">
             <div class="card_info_container">
@@ -852,28 +833,12 @@
             </div>
         </div>
     </div>
-  </div>
-</div>
 
-<div class="perfil_lead_crm-container">
-    <h2 class="title_crm-lead text">Perfil-Pós Venda</h2>
-    <div class="card_perfil-container">
-        <div class="card_perfil">
-            <button class="card_perfil-button"><span class="text_hidden">aaaa</span></button>
-            <p class="card_perfil-text text">Trilha de 
-                Atendimento</p>
-           
-        </div>
-      <button id="button_perfil-lead-crm"
-            onclick="openListMessages('perfil lead crm', 'button_perfil-lead-crm', ['button_midias', 'button_trilha_de_atendimento', 'button_perfil-pos-venda'], ['midias', 'trilha de atendimento','perfil pos venda',])"
-            class="filtro_everest_chat-arquivos-buttons1 text">Perfil Lead CRM</button>
-
-        <img class="card_perfil-icon" src="./assets/imgs/button_minhaEquipe.png" alt="">
-    </div>
-
-    <div id="perfil lead crm" class="chat_card_filtro-container hidden"></div>
-
-    <div class="informações_iniciais-container">
+            
+            <img class="card_perfil-icon" src="./assets/imgs/button_minhaEquipe.png" alt="">        
+        
+     <div id="perfil lead crm" class="chat_card_filtro-container hidden"></div>
+      <div class="informações_iniciais-container">
         <h3 class="title_informações text">Informações Iniciais</h3>
         <div class="card_info">
             <div class="card_info_container">
@@ -942,11 +907,9 @@
                 </form>
 
 
-            </div>
-        </div>
-    </div>
-  </div>
-</div>
+             </div>
+        </div>  
+     </div>
     
 
    </main>
