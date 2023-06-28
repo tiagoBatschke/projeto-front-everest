@@ -145,7 +145,7 @@ input::placeholder {
 
 .listBottom-container {
     width: 75%;
-    background-color: var(--container-color);
+    background-color: var(--container-light);
     margin-top: -2rem;
     display: flex;
     flex-direction: column;

@@ -121,24 +121,28 @@
 }
 
 .listaPagameto_container2 {
-    width: 88.5%;
-    margin-top: -0.97rem;
+    width: 27.8%;
+    margin-top: 20.2rem;
     margin-bottom: 1rem;
     border-radius: 0.5rem 0 0.5rem 0.5rem;
     background-color: var(--container-light);
     border: none;
     cursor: pointer;
+    position: fixed;
+    z-index: 1;
 }
 
 
-.listaPagameto_container1 {
-    width: 85%;
-    margin-top: 1rem;
+.listaPagamento_container1 {
+    width: 44%;
+    margin-top: -1rem;
     margin-bottom: 1rem;
     border-radius: 0.5rem 0 0.5rem 0.5rem;
     background-color: var(--container-light);
     border: none;
     cursor: pointer;
+    position: fixed;
+    z-index: 1;
 }
 
 .everestPay_valores-container{

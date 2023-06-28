@@ -232,7 +232,7 @@
             <div onclick="openList('listaPagamento2Id')" class="tipoPagamento_select-everestPay select_page" name="" id="">
                 <p class="tipoPagamento_select-text1 text">Pagamento Anual</p>
             </div>
-            <div id="listaPagamento2Id" class="listaPagamento_container1" style="margin-top: -1rem; width: 89.1%;">
+            <div id="listaPagamento2Id" class="listaPagamento_container1 hidden" >
                 <ul class="listaPagamento select_page-item">
                     <li class="listaPagameto_item" style="color: var(--subtittle-color);">Pagamento Mensal</li>
                 </ul>
@@ -340,7 +340,7 @@
             <div onclick="openList('listaPagamento3Id')" class="tipoPagamento_select-everestPay" name="" id="">
                 <p class="tipoPagamento_select-text2 text">Pagamento Anual</p>
             </div>
-            <div id="listaPagamento3Id" class="listaPagameto_container2">
+            <div id="listaPagamento3Id" class="listaPagameto_container2 hidden">
                 <ul class="listaPagamento">
                     <li class="listaPagameto_item1">Pagamento Mensal</li>
                     
@@ -572,6 +572,63 @@
                 <div class="card_buttons-container">
                     <button onclick="location.reload()" class="card_buttons-fechar text">Fechar</button>
                     <button onclick="location.reload()" class="card_buttons text">Finalizar</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="card_confirmation-finalizar" class="card_confirmation-chat  hidden">
+            <div onclick="location.reload()"  class="card_confirmation-chat-fechar text" >X</div>
+            <h2 class="card_confirmation-chat-title title_color text">Alterar <span class="blue_title"> Pagamento?</span></h2>
+            <p  class="card_confirmation-chat-subtitle title_color text">Futuras cobranças serão realizadas neste novo método</p>
+            <div class="card_confirmation-chat-buttons-container">
+                <a href=""><button  class="filtro_everest_chat-arquivos-buttons ">Cancelar</button></a> 
+                <a href=""><button  class="filtro_everest_chat-arquivos-buttons button_evidencia ">Alterar  </button></a>
+                
+            </div>
+        </div>
+        <div id="card_confirmation-finalizar" class="card_confirmation-chat  hidden">
+            <div onclick="location.reload()"  class="card_confirmation-chat-fechar text" >X</div>
+            <h2 class="card_confirmation-chat-title title_color text">Salvar <span class="blue_title"> alterações?</span></h2>
+            <p  class="card_confirmation-chat-subtitle title_color text">Ao salvar, elas valerão para sua próxima fatura</p>
+            <div class="card_confirmation-chat-buttons-container">
+                <a href=""><button  class="filtro_everest_chat-arquivos-buttons ">Cancelar</button></a> 
+                <a href=""><button  class="filtro_everest_chat-arquivos-buttons button_evidencia ">Salvar</button></a>
+                
+            </div>
+        </div>
+        <div class="card_Tutorial hidden">
+               
+            <div class="card_Tutorial-container">
+               
+                <img class="img_card" src="./assets/imgs/aprovado.svg" alt="">
+                <div class="card_text-container">
+                    <h2 class="card_title text">Oba! Seu pagamento
+                        foi aprovado!</h2>
+                   
+                    <p class="card_text text">Vá para a página<span class="card_text-blue text"> “Minhas Compras”</span> para
+                        conferir todos os detalhes. Todo mês - ou uma vez ao ano- neste mesmo dia, uma cobrança referente a esta compra será feita automaticamente.</p>
+                </div>
+                <div class="card_buttons-container">
+                    <button class="card_buttons-fechar text">Fechar</button>
+                    <button class="card_buttons-green text">Ir para Minhas Compras</button>
+                </div>
+            </div>
+        </div>
+        <div class="card_Tutorial hidden">
+               
+            <div class="card_Tutorial-container ">
+               
+                <img class="img_card" src="./assets/imgs/algoErrado.svg" alt="">
+                <div class="card_text-container">
+                    <h2 class="card_title text">Ops! Algo deu errado.</h2>
+                   
+                    <p class="card_text text">Retorne para a página do EverestPay e revise
+                        os dados de pagamento. Se o erro persistir, entre 
+                        em contato com o<span class="card_text-blue text"> Suporte Everest.</span>no botão abaixo.</p>
+                </div>
+                <div class="card_buttons-container">
+                    <button class="card_buttons-fechar text">Fechar</button>
+                    <button class="card_buttons text">Suporte Everest</button>
                 </div>
             </div>
         </div>

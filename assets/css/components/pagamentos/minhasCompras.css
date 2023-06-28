@@ -239,10 +239,11 @@
 
 
 .listaPagameto_container {
-   width: 61.5%;
-    margin-right: -33.5rem;
-     margin-top: -2rem;
-      position: fixed;
+   width: 62.5%;
+   margin-left: 38.8rem;
+   margin-top: -2rem;
+   position: fixed;
+   z-index: 1;
 }
 
 .listaPagamento {
