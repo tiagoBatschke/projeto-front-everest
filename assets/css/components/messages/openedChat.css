@@ -235,8 +235,9 @@
     padding: 1rem;
     border-radius: 0.5rem;
     border: 1px solid var(--text-color) ;
-    height: 22vh;
-    width: 25rem;
+    height: 24vh;
+    width: 26rem;
+
 }
 .card_confirmation-chat-fechar{
     background-color: var(--span-color);
