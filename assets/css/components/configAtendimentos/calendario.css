@@ -299,7 +299,19 @@ select {
     width: 3.2rem;
     max-height: 3.2rem;
     margin-top: 1rem;
-    
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon_reunioes-card{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .icon_reunioes:hover, .icon_reunioes-plus:hover, .checkbox_reunioes:hover{
@@ -412,11 +424,15 @@ select {
     border-radius: 0.5rem;
     border: var(--border-box-shadow-container);
     width: 85%;
-    margin-top: 0.5rem;
+    margin-top: 1.2rem;
     padding: 0.7rem;
     margin-left: 5%;
 }
 
+
+.card_membros:hover{
+    cursor: pointer;
+}
 .haeader_card-container{
     background-color: var(--span-color);
     display: flex;

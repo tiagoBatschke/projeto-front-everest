@@ -73,14 +73,39 @@
 
 }
 
-.dashBoardCard_hex-container {
+
+
+.dashBoardCard_hex {
+    color: var(--text-color);
     border: var(--border-box-shadow-container);
     box-shadow: var(--box-shadow-container);
+    outline: none;
+    width: 6vw;
     margin-left: 0.5rem;
     border-radius: 8px;
     padding: 0.5rem;
 }
 
-.dashBoardCard_hex {
-    color: var(--text-color);
+
+.button_evidencia{
+    background-color: var(--svg);
+    color: var( --container-light);
+}
+
+.dashBoard_icons{
+    height: 3rem;
+    width: 3rem;
+    border: var(--border-box-shadow-container);
+    box-shadow: var(--box-shadow-container);
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.dashBoard_icons:hover{
+    cursor: pointer;
+    background-color: var(--svg);
+    color: var( --container-light);
 }

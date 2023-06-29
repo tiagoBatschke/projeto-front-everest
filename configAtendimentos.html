@@ -252,11 +252,23 @@
                     <p class="dashBoardCard_text title_color text">Tamanho da Fonte</p>
                 </div>
                 <div class="dashBoardCard_icons-container">
-                    <img class="dashBoardCard_icons" src="./assets/imgs/Group 786.png" alt="">
-                    <img class="dashBoardCard_icons" src="./assets/imgs/Group 787.png" alt="">
-                    <img class="dashBoardCard_icons" src="./assets/imgs/Group 790.png" alt="">
-                    <img class="dashBoardCard_icons" src="./assets/imgs/Group 788.png" alt="">
-                    <img class="dashBoardCard_icons" src="./assets/imgs/Group 789.png" alt="">
+                    
+                    <div onclick="classList.toggle('button_evidencia'), classList.toggle('text_color' )" class="dashBoard_icons text_color">
+                        <p style="font-size: 1.188rem ;" class=" text">Aa</p>
+                    </div>
+                    <div onclick="classList.toggle('button_evidencia'), classList.toggle('text_color' )" class="dashBoard_icons text_color">
+                        <p style="font-size: 1.438rem ;"  class="  text">Aa</p>
+                    </div>
+                    <div onclick="classList.toggle('button_evidencia'), classList.toggle('text_color' )" class="dashBoard_icons button_evidencia">
+                        <p style="font-size:1.563rem ;"  class=" text">Aa</p>
+                    </div>
+                    <div onclick="classList.toggle('button_evidencia'), classList.toggle('text_color' )" class="dashBoard_icons text_color">
+                        <p style="font-size:1.813rem ;"  class=" text">Aa</p>
+                    </div>
+                    <div onclick="classList.toggle('button_evidencia'), classList.toggle('text_color' )" class="dashBoard_icons text_color">
+                        <p style="font-size:2.125rem ;"  class="  text">Aa</p>
+                    </div>
+                    
                 </div>
             </div>
             <div class="dashBoard_card">
@@ -274,15 +286,16 @@
                 <div class="dashBoardCard_icons-container">
                     <div class="dashBoardCard_subtitle-container">
                         <p class="dashBoardCard_text title_color text">Hex</p>
-                        <div class="dashBoardCard_hex-container">
-                            <p class="dashBoardCard_hex text">#2D8DF2</p>
-                        </div>
+                        
+                            <input placeholder="#2D8DF2" class="dashBoardCard_hex text" type="text">
+                       
                     </div>
                     <div class="dashBoardCard_subtitle-container">
                         <p class="dashBoardCard_text title_color text">Hex 2</p>
-                        <div class="dashBoardCard_hex-container">
-                            <p class="dashBoardCard_hex text">#58A5F5</p>
-                        </div>
+                       
+                            <input placeholder="#58A5F5" class="dashBoardCard_hex text" type="text">
+                            
+                        
                     </div>
                 </div>
             </div>
@@ -543,10 +556,10 @@
     
                 <div class="checkbox_reunioes-container text">
                     <h2 class="reinioes_text-title title_color text">Adicionar Membros</h2>
-                    <img class="icon_reunioes"  src="./assets/imgs/Group 753.png" alt="">
-                    <img class="icon_reunioes"  src="./assets/imgs/Group 753.png" alt="">
-                    <img class="icon_reunioes"  src="./assets/imgs/Group 753.png" alt="">
-                    <img class="icon_reunioes"  src="./assets/imgs/Group 753.png" alt="">
+                    <p class="icon_reunioes text" style="background-color: #2a8bf27a; color: #2A8BF2" src="./assets/imgs/Group 753.png" alt="">NC</p>
+                    <p class="icon_reunioes text" style="background-color:#f2d72a81; color: #b39c0a ;" src="./assets/imgs/Group 753.png" alt="">GF</p>
+                    <p class="icon_reunioes text" style="background-color: rgba(0, 0, 0, 0.464); color: black;" src="./assets/imgs/Group 753.png" alt="">DH</p>
+                    
                     <img onclick="openList('addMembrosId')"  class="icon_reunioes-plus" src="./assets/imgs/Vector Mais.png" alt="">
                     
                 </div>
@@ -603,7 +616,7 @@
 
             <div onclick="openList('addMembrosId')"   class="card_membros">
                 <div class="calendario_card-icons-container">
-                    <img class="calendario_card-icon-img" src="./assets/imgs/circle-name.svg" alt="">
+                    <p class="icon_reunioes-card text" style="background-color: #2a8bf27a; color: #2A8BF2" src="./assets/imgs/Group 753.png" alt="">NC</p>
                     <div class="text_card-container">
                         <h2 class="calendarioCard_text-title text">Neelesh Chaud</h2>
                         <p class="calendarioCard_text text">Supervisor</p>
@@ -614,7 +627,7 @@
             </div>
             <div onclick="openList('addMembrosId')"   class="card_membros">
                 <div class="calendario_card-icons-container">
-                    <img class="calendario_card-icon-img" src="./assets/imgs/circle-name.svg" alt="">
+                    <p class="icon_reunioes-card text" style="background-color:#f2d72a81; color: #bfa814 ;" src="./assets/imgs/Group 753.png" alt="">GF</p>
                     <div class="text_card-container">
                         <h2 class="calendarioCard_text-title text">Guy Fisher</h2>
                         <p class="calendarioCard_text text">Atendente</p>
@@ -625,7 +638,7 @@
             </div>
             <div onclick="openList('addMembrosId')"   class="card_membros">
                 <div class="calendario_card-icons-container">
-                    <img class="calendario_card-icon-img" src="./assets/imgs/circle-name.svg" alt="">
+                    <p class="icon_reunioes-card  text" style="background-color: rgba(0, 0, 0, 0.464); color: black;" src="./assets/imgs/Group 753.png" alt="">DH</p>
                     <div class="text_card-container">
                         <h2 class="calendarioCard_text-title text">Diane Hawkins</h2>
                         <p class="calendarioCard_text text">Atendente</p>
@@ -636,7 +649,7 @@
             </div>
             <div onclick="openList('addMembrosId')"   class="card_membros">
                 <div class="calendario_card-icons-container">
-                    <img class="calendario_card-icon-img" src="./assets/imgs/circle-name.svg" alt="">
+                    <p class="icon_reunioes-card  text" style="background-color: rgba(46, 249, 0, 0.356); color: rgb(40, 189, 6);" src="./assets/imgs/Group 753.png" alt="">DM</p>
                     <div class="text_card-container">
                         <h2 class="calendarioCard_text-title text">Dustin Mccoy</h2>
                         <p class="calendarioCard_text text">Atendente</p>
@@ -647,7 +660,7 @@
             </div>
             <div onclick="openList('addMembrosId')"   class="card_membros">
                 <div class="calendario_card-icons-container">
-                    <img class="calendario_card-icon-img" src="./assets/imgs/circle-name.svg" alt="">
+                    <p class="icon_reunioes-card text" style="background-color: #f22a2a7a; color: #f22a2a" src="./assets/imgs/Group 753.png" alt="">PC</p>
                     <div class="text_card-container">
                         <h2 class="calendarioCard_text-title text">Philip Cooper</h2>
                         <p class="calendarioCard_text text">Atendente</p>
@@ -658,7 +671,7 @@
             </div>
             <div onclick="openList('addMembrosId')"   class="card_membros">
                 <div class="calendario_card-icons-container">
-                    <img class="calendario_card-icon-img" src="./assets/imgs/circle-name.svg" alt="">
+                    <p class="icon_reunioes-card text" style="background-color: #2a8bf27a; color: #2A8BF2" src="./assets/imgs/Group 753.png" alt="">SM</p>
                     <div class="text_card-container">
                         <h2 class="calendarioCard_text-title text">Scarlett Murphy</h2>
                         <p class="calendarioCard_text text">Atendente</p>
