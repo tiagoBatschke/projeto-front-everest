@@ -73,6 +73,7 @@
     background-color: transparent;
     border: none;
     outline: none;
+    color: var(--text-color);
 }
 
 .button_header_search {
@@ -198,4 +199,9 @@
 
 .notification_icon:hover{
     cursor: pointer;
+}
+
+
+input::placeholder {
+    color: var(--text-color);
 }

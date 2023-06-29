@@ -175,3 +175,7 @@ li {
 .hidden {
     display: none;
 }
+
+.input_search_header::placeholder{
+    color: var(--text-color);
+}

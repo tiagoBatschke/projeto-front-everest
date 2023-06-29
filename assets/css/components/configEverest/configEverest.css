@@ -14,9 +14,9 @@
 }
 
 .metrics_img_arrow-1 {
-    margin-left: 21rem;
+    margin-left: 2rem;
     transform: rotate(270deg);
-
+   
 }
 
 .configEverest_configs-container {
@@ -63,7 +63,6 @@
     display: flex;
     width: 85%;
     margin-top: 1.5rem;
-    border: var(--border-box-shadow-container);
     cursor: pointer;
 }
 
@@ -86,7 +85,7 @@
     margin-left: 1rem;
     margin-bottom: 1rem;
     color: var(--color-text);
-
+    width: 20vw;
 }
 
 .last_card {
@@ -116,5 +115,5 @@
     width: 60%;
     overflow-y: scroll;
     max-height: 95vh;
-    z-index: 0;
+    z-index: -2;
 }
