@@ -127,12 +127,13 @@
     margin-left: 2.3rem;
     border: 1px solid var(--text-color);
     border-radius: 0.5rem;
-   outline: none;
+    outline: none;
+    background-color: var(--container-light);
 }
 
 .input_fuso-bot{
     padding: 0.3rem;
-    
+    background-color: var(--container-light);
     border: 1px solid var(--text-color);
     border-radius: 0.5rem;
     outline: none;
@@ -221,6 +222,7 @@
     height: 3rem;
     margin-left: 1rem;
     margin-top: 1rem;
+    background-color: var(--container-light);
 }
 
 .input_faq-bot-small{
@@ -231,6 +233,7 @@
     padding: 0.5rem;
     margin-top: 1rem;
     margin-left: 1rem;
+    background-color: var(--container-light);
 }
 
 .container_configBot-faq{
