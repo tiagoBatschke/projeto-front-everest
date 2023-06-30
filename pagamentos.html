@@ -325,7 +325,7 @@
             </div>
             <h3 class="everestPay_subtitle text">Informações de Pagamento</h3>
             <form class="everestPay_form" action="">
-                <input class="everestPay_form-input" placeholder="         2412 . 2412 . 2412 . 2412" type="text">
+                <input class="everestPay_form-input" placeholder="        2412 . 2412 . 2412 . 2412" type="text">
                 <img class="icon_mastercard" src="assets/imgs/Group 799 Mastercard.png" alt="">
                 <input class="everestPay_form-input" placeholder="Nome Completo" type="text">
                 <input class="everestPay_form-input1 " placeholder="10/2020" type="text">
@@ -355,7 +355,7 @@
             
             <div class="everestPay_checkout-container">
                 <p class="everestPay_checkout-text text" style="color: #fff;">$3820.00</p>
-                <p  style="color: #fff; margin-left: 9rem;" class="everestPay_checkout-text text">Checkout</p>
+                <p onclick="openList('pagamento_aprov') "   style="color: #fff; margin-left: 9rem;" class="everestPay_checkout-text text">Checkout</p>
                 <img src="assets/imgs/Vector seta.png" alt="" style="width: 6%; height: 6%; margin-top: 0.3rem;">
             </div>
         </div>
@@ -590,7 +590,7 @@
                 
             </div>
         </div>
-        <div class="card_Tutorial hidden">
+        <div id="pagamento_aprov" class="card_Tutorial hidden">
                
             <div class="card_Tutorial-container">
                
@@ -603,8 +603,8 @@
                         conferir todos os detalhes. Todo mês - ou uma vez ao ano- neste mesmo dia, uma cobrança referente a esta compra será feita automaticamente.</p>
                 </div>
                 <div class="card_buttons-container">
-                    <button class="card_buttons-fechar text">Fechar</button>
-                    <button class="card_buttons-green text">Ir para Minhas Compras</button>
+                    <button onclick="openList('pagamento_aprov')"  class="card_buttons-fechar text">Fechar</button>
+                    <button class="card_buttons-green text"><a class="card_button-link text_color text" href="./minhasCompras.html">Ir para Minhas Compras</a></button>
                 </div>
             </div>
         </div>
@@ -621,7 +621,7 @@
                         em contato com o<span class="card_text-blue text"> Suporte Everest.</span>no botão abaixo.</p>
                 </div>
                 <div class="card_buttons-container">
-                    <button class="card_buttons-fechar text">Fechar</button>
+                    <button onclick="openList('pagamento_aprov')"  class="card_buttons-fechar text">Fechar</button>
                     <button class="card_buttons text">Suporte Everest</button>
                 </div>
             </div>

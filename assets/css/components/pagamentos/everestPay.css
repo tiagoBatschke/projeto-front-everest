@@ -92,6 +92,7 @@
     padding: 0.5rem;
     border: none;
     color: var(--plaholder-color);
+    outline: transparent;
 }
 
 
@@ -103,6 +104,7 @@
     padding: 0.5rem;
     border: none;
     color: var(--plaholder-color);
+    outline: none;
 }
 
 
@@ -173,6 +175,11 @@
 .everestPay_checkout-text {
     font-size: 1.25rem;
     color: var(--subtittle-color);
+   
+}
+
+.everestPay_checkout-text:hover{
+    cursor: pointer;
 }
 
 .everestPay_checkout-container {

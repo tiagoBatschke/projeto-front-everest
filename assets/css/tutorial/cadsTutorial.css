@@ -266,6 +266,11 @@
 
 }
 
+
+.card_button-link {
+    border: none;
+    color: #fff;
+}
 .input_card-container {
     width: 95%;
     display: flex;

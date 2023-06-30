@@ -49,6 +49,7 @@
     flex-direction: column;
     padding: 0rem 1.6rem;
     background-color: var(--container-light);
+    padding-bottom: 1rem;
 }
 
 .card_colaborators {
@@ -95,16 +96,20 @@
 
 .colaborator_img {
     height: 2rem;
+    border: var(--border-box-shadow-container);
+    border-radius: 1rem;
 }
 
 .colaborators_list {
     display: flex;
     justify-content: space-evenly;
-    width: 100%;
+    width: 80%;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
     margin-top: 1rem;
+    
 }
+
 
 .button_img {
     height: 3rem;

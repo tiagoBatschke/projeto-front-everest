@@ -175,7 +175,7 @@ input::placeholder {
 
 
 .card_perfil:hover {
-  background-color: #2A8BF2;
+  background-color: var(--svg);
   cursor: pointer;
   transition-delay: 100ms;
 
@@ -199,7 +199,7 @@ input::placeholder {
 }
 
 .card_button-text{
-  color: var(--black-tutorial) ;
+ 
   margin-bottom: 0.5rem;
   margin-left: 0.3rem;
   font-size: 0.8rem;
@@ -207,4 +207,17 @@ input::placeholder {
 .perfil_lead_crm-container::-webkit-scrollbar {
   width: 5px;
   /* width of the entire scrollbar */
+}
+
+
+.card_perfil-text{
+  color: var(--text-color) ;
+}
+
+.card_perfil-text:hover{
+  color: var(--container-light) ;
+}
+
+.card_perfil-text-white{
+  color: var(--container-light);
 }
