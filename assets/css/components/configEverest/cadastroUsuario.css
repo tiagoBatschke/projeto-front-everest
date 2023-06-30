@@ -65,6 +65,11 @@
     margin-top: -1rem;
 }
 
+.placeholder_color::placeholder{
+    color: #fff;
+}
+
+
 .cadastro_form-input-3 {
     width: 60%;
     padding: 0.8rem;
@@ -77,9 +82,6 @@
     margin-bottom: 1.5rem;
 }
 
-input::placeholder {
-    color: #fff;
-}
 
 .cadastro_form-input {
     margin-bottom: 1.5rem;
