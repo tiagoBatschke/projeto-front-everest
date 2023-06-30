@@ -91,7 +91,9 @@
     border-radius: 0.2rem;
     padding: 0.5rem;
     border: none;
+    color: var(--plaholder-color);
 }
+
 
 .everestPay_form-input1 {
     width: 40%;
@@ -100,6 +102,16 @@
     border-radius: 0.2rem;
     padding: 0.5rem;
     border: none;
+    color: var(--plaholder-color);
+}
+
+
+.everestPay_form-input::placeholder{
+    color: var(--plaholder-color);
+}
+
+.everestPay_form-input1::placeholder{
+    color: var(--plaholder-color);
 }
 
 .everestPay_form {

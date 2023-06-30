@@ -48,6 +48,7 @@
     display: flex;
     justify-content: space-evenly;
     margin-top: 0.3rem;
+   
 }
 
 .dashBoard_card-container {
@@ -70,13 +71,14 @@
 
 .dashBoardCard_subtitle-container {
     display: flex;
-
+    width: 40%;
+    justify-content: space-evenly;
 }
 
 
 
 .dashBoardCard_hex {
-    color: var(--text-color);
+    color: var(--plaholder-color);
     border: var(--border-box-shadow-container);
     box-shadow: var(--box-shadow-container);
     outline: none;
@@ -84,8 +86,12 @@
     margin-left: 0.5rem;
     border-radius: 8px;
     padding: 0.5rem;
+    background-color:var(--container-light);
 }
 
+.dashBoardCard_hex::placeholder{
+    color: var(--plaholder-color);
+}
 
 .button_evidencia{
     background-color: var(--svg);

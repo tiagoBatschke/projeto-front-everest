@@ -305,14 +305,7 @@ select {
     justify-content: center;
 }
 
-.icon_reunioes-card{
-    width: 3rem;
-    height: 3rem;
-    border-radius: 1.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 
 .icon_reunioes:hover, .icon_reunioes-plus:hover, .checkbox_reunioes:hover{
     cursor: pointer;
@@ -332,7 +325,11 @@ select {
     border-radius: 0.5rem;
     padding: 1rem;
     margin-top: 1rem;
-    
+    color: var(--plaholder-color);
+    border: var(--border-box-shadow-container);
+    box-shadow: var(--box-shadow-container);
+    outline: none;
+    background-color: var(--container-light);
 }
 
 .input_datetime-reunioes{
@@ -341,6 +338,11 @@ select {
     padding: 1rem;
     margin-left: 0.8rem;
     width: 28%;
+    border: var(--border-box-shadow-container);
+    box-shadow: var(--box-shadow-container);
+    outline: none;
+    background-color: var(--container-light);
+    color: var(--plaholder-color) ;
 }
 
 

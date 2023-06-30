@@ -129,7 +129,10 @@
     border-radius: 0.5rem;
     outline: none;
     background-color: var(--container-light);
+    color: var(--plaholder-color) ;
 }
+
+
 
 .input_fuso-bot{
     padding: 0.3rem;
@@ -138,6 +141,11 @@
     border-radius: 0.5rem;
     outline: none;
     width: 60%;
+    color: var(--plaholder-color);
+}
+
+.input_fuso-bot::placeholder{
+    color: var(--plaholder-color);
 }
 
 .input_fuso-bot-label{
@@ -193,6 +201,7 @@
     margin-top: 1rem;
     flex-wrap: wrap;
     width: 100%;
+    
 }
 
 .form_faq{
@@ -223,6 +232,7 @@
     margin-left: 1rem;
     margin-top: 1rem;
     background-color: var(--container-light);
+    color: var(--plaholder-color);
 }
 
 .input_faq-bot-small{
@@ -234,7 +244,15 @@
     margin-top: 1rem;
     margin-left: 1rem;
     background-color: var(--container-light);
+    color: var(--plaholder-color);
 }
+
+
+.input_faq-bot-small::placeholder{
+    color: var(--plaholder-color);
+}
+
+
 
 .container_configBot-faq{
     display: flex;
@@ -263,6 +281,8 @@
 .margin_left{
     margin-left: 1rem;
 }
+
+
 
 .faq_message_img{
     width: 100%;

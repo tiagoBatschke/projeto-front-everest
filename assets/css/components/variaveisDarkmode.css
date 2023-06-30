@@ -19,6 +19,7 @@
     --container-img-notification: #5c5c5c59;
     --container-tutorial: #f4f4f4;
     --black-tutorial: #393939;
+    --plaholder-color: #393939;
 }
 
 
@@ -41,6 +42,7 @@
     --svg: #fff;
     --container-tutorial: #434343;
     --black-tutorial: #4e4d4d;
+    --plaholder-color:#fff;
 }
 
 .title_color{
