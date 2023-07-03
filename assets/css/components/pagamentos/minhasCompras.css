@@ -88,7 +88,7 @@
 }
 
 .minhasCompras_button-card {
-   width: 48%;
+   width: 30%;
    color: #fff;
 } 
 
@@ -112,18 +112,18 @@
    height: 3rem;
    display: flex;
    justify-content: space-between;
-   width: 70%;
+   width: 90%;
    margin-bottom: 2rem;
  }
 
  .minhasCompras_button-card{
-   width: 28%;
+   
    height: 70%;
-   width: 80%;
+   
 }
 
 .minhasCompras_button-card {
-   width: 48%;
+   width: 80%;
    padding: 0rem;
    font-size: 0.8rem;
    border-radius: 0.5rem;
@@ -132,6 +132,7 @@
    color: #fff;
    cursor: pointer;
    margin-bottom: 1.5rem;
+   margin-left: 1rem;
 }
 
 .img_everestPay {
