@@ -96,3 +96,26 @@ function openListCrm(idLista, idButton, idsButtons, ids) {
   document.getElementById(idButton).classList.toggle("button_evidencia");
   document.getElementById(idButton).classList.toggle("card_perfil-text-white");
 }
+
+
+function uncheck(inputClass){
+  
+inputUsado = document.getElementsByClassName(inputClass)
+  
+  for (let i = 0; i < inputUsado.length; i++) {
+    const element = inputUsado[i];
+    Contador = 1
+    element.addEventListener('click', function(){
+      Contador++
+      if(Contador % 2 === 0){
+        
+        this.checked = false
+      }else{
+        this.checked = true
+      }
+    })
+  }
+ 
+}
+
+uncheck('config_colab-form-input')
