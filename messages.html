@@ -1020,7 +1020,7 @@
 
                     <div id="arquivos" class="chat_card_filtro-container hidden">
 
-                        <div class="chat_card_filtro">
+                        <div onclick="openList('arquivos_abertos'), openList('arquivos')"  class="chat_card_filtro">
                             <p class="icon_reunioes-card text" style="background-color: #f22a777a;" src="./assets/imgs/Group 753.png" alt=""></p>
                             <div class="chats_cards_filtro-text">
                                 <h2 class="chats_cards-title-filtro text">Outubro 2021</h2>
@@ -1028,7 +1028,7 @@
                             </div>
 
                         </div>
-                        <div class="chat_card_filtro">
+                        <div onclick="openList('arquivos_abertos'), openList('arquivos')" class="chat_card_filtro">
                             <p class="icon_reunioes-card text" style="background-color: #f2692a7a; " src="./assets/imgs/Group 753.png" alt=""></p>
                             <div class="chats_cards_filtro-text">
                                 <h2 class="chats_cards-title-filtro text">Setembro 2021</h2>
@@ -1036,7 +1036,7 @@
                             </div>
 
                         </div>
-                        <div class="chat_card_filtro">
+                        <div onclick="openList('arquivos_abertos'), openList('arquivos')" class="chat_card_filtro">
                             <p class="icon_reunioes-card text" style="background-color: #a2ff007a; " src="./assets/imgs/Group 753.png" alt=""></p>
                             <div class="chats_cards_filtro-text">
                                 <h2 class="chats_cards-title-filtro text">Agosto 2021</h2>
@@ -1044,7 +1044,7 @@
                             </div>
 
                         </div>
-                        <div class="chat_card_filtro">
+                        <div onclick="openList('arquivos_abertos'), openList('arquivos')" class="chat_card_filtro">
                             <p class="icon_reunioes-card text" style="background-color: #f22a2a7a; " src="./assets/imgs/Group 753.png" alt=""></p>
                             <div class="chats_cards_filtro-text">
                                 <h2 class="chats_cards-title-filtro text"> Julho 2021</h2>
@@ -1052,7 +1052,7 @@
                             </div>
 
                         </div>
-                        <div class="chat_card_filtro">
+                        <div onclick="openList('arquivos_abertos'), openList('arquivos')" class="chat_card_filtro">
                             <p class="icon_reunioes-card text" style="background-color: #2a8bf27a; " src="./assets/imgs/Group 753.png" alt=""></p>
                             <div class="chats_cards_filtro-text">
                                 <h2 class="chats_cards-title-filtro text">Junho 2021</h2>
@@ -1060,7 +1060,7 @@
                             </div>
 
                         </div>
-                        <div class="chat_card_filtro">
+                        <div onclick="openList('arquivos_abertos'), openList('arquivos')" class="chat_card_filtro">
                             <p class="icon_reunioes-card text" style="background-color: #f2e82a7a; " src="./assets/imgs/Group 753.png" alt=""></p>
                             <div class="chats_cards_filtro-text">
                                 <h2 class="chats_cards-title-filtro text">Maio 2021</h2>
@@ -1068,7 +1068,7 @@
                             </div>
 
                         </div>
-                        <div class="chat_card_filtro">
+                        <div onclick="openList('arquivos_abertos'), openList('arquivos')" class="chat_card_filtro">
                             <p class="icon_reunioes-card text" style="background-color: #55f22a7a; " src="./assets/imgs/Group 753.png" alt=""></p>
                             <div class="chats_cards_filtro-text">
                                 <h2 class="chats_cards-title-filtro text">Abril 2021</h2>
@@ -1078,6 +1078,151 @@
                         </div>
 
 
+                    </div>
+                    <div id="arquivos_abertos" class="chat_card_filtro-container hidden">
+                        <div onclick=" openList('arquivos_abertos'),openListMessages('arquivos', 'button_arquivos',['button_novas', 'button_hoje', 'button_arquivos'], ['novas', 'hoje','arquivos', 'filtro'])"class="chat_card_filtro">
+                            <p class="icon_reunioes-card text" style="background-color: #f22a777a;" src="./assets/imgs/Group 753.png" alt=""></p>
+                            <div class="chats_cards_filtro-text">
+                                <h2 class="chats_cards-title-filtro text">Outubro 2021</h2>
+                                <p class="chats_cards-text-filtro text">105 Chats</p>
+                            </div>
+                         </div>
+
+                        <div class="text_color text_date-container">
+                            <p  class="text">31/10/2021</p>
+                            <img class="img_abreCard-arquivos" onclick="openList('card_arquivo-abertos-31/10')" src="./assets/imgs/arrow.svg" alt="">
+                        </div>
+                        <div id="card_arquivo-abertos-31/10">
+                            <div class="card_arquivos-abertos-container">
+                                <p class="icon_reunioes-card text" style="background-color: #452af27a;" src="./assets/imgs/Group 753.png" alt=""></p>
+                                <div class="chats_cards_filtro-text">
+                                    <h2 class="chats_cards-title-filtro text">Olivia Benson</h2>
+                                    <p class="chats_cards-text-filtro text">Nice!!!</p>
+                                </div>
+                             </div>
+                             <div class="card_arquivos-abertos-container">
+                                <p class="icon_reunioes-card text" style="background-color: #e5f22a7a;" src="./assets/imgs/Group 753.png" alt=""></p>
+                                <div class="chats_cards_filtro-text">
+                                    <h2 class="chats_cards-title-filtro text">Chad Smith</h2>
+                                    <p class="chats_cards-text-filtro text">Thanks!!!</p>
+                                </div>
+                             </div>
+                             <div class="card_arquivos-abertos-container">
+                                <p class="icon_reunioes-card text" style="background-color: #f22ae57a;" src="./assets/imgs/Group 753.png" alt=""></p>
+                                <div class="chats_cards_filtro-text">
+                                    <h2 class="chats_cards-title-filtro text">Jennifer Koff</h2>
+                                    <p class="chats_cards-text-filtro text">Love it <3 </p>
+                                </div>
+                             </div>
+                        </div>
+                        <div class="text_color text_date-container">
+                            <p  class="text">30/10/2021</p>
+                            <img class="img_abreCard-arquivos" onclick="openList('card_arquivo-abertos-30/10')" src="./assets/imgs/arrow.svg" alt="">
+                        </div>
+                        <div id="card_arquivo-abertos-30/10" class="hidden">
+                            <div class="card_arquivos-abertos-container">
+                                <p class="icon_reunioes-card text" style="background-color: #452af27a;" src="./assets/imgs/Group 753.png" alt=""></p>
+                                <div class="chats_cards_filtro-text">
+                                    <h2 class="chats_cards-title-filtro text">Olivia Benson</h2>
+                                    <p class="chats_cards-text-filtro text">Nice!!!</p>
+                                </div>
+                             </div>
+                             <div class="card_arquivos-abertos-container">
+                                <p class="icon_reunioes-card text" style="background-color: #e5f22a7a;" src="./assets/imgs/Group 753.png" alt=""></p>
+                                <div class="chats_cards_filtro-text">
+                                    <h2 class="chats_cards-title-filtro text">Chad Smith</h2>
+                                    <p class="chats_cards-text-filtro text">Thanks!!!</p>
+                                </div>
+                             </div>
+                             <div class="card_arquivos-abertos-container">
+                                <p class="icon_reunioes-card text" style="background-color: #f22ae57a;" src="./assets/imgs/Group 753.png" alt=""></p>
+                                <div class="chats_cards_filtro-text">
+                                    <h2 class="chats_cards-title-filtro text">Jennifer Koff</h2>
+                                    <p class="chats_cards-text-filtro text">Love it <3 </p>
+                                </div>
+                             </div>
+                        </div>
+                        <div class="text_color text_date-container">
+                            <p  class="text">29/10/2021</p>
+                            <img class="img_abreCard-arquivos" onclick="openList('card_arquivo-abertos-29/10')" src="./assets/imgs/arrow.svg" alt="">
+                        </div>
+                        <div id="card_arquivo-abertos-29/10" class="hidden">
+                            <div class="card_arquivos-abertos-container">
+                                <p class="icon_reunioes-card text" style="background-color: #452af27a;" src="./assets/imgs/Group 753.png" alt=""></p>
+                                <div class="chats_cards_filtro-text">
+                                    <h2 class="chats_cards-title-filtro text">Olivia Benson</h2>
+                                    <p class="chats_cards-text-filtro text">Nice!!!</p>
+                                </div>
+                             </div>
+                             <div class="card_arquivos-abertos-container">
+                                <p class="icon_reunioes-card text" style="background-color: #e5f22a7a;" src="./assets/imgs/Group 753.png" alt=""></p>
+                                <div class="chats_cards_filtro-text">
+                                    <h2 class="chats_cards-title-filtro text">Chad Smith</h2>
+                                    <p class="chats_cards-text-filtro text">Thanks!!!</p>
+                                </div>
+                             </div>
+                             <div class="card_arquivos-abertos-container">
+                                <p class="icon_reunioes-card text" style="background-color: #f22ae57a;" src="./assets/imgs/Group 753.png" alt=""></p>
+                                <div class="chats_cards_filtro-text">
+                                    <h2 class="chats_cards-title-filtro text">Jennifer Koff</h2>
+                                    <p class="chats_cards-text-filtro text">Love it <3 </p>
+                                </div>
+                             </div>
+                        </div>
+                        <div class="text_color text_date-container">
+                            <p  class="text">28/10/2021</p>
+                            <img class="img_abreCard-arquivos" onclick="openList('card_arquivo-abertos-28/10')" src="./assets/imgs/arrow.svg" alt="">
+                        </div>
+                        <div id="card_arquivo-abertos-28/10" class="hidden">
+                            <div class="card_arquivos-abertos-container">
+                                <p class="icon_reunioes-card text" style="background-color: #452af27a;" src="./assets/imgs/Group 753.png" alt=""></p>
+                                <div class="chats_cards_filtro-text">
+                                    <h2 class="chats_cards-title-filtro text">Olivia Benson</h2>
+                                    <p class="chats_cards-text-filtro text">Nice!!!</p>
+                                </div>
+                             </div>
+                             <div class="card_arquivos-abertos-container">
+                                <p class="icon_reunioes-card text" style="background-color: #e5f22a7a;" src="./assets/imgs/Group 753.png" alt=""></p>
+                                <div class="chats_cards_filtro-text">
+                                    <h2 class="chats_cards-title-filtro text">Chad Smith</h2>
+                                    <p class="chats_cards-text-filtro text">Thanks!!!</p>
+                                </div>
+                             </div>
+                             <div class="card_arquivos-abertos-container">
+                                <p class="icon_reunioes-card text" style="background-color: #f22ae57a;" src="./assets/imgs/Group 753.png" alt=""></p>
+                                <div class="chats_cards_filtro-text">
+                                    <h2 class="chats_cards-title-filtro text">Jennifer Koff</h2>
+                                    <p class="chats_cards-text-filtro text">Love it <3 </p>
+                                </div>
+                             </div>
+                        </div>
+                        <div class="text_color text_date-container">
+                            <p  class="text">27/10/2021</p>
+                            <img class="img_abreCard-arquivos" onclick="openList('card_arquivo-abertos-27/10')" src="./assets/imgs/arrow.svg" alt="">
+                        </div>
+                        <div id="card_arquivo-abertos-27/10" class="hidden">
+                            <div class="card_arquivos-abertos-container">
+                                <p class="icon_reunioes-card text" style="background-color: #452af27a;" src="./assets/imgs/Group 753.png" alt=""></p>
+                                <div class="chats_cards_filtro-text">
+                                    <h2 class="chats_cards-title-filtro text">Olivia Benson</h2>
+                                    <p class="chats_cards-text-filtro text">Nice!!!</p>
+                                </div>
+                             </div>
+                             <div class="card_arquivos-abertos-container">
+                                <p class="icon_reunioes-card text" style="background-color: #e5f22a7a;" src="./assets/imgs/Group 753.png" alt=""></p>
+                                <div class="chats_cards_filtro-text">
+                                    <h2 class="chats_cards-title-filtro text">Chad Smith</h2>
+                                    <p class="chats_cards-text-filtro text">Thanks!!!</p>
+                                </div>
+                             </div>
+                             <div class="card_arquivos-abertos-container">
+                                <p class="icon_reunioes-card text" style="background-color: #f22ae57a;" src="./assets/imgs/Group 753.png" alt=""></p>
+                                <div class="chats_cards_filtro-text">
+                                    <h2 class="chats_cards-title-filtro text">Jennifer Koff</h2>
+                                    <p class="chats_cards-text-filtro text">Love it <3 </p>
+                                </div>
+                             </div>
+                        </div>
                     </div>
                     <div id="filtro" class="chat_card_filtro-container hidden">
                         <p class=" subtitle_filtro-aberto text">Categoria</p>

@@ -137,6 +137,22 @@
     margin-top: 0.5rem;
 }
 
+.text_date-container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 1rem;
+}
+
+.card_arquivos-abertos-container{
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.img_abreCard-arquivos:hover{
+    cursor: pointer;
+}
+
 .chat_card_conversas-container::-webkit-scrollbar {
     width: 5px;
     /* width of the entire scrollbar */
