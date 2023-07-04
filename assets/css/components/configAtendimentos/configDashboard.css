@@ -40,10 +40,23 @@
 }
 
 .perfilConfig_img {
-    width: 40%;
-    height: 50%;
+    width: 9rem;
+    height: 9rem;
+    background-color: rgb(176, 163, 163);
+    border-radius: 100%;
+    margin: 5%;
 }
-
+.borda_gradiente{
+    width: 10rem;
+    height: 10rem;
+    
+    display: flex;
+    border-radius: 100%;
+    padding: 2%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    background-image: linear-gradient(to right,  rgb(230, 230, 230),rgb(230, 230, 230), var(--container-color), var(--span-color));
+}
 .dashBoardCard_icons-container {
     display: flex;
     justify-content: space-evenly;
@@ -66,7 +79,11 @@
 }
 
 .dashBoard_card-img {
-    width: 70%;
+   height: 2rem;
+    background-color: var(--span-color);
+    border-radius: 100%;
+    padding: 1rem 1rem;
+    width: 2rem;
 }
 
 .dashBoardCard_subtitle-container {

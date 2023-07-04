@@ -5,7 +5,7 @@ function changeColorPrincipal(color1){
     document.documentElement.style.setProperty("--span-color", `${color1}`)
     document.documentElement.style.setProperty("--svg", `${color1}`)
     document.documentElement.style.setProperty("--button-color-hover", `${color1}`)
-    
+    document.documentElement.style.setProperty("--container-search", `${color1}64`)
     localStorage.setItem("colorPrincipal", `${color1}`);
     localStorage.setItem("mudouCorPrincipal", 'mudou')
 }
