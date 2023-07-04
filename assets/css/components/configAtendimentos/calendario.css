@@ -16,7 +16,7 @@ td {
 .calendario_dias {
     background-color: var(--subtittle-color);
     border: var(--border-box-shadow-container);
-    color: var(--tittle-color);
+    color: #fff;
     padding: 0.4rem;
     margin-bottom: 1rem;
 }
@@ -312,7 +312,7 @@ select {
 }
 
 .icon_reunioes-plus:hover, .checkbox_blue:hover{
-    background-color:#2a8bf2c5 ;
+    background-color: var(--button-color-hover);
 }
 
 .checkbox_green:hover{

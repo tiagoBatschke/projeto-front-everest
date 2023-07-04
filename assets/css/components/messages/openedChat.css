@@ -50,6 +50,8 @@
 .icon_opitions_opened_chat {
     height: 0.5rem;
     margin-top: 0.2rem;
+    background-color: var(--span-color);
+    border-radius: 1rem;
 }
 
 .text_box-container {
@@ -115,7 +117,7 @@
 }
 
 .chat_response {
-    background-color: #58A5F5;
+    background-color: var(--span-color);
     margin-left: 1rem;
     padding: 1rem;
     margin-top: 0.5rem;
@@ -154,7 +156,7 @@
 }
 
 .chat_response_archive {
-    background-color: #58A5F5;
+    background-color: var(--span-color);
     display: flex;
     justify-content: space-evenly;
     padding: 1rem;
@@ -168,7 +170,7 @@
 }
 
 .chat_response_mb {
-    background-color: #58A5F5;
+    background-color: var(--span-color);
     margin-left: 1rem;
     margin-top: 0.5rem;
     border-radius: 0.5rem;

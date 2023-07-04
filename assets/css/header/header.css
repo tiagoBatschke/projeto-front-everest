@@ -9,7 +9,7 @@
 }
 
 .svg:hover {
-    stroke: #58A5F5;
+    stroke: var(--svg);
 
 
 }

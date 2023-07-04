@@ -204,11 +204,11 @@
 
 .title_link{
     text-decoration: none;
-    color: #2A8BF2; 
+    color: var(--span-color); 
     font-size: 1.25rem; 
     font-weight: 100;
 }
 
 .title_link:hover{
-    border-bottom: 1px solid #2A8BF2;
+    border-bottom: 1px solid var(--span-color);
 }

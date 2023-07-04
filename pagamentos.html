@@ -220,7 +220,7 @@
             <h1 class="pagamentosEverest_title text">Pagamentos <a href="./minhasCompras.html" class="title_link">+ Minhas Compras</a></h1>
             <div class="card_lembrete">
                 <h1 class="lembrete_title text">Meu Carrinho</h1>
-                <p class="Lembrete_text text">Adicione abaixo a quantidade de usuários e contas em Redes Sociais que deseja conectar ao seu Everest. E ah, fique de olho no seu <span style="color: #2A8BF2;">desconto progressivo</span> á partir de 10 usuários!</p>
+                <p class="Lembrete_text text">Adicione abaixo a quantidade de usuários e contas em Redes Sociais que deseja conectar ao seu Everest. E ah, fique de olho no seu <span style="color: var(--span-color);"> desconto progressivo</span> á partir de 10 usuários!</p>
             </div>
 
             <div onclick="openList('listaPagamento2Id')" class="tipoPagamento_select-everestPay select_page" name="" id="">
@@ -325,8 +325,8 @@
             </div>
             <h3 class="everestPay_subtitle text">Informações de Pagamento</h3>
             <form class="everestPay_form" action="">
-                <input class="everestPay_form-input" placeholder="        2412 . 2412 . 2412 . 2412" type="text">
-                <img class="icon_mastercard" src="assets/imgs/Group 799 Mastercard.png" alt="">
+                <input  onfocus="openList('img_placeholder')"  onblur="openList('img_placeholder')" class="everestPay_form-input" placeholder="        2412 . 2412 . 2412 . 2412" type="text">
+                <img id="img_placeholder" class="icon_mastercard-pagamentos" src="assets/imgs/Group 799 Mastercard.png" alt="">
                 <input class="everestPay_form-input" placeholder="Nome Completo" type="text">
                 <input class="everestPay_form-input1 " placeholder="10/2020" type="text">
                 <input class="everestPay_form-input1" placeholder="CVV" type="text">
@@ -629,5 +629,6 @@
     </main>
     <script src="./assets/js/noRefresh.js"></script>
     <script src='./assets/js/changeTheme.js'></script>
+    <script src="./assets/js/changeColor.js"></script>
 </body>
 </html>

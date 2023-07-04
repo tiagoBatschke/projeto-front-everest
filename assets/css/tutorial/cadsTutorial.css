@@ -121,7 +121,7 @@
 
 
 .card_buttons:hover {
-    background-color: #2a8bf29d;
+    background-color: var(--button-color-hover);
     cursor: pointer;
 }
 
