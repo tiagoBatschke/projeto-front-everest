@@ -93,8 +93,10 @@
 }
 
 .text_box-button-img-add {
-    height: 2.2rem;
-
+    height: 1rem;
+    background-color: var(--span-color);
+    padding: 0.5rem;
+    border-radius: 100%;
 }
 
 .text_box-button-img-nav {
