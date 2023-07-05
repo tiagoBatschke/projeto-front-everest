@@ -168,7 +168,7 @@ select {
     border-radius: 0.5rem;
     margin-top: 1rem;
     color: var(--text-container-color);
-    font-size: 1.2rem;
+    font-size: var(--tamanho-font);
     margin-bottom: 0.5rem;
 }
 
@@ -290,7 +290,7 @@ select {
 
 .reinioes_text-title{
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: var(--tamanho-font);
     color: var(--tittle-color);
     width: 100%;
 }
@@ -361,7 +361,7 @@ select {
     border-radius: 0.5rem;
     margin-top: 1rem;
     color: var(--text-container-color);
-    font-size: 1.2rem;
+    font-size: var(--tamanho-font);
     margin-bottom: 0.5rem;
     width:30%;
 }

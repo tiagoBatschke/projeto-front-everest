@@ -24,7 +24,7 @@
 }
 
 .dashBoardCard_text {
-    font-size: 1.2rem;
+    font-size: var(--tamanho-font);
     margin-top: 5%;
     color: var(--tittle-color);
 }
