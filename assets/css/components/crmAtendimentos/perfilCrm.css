@@ -39,7 +39,7 @@
 }
 
 .title_crm-lead {
-  font-size: 1.3rem;
+  font-size: var(--tamanho-font);
   font-weight: bold;
   margin-top: 25%;
   color: var(--tittle-color);

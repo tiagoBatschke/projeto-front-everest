@@ -25,7 +25,7 @@ td {
     border: none;
     outline: none;
     margin-bottom: 1rem;
-    font-size: 1.3rem;
+    font-size: var(--tamanho-font);
     text-decoration: none;
     padding-left: 0.5rem;
     padding-right: 0.5rem;

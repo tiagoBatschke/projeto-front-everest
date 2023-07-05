@@ -70,7 +70,7 @@
 }
 
 .title_bot{
-    font-size: 1.2rem;
+    font-size: var(--tamanho-font);
     color: var(--tittle-color);
     font-weight: bold;
     margin-right: 1rem;

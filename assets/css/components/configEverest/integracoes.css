@@ -17,14 +17,14 @@
 }
 
 .integracoes_tittle {
-    font-size: 1.563rem;
+    font-size: var(--tamanho-font);
     font-weight: bold;
     margin-bottom: 1.8rem;
 
 }
 
 .integracoes_subtitle {
-    font-size: 1.438rem;
+    font-size: var(--tamanho-font);
     font-weight: bold;
     margin-bottom: 0.5rem;
 }

@@ -21,6 +21,7 @@
     --black-tutorial: #393939;
     --plaholder-color: #393939;
     --background-ligth:#2a8bf22a;
+    --tamanho-font : 1.563rem;
 }
 
 
@@ -44,6 +45,7 @@
     --container-tutorial: #434343;
     --black-tutorial: #4e4d4d;
     --plaholder-color:#fff;
+    --tamanho-font : 1.563rem;
 }
 
 .title_color{

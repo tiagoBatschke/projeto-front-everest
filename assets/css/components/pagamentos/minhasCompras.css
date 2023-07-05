@@ -10,7 +10,7 @@
 
 
 .minhasComprasEverest_title{
-    font-size: 1.563rem;
+   font-size: var(--tamanho-font);
     font-weight: bold;
     margin-top: 2rem;
     border-bottom: var(--border-box-shadow-container);
@@ -18,7 +18,7 @@
    }
 
 .minhasComprasEverest_title{
-   font-size: 1.563rem;
+   font-size: var(--tamanho-font);
    font-weight: bold;
    margin-top: 2rem;
    color: var(--tittle-color);

@@ -29,7 +29,7 @@
 
 .opened_chat-name {
     font-weight: bold;
-    font-size: 1.4rem;
+    font-size: var(--tamanho-font);
     color: var(--tittle-color);
 }
 
@@ -256,7 +256,7 @@
 }
 
 .card_confirmation-chat-title{
-    font-size: 1.75rem;
+    font-size: var(--tamanho-font);
     font-weight: bold;
     text-align: center;
     margin-top: 1rem;

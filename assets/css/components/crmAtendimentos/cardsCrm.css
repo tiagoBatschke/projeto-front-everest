@@ -25,7 +25,7 @@
 }
 
 .title_crm {
-    font-size: 1.5rem;
+    font-size: var(--tamanho-font);
     color: var(--tittle-color);
     font-weight: bold;
     margin-right: 1rem;
@@ -61,21 +61,21 @@
 }
 
 .title_crm-card {
-    font-size: 1.3rem;
+    font-size: var(--tamanho-font);
     color: #2A8BF2;
     border-bottom: 0.1rem solid #2A8BF2;
     padding-bottom: 0.3rem;
 }
 
 .title_crm-card2 {
-    font-size: 1.3rem;
+    font-size: var(--tamanho-font);
     color: #4CE364;
     border-bottom: 0.1rem solid #4CE364;
     padding-bottom: 0.3rem;
 }
 
 .title_crm-card3 {
-    font-size: 1.3rem;
+    font-size: var(--tamanho-font);
     color: #FFD80C;
     border-bottom: 0.1rem solid #FFD80C;
     padding-bottom: 0.3rem;
