@@ -148,10 +148,10 @@ function mudaFont(idButton) {
 }
 
 function inicializa(){
-    changeColorPrincipal('#2A8BF2')
-    changeColorSecundaria('#000')
+    localStorage.setItem("colorPrincipal", `#2A8BF2`);
+    localStorage.setItem("colorSecundaria", `#000`);
 }
 
 mantem()
-executaChange()
 inicializa()
+executaChange()
