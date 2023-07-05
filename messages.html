@@ -698,7 +698,7 @@
                     </ul>
                 </div>
                 
-                <div class="chat_container">
+                <div id="chatContainer" class="chat_container">
                     <p class="chat_text-data text">Segunda, 12/11/22</p>
 
                     <div class="chat_response-container">
@@ -740,84 +740,8 @@
                             <p class="chat_message-hour text">14:50 PM</p>
                         </div>
                     </div>
-                    <div class="chat_response-container">
-                        <img class="user_img_chat" src="./assets/imgs/User Photo.png" alt="">
-                        <div class="chat_response_text">
-                            <p class="chat_response text">Hello! Finally found the time to write to you I need your help
-                                in creating interactive animations for my mobile application.</p>
-                            <p class="chat_response text">Can I send you files?</p>
-                            <p class="chat_response-hour text">14:50 PM</p>
-                        </div>
-                    </div>
-
-                    <div class="chat_message-container">
-
-                        <div class="chat_message_text">
-                            <p class="chat_message text" ;>Hey! Okay, send out.</p>
-                            <p class="chat_message-hour text">14:50 PM</p>
-                        </div>
-                    </div>
-                    <div class="chat_response-container">
-                        <img class="user_img_chat" src="./assets/imgs/User Photo.png" alt="">
-                        <div class="chat_response_text">
-                            <span class="chat_response_archive">
-                                <img src="./assets/imgs/Group 774.png" alt="">
-                                <div>
-                                    <p class="chat_response_mb text" ;>Imagem.doc</p>
-                                    <p class="chat_response_mb text" ;>41.36 Mb</p>
-                                </div>
-
-                            </span>
-
-                            <p class="chat_response-hour text">14:50 PM</p>
-                        </div>
-                    </div>
-                    <div class="chat_message-container">
-
-                        <div class="chat_message_text">
-                            <p class="chat_message text" ;>Nice, Thanks!</p>
-                            <p class="chat_message-hour text">14:50 PM</p>
-                        </div>
-                    </div>
-                    <div class="chat_response-container">
-                        <img class="user_img_chat" src="./assets/imgs/User Photo.png" alt="">
-                        <div class="chat_response_text">
-                            <p class="chat_response text">Hello! Finally found the time to write to you I need your help
-                                in creating interactive animations for my mobile application.</p>
-                            <p class="chat_response text">Can I send you files?</p>
-                            <p class="chat_response-hour text">14:50 PM</p>
-                        </div>
-                    </div>
-
-                    <div class="chat_message-container">
-
-                        <div class="chat_message_text">
-                            <p class="chat_message text" ;>Hey! Okay, send out.</p>
-                            <p class="chat_message-hour text">14:50 PM</p>
-                        </div>
-                    </div>
-                    <div class="chat_response-container">
-                        <img class="user_img_chat" src="./assets/imgs/User Photo.png" alt="">
-                        <div class="chat_response_text">
-                            <span class="chat_response_archive">
-                                <img src="./assets/imgs/Group 774.png" alt="">
-                                <div>
-                                    <p class="chat_response_mb text" ;>Imagem.doc</p>
-                                    <p class="chat_response_mb text" ;>41.36 Mb</p>
-                                </div>
-
-                            </span>
-
-                            <p class="chat_response-hour text">14:50 PM</p>
-                        </div>
-                    </div>
-                    <div class="chat_message-container">
-
-                        <div class="chat_message_text">
-                            <p class="chat_message text" ;>Nice, Thanks!</p>
-                            <p class="chat_message-hour text">14:50 PM</p>
-                        </div>
-                    </div>
+                    
+                    
                 </div>
                 <div id="button_aberto" class="button_aberto hidden">
                     <button class="text_box-button"><img class="text_box-button-img-add"
@@ -840,13 +764,13 @@
                 <div class="text_box-container">
 
 
-                    <form class="text_box" action="">
+                    <form id="formMessages" class="text_box" action="">
 
                         <span onclick="openList('button_aberto')" class="text_box-button"><img
                                 class="text_box-button-img-add" src="./assets/imgs/Vector Mais.png"  alt=""></span>
-                        <input class="text_box-form" placeholder="Escreva Sua mensagem" type="text">
+                        <input id="input_messages" class="text_box-form" placeholder="Escreva Sua mensagem" type="text">
 
-                        <button class="text_box-button">
+                        <span onclick="addResposta()" class="text_box-button">
                             <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g filter="url(#filter0_dd_1227_5436)">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M22.2086 35.7501C22.1744 35.7501 22.1419 35.7484 22.1094 35.7468C21.3749 35.7029 20.7623 35.1699 20.6161 34.4484L18.1168 22.1521C17.9868 21.5118 17.4879 21.0129 16.8477 20.8829L4.5513 18.3821C3.8298 18.2374 3.2968 17.6248 3.25293 16.8903C3.20905 16.1542 3.66243 15.4814 4.36118 15.2507L30.3612 6.58457C30.9445 6.38632 31.5881 6.53907 32.0236 6.97619C32.4591 7.41169 32.6102 8.05519 32.4168 8.63857L23.7491 34.6386C23.5281 35.3064 22.9041 35.7501 22.2086 35.7501Z" fill="#2A8BF2"/>
@@ -875,7 +799,7 @@
                                 </defs>
                                 </svg>
                                 
-                        </button>
+                            </span>
                     </form>
                 </div>
             </div>
@@ -1293,6 +1217,7 @@
     <script src="./assets/js/noRefresh.js"></script>
     <script src='./assets/js/changeTheme.js'></script>
     <script src="./assets/js/changeColor.js"></script>
+    <script src="./assets/js/sendMessage.js"></script>
 </body>
 
 </html>
