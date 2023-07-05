@@ -1,7 +1,7 @@
 .filtro_everest_chat-container {
     width: 24%;
     height: 22%;
-    background-color: var(--container-lateral-bar);
+    background-color: var(--container-color);
     border-radius: 2rem 0rem 0rem 0rem;
     border: var(--border-box-shadow-container);
 
@@ -117,8 +117,8 @@
 }
 
 .button_evidencia{
-    background-color: var(--svg);
-    color: var( --container-light);
+    background-color: var(--container-lateral-bar);
+    color: var(--text-container-color);
 }
 
 .filtro_everest_chat-arquivos-buttons:hover {
@@ -240,4 +240,10 @@
     margin-left: 0.3rem;
     background-color: var(--container-light);
     padding-top: 0.2rem;
+}
+
+.svg_messages{
+    background-color: var(--span-color);
+    padding: 0.2rem;
+    border-radius: 0.5rem;
 }

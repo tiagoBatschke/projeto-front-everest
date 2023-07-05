@@ -33,6 +33,14 @@
     margin-bottom: 0rem;
 }
 
+
+.svg_home{
+    background-color: var(--background-ligth);
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.5rem;
+}
+
 @media(min-width:1300px) {
     .metrics_cards {
         display: flex;

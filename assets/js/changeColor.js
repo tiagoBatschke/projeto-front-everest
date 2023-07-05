@@ -5,7 +5,7 @@ function changeColorPrincipal(color1){
     document.documentElement.style.setProperty("--span-color", `${color1}`)
     document.documentElement.style.setProperty("--svg", `${color1}`)
     document.documentElement.style.setProperty("--button-color-hover", `${color1}`)
-    document.documentElement.style.setProperty("--container-search", `${color1}64`)
+    document.documentElement.style.setProperty("--background-ligth", `${color1}2a`)
     localStorage.setItem("colorPrincipal", `${color1}`);
     localStorage.setItem("mudouCorPrincipal", 'mudou')
 }
@@ -21,22 +21,19 @@ function changeColorSecundaria(color1){
 
 function mantemDarkMode(){
     const buttonDarkMode = document.getElementById('sun-set')
-
-    contador = 1
     buttonDarkMode.addEventListener('click', function(){
-    contador++
-    if(contador % 2 == 0){
+  
+    if(localStorage.getItem("mode") == 'dark'){
         document.documentElement.style.setProperty("--subtittle-color", `#2A8BF2`)
-        document.documentElement.style.setProperty("--container-color", `#3A3A3A3A`)
-        document.documentElement.style.setProperty("--container-lateral-bar", `#3a3a3a`)
-        document.documentElement.style.setProperty("--span-color", `#2A8BF2`)
-        document.documentElement.style.setProperty("--svg", `#fff`)
-        document.documentElement.style.setProperty("--tittle-color", `#fff`)
-        
-       
+       document.documentElement.style.setProperty("--container-color", `#3A3A3A3A`)
+       document.documentElement.style.setProperty("--container-lateral-bar", `#3a3a3a`)
+       document.documentElement.style.setProperty("--span-color", `#2A8BF2`)
+       document.documentElement.style.setProperty("--svg", `#fff`)
+       document.documentElement.style.setProperty("--tittle-color", `#fff`)
+       localStorage.setItem("mudouCorPrincipal", 'naomudou')
     }else{
-       changeColorPrincipal(localStorage.getItem("colorPrincipal"))
-       changeColorSecundaria(localStorage.getItem("colorSecundaria"))
+        changeColorPrincipal(localStorage.getItem("colorPrincipal"))
+        changeColorSecundaria(localStorage.getItem("colorSecundaria"))
     }
 })
 }
@@ -48,8 +45,6 @@ function mantemColor() {
        changeColorPrincipal(colorPrincipal)
        changeColorSecundaria(colorSecundaria)
        
-    }else{
-        resetColor()
     }
 }
 
