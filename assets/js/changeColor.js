@@ -148,8 +148,11 @@ function mudaFont(idButton) {
 }
 
 function inicializa(){
-    localStorage.setItem("colorPrincipal", `#2A8BF2`);
-    localStorage.setItem("colorSecundaria", `#000`);
+    if (localStorage.getItem('"colorPrincipal"') == '' ) {
+        localStorage.setItem("colorPrincipal", `#2A8BF2`);
+        localStorage.setItem("colorSecundaria", `#000`);
+    }
+   
 }
 
 mantem()
