@@ -151,6 +151,7 @@ function inicializa(){
     if (localStorage.getItem("colorPrincipal") == null ) {
         localStorage.setItem("colorPrincipal", `#2A8BF2`);
         localStorage.setItem("colorSecundaria", `#000`);
+        console.log('teste2')
     }
    
 }
