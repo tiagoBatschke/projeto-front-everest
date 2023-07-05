@@ -20,10 +20,7 @@ function changeColorSecundaria(color1){
 
 
 function mantemDarkMode(){
-    const buttonDarkMode = document.getElementById('sun-set')
-    buttonDarkMode.addEventListener('click', function(){
-  
-    if(localStorage.getItem("mode") == 'dark'){
+     if(localStorage.getItem("mode") == 'dark'){
        document.documentElement.style.setProperty("--subtittle-color", `#2A8BF2`)
        document.documentElement.style.setProperty("--container-color", `#3A3A3A3A`)
        document.documentElement.style.setProperty("--container-lateral-bar", `#3a3a3a`)
@@ -31,11 +28,12 @@ function mantemDarkMode(){
        document.documentElement.style.setProperty("--svg", `#fff`)
        document.documentElement.style.setProperty("--tittle-color", `#fff`)
        localStorage.setItem("mudouCorPrincipal", 'naomudou')
+      
     }else{
         changeColorPrincipal(localStorage.getItem("colorPrincipal"))
         changeColorSecundaria(localStorage.getItem("colorSecundaria"))
     }
-})
+
 }
 
 function showButtons(idButton, idsButtons) {
@@ -149,6 +147,11 @@ function mudaFont(idButton) {
    }
 }
 
+function inicializa(){
+    changeColorPrincipal('#2A8BF2')
+    changeColorSecundaria('#000')
+}
+
 mantem()
-mantemDarkMode()
 executaChange()
+inicializa()
