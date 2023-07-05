@@ -149,7 +149,8 @@ function mudaFont(idButton) {
 
 function inicializa(){
     if (localStorage.getItem("colorPrincipal") == null ) {
-        console.log('teste 1')
+        localStorage.setItem("colorPrincipal", `#2A8BF2`);
+        localStorage.setItem("colorSecundaria", `#000`);
     }
    
 }
