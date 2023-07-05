@@ -9,9 +9,9 @@
 }
 
 .svg:hover {
-    stroke: var(--svg);
+    stroke: var(--container-color);
 
-
+    transition: 0.5s;
 }
 
 .text {
@@ -136,7 +136,7 @@
 .list_meuPerfil-text:hover{
     cursor: pointer;
     color: var( --span-color);
-
+    transition: 0.5s;
 }
 
 
@@ -204,6 +204,7 @@
 
 .notification_icon:hover{
     cursor: pointer;
+    transition: 0.5s;
 }
 
 

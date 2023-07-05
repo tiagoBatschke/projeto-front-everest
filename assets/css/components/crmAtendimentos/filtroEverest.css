@@ -126,11 +126,13 @@
     cursor: pointer;
     transition-delay: 100ms;
     color: var( --container-light);
+    transition: 0.5s;
 }
 
 .button_evidencia:hover{
     background-color: var(--container-lateral-bar);
     color: var(--text-container-color);
+    transition: 0.5s;
 }
 
 .filtarPor_img {
@@ -143,6 +145,7 @@
 
 .filtro_everest_chat-arquivos_filtrarPor:hover{
     cursor: pointer;
+    transition: 0.5s;
 }
 .filtarPor_text {
     margin-top: 0.5rem;

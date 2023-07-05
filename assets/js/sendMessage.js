@@ -20,6 +20,7 @@ function addResposta() {
    <p class="chat_message-hour text">${horario.getHours()}:${horario.getMinutes()}</p>
    </div>
    </div>`)
+   idInput.value = ''
    }
 }
 

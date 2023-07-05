@@ -195,11 +195,13 @@
     cursor: pointer;
     transition-delay: 100ms;
     color: var( --container-light);
+    transition: 0.5s;
 }
 
 .button_evidencia:hover{
     background-color: var(--container-lateral-bar);
     color: var(--text-container-color);
+    transition: 0.5s;
 }
 
 .title_link{
@@ -211,4 +213,5 @@
 
 .title_link:hover{
     border-bottom: 1px solid var(--span-color);
+    transition: 0.5s;
 }

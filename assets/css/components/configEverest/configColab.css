@@ -35,6 +35,7 @@ input[type=radio] {
 
 .config_colab-form-input:hover{
   cursor: pointer;
+  transition: 0.5s;
 }
 
 .config_colab-form-label {
@@ -74,4 +75,5 @@ input[type=radio] {
 
 .config_colab_butons:hover {
   background-color: var(--span-color);
+  transition: 0.5s;
 }

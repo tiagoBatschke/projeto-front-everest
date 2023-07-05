@@ -86,4 +86,5 @@ body {
 .button_login:hover {
     background-color: #3a3a3a99;
     cursor: pointer;
+    transition: 0.5s;
 }

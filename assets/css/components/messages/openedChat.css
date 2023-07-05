@@ -81,6 +81,7 @@
 
 .text_box-button:hover{
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .text_box-form {
@@ -228,6 +229,7 @@
 
 .icon_opitions_opened_chat-conteiner:hover{
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .card_confirmation-chat{
@@ -339,6 +341,7 @@
 
 .chat_card_filtro:hover, .card_confirmation-chat-fechar:hover{
     cursor: pointer;
+    transition: 0.5s;
 }
 
 

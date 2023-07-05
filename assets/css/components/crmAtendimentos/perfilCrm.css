@@ -233,6 +233,7 @@ input::placeholder {
 
 .card_perfil-text:hover{
   color: var(--container-light) ;
+  transition: 0.5s;
 }
 
 .card_perfil-text-white{

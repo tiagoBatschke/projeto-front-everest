@@ -45,6 +45,7 @@ th {
 td:hover {
     background-color: var(--text-container-color);
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .selected {
@@ -309,14 +310,17 @@ select {
 
 .icon_reunioes:hover, .icon_reunioes-plus:hover, .checkbox_reunioes:hover{
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .icon_reunioes-plus:hover, .checkbox_blue:hover{
     background-color: var(--button-color-hover);
+    transition: 0.5s;
 }
 
 .checkbox_green:hover{
     background-color: #4ce365d0;
+    transition: 0.5s;
 }
 
 
@@ -434,6 +438,7 @@ select {
 
 .card_membros:hover{
     cursor: pointer;
+    transition: 0.5s;
 }
 .haeader_card-container{
     background-color: var(--span-color);
@@ -463,6 +468,7 @@ select {
 
 .calendarioCard_text-blue:hover, .haeader_card-text:hover, .pointer:hover{
     cursor: pointer;
+    transition: 0.5s;
 }
 .calendario_card-container::-webkit-scrollbar {
     width: 5px;

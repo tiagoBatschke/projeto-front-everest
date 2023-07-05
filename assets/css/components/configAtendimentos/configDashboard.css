@@ -131,4 +131,5 @@
     cursor: pointer;
     background-color: var(--svg);
     color: var( --container-light);
+    transition: 0.5s;
 }

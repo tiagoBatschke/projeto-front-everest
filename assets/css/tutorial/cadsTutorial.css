@@ -17,6 +17,7 @@
 
 .x_fechar:hover{
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .card_Tutorial {
@@ -123,11 +124,13 @@
 .card_buttons:hover {
     background-color: var(--button-color-hover);
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .card_buttons-fechar:hover {
     cursor: pointer;
     background-color: #c2c2c2cb;
+    transition: 0.5s;
 }
 
 .img_card {
@@ -161,6 +164,7 @@
 .card_buttons-red:hover {
     background-color: #ff4f4fb1;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .img_container-red {
@@ -193,6 +197,7 @@
 .card_buttons-yellow:hover {
     background-color: #ffc800a8;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .x_fechar-container-yellow {
@@ -228,6 +233,7 @@
 .card_buttons-Black:hover {
     background-color: #535353;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .x_fechar-container-Black {
@@ -251,6 +257,7 @@
 .card_buttons-green:hover {
     background-color: #4ce365ae;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .margin_left{
