@@ -97,8 +97,8 @@ function executaChange() {
         if(key == 13){
             if( template1 == true && localStorage.getItem("mode") !== 'dark'){
                 changeColorPrincipal(hex1.value)
-            }else{
-               resetColor()
+            }else if (localStorage.getItem("mode") !== 'dark') {
+                resetColor()
             }
         }
     })
