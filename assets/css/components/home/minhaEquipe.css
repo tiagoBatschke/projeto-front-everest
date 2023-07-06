@@ -140,9 +140,9 @@
 
 @media (min-width: 250px)  and  (max-width: 500px){
     .minhaEquipe_metrics_container {
-        width: 87vw;
+        width: 80vw;
         padding: 2%;
-        margin-left: -7%;
+        margin-left: -1%;
         
     }
     .minhaEqipe_container {
@@ -163,19 +163,19 @@
     .card_colaborators_icons-container {
         display: flex;
         padding-bottom: 0.6rem;
-        margin-left: 3rem;
+        margin-left: 2rem;
     }
     .card_colaborators_icons-container_mid {
         display: flex;
         padding-bottom: 0.6rem;
-        margin-left: 2rem;
+        margin-left: 1rem;
         height: 0.8rem;
     }
     .colaborators_list {
         display: flex;
         justify-content: space-evenly;
-        width: 88%;
-        margin-left: 1.2rem;
+        width: 78%;
+        margin-left: 1.8rem;
         margin-right: 0.5rem;
         margin-top: 1rem;
         
@@ -185,7 +185,8 @@
         display: flex;
         margin-left: 2rem;
         flex-wrap: wrap;
-        padding:  1rem 0rem;
+        padding:  0rem 0rem;
+        
     }
 
     .hidden_mobile{

@@ -134,8 +134,8 @@
 .charts_paralelos {
     display: flex;
     margin-top: 2%;
-    width: 95vw;
-    margin-left: -2%;
+    width: 80vw;
+    margin-left: -1%;
     height: 16rem;
     margin-bottom: 1rem;
     background-color: var(--container-light);
@@ -199,9 +199,9 @@
 
 .social_titles_separation_graficos {
     padding: 0.5rem 1rem;
-    width: 101%;
+    width: 100%;
     margin-bottom: 0.5rem;
-    margin-left: -8%;
+    margin-left: -6%;
     margin-top: -1rem;
 }
 
@@ -210,7 +210,8 @@
     flex-wrap: nowrap;
     justify-content: space-evenly;
     width: 82vw;
-    margin-top: 90%;
+    margin-top: 98%;
+    
 }
 .metrics_title{
     font-size: 1.2rem;
@@ -219,5 +220,12 @@
 .columnchart_container::-webkit-scrollbar {
     width: 5px;
     /* width of the entire scrollbar */
+}
+
+.socialChart_li {
+    display: flex;
+    width: 20%;
+    padding: 0rem 2rem;
+    margin-top: 0.3rem;
 }
 }
