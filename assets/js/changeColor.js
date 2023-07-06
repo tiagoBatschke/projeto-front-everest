@@ -13,7 +13,6 @@ function changeColorPrincipal(color1){
 
 function changeColorSecundaria(color1){
     document.documentElement.style.setProperty("--tittle-color", `${color1}`)
-    
     localStorage.setItem("colorSecundaria", `${color1}`);
     localStorage.setItem("mudouCorPrincipal", 'mudou')
 }
@@ -96,7 +95,7 @@ function executaChange() {
         const template1 = new RegExp(/^[^a-z].{3,6}/g).test(`${hex1.value}`)
         var key = e.which|| e.keyCode        
         if(key == 13){
-            if( template1 == true){
+            if( template1 == true && localStorage.getItem("mode") !== 'dark'){
                 changeColorPrincipal(hex1.value)
             }else{
                resetColor()
@@ -107,7 +106,7 @@ function executaChange() {
         const template2 = new RegExp(/^[^a-z].{3,6}/g).test(`${hex2.value}`)
         var key = e.which|| e.keyCode        
         if(key == 13){
-            if( template2 == true){
+            if( template2 == true && localStorage.getItem("mode") !== 'dark'){
                 changeColorSecundaria(hex2.value)
             }else{
                resetColor()
@@ -151,7 +150,7 @@ function inicializa(){
     if (localStorage.getItem("colorPrincipal") == null ) {
         localStorage.setItem("colorPrincipal", `#2A8BF2`);
         localStorage.setItem("colorSecundaria", `#000`);
-        console.log('teste2')
+        
     }
    
 }
