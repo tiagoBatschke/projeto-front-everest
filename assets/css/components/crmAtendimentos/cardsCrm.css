@@ -249,3 +249,19 @@
     width: 5px;
     /* width of the entire scrollbar */
 }
+
+@media (min-width: 250px)  and  (max-width: 500px){
+
+    .main_card-container {
+        display: flex;
+        width: 92%;
+        margin-left: -1%;
+        padding-left: 1rem;
+        max-height: 90vh;
+        overflow-x: scroll;
+        width: 350%;
+    }
+    .title_crm-container{
+        display: none;
+    }
+}
