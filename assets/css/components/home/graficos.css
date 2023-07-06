@@ -71,7 +71,7 @@
 }
 
 .social_titles_separation_graficos {
-    background-color:aqua;
+    background-color: var(--subtittle-color);
     padding: 0.5rem 1rem;
     width: 92%;
     margin-bottom: 0.5rem;
@@ -126,4 +126,98 @@
     margin-top: -1.2rem;
     margin-bottom: 1rem;
     color: var(--tittle-color);
+}
+
+@media (min-width: 250px)  and  (max-width: 500px){
+
+    
+.charts_paralelos {
+    display: flex;
+    margin-top: 2%;
+    width: 95vw;
+    margin-left: -2%;
+    height: 16rem;
+    margin-bottom: 1rem;
+    background-color: var(--container-light);
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.socialChart {
+    width: 72vw;
+    border-radius: 0.5rem;
+    border: var(--border-box-shadow-container);
+    box-shadow: var(--box-shadow-container);
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+
+.socialChart_ul {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+    width: 67%;
+}
+
+.columnchart_container {
+    width: 85vw;
+    margin-left: 15%;
+    height: 20vh;
+    overflow-x: scroll;
+    margin-left: -3%;
+}
+
+
+.text_grafic {
+    font-family: 'Baloo 2', cursive;
+    margin-left: 2%;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: var(--tittle-color);
+    font-size: 0.7rem;
+   
+    width: 95%;
+}
+
+.grafic_img {
+    fill: var(--tittle-color);
+    margin-left: 0;
+}
+
+.graph_pie {
+    margin-left: 0;
+    border-radius: 0.5rem;
+    border: var(--border-box-shadow-container);
+    box-shadow: var(--box-shadow-container);
+    background-color: var(--container-light);
+    width: 72vw;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.social_titles_separation_graficos {
+    padding: 0.5rem 1rem;
+    width: 101%;
+    margin-bottom: 0.5rem;
+    margin-left: -8%;
+    margin-top: -1rem;
+}
+
+.container_grafico{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    width: 82vw;
+    margin-top: 90%;
+}
+.metrics_title{
+    font-size: 1.2rem;
+}
+
+.columnchart_container::-webkit-scrollbar {
+    width: 5px;
+    /* width of the entire scrollbar */
+}
 }

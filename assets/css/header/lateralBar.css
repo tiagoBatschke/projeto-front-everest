@@ -181,3 +181,12 @@ li {
 .input_search_header::placeholder{
     color: var(--text-color);
 }
+
+
+ @media (min-width: 250px)  and  (max-width: 500px){
+
+    .container_lateral_bar{
+        display: none;
+    }
+
+}

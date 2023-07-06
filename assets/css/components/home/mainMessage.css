@@ -39,7 +39,6 @@
 
 @media(min-width:1400px) {
   .main_message {
-
     width: 80%;
     margin-left: 15%;
     margin-top: 2%;
@@ -50,4 +49,23 @@
     border: var(--border-box-shadow-container);
   }
 
+}
+
+@media (min-width: 250px)  and  (max-width: 500px){
+   .main_message{
+    display: flex;
+    flex-wrap: wrap;
+    width: 86vw;
+    margin-left: -6%;
+    margin-top: 10%;
+    border-radius: 0.5rem;
+    box-shadow: var(--box-shadow-container);
+    border: var(--border-box-shadow-container);
+   
+    max-height:100vh;
+   }
+   .main_message_img{
+    display: none;
+   }
+  
 }

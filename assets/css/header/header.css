@@ -211,3 +211,10 @@
 input::placeholder {
     color: var(--text-color);
 }
+
+
+@media (min-width: 250px)  and  (max-width: 500px){
+    .header_home{
+        display: none;
+    }
+}

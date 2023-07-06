@@ -58,3 +58,13 @@
 
 
 }
+
+@media (min-width: 250px)  and  (max-width: 500px){
+    .svg_home{
+        background-color: var(--background-ligth);
+        width: 2rem;
+        height: 2rem;
+        border-radius: 0.5rem;
+    }
+
+}

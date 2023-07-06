@@ -1,6 +1,7 @@
 .main_content_container {
     display: flex;
     margin-left: 2rem;
+    flex-wrap: wrap;
 }
 
 .minhaEquipe_metrics_container {
@@ -10,7 +11,6 @@
 }
 
 .minhaEqipe_container {
-
     border-radius: 0.5rem;
     box-shadow: var(--box-shadow-container);
     border: var(--border-box-shadow-container)
@@ -135,4 +135,61 @@
         margin-right: 0.5rem;
         margin-top: 1rem;
     }
+
+}
+
+@media (min-width: 250px)  and  (max-width: 500px){
+    .minhaEquipe_metrics_container {
+        width: 87vw;
+        padding: 2%;
+        margin-left: -7%;
+        
+    }
+    .minhaEqipe_container {
+        border-radius: 0.5rem;
+        box-shadow: var(--box-shadow-container);
+        border: var(--border-box-shadow-container);
+        width: 98%;
+    }
+    .card_colaborators_container {
+        display: flex;
+        flex-direction: column;
+        padding: 0rem 0.6rem;
+        background-color: var(--container-light);
+        padding-bottom: 1rem;
+        
+    }
+
+    .card_colaborators_icons-container {
+        display: flex;
+        padding-bottom: 0.6rem;
+        margin-left: 3rem;
+    }
+    .card_colaborators_icons-container_mid {
+        display: flex;
+        padding-bottom: 0.6rem;
+        margin-left: 2rem;
+        height: 0.8rem;
+    }
+    .colaborators_list {
+        display: flex;
+        justify-content: space-evenly;
+        width: 88%;
+        margin-left: 1.2rem;
+        margin-right: 0.5rem;
+        margin-top: 1rem;
+        
+    }
+
+    .main_content_container {
+        display: flex;
+        margin-left: 2rem;
+        flex-wrap: wrap;
+        padding:  1rem 0rem;
+    }
+
+    .hidden_mobile{
+        display: none;
+    }
+    
 }
