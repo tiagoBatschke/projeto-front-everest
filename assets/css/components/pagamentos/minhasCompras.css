@@ -248,7 +248,7 @@
 }
 
 .listaPagamento {
-   background-color: var(--container-light);
+   background-color: var(--container-ligh);
    border-radius: 0 0 0.5rem 0.5rem;
    padding: 0.5rem;
    width: 33.5%;
@@ -266,3 +266,28 @@
    border: var(--border-box-shadow-container);
 }
 
+@media (min-width: 250px)  and  (max-width: 500px){
+   .select_page {
+      background-color: var(--container-lateral-bar);
+      width: 60vw;
+   }
+   
+.listaPagamento {
+   background-color: var(--container-ligh);
+   border-radius: 0 0 0.5rem 0.5rem;
+   padding: 0.5rem;
+   width: 59vw;
+   
+}
+.minhasCompras_everest-container {
+   display: flex;
+   width: 100%;
+   flex-direction: column;
+}
+
+.minhasCompras_card-container {
+   margin-left: -3%;
+   width: 100%;
+   margin-top: 1rem;
+}
+}

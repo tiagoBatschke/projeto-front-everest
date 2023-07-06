@@ -182,8 +182,13 @@
 
 .everestPay_checkout-text {
     font-size: 1.25rem;
-    color: var(--subtittle-color);
-   
+    color: #fff; 
+    
+}
+.everestPay_checkout-text2{
+    font-size: 1.25rem;
+    color: #fff; 
+    margin-left: 9rem;
 }
 
 .everestPay_checkout-text:hover{
@@ -203,4 +208,34 @@
 .minhas_compras-pagamentoMensal{
     margin-left: 40.2%;
     width: 62%;
+}
+
+@media (min-width: 250px)  and  (max-width: 500px){
+    .everestPay-contaiener {
+        background-color: var(--container-color);
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        border-radius: 0.9rem;
+        align-items: center;
+        width: 100%;
+        justify-content: space-evenly;
+        margin-left: 0rem;
+    }
+
+    
+.everestPay_checkout-text {
+    font-size: 1.25rem;
+    color: #fff; 
+    margin-left: 0rem;
+}
+
+.everestPay_checkout-text2{
+    font-size: 1.25rem;
+    color: #fff; 
+    margin-left: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+
 }

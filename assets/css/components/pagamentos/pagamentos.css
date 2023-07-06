@@ -215,3 +215,77 @@
     border-bottom: 1px solid var(--span-color);
     transition: 0.5s;
 }
+
+@media (min-width: 250px)  and  (max-width: 500px){
+    .pagamentos_everest-container-main {
+
+        display: flex;
+        width: 80vw;
+        margin-left: 7%;
+        margin-top: 2%;
+        flex-wrap: wrap;
+    }
+    
+    .card_lembrete {
+        box-shadow: var(--box-shadow-container);
+        border-radius: 0.5rem;
+        border: var(--border-box-shadow-container);
+        width: 78vw;
+        margin-top: 1rem;
+        padding: 0rem;
+    }
+    
+    .pagamentos_everest-container {
+        width: 100%;
+        margin-left: -2%;
+    }
+    .pagamentos_cards {
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+        margin-top: 1rem;
+        padding: 0rem;
+        align-items: center;
+        margin-bottom: 1rem;
+        
+    }
+    .button_contador {
+        height: 0.8rem;
+        width:  0.8rem;
+        margin-left: 0.2rem;
+        margin-right: 0.2rem;
+        border: none;
+        background-color: transparent;
+        font-size: 0.8rem;
+        font-weight: lighter;
+        cursor: pointer;
+        color: var(--tittle-color);
+    }
+
+    .contador_number {
+        font-size: 0.6rem;
+        height: 1rem;
+        width: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.5rem;
+        border: 1px solid #979797;
+        color: var(--tittle-color);
+    }
+
+    .pagamento_card-saldo {
+        font-weight: bold;
+        font-size: 0.7rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: var(--tittle-color);
+    }
+    .contador_container {
+        display: flex;
+        margin-right: 0rem;
+    }
+    .icon_user_pagamentos {
+        width: 11%;
+        margin-right: -0.5rem;
+    }
+}
