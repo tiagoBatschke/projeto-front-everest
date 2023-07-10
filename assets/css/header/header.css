@@ -213,8 +213,40 @@ input::placeholder {
 }
 
 
+.container_nav_mobile{
+    display: none;   
+}
+
 @media (min-width: 250px)  and  (max-width: 500px){
     .header_home{
         display: none;
     }
+
+    .nav_icon_imgs-mobile{
+        width: 1.5rem;
+       
+    }
+
+    .nav_icon_imgs-mobile:hover{
+        cursor: pointer;
+    }
+    .listaIcons_nav_mobile{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .container_nav_mobile{
+        display: inline;
+        background-color: var(--container-light);
+        z-index: 5;
+        position:fixed;
+        margin-top: 88vh;
+        margin-left: 10vw;
+        width: 80vw;
+        border: var(--border-box-shadow-container);
+        box-shadow: var(--box-shadow-container);
+        border-radius: 0.5rem;
+        
+    }
 }
+
