@@ -251,7 +251,7 @@
 }
 
 .listaPagameto_container2 {
-    width: 100%;
+    width: 72%;
     margin-top: -1rem;
     margin-bottom: 1rem;
     border-radius: 0.5rem 0 0.5rem 0.5rem;
@@ -260,6 +260,7 @@
     cursor: pointer;
     position: relative;
     z-index: 1;
+    margin-left: -2%;
     
 }
 

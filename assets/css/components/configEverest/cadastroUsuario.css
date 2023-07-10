@@ -212,3 +212,90 @@
 .background_gray {
     background-color: #C4C4C4;
 }
+
+@media (min-width: 250px)  and  (max-width: 500px){
+    .card_cadastro-title {
+        font-size: 0.9rem;
+        color: var(--tittle-color);
+        font-weight: bold;
+    }
+    .cadastro_card {
+        display: flex;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        border: var(--border-box-shadow-container);
+        width: 80%;
+    }
+
+    .card_cadastro-subtitle {
+        font-size: 0.8rem;
+        color: var(--tittle-color);
+        margin-top: 0.2rem;
+    }
+    .cadastro_form-input {
+        width: 32%;
+        padding: 0.8rem;
+        margin: 0.3rem;
+        background-color: var(--container-color);
+        color: var(--tittle-color);
+        border-radius: 0.3rem;
+        border: none;
+        margin-top: 0.7rem;
+    }
+   
+   .cadastro_form-input-4 {
+    width: 82%;
+    padding: 0.8rem;
+    margin: 0.3rem;
+    background-color: var(--container-color);
+    color: #fff;
+    border-radius: 0.3rem;
+    border: none;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.cadastro_form-input-3 {
+    width: 90%;
+    padding: 0.8rem;
+    margin-left: -13%;
+    background-color: var(--container-color);
+    color: #fff;
+    border-radius: 0.3rem;
+    border: none;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.cadastro_form-input-2 {
+    width: 32%;
+    padding: 0.8rem;
+    margin: 0.3rem;
+    background-color: var(--container-color);
+    color: #fff;
+    border-radius: 0.3rem;
+    border: none;
+    margin-top: 0.5rem;
+}
+
+
+.cadastro_usuario-button {
+    border: none;
+    background-color: #4CE364;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+    width: 30%;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    box-shadow: var(--box-shadow-container);
+    margin-left: 35%;
+    margin-bottom: 1.5rem;
+}
+
+.form_mobile-cadastro{
+    width: 90%;
+    margin-bottom: 2rem;
+}
+}

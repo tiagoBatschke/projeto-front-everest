@@ -117,3 +117,46 @@
     max-height: 95vh;
     z-index: 0;
 }
+
+.configEverest_container-mobile{
+   display: none;
+}
+@media (min-width: 250px)  and  (max-width: 500px){
+    .configEverest_container{
+        display: none;
+    }
+    .configEverest_container-mobile{
+        min-height: 100vh;
+        display: inline;
+    }
+    .configEverest_configs-cards-text-container {
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+        color: var(--color-text);
+        width: 100%;
+    }
+    .configEverest_configs-cards-text {
+        font-size: 0.7rem;
+        color: var(--text-color);
+        font-weight: bold;
+        margin-top: 0.6rem;
+    }
+    .configEverest_configs-cards-title {
+        font-size: 0.9rem;
+    }
+    .configEverest_configs-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-bottom: 5%;
+        width: 90vw;
+        margin-left: 5vw
+    }
+    
+    .div_configs-container {
+        width: 100%;
+        overflow-y: scroll;
+        min-height: 108vh;
+        z-index: 0;
+    }
+}

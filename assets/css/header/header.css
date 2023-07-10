@@ -240,13 +240,42 @@ input::placeholder {
         background-color: var(--container-light);
         z-index: 5;
         position:fixed;
-        margin-top: 88vh;
+        margin-top: 84vh;
         margin-left: 10vw;
         width: 80vw;
         border: var(--border-box-shadow-container);
         box-shadow: var(--box-shadow-container);
         border-radius: 0.5rem;
+      
         
+    }
+
+    .voltar_page-container{
+        background-color: var(--container-light);
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5rem 1rem;
+        border-bottom: var(--border-box-shadow-container);
+        box-shadow: var(--box-shadow-container);
+        margin-top: 0%;
+        position: fixed;
+        width: 90%;
+        padding-top: 1.5rem;
+    }
+
+    .voltar_page-icon{
+        transform: rotate(180deg);
+        background-color: var(--container-light);
+        border-radius: 0.5rem;
+    }
+
+
+    .voltar_page-icon:hover{
+        cursor: pointer;
+    }
+    .voltar_page-icon-person{
+        height: 1.8rem;
+        margin-top: 0.3rem;
     }
 }
 

@@ -258,15 +258,17 @@
        
     </ul>
 </div>
-   <main class="configEverest_container">
-    <div class="configEverest_configs-container">
+  
+
+   <div class="configEverest_container-mobile">
+    <div id="container_configs-mobile" class="configEverest_configs-container">
         <h1 class="configEverest_title title_color text">Configurações Everest</h1>
 
         <div class="card_lembrete">
             <h1   class="lembrete_title title_color text ">Lembrete de Pagamento</h1>
             <p style="color: var(--text-color);" class="Lembrete_text text">Você pode adicionar mais <span style="font-weight: bold; color: var(--text-color);">10 funcionários</span> com o Plano de pagamento atual. Acesse “Pagamentos” para obter mais usuários.</p>
         </div>
-        <div onclick="openPage('configGeralId', ['integracoesId', 'configColabId', 'configGeralId', 'cadastroUsuario'])"  class="configEverest_configs-cards">
+        <div onclick="openPage('configGeralId-mobile', ['integracoesId-mobile', 'configColabId-mobile', 'configGeralId-mobile', 'cadastroUsuario-mobile']),  openList('container_configs-mobile')"  class="configEverest_configs-cards">
             <img class="configEverest_configs-cards-img" src="./assets/imgs/Rectangle 3281 blue.png" alt="">
             <div class="configEverest_configs-cards-text-container">
                 <h2 class="configEverest_configs-cards-title title_color  text">Permissões Gerais</h2>
@@ -274,7 +276,7 @@
             </div>
             <img class="metrics_img_arrow-1"  src="./assets/imgs/arrow.svg" alt="">
         </div>
-        <div  onclick="openPage('configColabId', ['integracoesId', 'configColabId', 'configGeralId', 'cadastroUsuario'])" class="configEverest_configs-cards">
+        <div  onclick="openPage('configColabId-mobile', ['integracoesId-mobile', 'configColabId-mobile', 'configGeralId-mobile', 'cadastroUsuario-mobile']), openList('container_configs-mobile')" class="configEverest_configs-cards">
             <img class="configEverest_configs-cards-img" src="./assets/imgs/Rectangle 3282 green.png" alt="">
             <div class="configEverest_configs-cards-text-container">
                 <h2 class="configEverest_configs-cards-title title_color text">Permissões Colaboradores</h2>
@@ -282,7 +284,7 @@
             </div>
             <img class="metrics_img_arrow-1"  src="./assets/imgs/arrow.svg" alt="">
         </div>
-        <div onclick="openPage('cadastroUsuario', ['integracoesId', 'configColabId', 'configGeralId', 'cadastroUsuario'])"  class="configEverest_configs-cards">
+        <div onclick="openPage('cadastroUsuario-mobile', ['integracoesId-mobile', 'configColabId-mobile', 'configGeralId-mobile', 'cadastroUsuario-mobile']), openList('container_configs-mobile')"  class="configEverest_configs-cards">
             <img class="configEverest_configs-cards-img" src="./assets/imgs/Rectangle 3283 yellow.png" alt="">
             <div class="configEverest_configs-cards-text-container">
                 <h2 class="configEverest_configs-cards-title title_color text">Cadastro de Usuário</h2>
@@ -298,7 +300,7 @@
             </div>
             <img class="metrics_img_arrow-1"  src="./assets/imgs/arrow.svg" alt="">
         </div> -->
-        <div onclick="openPage('integracoesId', ['integracoesId', 'configColabId', 'configGeralId', 'cadastroUsuario'])" class="configEverest_configs-cards">
+        <div onclick="openPage('integracoesId-mobile', ['integracoesId-mobile', 'configColabId-mobile', 'configGeralId-mobile', 'cadastroUsuario-mobile']),  openList('container_configs-mobile')" class="configEverest_configs-cards">
             <img class="configEverest_configs-cards-img" src="./assets/imgs/Rectangle 3285 pink.png
             " alt="">
             <div class="configEverest_configs-cards-text-container">
@@ -316,7 +318,14 @@
             </div>
         </div> -->
     </div>
-    <div id="configColabId" class="div_configs-container hidden">
+    <div id="configColabId-mobile" class="div_configs-container hidden">
+        <div class="voltar_page-container">
+            <svg onclick="openList('container_configs-mobile'), openList('configColabId-mobile')"  class="svg  voltar_page-icon " width="41" height="41" viewBox="0 -10 61 78" fill="none" style="" xmlns="http://www.w3.org/2000/svg">
+                <path d="M30.5013 38.125L38.1263 30.5M38.1263 30.5L30.5013 22.875M38.1263 30.5L10.168 30.5"  stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M10.168 17.7917V12.7084C10.168 11.3047 11.3059 10.1667 12.7096 10.1667H48.293C49.6967 10.1667 50.8346 11.3047 50.8346 12.7084V48.2917C50.8346 49.6955 49.6967 50.8334 48.293 50.8334H12.7096C11.3059 50.8334 10.168 49.6955 10.168 48.2917V43.2084"  stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            <img class="voltar_page-icon-person" src="./assets/imgs/person-circle.svg"alt="">
+        </div>
         <div class="config_colab-container">
             <div class="config_colab">
             <h1 class="integracoes_tittle title_color text">Configurações Colaboradores </h1>
@@ -392,7 +401,14 @@
                     <button class="config_colab_butons  text">Criar evento</button>
                 </div>
     </div>
-    <div id="configGeralId" class="div_configs-container hidden">
+    <div id="configGeralId-mobile" class="div_configs-container hidden">
+        <div class="voltar_page-container">
+            <svg onclick="openList('container_configs-mobile'), openList('configGeralId-mobile')"  class="svg  voltar_page-icon " width="41" height="41" viewBox="0 -10 61 78" fill="none" style="" xmlns="http://www.w3.org/2000/svg">
+                <path d="M30.5013 38.125L38.1263 30.5M38.1263 30.5L30.5013 22.875M38.1263 30.5L10.168 30.5"  stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M10.168 17.7917V12.7084C10.168 11.3047 11.3059 10.1667 12.7096 10.1667H48.293C49.6967 10.1667 50.8346 11.3047 50.8346 12.7084V48.2917C50.8346 49.6955 49.6967 50.8334 48.293 50.8334H12.7096C11.3059 50.8334 10.168 49.6955 10.168 48.2917V43.2084"  stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            <img class="voltar_page-icon-person" src="./assets/imgs/person-circle.svg"alt="">
+        </div>
         <div class="config_colab-container">
             <div class="config_colab">
             <h1 class="integracoes_tittle title_color text">Configurações Gerais</h1>
@@ -452,13 +468,21 @@
                         
                 </div>
            
-                <div class="config_colab_butons-container">
-                    <button class="config_colab_butons text">Criar evento</button>
-                    <button class="config_colab_butons text">Criar evento</button>
-                </div>
+               
+            </div>
+            <div class="config_colab_butons-container">
+                <button class="config_colab_butons text">Criar evento</button>
+                <button class="config_colab_butons text">Criar evento</button>
             </div>
     </div>
-  <div id="integracoesId" class="div_configs-container hidden">
+  <div id="integracoesId-mobile" class="div_configs-container hidden">
+    <div class="voltar_page-container">
+        <svg onclick="openList('container_configs-mobile'), openList('integracoesId-mobile')  "  class="svg  voltar_page-icon " width="41" height="41" viewBox="0 -10 61 78" fill="none" style="" xmlns="http://www.w3.org/2000/svg">
+            <path d="M30.5013 38.125L38.1263 30.5M38.1263 30.5L30.5013 22.875M38.1263 30.5L10.168 30.5"  stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M10.168 17.7917V12.7084C10.168 11.3047 11.3059 10.1667 12.7096 10.1667H48.293C49.6967 10.1667 50.8346 11.3047 50.8346 12.7084V48.2917C50.8346 49.6955 49.6967 50.8334 48.293 50.8334H12.7096C11.3059 50.8334 10.168 49.6955 10.168 48.2917V43.2084"  stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        <img class="voltar_page-icon-person" src="./assets/imgs/person-circle.svg"alt="">
+    </div>
       <div class="integraçoes_configs ">
         <div class="integracoes_intro">
             <h1 class="integracoes_tittle title_color text">Integrações</h1>
@@ -547,7 +571,14 @@
             </div>
         </div>
   </div>
-  <div id="cadastroUsuario" class="div_configs-container hidde">
+  <div id="cadastroUsuario-mobile" class="div_configs-container hidden">
+    <div class="voltar_page-container">
+        <svg onclick="openList('container_configs-mobile'), openList('cadastroUsuario-mobile')  " class="svg  voltar_page-icon " width="41" height="41" viewBox="0 -10 61 78" fill="none" style="" xmlns="http://www.w3.org/2000/svg">
+            <path d="M30.5013 38.125L38.1263 30.5M38.1263 30.5L30.5013 22.875M38.1263 30.5L10.168 30.5"  stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M10.168 17.7917V12.7084C10.168 11.3047 11.3059 10.1667 12.7096 10.1667H48.293C49.6967 10.1667 50.8346 11.3047 50.8346 12.7084V48.2917C50.8346 49.6955 49.6967 50.8334 48.293 50.8334H12.7096C11.3059 50.8334 10.168 49.6955 10.168 48.2917V43.2084"  stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        <img class="voltar_page-icon-person" src="./assets/imgs/person-circle.svg"alt="">
+    </div>
         <div class="config_colab-container">
                 <h1 class="integracoes_tittle title_color text">Cadastro de Usuário</h1>
                 <span class="integracoes_subtitle title_color text">Editar Perfil Existente?</span>
@@ -564,7 +595,7 @@
                        </div>
                       
                 </div>
-                <div id="listatopId" class="listBottom-container  hidden">
+                <div id="listatopId-mobile" class="listBottom-container  hidden">
                     <form class="search_form_cardConfig" action="">
                         <input class="input_search_header" type="text">
                         <button class="button_header_search" type="submit"><img class="img_lupa" src="./assets/imgs/lupa-arredondada.png" alt=""></button>
@@ -584,18 +615,18 @@
                    <br>  perfil Everest.</p>
                    
                 <span class="integracoes_subtitle title_color text">Informações Iniciais</span>    
-               <form action="">
+               <form class="form_mobile-cadastro" action="">
                     <input class="placeholder_color cadastro_form-input" placeholder="Nome*" type="text">
                     <input class="placeholder_color cadastro_form-input" placeholder="Sobrenome*" type="text">
                     <input class="placeholder_color cadastro_form-input" placeholder="Nascimento*" type="text">
                     <input class="placeholder_color cadastro_form-input" placeholder="CPF" type="text">
-                    <input class="placeholder_color cadastro_form-input" placeholder="E-mail Profissional*" type="text">
-                    <input class="placeholder_color cadastro_form-input" placeholder="Contratação" type="text">
-                    <input class="placeholder_color cadastro_form-input-1" placeholder="Pais*" type="text">
-                    <input class="placeholder_color cadastro_form-input-1" placeholder="Estado*" type="text">
-                    <input class="placeholder_color cadastro_form-input-1" placeholder="Cidade*" type="text">
+                    <input class="placeholder_color cadastro_form-input-4" placeholder="E-mail Profissional*" type="text">
+                    <input class="placeholder_color cadastro_form-input-4" placeholder="Contratação" type="text">
+                    <input class="placeholder_color cadastro_form-input-2" placeholder="Pais*" type="text">
+                    <input class="placeholder_color cadastro_form-input-2" placeholder="Estado*" type="text">
+                    <input class="placeholder_color cadastro_form-input-2" placeholder="Cidade*" type="text">
                     <input class="placeholder_color cadastro_form-input-2" placeholder="CEP" type="text">
-                    <input class="placeholder_color cadastro_form-input-3" placeholder="Bairro, Rua/Avenida" type="text">
+                    <input class="placeholder_color cadastro_form-input-4" placeholder="Bairro, Rua/Avenida" type="text">
                    
                </form>
                 <span class="integracoes_subtitle title_color text">ID & Senha</span>
@@ -620,7 +651,7 @@
                        </div>
                       
                 </div>
-                <div id="listaBottomId" class="listBottom-container hidden">
+                <div id="listaBottomId-mobile" class="listBottom-container hidden">
                     <form class="search_form_cardConfig" action="">
                         <input class="input_search_header" type="text">
                         <button class="button_header_search" type="submit"><img class="img_lupa" src="./assets/imgs/lupa-arredondada.png" alt=""></button>
@@ -641,217 +672,9 @@
             </div>
         
     </div>
-    <div id="tutorialId"  class="card_Tutorial hidden">
-        <div onclick="location.reload()" class="x_fechar-container "><p class="x_fechar text">X</p></div>
-        <div class="card_Tutorial-container">
-           
-            <div class="img_container"><img src="./assets/imgs/everest.svg" alt=""></div>
-            <div class="card_text-container">
-                <h2 class="card_title text">Tutorial Everest</h2>
-                <p class="card_text text">Olá Admin! <span class="card_text-blue text">Seja bem-vind@ ao Everest</span>, nosso software de Atendimento e CRM. </p>
-                <p class="card_text text">Á seguir, mostraremos em alguns passos tudo o que precisa saber para iniciar-se no Everest com muito sucesso. <span class="card_text-blue text">Vamos lá?</span></p>
-            </div>
-            <div class="card_buttons-container">
-                <button onclick="location.reload()" class="card_buttons-fechar text">Fechar</button>
-                <button onclick="openList('tutorialHomeiId'),openList('tutorialId') "   class="card_buttons text">Proximo</button>
-            </div>
-        </div>
-    </div>
-    <div id="tutorialHomeiId" class="card_Tutorial hidden">
-        <div onclick="location.reload()" class="x_fechar-container "><p class="x_fechar text">X</p></div>
-        <div class="card_Tutorial-container">
-           
-            <div class="img_container"><img class="img_card" src="./assets/imgs/img home.svg" alt=""></div>
-            <div class="card_text-container">
-                <h2 class="card_title text">Home</h2>
-                <p class="card_text text">As Métricas são<span class="card_text-blue text"> apontamentos</span> de atendimentos e outras infos gerais da empresa. Elas são preenchidas automaticamente com <span class="card_text-blue text"> informações geradas pelos seus usuários;</span> </p>
-                
-            </div>
-            <div class="card_buttons-container">
-                <button onclick="location.reload()" class="card_buttons-fechar text">Fechar</button>
-                <button onclick="openList('tutorialMenuiId'), openList('tutorialHomeiId') "    class="card_buttons text">Proximo</button>
-            </div>
-        </div>
-    </div>
-    <div id="tutorialMenuiId" class="card_Tutorial hidden">
-        <div onclick="location.reload()" class="x_fechar-container "><p class="x_fechar text">X</p></div>
-        <div class="card_Tutorial-container">
-           
-            <div class="img_container"><img class="img_card" src="./assets/imgs/menu.svg" alt=""></div>
-            <div class="card_text-container">
-                <h2 class="card_title text">Menu</h2>
-                <p class="card_text text">Veja as notificações no Sino, atalhos importantes em sua foto de perfil e mude para o<span class="card_text-blue text"> Dark Mode</span>  rapidamente clicando em cima do Sol;</p>
-                
-            </div>
-            <div class="card_buttons-container">
-                <button onclick="location.reload()" class="card_buttons-fechar text">Fechar</button>
-                <button onclick="openList('tutorialMenssegerId'), openList('tutorialMenuiId') "  class="card_buttons text">Proximo</button>
-            </div>
-        </div>
-    </div>
-    <div  id="tutorialMenssegerId"  class="card_Tutorial hidden">
-        <div onclick="location.reload()" class="x_fechar-container "><p class="x_fechar text">X</p></div>
-        <div class="card_Tutorial-container">
-           
-            <div class="img_container"><img class="img_card" src="./assets/imgs/messge.svg" alt=""></div>
-            <div class="card_text-container">
-                <h2 class="card_title text">Messenger</h2>
-                <p class="card_text text">Tela de Atendimento com <span class="card_text-blue text"> atalho para a visualização e criação do Perfil CRM</span>  do Cliente e outras funções no lado esquerdo: atalhos para “Novas”, “Finalizados” e “Arquivo”.</p>
-                
-            </div>
-            <div class="card_buttons-container">
-                <button onclick="location.reload()" class="card_buttons-fechar text">Fechar</button>
-                <button onclick="openList('tutorialAtendimentoId'), openList('tutorialMenssegerId') " class="card_buttons text">Proximo</button>
-            </div>
-        </div>
-    </div>
-    <div id="tutorialAtendimentoId"  class="card_Tutorial hidden">
-        <div onclick="location.reload()" class="x_fechar-container "><p class="x_fechar text">X</p></div>
-        <div class="card_Tutorial-container">
-           
-            <div class="img_container"><img class="img_card" src="./assets/imgs/atendimento.svg" alt=""></div>
-            <div class="card_text-container">
-                <h2 class="card_title text">O Atendimento</h2>
-                <p class="card_text text">Acesse  <span class="card_text-blue text">"Novas"</span> para aceitar novos chats, <span class="card_text-blue text">"Arquivo"</span> para ver mensagens antigas e reabrir chamados e  <span class="card_text-blue text"> "Finalizados" </span>para ver chats terminados no dia atual.</p>
-                
-            </div>
-            <div class="card_buttons-container">
-                <button onclick="location.reload()" class="card_buttons-fechar text">Fechar</button>
-                <button onclick="openList('tutorialButtonAtendimentoId'), openList('tutorialAtendimentoId') " class="card_buttons text">Proximo</button>
-            </div>
-        </div>
-    </div>
-    <div id="tutorialButtonAtendimentoId"  class="card_Tutorial hidden">
-        <div onclick="location.reload()" class="x_fechar-container "><p class="x_fechar text">X</p></div>
-        <div class="card_Tutorial-container">
-           
-            <div class="img_container"><img class="img_card" src="./assets/imgs/botaoAtendimento.svg" alt=""></div>
-            <div class="card_text-container">
-                <h2 class="card_title text">Botões de Atendimento</h2>
-                <p class="card_text text">Realize o Atendimento com o<span class="card_text-blue text"> auxílio dos botões:</span> "Criar Lead CRM", "Criar Pós-Venda", Add Mídia, Add Atendente, Transferir Chat e mais!</p>
-                
-            </div>
-            <div class="card_buttons-container">
-                <button onclick="location.reload()" class="card_buttons-fechar text">Fechar</button>
-                <button onclick="openList('tutorialCrmId'), openList('tutorialButtonAtendimentoId') " class="card_buttons text">Proximo</button>
-            </div>
-        </div>
-    </div>
-    <div id="tutorialCrmId"  class="card_Tutorial hidden">
-        <div onclick="location.reload()" class="x_fechar-container "><p class="x_fechar text">X</p></div>
-        <div class="card_Tutorial-container">
-           
-            <div class="img_container"><img class="img_card" src="./assets/imgs/crm.svg" alt=""></div>
-            <div class="card_text-container">
-                <h2 class="card_title text">CRM</h2>
-                <p class="card_text text">CRM Padrão para a visualização geral dos Leads, Vendas e Pós-Vendas. Basta mover os quadrinhos de setor em setor para formalizar a Venda e Pós, ou o retorno ao estado de Lead.</p>
-                <span class="card_text-blue text">Filte por Atendimentos em que participou rapidamente em "Filtrar Por"</span> 
-                
-            </div>
-            <div class="card_buttons-container">
-                <button onclick="location.reload()" class="card_buttons-fechar text">Fechar</button>
-                <button onclick="openList('tutorialPersonalizaçãoId'), openList('tutorialCrmId') "  class="card_buttons text">Proximo</button>
-            </div>
-        </div>
-    </div>
-    <div id="tutorialPersonalizaçãoId" class="card_Tutorial hidden">
-        <div onclick="location.reload()" class="x_fechar-container "><p class="x_fechar text">X</p></div>
-        <div class="card_Tutorial-container">
-           
-            <div class="img_container"><img class="img_card" src="./assets/imgs/personalizacao.svg" alt=""></div>
-            <div class="card_text-container">
-                <h2 class="card_title text">Personalização</h2>
-                <p class="card_text text">Adicione sua foto de perfil, escreva lembretes e mude  as cores do Everest para as da sua Empresa.</p>
-                
-                
-            </div>
-            <div class="card_buttons-container">
-                <button onclick="location.reload()" class="card_buttons-fechar text">Fechar</button>
-                <button onclick="openList('tutorialCalendarioId'), openList('tutorialPersonalizaçãoId') "  class="card_buttons text">Proximo</button>
-            </div>
-        </div>
-    </div>
-    <div id="tutorialCalendarioId"  class="card_Tutorial hidden">
-        <div onclick="location.reload()" class="x_fechar-container "><p class="x_fechar text">X</p></div>
-        <div class="card_Tutorial-container">
-           
-            <div class="img_container"><img class="img_card" src="./assets/imgs/calendario.svg" alt=""></div>
-            <div class="card_text-container">
-                <h2 class="card_title text">Calendário</h2>
-                <p class="card_text text">Agende rapidamente reuniões, eventos e lembretes pessoais e gerais dentro do Everest!</p>
-                
-                
-            </div>
-            <div class="card_buttons-container">
-                <button onclick="location.reload()" class="card_buttons-fechar text">Fechar</button>
-                <button onclick="openList('tutorialConfigEverestId'), openList('tutorialCalendarioId') " class="card_buttons text">Proximo</button>
-            </div>
-        </div>
-    </div>
-    <div id="tutorialConfigEverestId"  class="card_Tutorial hidden">
-        <div onclick="location.reload()" class="x_fechar-container "><p class="x_fechar text">X</p></div>
-        <div class="card_Tutorial-container">
-           
-            <div class="img_container"><img class="img_card" src="./assets/imgs/config.svg" alt=""></div>
-            <div class="card_text-container">
-                <h2 class="card_title text">Configurações Everest </h2>
-                <p class="card_text text">Configure as Permissão Gerais e dos Colaboradores no Sistema, Cadastre Usuários, Integre suas Redes Sociais fazendo o Login - ou excluindo ele -  e vá para Pagamentos realizar suas compras.</p>
-                
-                
-            </div>
-            <div class="card_buttons-container">
-                <button onclick="location.reload()" class="card_buttons-fechar text">Fechar</button>
-                <button onclick=" openList('tutorialPagamentosId'),openList('tutorialConfigEverestId')" class="card_buttons text">Proximo</button>
-            </div>
-        </div>
-    </div>
-    <div id="tutorialPagamentosId"  class="card_Tutorial hidden">
-        <div onclick="location.reload()" class="x_fechar-container "><p class="x_fechar text">X</p></div>
-        <div class="card_Tutorial-container">
-           
-            <div class="img_container"><img class="img_card" src="./assets/imgs/pagamento.svg" alt=""></div>
-            <div class="card_text-container">
-                <h2 class="card_title text">Pagamentos</h2>
-                <p class="card_text text">Selecione a quantidade de usuários e contas em redes sociais que deseja cadastrar no seu Everest e realize o pagamento. Depois, cadastre-os oficialmente na tela <br><span class="card_text-blue text"> Configurações Everest > Cadastro de Usuário</span></p>
-            </div>
-            <div class="card_buttons-container">
-                <button onclick="location.reload()" class="card_buttons-fechar text">Fechar</button>
-                <button onclick=" openList('tutorialMinhasComprasId'),openList('tutorialPagamentosId')" class="card_buttons text">Proximo</button>
-            </div>
-        </div>
-    </div>
-    <div id="tutorialMinhasComprasId" class="card_Tutorial hidden">
-        <div onclick="location.reload()" class="x_fechar-container "><p class="x_fechar text">X</p></div>
-        <div class="card_Tutorial-container">
-           
-            <div class="img_container"><img class="img_card" src="./assets/imgs/minhasCompras.svg" alt=""></div>
-            <div class="card_text-container">
-                <h2 class="card_title text">Minhas Compras</h2>
-                <p class="card_text text">Veja todas as compras realizadas por você no Everest, ativas e canceladas.<span class="card_text-blue text">  Edite informações sobre quantidade e método de pagamento</span> também.</p>
-            </div>
-            <div class="card_buttons-container">
-                <button onclick="location.reload()" class="card_buttons-fechar text">Fechar</button>
-                <button onclick=" openList('tutorialLastCardId'),openList('tutorialMinhasComprasId')" class="card_buttons text">Proximo</button>
-            </div>
-        </div>
-    </div>
-    <div id="tutorialLastCardId"  class="card_Tutorial hidden">
-        <div onclick="location.reload()" class="x_fechar-container "><p class="x_fechar text">X</p></div>
-        <div class="card_Tutorial-container">
-            <div class="card_text-container1">
-                <h2 class="card_title text">Como envio o acesso ás 
-                    contas de usuário aos meus 
-                    colaboradores?</h2>
-                <p class="card_text text">Ao cadastrar o usuário<span class="card_text-blue text">  digite um e-mail</span>  válido<span class="card_text-blue text">  e gere uma senha </span>para seu colaborador. Ele irá utilizá-lo para o login: e-mail cadastrado + senha. </p>
-                <p class="card_text text">E não se preocupe! Estas informações serão enviadas automaticamente para o seu e-mail - e o dele também</p>
-            </div>
-            <div class="card_buttons-container">
-                <button onclick="location.reload()" class="card_buttons-fechar text">Fechar</button>
-                <button onclick="location.reload()" class="card_buttons text">Finalizar</button>
-            </div>
-        </div>
-    </div>
-   </main>
+ 
+    
+</div>
    <script src="./assets/js/noRefresh.js"></script>
    <script src="./assets/js/changeTheme.js"></script>
    <script src="./assets/js/changeColor.js"></script>
