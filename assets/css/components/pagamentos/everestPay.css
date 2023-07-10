@@ -76,7 +76,8 @@
 
 .listaPagameto_item1 {
     color: var(--subtittle-color);
-     width: 100%;
+    width: 100%;
+   
 }
 
 .img_cartao-card {
@@ -207,7 +208,7 @@
 
 .minhas_compras-pagamentoMensal{
     margin-left: 40.2%;
-    width: 62%;
+    
 }
 
 @media (min-width: 250px)  and  (max-width: 500px){
@@ -237,5 +238,36 @@
     margin-right: 0.5rem;
 }
 
+.listaPagamento_container1 {
+    width: 44%;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem 0 0.5rem 0.5rem;
+    background-color: var(--container-light);
+    border: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+.listaPagameto_container2 {
+    width: 100%;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem 0 0.5rem 0.5rem;
+    background-color: var(--container-light);
+    border: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    
+}
+
+
+.minhas_compras-pagamentoMensal{
+    margin-left: -30%;
+    margin-top: -0.9rem;
+  
+}
 
 }

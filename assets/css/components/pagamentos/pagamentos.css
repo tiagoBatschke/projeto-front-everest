@@ -224,6 +224,7 @@
         margin-left: 7%;
         margin-top: 2%;
         flex-wrap: wrap;
+        min-height: 180vh;
     }
     
     .card_lembrete {
@@ -238,6 +239,7 @@
     .pagamentos_everest-container {
         width: 100%;
         margin-left: -2%;
+        max-height: 65vh;
     }
     .pagamentos_cards {
         display: flex;
@@ -288,4 +290,6 @@
         width: 11%;
         margin-right: -0.5rem;
     }
+  
+    
 }

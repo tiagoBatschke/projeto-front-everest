@@ -248,7 +248,7 @@
 }
 
 .listaPagamento {
-   background-color: var(--container-ligh);
+   background-color: var(--container-light);
    border-radius: 0 0 0.5rem 0.5rem;
    padding: 0.5rem;
    width: 33.5%;
@@ -273,10 +273,10 @@
    }
    
 .listaPagamento {
-   background-color: var(--container-ligh);
+   background-color: var(--container-light);
    border-radius: 0 0 0.5rem 0.5rem;
    padding: 0.5rem;
-   width: 59vw;
+   width: 64vw;
    
 }
 .minhasCompras_everest-container {
@@ -289,5 +289,23 @@
    margin-left: -3%;
    width: 100%;
    margin-top: 1rem;
+}
+
+.listaPagameto_container {
+   width: 61.5%;
+   margin-left: -54%;
+   margin-top: -2rem;
+   position: relative;
+   z-index: 1;
+}
+
+.minhasCompras_everest-container-main {
+   display: flex;
+   flex-direction: column;
+   width: 80%;
+   margin-left: 10%;
+   margin-top: 2%;
+   min-height: 270vh;
+
 }
 }
