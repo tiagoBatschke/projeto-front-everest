@@ -239,7 +239,7 @@ input::placeholder {
         display: inline;
         background-color: var(--container-light);
         z-index: 5;
-        position: absolute;
+        position: fixed;
         margin-top: 84vh;
         margin-left: 10vw;
         width: 80vw;
