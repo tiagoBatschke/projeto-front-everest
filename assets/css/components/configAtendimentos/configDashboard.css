@@ -2,7 +2,7 @@
     box-shadow: var(--box-shadow-container);
     border-radius: 0.5rem;
     border: var(--border-box-shadow-container);
-    width: 33%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     margin-bottom: 1rem;
@@ -24,7 +24,7 @@
 }
 
 .dashBoardCard_text {
-    font-size: var(--tamanho-font);
+    font-size: 1rem;
     margin-top: 5%;
     color: var(--tittle-color);
 }
@@ -67,9 +67,9 @@
 .dashBoard_card-container {
     display: flex;
     flex-direction: column;
-    width: 33%;
+    width: 28%;
     padding: 0rem 0.9rem;
-
+  
 }
 
 .dashBoardCard_subtitle-img {
