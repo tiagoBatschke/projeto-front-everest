@@ -255,7 +255,7 @@
     .main_card-container {
         display: flex;
         width: 92%;
-        margin-left: -1%;
+        margin-left: -2%;
         padding-left: 1rem;
         max-height: 90vh;
         overflow-x: scroll;
@@ -264,4 +264,27 @@
     .title_crm-container{
         display: none;
     }
+    .card_crm-content {
+        display: flex;
+        margin-top: 1rem;
+        justify-content: space-evenly;
+        width: 100%;
+       
+    }
+    
+.card_crm {
+    padding: 0rem 0.2rem;
+    box-shadow: var(--box-shadow-container);
+    border-radius: 0.5rem;
+    border: var(--border-box-shadow-container);
+    margin-top: 0.5rem;
+ 
+    
+}
+
+.card_crm-contrainer {
+    margin-left: 0.5%;
+    margin-top: 3%;
+    width: 35%;
+}
 }
