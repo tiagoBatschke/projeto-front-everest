@@ -305,5 +305,12 @@
         text-align: center;
         color: var(--text-color);
     }
-    
+    .icon_reunioes-card{
+        width: 2rem;
+        height: 2rem;
+        border-radius: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }

@@ -500,3 +500,272 @@ select {
     width: 0px;
     /* width of the entire scrollbar */
 }
+
+
+@media (min-width: 250px)  and  (max-width: 500px){
+    
+.calendario_options-container {
+    border: none;
+    outline: none;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding-left: 1.3rem;
+    padding-right: 0.5rem;
+    background-color: var(--body-color);
+
+}
+
+.calendario {
+    margin-top: 1rem;
+    max-height: 9rem;
+    margin-bottom: 1rem;
+}
+
+.calendario_Card-text {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.card_number {
+    background-color: red;
+    color: var(--text-container-color);
+    border-radius: 2rem;
+    padding: 0rem 0.2rem;
+    font-size: 0.8rem;
+
+}
+
+.calendario_card-icons-button {
+    border-radius: 0.5rem;
+    width: 15%;
+    height: 1.1rem;
+}
+
+.calendario_card-icons-button-1 {
+    border: none;
+    background-color: #FFD80C;
+    width: 15%;
+    height: 1.1rem;
+    border-radius: 8px;
+}
+
+.calendario_card-icons {
+    height: 1.2rem;
+    margin-right: 0.5rem;
+}
+
+.calendarioCard_text-title {
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: var(--tittle-color);
+}
+
+.calendarioCard_text {
+    font-size: 0.65rem;
+    color: var(--text-color);
+    margin-top: 0.3rem;
+}
+
+.button_calendario {
+    padding: 0.8rem 2rem;
+    background-color: var(--subtittle-color);
+    border: none;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    color: var(--text-container-color);
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.agenda_container{
+    box-shadow: var(--box-shadow-container);
+    border-radius: 0.5rem;
+    border: var(--border-box-shadow-container);
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0.5rem;
+    overflow-y: scroll;
+}
+
+.hidden_mobile{
+    display: none;
+}
+
+.calendario_card-content-container{
+    margin-top: 0.5rem;
+}
+
+.add_reunioes{
+    box-shadow: var(--box-shadow-container);
+    border-radius: 0.5rem;
+    border: var(--border-box-shadow-container);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -2%;
+    overflow-y: scroll;
+    padding: 1rem;
+}
+.reinioes_text-title{
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: var(--tittle-color);
+    width: 100%;
+}
+
+.label_checkbox {
+    margin-left: 0rem;
+    color: var(--text-container-color);
+    font-size: 0.7rem;
+}
+
+.checkbox_reunioes{
+    display: flex;
+    align-items: center;
+    width: 25%;
+    padding: 0.2rem 1rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+
+.icon_reunioes-plus{
+    background-color: var(--subtittle-color);
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    width: 0.8rem;
+    max-height: 1.5rem;
+    margin-top: 1rem;
+}
+.checkbox_reunioes-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3rem;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.content_reunioes-container{
+    margin-left: 0rem;
+    overflow-y: scroll;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 0.2rem;
+}
+
+.input_date-reunioes{
+    height: 0.6rem;
+    width: 35%;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    color: var(--plaholder-color);
+    border: var(--border-box-shadow-container);
+    box-shadow: var(--box-shadow-container);
+    outline: none;
+    background-color: var(--container-light);
+}
+
+.input_datetime-reunioes{
+    height: 0.6rem;
+    border-radius: 0.5rem;
+    padding: 0.6rem;
+    margin-left: 0.8rem;
+    width: 25%;
+    border: var(--border-box-shadow-container);
+    box-shadow: var(--box-shadow-container);
+    outline: none;
+    background-color: var(--container-light);
+    color: var(--plaholder-color) ;
+}
+
+
+.checkbox_reunioes-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3rem;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.label_dateTime{
+    margin-top: 0.6rem;
+    margin-left: 0.5rem;
+    font-weight: bold;
+    color: var(--text-color);
+    font-size: 0.8rem;
+}
+
+.card_categorias-container{
+    background-color: var(--container-light);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 3;
+    margin-left: 30%;
+    margin-top: 10%;
+    height: 40vh;
+    max-height: 80vh;
+    overflow-y: scroll;
+    width: 60%;
+    border-radius: 0.5rem;
+    border: 1px solid var(--text-color) ;
+}
+.checkbox_reunioes-card{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    margin-left: 5%;
+}
+.card_membros-container{
+    background-color: var(--container-light);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 3;
+    margin-left:10%;
+    margin-top: 10%;
+    height: 40vh;
+    max-height: 80vh;
+    overflow-y: scroll;
+    width: 80%;
+    border-radius: 0.5rem;
+    border: 1px solid var(--text-color) ;
+}
+.card_membros{
+    box-shadow: var(--box-shadow-container);
+    border-radius: 0.5rem;
+    border: var(--border-box-shadow-container);
+    width: 80%;
+    margin-top: 1.2rem;
+    padding: 0.7rem;
+    margin-left: 5%;
+}
+.text_card-container{
+    width: 50%;
+}
+
+.calendarioCard_text-title {
+    font-weight: bold;
+    font-size: 0.7rem;
+    color: var(--tittle-color);
+}
+
+.calendarioCard_text-blue{
+    color: var(--svg);
+    font-size: 0.7rem ;
+}
+
+}
