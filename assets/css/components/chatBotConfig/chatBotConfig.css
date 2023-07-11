@@ -396,6 +396,7 @@
    flex-direction: column;
    max-height: 102vh;
    margin-top: 0%;
+   background-color: aquamarine;
 }
 .container_registro-faq{
     width: 100%;
