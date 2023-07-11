@@ -313,4 +313,13 @@
         align-items: center;
         justify-content: center;
     }
+    .card_buttons {
+        padding: 0.5rem;
+        background-color: var(--span-color);
+        border: none;
+        border-radius: 0.5rem;
+        color: var(--text-container-color);
+        width: 100%;
+    }
+    
 }

@@ -17,13 +17,7 @@
     padding-right: 0.3rem;
 }
 
-.title_crm-container {
-    display: flex;
-    margin-left: 10%;
-    margin-top: 3%;
-    color: var(--tittle-color);
-}
-
+ 
 .title_crm {
     font-size: var(--tamanho-font);
     color: var(--tittle-color);
@@ -282,9 +276,34 @@
     
 }
 
+
 .card_crm-contrainer {
     margin-left: 0.5%;
     margin-top: 3%;
     width: 30%;
+}
+
+.title_crm {
+    font-size: 0.9rem;
+    color: var(--tittle-color);
+    font-weight: bold;
+    margin-right: 0.7rem;
+    margin-top: 0.4rem;
+    margin-left: 0.3rem;
+}
+
+.icons_title_crm-text {
+    margin-left: 0.5rem;
+    margin-top: 0.4rem;
+    font-size: 0.7rem;
+}
+.icons_title_crm {
+    display: flex;
+    margin-top: 0.3rem;
+}
+
+.img_titleCrm-mobile{
+    height: 0.8rem;
+    margin-top: 0.3rem;
 }
 }

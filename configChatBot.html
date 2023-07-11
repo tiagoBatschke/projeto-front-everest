@@ -361,12 +361,12 @@
 
 
         <div class="title_crm-container">
-            <h1 class="title_crm text">Chat Bot Everest</h1>
-            <span class="icons_title_crm"><img src="./assets/imgs/img_crm_heardr-heart.svg" alt=""></span>
-            <span class="icons_title_crm  border_icon-crm"><img src="./assets/imgs/img_crm-header.svg" alt="">
+            <h1  class="title_crm text">Chat Bot Everest</h1>
+            <span class="icons_title_crm"><img class="img_titleCrm-mobile" src="./assets/imgs/img_crm_heardr-heart.svg" alt=""></span>
+            <span class="icons_title_crm  border_icon-crm"><img class="img_titleCrm-mobile" src="./assets/imgs/img_crm-header.svg" alt="">
                 <p class="icons_title_crm-text text_color text">28/10</p>
             </span>
-            <span class="icons_title_crm"><img src="./assets/imgs/circle_green.svg" alt="">
+            <span class="icons_title_crm"><img class="img_titleCrm-mobile" src="./assets/imgs/circle_green.svg" alt="">
                 <p class="icons_title_crm-text text">Status</p>
             </span>
 
@@ -385,9 +385,16 @@
                         Cliente</a></span>
                 <span class="icons_title_bot"><img class="icons_bot" src="./assets/imgs/circle_blue.svg" alt=""><a
                         href="./configChatBot.html#faq_bot" class="icons_title_bot-text text_color text">FAQ</a></span>
-            </div>
+            
+              <span class="icons_title_bot icons_mobile"><img class="icons_bot" src="./assets/imgs/circle_blue.svg" alt="">
+                    <p class="icons_title_bot-text text_color text">Sistema Ativo</p>
+                </span>
+                <span class="icons_title_bot icons_mobile"><img class="icons_bot" src="./assets/imgs/circle_green.svg" alt="">
+                    <p class="icons_title_bot-text text_color text">Desativado</p>
+                </span>
+                </div>
 
-            <div class="container_icons-bot">
+            <div class="container_icons-bot1 ">
                 <span class="icons_title_bot"><img class="icons_bot" src="./assets/imgs/circle_blue.svg" alt="">
                     <p class="icons_title_bot-text text_color text">Sistema Ativo</p>
                 </span>
@@ -445,7 +452,7 @@
                     <input class="input_time-bot text_color text" type="time" value="15:30">
                 </span>
             </div>
-            <div class="container_dias-bot">
+            <div style="max-height: 10vh;" class="container_dias-bot">
                 <form class="container_dias-bot-form" action="">
                     <label class="input_fuso-bot-label title_color text" for="">Escolha Seu Fuso-Horário</label>
                     <input class="input_fuso-bot text_color text" placeholder="(GMT-05:00) Horário Leste" type="text">
@@ -464,13 +471,10 @@
                 <button class="card_buttons text">Ativar Sistema</button>
             </div>
             <div class="container_registro-bot">
-                <div class="container_registro-bot-title">
-                    <h2 class="title_bot text">I. Escolha os campos do Formulário</h2>
-                    <h2 class="title_bot text">II.Configure seu Formulário</h2>
-                </div>
+               
 
                 <form class="form_registros" action="">
-
+                    <h2 class="title_bot text">I. Escolha os campos do Formulário</h2>
                     <div class="input_container-registros">
                         <input type="radio">
                         <label class="input_fuso-bot-label title_color text" for="">Nome Completo</label>
@@ -498,6 +502,7 @@
 
                 </form>
                 <form class="form_registros" action="">
+                    <h2 class="title_bot text">II.Configure seu Formulário</h2>
                     <div class="input_container-registros">
                         <label class="input_fuso-bot-label title_color text" for="">Quando os visitantes veem os
                             formulário?</label>
@@ -593,7 +598,7 @@
 
                     <div class="input_container-Faq">
                         <label class="input_fuso-bot-label margin_left   title_color text" for="">Adicione Categorias
-                            para suas perguntas (ex: entrega, serviços <br> oferecidos, etc.) 0/5</label>
+                            para suas perguntas (ex: entrega, serviços <br class="br"> oferecidos, etc.) 0/5</label>
                         <input placeholder="Adicione um assunto (0 de 5 adicionados)" class="input_faq-bot-small"
                             type="text">
                         <input class="input_faq-bot-small" type="text">
