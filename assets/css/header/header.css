@@ -240,7 +240,7 @@ input::placeholder {
         background-color: var(--container-light);
         z-index: 5;
         position: fixed;
-        margin-top: 78vh;
+        margin-top: 75vh;
         margin-left: 10vw;
         width: 80vw;
         border: var(--border-box-shadow-container);
