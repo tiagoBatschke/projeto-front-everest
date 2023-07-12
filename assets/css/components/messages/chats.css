@@ -14,14 +14,12 @@
     border-bottom: var(--border-box-shadow-container);
     width: 90%;
     padding: 1rem;
-
+    
 }
 
 .chats_cards_notifications-text {
     margin-left: 1rem;
     margin-top: 1rem;
-
-
 }
 
 .chats_cards-text {
@@ -158,3 +156,69 @@
     width: 5px;
     /* width of the entire scrollbar */
 }
+
+@media (min-width: 250px)  and  (max-width: 500px){
+    .chats_container_notifications {
+        width: 87%;
+        display: none;
+    }
+    .chats_cards_notifications-text {
+        margin-left: 1rem;
+        margin-top: 1rem;
+        width: 50vw;
+        
+    }
+
+    .chats_cards_notifications-img {
+        stroke: #ffffffc4;
+        height: 5vh;
+        width: 5vh;
+    }
+    .notifications-img {
+        background-color: var(--container-img-notification);
+        padding: 0rem;
+        border-radius: 0.5rem;
+        height: 5vh;
+        width: 5vh;
+        
+    }
+
+    .search_form_chat {
+        width: 80%;
+        background-color: var(--container-search);
+        border-radius: 1rem;
+        display: flex;
+        justify-content: space-between;
+        padding: 0.8rem 1.2rem;
+        height: 0.8rem;
+        margin-top: 10%;
+    
+    
+    }
+    .chat_card_conversas {
+        display: flex;
+        border: var(--border-box-shadow-container);
+        padding: 0.2rem;
+        border-radius: 0.5rem;
+        box-shadow: var(--box-shadow-container);
+        margin-bottom: 0.5rem;
+    }
+    .chats_cards_conversas-img {
+        height: 2rem;
+        margin-top: 0.5rem;
+    }
+    .chat_card_conversas-container {
+        width: 100%;
+        max-height: 28vh;
+        overflow-y: scroll;
+        padding: 0rem 0.8rem;
+        margin-top: 0.5rem;
+    }
+    .chats_cards_notifications {
+        display: flex;
+        border-bottom: var(--border-box-shadow-container);
+        width: 90%;
+        padding: 1rem;
+        margin-top: 2%;
+    }
+}   

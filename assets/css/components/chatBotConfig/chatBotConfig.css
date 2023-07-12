@@ -89,7 +89,8 @@
     font-weight: bold;
     margin-right: 1rem;
     margin-top: 0.4rem;
-   
+  
+   width: 100%;
 }
 
 .container_icons-bot{
@@ -203,10 +204,12 @@
     width: 45%;
     max-height: 21vh;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     margin-top: 1.5rem;
     margin-bottom: 2rem;
+    margin-right: 5%;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .input_container-registros{
@@ -363,6 +366,7 @@
         font-weight: bold;
         margin-right: 1rem;
         margin-top: 0.4rem;
+        width: 100%;
        
     }
     .chatbot-text{
@@ -520,6 +524,7 @@
     margin-right: 1rem;
     margin-top: 0.4rem;
     width: 100%;
+    
 }
 
 .input_container-Faq{
