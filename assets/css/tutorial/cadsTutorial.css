@@ -322,5 +322,30 @@
         color: var(--text-container-color);
         width: 100%;
     }
+
+    .card_Tutorial {
+        background-color: transparent;
+        border-radius: 0.5rem;
+        height: 60vh;
+        position: absolute;
+        z-index: 1;
+        width: 90%;
+        margin-left: -3%;
+        margin-top: 5%;
+    }
+
+   
+    .aprov-neg_card{
+        margin-top: 100vh;
+    }
     
+    .card_minhasCompras-position1{
+        margin-top: 70%;
+    }
+    .card_minhasCompras-position2{
+        margin-top:105vh;
+    }
+    .card_minhasCompras-position3{
+        margin-top:180vh;
+    }
 }

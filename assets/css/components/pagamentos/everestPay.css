@@ -211,6 +211,10 @@
     
 }
 
+.mobile_descontos{
+    display: none;
+}
+
 @media (min-width: 250px)  and  (max-width: 500px){
     .everestPay-contaiener {
         background-color: var(--container-color);
@@ -221,9 +225,21 @@
         align-items: center;
         width: 100%;
         justify-content: space-evenly;
-        margin-left: 0rem;
+        margin-left: -3%;
+        width: 95%;
+        padding: 0.5rem;
     }
 
+    .hidden_mobile{
+        display: none;
+    }
+
+
+    .mobile_descontos{
+        padding: 0.5rem;
+        margin-left: -3%;
+        width: 95%;
+    }
     
 .everestPay_checkout-text {
     font-size: 1.25rem;
