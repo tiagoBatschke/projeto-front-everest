@@ -15,6 +15,7 @@
     <link rel="stylesheet" type="text/css" href="./assets/slick-1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="./assets/slick-1.8.1/slick/slick-theme.css"/>
     <link rel="stylesheet" href="./assets/css/header/lateralBar.css">
+    <link rel="stylesheet" href="./assets/css/components/chatBotConfig/chatBotConfig.css">
   
 </head>
 <body>
@@ -217,48 +218,106 @@
            </div>
     </div>
    </header>
-   <main>
-    <div class="container_nav_mobile">
-        <ul class="listaIcons_nav_mobile">
-            <li><a href="./home.html">
-                <svg class="svg nav_icon_imgs-mobile" width="55" height="55" viewBox="0 -10 55 78" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M27.5 48.125C38.8909 48.125 48.125 38.8909 48.125 27.5C48.125 16.1091 38.8909 6.875 27.5 6.875C16.1091 6.875 6.875 16.1091 6.875 27.5C6.875 38.8909 16.1091 48.125 27.5 48.125Z"  stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M41.25 42.3958L27.5 27.5V6.875"  stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M27.5 27.5H48.125" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </a>
-            </li>
-            <li>
-                <svg onclick="openList('menu_notifications')" class=" nav_icon_imgs-mobile" width="34" height="34" viewBox="0 0 34 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect opacity="0.01" width="33.7143" height="33.7143" fill="black"/>
-                     <path fill-rule="evenodd" clip-rule="evenodd" d="M28.8251 21.3662L26.2966 18.8236V12.5584C26.3661 7.74754 22.8766 3.62252 18.1208 2.89361C15.4206 2.538 12.6979 3.36246 10.6485 5.15634C8.59914 6.95023 7.42152 9.53977 7.41655 12.2634V18.8236L4.88798 21.3662C4.23865 22.0264 4.04767 23.0112 4.40317 23.8662C4.75866 24.7212 5.59153 25.2803 6.5175 25.2855H11.2375V25.7631C11.3741 28.7323 13.8869 31.0315 16.8566 30.9046C19.8262 31.0315 22.339 28.7323 22.4756 25.7631V25.2855H27.1956C28.1216 25.2803 28.9544 24.7212 29.3099 23.8662C29.6654 23.0112 29.4745 22.0264 28.8251 21.3662ZM19.6661 25.7631C19.5043 27.1669 18.2661 28.1945 16.8566 28.095C15.447 28.1945 14.2089 27.1669 14.0471 25.7631V25.2855H19.6661V25.7631ZM9.39725 20.8184L7.73963 22.476H25.9734L24.3018 20.8184C23.7759 20.2882 23.4827 19.5704 23.487 18.8236V12.5022C23.559 9.09999 21.1145 6.16424 17.7556 5.61885C15.848 5.3699 13.9274 5.97075 12.5018 7.26242C11.0572 8.52302 10.2276 10.3461 10.2261 12.2634V18.8236C10.2266 19.5724 9.9283 20.2905 9.39725 20.8184Z" fill="var(--text-color)"/>
-                 </svg>
-            </li>
-            <li><a href="./pagamentos.html">
-                <svg class="svg nav_icon_imgs-mobile  width="61" height="61" viewBox="0 0 128 106" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M21.332 35.333H106.665"  stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M101.332 17.667H26.6654C23.7198 17.667 21.332 19.6444 21.332 22.0837V83.917C21.332 86.3563 23.7198 88.3337 26.6654 88.3337H101.332C104.278 88.3337 106.665 86.3563 106.665 83.917V22.0837C106.665 19.6444 104.278 17.667 101.332 17.667Z" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-                    
-            </a></li>
-            <li><a href="./messages.html">
-                <svg class="svg nav_icon_imgs-mobile"  width="40" height="40"  viewBox="10 -15 40 108"fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M41.875 27.9166C41.875 37.1674 34.3758 44.6666 25.125 44.6666C21.8289 44.6666 18.7551 43.7145 16.1637 42.0704L8.375 44.6666L10.9712 36.8779C9.32708 34.2865 8.375 31.2128 8.375 27.9166C8.375 18.6659 15.8742 11.1666 25.125 11.1666C34.3758 11.1666 41.875 18.6659 41.875 27.9166Z"  stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M26.0664 44.6377C28.3576 51.1585 34.5696 55.8334 41.8735 55.8334C45.1697 55.8334 48.2436 54.8814 50.8348 53.2371L58.6235 55.8334L56.0273 48.0446L56.4238 47.3869C57.8236 44.9395 58.6235 42.1048 58.6235 39.0834C58.6235 29.8326 51.1243 22.3334 41.8735 22.3334L41.2456 22.3449L40.9304 22.3617"  stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-            </a></li>
-            <li>
-                <a onclick='toggleClass(), mantemDarkMode()'    class='links_header dark_mode '><img class="nav_icon_imgs-mobile" src="./assets/imgs/Vector moon.png" alt=""></a>
-            </li>
-            <li><a href="./configAtendimentos.html">
-                <svg class="svg nav_icon_imgs-mobile" width="55" height="55" viewBox="0 -10 55 78" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M27.4987 36.6666C32.5613 36.6666 36.6654 32.5625 36.6654 27.4999C36.6654 22.4373 32.5613 18.3333 27.4987 18.3333C22.4361 18.3333 18.332 22.4373 18.332 27.4999C18.332 32.5625 22.4361 36.6666 27.4987 36.6666Z"  stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M43.9238 18.1958L43.7731 17.9349C43.3574 17.2153 43.1452 16.3962 43.1592 15.5652L43.2278 11.4888C43.2418 10.6557 42.8026 9.88064 42.0807 9.46463L35.8091 5.85066C35.089 5.4357 34.2007 5.44314 33.4877 5.8701L30.0064 7.95456C29.2949 8.38059 28.4812 8.60559 27.6519 8.60559H27.3501C26.519 8.60559 25.7035 8.37961 24.9909 7.95183L21.4937 5.85227C20.7782 5.42269 19.8856 5.41609 19.1638 5.83503L12.9122 9.46341C12.1938 9.88037 11.7572 10.6534 11.7712 11.484L11.8399 15.5652C11.8538 16.3962 11.6416 17.2153 11.2259 17.9349L11.0772 18.1923C10.6613 18.9123 10.0574 19.5056 9.33008 19.9087L5.7668 21.8833C5.03645 22.2881 4.58405 23.058 4.58594 23.893L4.60235 31.1159C4.60423 31.9459 5.05468 32.7099 5.77993 33.1134L9.3261 35.0861C10.0559 35.4921 10.6609 36.0898 11.0757 36.8145L11.2351 37.0929C11.6449 37.8089 11.8539 38.6222 11.8399 39.4471L11.7713 43.5105C11.7573 44.3437 12.1965 45.1188 12.9185 45.5348L19.1899 49.1487C19.91 49.5637 20.7984 49.5563 21.5114 49.1293L24.9926 47.0448C25.7041 46.6188 26.5179 46.3938 27.3472 46.3938H27.649C28.4801 46.3938 29.2956 46.6198 30.0081 47.0476L33.5054 49.1471C34.2209 49.5767 35.1134 49.5833 35.8353 49.1644L42.0869 45.536C42.8053 45.119 43.2419 44.3459 43.2279 43.5154L43.1592 39.4342C43.1452 38.6032 43.3574 37.7841 43.7731 37.0645L43.9218 36.8071C44.3377 36.0871 44.9417 35.4938 45.669 35.0907L49.2323 33.1161C49.9626 32.7113 50.415 31.9414 50.4131 31.1064L50.3967 23.8835C50.3948 23.0535 49.9444 22.2895 49.2191 21.886L45.6645 19.9085C44.94 19.5055 44.3385 18.9136 43.9238 18.1958Z"  stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>                        
-            </a></li>
-           
-        </ul>
+   <div id="menu_notifications-mobile" class="hidden">
+    <div class="voltar_page-container">
+        <svg onclick="openList('menu_notifications-mobile'), openList('main')"  class="svg  voltar_page-icon " width="41" height="41" viewBox="0 -10 61 78" fill="none" style="" xmlns="http://www.w3.org/2000/svg">
+            <path d="M30.5013 38.125L38.1263 30.5M38.1263 30.5L30.5013 22.875M38.1263 30.5L10.168 30.5"  stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M10.168 17.7917V12.7084C10.168 11.3047 11.3059 10.1667 12.7096 10.1667H48.293C49.6967 10.1667 50.8346 11.3047 50.8346 12.7084V48.2917C50.8346 49.6955 49.6967 50.8334 48.293 50.8334H12.7096C11.3059 50.8334 10.168 49.6955 10.168 48.2917V43.2084"  stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        <img class="voltar_page-icon-person" src="./assets/imgs/person-circle.svg"alt="">
+        </div>
+       <div  class="menu_notifications-container">
+        <h2 class="menuNotifications-title  title_color text">Notificações</h2>
+        <p class="menuNotifications-subtitle title_color text">Novas</p>
+        <div class="card_menuNotifications">
+         <p class="icon_reunioes-card text" style="background-color: #f22a2a7a; color: #f22a2a" src="./assets/imgs/Group 753.png" alt="">AW</p>
+         <div class="menuNotifications-text">
+                <p class="card_menuNotifications-title title_color text">Alexa W. + Cliente quer se conectar</p>
+                <P class="card_menuNotifications-subtitle text_color   text">Há 29 minutos</P>
+            </div>
+        </div>
+        <div class="card_menuNotifications">
+         <p class="icon_reunioes-card text" style="background-color: #772af27a; color: #772af2" src="./assets/imgs/Group 753.png" alt=""></p>
+            <div class="menuNotifications-text">
+                <p class="card_menuNotifications-title title_color text">Novidades da Everest</p>
+                <P class="card_menuNotifications-subtitle text_color   text">Há 34 minutos</P>
+            </div>
+        </div>
+        <div class="card_menuNotifications">
+         <p class="icon_reunioes-card text" style="background-color: #f22a847a; color: #a6004bfa" src="./assets/imgs/Group 753.png" alt="">JG</p>
+         <div class="menuNotifications-text">
+                <p class="card_menuNotifications-title title_color text">Jessica G. + Cliente quer se conec...</p>
+                <P class="card_menuNotifications-subtitle text_color   text">Há 59 minutos</P>
+            </div>
+        </div>
+        <p class="menuNotifications-subtitle title_color text">Antigas</p>
+        <div class="card_menuNotifications">
+         <p class="icon_reunioes-card text" style="background-color: #2af2317a; color: #05b00b" src="./assets/imgs/Group 753.png" alt=""></p>
+         <div class="menuNotifications-text">
+                <p class="card_menuNotifications-title title_color text">Você foi adicionado em um grupo</p>
+                <P class="card_menuNotifications-subtitle text_color   text">Há uma hora</P>
+            </div>
+        </div>
+        <div class="card_menuNotifications">
+         <p class="icon_reunioes-card text" style="background-color: #2ae8f27a; color: #04a3ac" src="./assets/imgs/Group 753.png" alt="">FB</p>
+         <div class="menuNotifications-text">
+                <p class="card_menuNotifications-title title_color text">Fernando B. + Cliente quer se con....</p>
+                <P class="card_menuNotifications-subtitle text_color   text">Ás 14:30 PM</P>
+            </div>
+        </div>
+        <div class="card_menuNotifications">
+         <p class="icon_reunioes-card text" style="background-color: #f2e82a7a; color: #afa70f" src="./assets/imgs/Group 753.png" alt=""></p>
+         <div class="menuNotifications-text">
+                <p class="card_menuNotifications-title title_color text">Você foi adicionado em um grupo</p>
+                <P class="card_menuNotifications-subtitle text_color   text">Em 14/05/2021 ás 14:24 PM</P>
+            </div>
+        </div>
     </div>
+   </div>
+  
+<div class="container_nav_mobile">
+    <ul class="listaIcons_nav_mobile">
+        <li><a href="./home.html">
+            <svg class="svg nav_icon_imgs-mobile" width="55" height="55" viewBox="0 -10 55 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M27.5 48.125C38.8909 48.125 48.125 38.8909 48.125 27.5C48.125 16.1091 38.8909 6.875 27.5 6.875C16.1091 6.875 6.875 16.1091 6.875 27.5C6.875 38.8909 16.1091 48.125 27.5 48.125Z"  stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M41.25 42.3958L27.5 27.5V6.875"  stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M27.5 27.5H48.125" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </a>
+        </li>
+        <li>
+            <svg onclick="openList('menu_notifications-mobile'), openList('main')" class=" nav_icon_imgs-mobile" width="34" height="34" viewBox="0 0 34 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect opacity="0.01" width="33.7143" height="33.7143" fill="black"/>
+                 <path fill-rule="evenodd" clip-rule="evenodd" d="M28.8251 21.3662L26.2966 18.8236V12.5584C26.3661 7.74754 22.8766 3.62252 18.1208 2.89361C15.4206 2.538 12.6979 3.36246 10.6485 5.15634C8.59914 6.95023 7.42152 9.53977 7.41655 12.2634V18.8236L4.88798 21.3662C4.23865 22.0264 4.04767 23.0112 4.40317 23.8662C4.75866 24.7212 5.59153 25.2803 6.5175 25.2855H11.2375V25.7631C11.3741 28.7323 13.8869 31.0315 16.8566 30.9046C19.8262 31.0315 22.339 28.7323 22.4756 25.7631V25.2855H27.1956C28.1216 25.2803 28.9544 24.7212 29.3099 23.8662C29.6654 23.0112 29.4745 22.0264 28.8251 21.3662ZM19.6661 25.7631C19.5043 27.1669 18.2661 28.1945 16.8566 28.095C15.447 28.1945 14.2089 27.1669 14.0471 25.7631V25.2855H19.6661V25.7631ZM9.39725 20.8184L7.73963 22.476H25.9734L24.3018 20.8184C23.7759 20.2882 23.4827 19.5704 23.487 18.8236V12.5022C23.559 9.09999 21.1145 6.16424 17.7556 5.61885C15.848 5.3699 13.9274 5.97075 12.5018 7.26242C11.0572 8.52302 10.2276 10.3461 10.2261 12.2634V18.8236C10.2266 19.5724 9.9283 20.2905 9.39725 20.8184Z" fill="var(--text-color)"/>
+             </svg>
+        </li>
+        <li><a href="./pagamentos.html">
+            <svg class="svg nav_icon_imgs-mobile  width="61" height="61" viewBox="0 0 128 106" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21.332 35.333H106.665"  stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M101.332 17.667H26.6654C23.7198 17.667 21.332 19.6444 21.332 22.0837V83.917C21.332 86.3563 23.7198 88.3337 26.6654 88.3337H101.332C104.278 88.3337 106.665 86.3563 106.665 83.917V22.0837C106.665 19.6444 104.278 17.667 101.332 17.667Z" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+                
+        </a></li>
+        <li><a href="./messages.html">
+            <svg class="svg nav_icon_imgs-mobile"  width="40" height="40"  viewBox="10 -15 40 108"fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M41.875 27.9166C41.875 37.1674 34.3758 44.6666 25.125 44.6666C21.8289 44.6666 18.7551 43.7145 16.1637 42.0704L8.375 44.6666L10.9712 36.8779C9.32708 34.2865 8.375 31.2128 8.375 27.9166C8.375 18.6659 15.8742 11.1666 25.125 11.1666C34.3758 11.1666 41.875 18.6659 41.875 27.9166Z"  stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M26.0664 44.6377C28.3576 51.1585 34.5696 55.8334 41.8735 55.8334C45.1697 55.8334 48.2436 54.8814 50.8348 53.2371L58.6235 55.8334L56.0273 48.0446L56.4238 47.3869C57.8236 44.9395 58.6235 42.1048 58.6235 39.0834C58.6235 29.8326 51.1243 22.3334 41.8735 22.3334L41.2456 22.3449L40.9304 22.3617"  stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </a></li>
+        <li>
+            <a onclick='toggleClass(), mantemDarkMode()'    class='links_header dark_mode '><img class="nav_icon_imgs-mobile" src="./assets/imgs/Vector moon.png" alt=""></a>
+        </li>
+        <li><a href="./configAtendimentos.html">
+            <svg class="svg nav_icon_imgs-mobile" width="55" height="55" viewBox="0 -10 55 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M27.4987 36.6666C32.5613 36.6666 36.6654 32.5625 36.6654 27.4999C36.6654 22.4373 32.5613 18.3333 27.4987 18.3333C22.4361 18.3333 18.332 22.4373 18.332 27.4999C18.332 32.5625 22.4361 36.6666 27.4987 36.6666Z"  stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M43.9238 18.1958L43.7731 17.9349C43.3574 17.2153 43.1452 16.3962 43.1592 15.5652L43.2278 11.4888C43.2418 10.6557 42.8026 9.88064 42.0807 9.46463L35.8091 5.85066C35.089 5.4357 34.2007 5.44314 33.4877 5.8701L30.0064 7.95456C29.2949 8.38059 28.4812 8.60559 27.6519 8.60559H27.3501C26.519 8.60559 25.7035 8.37961 24.9909 7.95183L21.4937 5.85227C20.7782 5.42269 19.8856 5.41609 19.1638 5.83503L12.9122 9.46341C12.1938 9.88037 11.7572 10.6534 11.7712 11.484L11.8399 15.5652C11.8538 16.3962 11.6416 17.2153 11.2259 17.9349L11.0772 18.1923C10.6613 18.9123 10.0574 19.5056 9.33008 19.9087L5.7668 21.8833C5.03645 22.2881 4.58405 23.058 4.58594 23.893L4.60235 31.1159C4.60423 31.9459 5.05468 32.7099 5.77993 33.1134L9.3261 35.0861C10.0559 35.4921 10.6609 36.0898 11.0757 36.8145L11.2351 37.0929C11.6449 37.8089 11.8539 38.6222 11.8399 39.4471L11.7713 43.5105C11.7573 44.3437 12.1965 45.1188 12.9185 45.5348L19.1899 49.1487C19.91 49.5637 20.7984 49.5563 21.5114 49.1293L24.9926 47.0448C25.7041 46.6188 26.5179 46.3938 27.3472 46.3938H27.649C28.4801 46.3938 29.2956 46.6198 30.0081 47.0476L33.5054 49.1471C34.2209 49.5767 35.1134 49.5833 35.8353 49.1644L42.0869 45.536C42.8053 45.119 43.2419 44.3459 43.2279 43.5154L43.1592 39.4342C43.1452 38.6032 43.3574 37.7841 43.7731 37.0645L43.9218 36.8071C44.3377 36.0871 44.9417 35.4938 45.669 35.0907L49.2323 33.1161C49.9626 32.7113 50.415 31.9414 50.4131 31.1064L50.3967 23.8835C50.3948 23.0535 49.9444 22.2895 49.2191 21.886L45.6645 19.9085C44.94 19.5055 44.3385 18.9136 43.9238 18.1958Z"  stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>                        
+        </a></li>
+       
+    </ul>
+</div>
+    <main  id="main" class="hidden_mobile-crm">
+   
     <div class="title_crm-container">
         <h1  class="title_crm text">Chat Bot Everest</h1>
         <span class="icons_title_crm"><img class="img_titleCrm-mobile" src="./assets/imgs/img_crm_heardr-heart.svg" alt=""></span>
@@ -270,8 +329,8 @@
         </span>
         
     </div>
-    <div class="main_card-container">
-        <div class="card_crm-contrainer">
+    <div id="main_card-container" class="main_card-container hidden_mobile-crm">
+        <div class="card_crm-contrainer hidden_mobile-crm">
             <h1 class="title_crm-card text">Leads</h1>
             <form class="search_form_card-crm" action="">
                 <input placeholder="Buscar" class="input_search_card-crm" type="text">
@@ -391,7 +450,7 @@
             </div>
               
         </div>
-        <div class="card_crm-contrainer">
+        <div class="card_crm-contrainer hidden_mobile-crm">
             <h1 class="title_crm-card2 text">Venda em Andamento</h1>
             <form class="search_form_card-crm" action="">
                 <input placeholder="Buscar" class="input_search_card-crm" type="text">
@@ -511,7 +570,7 @@
             </div>
               
         </div>
-        <div class="card_crm-contrainer">
+        <div class="card_crm-contrainer hidden_mobile-crm">
             <h1 class="title_crm-card3 text">Pós-Venda</h1>
             <form class="search_form_card-crm" action="">
                 <input placeholder="Buscar" class="input_search_card-crm" type="text">
@@ -842,7 +901,7 @@
                 </div>
             </div>
         </div>
-        <div class="perfil_lead_crm-container">
+        <div class="perfil_lead_crm-container ">
             <form class="search_form_lead-crm" action="">
                 <input  class="input_search_lead-crm" type="text">
                 <button class="button_search_lead-crm" type="submit"><img class="img_lupa" src="./assets/imgs/lupa-arredondada.png" alt=""></button>
@@ -894,7 +953,7 @@
                 
                 
                 
-             <div id="perfilLeadCrm" class="chat_card_filtro-container hidde">
+             <div id="perfilLeadCrm" class="chat_card_filtro-container ">
                 <div class="informações_iniciais-container">
                     <h3 class="title_informações text">Informações Iniciais</h3>
                     <div class="card_info">
@@ -1304,7 +1363,853 @@
 
     
    </main>
+   <div  >
+    <div id="carrousel-mobile"  class="carrousel_mobile">
+        <div class="regular_mobile slick">
+            <div class="card_crm-contrainer ">
+                <h1 class="title_crm-card text">Leads</h1>
+                <form class="search_form_card-crm" action="">
+                    <input placeholder="Buscar" class="input_search_card-crm" type="text">
+                    <button class="button_search_card-crm" type="submit"><img class="img_lupa" src="./assets/imgs/lupa-arredondada.png" alt=""></button>
+                </form>
+                <div class="card_crm">
+                    <div class="card_crm-content">
+                        <div class="card_crm-text-container">
+                            <h2 class="card_crm-title text">Andreia Ores.</h2>
+                            <p class="card_crm-text text">Compra S23 Ultra</p>
+                            <p class="card_crm-text-status">Data Retorno: 16/06/2023</p>
+                            <p class="card_crm-text-status">Data fechamento: 16/06/2023</p>
+                            <p class="card_crm-text-status">Status: Em negociação</p>
+                        </div>
+                        <div class="card_crm-text-container ">
+                            <p class="card_crm-number text">14/05/21</p>
+                            <p class="card_crm-number text">14:40 PM</p>
+    
+                        </div>
+                    </div>
+                    <div class="card_crm-buttons">
+                        <span class="card_crm-buttons-container">
+                        <img class="card_crm-buttons-circle-1" src="assets/imgs/Group 776.png" alt="">
+                            <button class="card_crm-button text">CRM</button>
+                        </span>
+                        <span class="card_crm-buttons-container">
+                            <button class="card_crm-buttons-circle"><img class="img_crm-button" src="./assets/imgs/Ellipse.png" alt=""></button>
+                            <button class="card_crm-buttons-circle"><img class="img_crm-button" src="./assets/imgs/Ellipse.png" alt=""></button>
+                            <button class="card_crm-buttons-circle"><img class="img_crm-button" src="./assets/imgs/Group 854 icon purple.png" alt=""></button>
+                        </span>
+                     
+                    </div>
+                </div>
+                <div class="card_crm">
+                    <div class="card_crm-content">
+                        <div class="card_crm-text-container">
+                            <h2 class="card_crm-title text">Andreia Ores.</h2>
+                            <p class="card_crm-text text">Compra S23 Ultra</p>
+                            <p class="card_crm-text-status">Data Retorno: 16/06/2023</p>
+                            <p class="card_crm-text-status">Data fechamento: 16/06/2023</p>
+                            <p class="card_crm-text-status">Status: Em negociação</p>
+                        </div>
+                        <div class="card_crm-text-container ">
+                            <p class="card_crm-number text">14/05/21</p>
+                            <p class="card_crm-number text">14:40 PM</p>
+    
+                        </div>
+                    </div>
+                    <div class="card_crm-buttons">
+                        <span class="card_crm-buttons-container">
+                          <img  class="card_crm-buttons-circle-1" src="assets/imgs/Group 776.png" alt="">
+                            <button class="card_crm-button text">CRM</button>
+                        </span>
+                        <span class="card_crm-buttons-container">
+                            <button class="card_crm-buttons-circle"><img class="img_crm-button" src="./assets/imgs/Ellipse.png" alt=""></button>
+                            <button class="card_crm-buttons-circle"><img class="img_crm-button" src="./assets/imgs/Ellipse.png" alt=""></button>
+                            <button class="card_crm-buttons-circle"><img class="img_crm-button" src="./assets/imgs/Group 854 icon purple.png" alt=""></button>
+                        </span>
+                     
+                    </div>
+                </div>
+                <div class="card_crm">
+                    <div class="card_crm-content">
+                        <div class="card_crm-text-container">
+                            <h2 class="card_crm-title text">Andreia Ores.</h2>
+                            <p class="card_crm-text text">Compra S23 Ultra</p>
+                            <p class="card_crm-text-status">Data Retorno: 16/06/2023</p>
+                            <p class="card_crm-text-status">Data fechamento: 16/06/2023</p>
+                            <p class="card_crm-text-status">Status: Em negociação</p>
+                        </div>
+                        <div class="card_crm-text-container ">
+                            <p class="card_crm-number text">14/05/21</p>
+                            <p class="card_crm-number text">14:40 PM</p>
+    
+                        </div>
+                    </div>
+                    <div class="card_crm-buttons">
+                        <span class="card_crm-buttons-container">
+                            <img class="card_crm-buttons-circle-1" src="assets/imgs/Group 776.png" alt="">
+                            <button class="card_crm-button text">CRM</button>
+                        </span>
+                        <span class="card_crm-buttons-container">
+                            <button class="card_crm-buttons-circle"><img class="img_crm-button" src="./assets/imgs/Ellipse.png" alt=""></button>
+                            <button class="card_crm-buttons-circle"><img class="img_crm-button" src="./assets/imgs/Ellipse.png" alt=""></button>
+                            <button class="card_crm-buttons-circle"><img class="img_crm-button" src="./assets/imgs/Group 854 icon purple.png" alt=""></button>
+                        </span>
+                     
+                    </div>
+                </div>
+                <div class="card_crm">
+                    <div class="card_crm-content">
+                        <div class="card_crm-text-container">
+                            <h2 class="card_crm-title text">Andreia Ores.</h2>
+                            <p class="card_crm-text text">Compra S23 Ultra</p>
+                            <p class="card_crm-text-status">Data Retorno: 16/06/2023</p>
+                            <p class="card_crm-text-status">Data fechamento: 16/06/2023</p>
+                            <p class="card_crm-text-status">Status: Em negociação</p>
+                        </div>
+                        <div class="card_crm-text-container ">
+                            <p class="card_crm-number text">14/05/21</p>
+                            <p class="card_crm-number text">14:40 PM</p>
+    
+                        </div>
+                    </div>
+                    <div class="card_crm-buttons">
+                        <span class="card_crm-buttons-container">
+                         <img class="card_crm-buttons-circle-1" src="assets/imgs/Group 776.png" alt="">
+                            <button class="card_crm-button text">CRM</button>
+                        </span>
+                        <span class="card_crm-buttons-container">
+                            <button class="card_crm-buttons-circle"><img class="img_crm-button" src="./assets/imgs/Ellipse.png" alt=""></button>
+                            <button class="card_crm-buttons-circle"><img class="img_crm-button" src="./assets/imgs/Ellipse.png" alt=""></button>
+                            <button class="card_crm-buttons-circle"><img class="img_crm-button" src="./assets/imgs/Group 854 icon purple.png" alt=""></button>
+                        </span>
+                     
+                    </div>
+                </div>
+                  
+            </div>
+            <div class="card_crm-contrainer">
+                <h1 class="title_crm-card2 text">Venda em Andamento</h1>
+                <form class="search_form_card-crm" action="">
+                    <input placeholder="Buscar" class="input_search_card-crm" type="text">
+                    <button class="button_search_card-crm" type="submit"><img class="img_lupa" src="./assets/imgs/lupa-arredondada.png" alt=""></button>
+                </form>
+                <div class="card_crm">
+                    <div class="card_crm-content">
+                        <div class="card_crm-text-container">
+                            <h2 class="card_crm-title text">Anna witson</h2>
+                            <p class="card_crm-text text">Compra S23 Ultra</p>
+                            <p class="card_crm-text-status">Data Retorno: 16/06/2023</p>
+                            <p class="card_crm-text-status">Data fechamento: 16/06/2023</p>
+                            <p class="card_crm-text-status">Status: Em negociação</p>
+                        </div>
+                        <div class="card_crm-text-container ">
+                            <p class="card_crm-number text">14/05/21</p>
+                            <p class="card_crm-number text">14:40 PM</p>
+    
+                        </div>
+                    </div>
+                    <div class="card_crm-buttons">
+                        <span class="card_crm-buttons-container">
+                            <img class="card_crm-buttons-circle-1" src="assets/imgs/Group 780 green.png" alt="">
+                            <button class="card_crm-button1 text">CRM</button>
+                        </span>
+                        <span class="card_crm-buttons-container">
+                            <button class="card_crm-buttons-circle"><img class="img_crm-button" src="./assets/imgs/Ellipse green.png" alt=""></button>
+                            <button class="card_crm-buttons-circle"><img class="img_crm-button" src="./assets/imgs/Ellipse green.png" alt=""></button>
+                            <button class="card_crm-buttons-circle"><img class="img_crm-button" src="./assets/imgs/Group 854 icon purple.png" alt=""></button>
+                        </span>
+                     
+                    </div>
+                </div>
+                <div class="card_crm">
+                    <div class="card_crm-content">
+                        <div class="card_crm-text-container">
+                            <h2 class="card_crm-title text">Anna witson</h2>
+                            <p class="card_crm-text text">Compra S23 Ultra</p>
+                            <p class="card_crm-text-status">Data Retorno: 16/06/2023</p>
+                            <p class="card_crm-text-status">Data fechamento: 16/06/2023</p>
+                            <p class="card_crm-text-status">Status: Em negociação</p>
+                        </div>
+                        <div class="card_crm-text-container ">
+                            <p class="card_crm-number text">14/05/21</p>
+                            <p class="card_crm-number text">14:40 PM</p>
+    
+                        </div>
+                    </div>
+                    <div class="card_crm-buttons">
+                        <span class="card_crm-buttons-container">
+                            <img class="card_crm-buttons-circle-1" src="assets/imgs/Group 780 green.png" alt="">
+                            <button class="card_crm-button1 text">CRM</button>
+                        </span>
+                        <span class="card_crm-buttons-container">
+                            <button class="card_crm-buttons-circle"><img class="img_crm-button" src="./assets/imgs/Ellipse green.png" alt=""></button>
+                            <button class="card_crm-buttons-circle"><img class="img_crm-button" src="./assets/imgs/Ellipse green.png" alt=""></button>
+                            <button class="card_crm-buttons-circle"><img class="img_crm-button" src="./assets/imgs/Group 854 icon purple.png" alt=""></button>
+                        </span>
+                     
+                    </div>
+                </div>
+                <div class="card_crm">
+                    <div class="card_crm-content">
+                        <div class="card_crm-text-container">
+                            <h2 class="card_crm-title text">Anna witson</h2>
+                            <p class="card_crm-text text">Compra S23 Ultra</p>
+                            <p class="card_crm-text-status">Data Retorno: 16/06/2023</p>
+                            <p class="card_crm-text-status">Data fechamento: 16/06/2023</p>
+                            <p class="card_crm-text-status">Status: Em negociação</p>
+                        </div>
+                        <div class="card_crm-text-container ">
+                            <p class="card_crm-number text">14/05/21</p>
+                            <p class="card_crm-number text">14:40 PM</p>
+    
+                        </div>
+                    </div>
+                    <div class="card_crm-buttons">
+                        <span class="card_crm-buttons-container">
+                            <img class="card_crm-buttons-circle-1" src="assets/imgs/Group 780 green.png" alt="">
+                            <button class="card_crm-button1 text">CRM</button>
+                        </span>
+                        <span class="card_crm-buttons-container">
+                            <button class="card_crm-buttons-circle"><img class="img_crm-button" src="./assets/imgs/Ellipse green.png" alt=""></button>
+                            <button class="card_crm-buttons-circle"><img class="img_crm-button" src="./assets/imgs/Ellipse green.png" alt=""></button>
+                            <button class="card_crm-buttons-circle"><img class="img_crm-button" src="./assets/imgs/Group 854 icon purple.png" alt=""></button>
+                        </span>
+                     
+                    </div>
+                </div>
+                <div class="card_crm">
+                    <div class="card_crm-content">
+                        <div class="card_crm-text-container">
+                            <h2 class="card_crm-title text">Anna witson</h2>
+                            <p class="card_crm-text text">Compra S23 Ultra</p>
+                            <p class="card_crm-text-status">Data Retorno: 16/06/2023</p>
+                            <p class="card_crm-text-status">Data fechamento: 16/06/2023</p>
+                            <p class="card_crm-text-status">Status: Em negociação</p>
+                        </div>
+                        <div class="card_crm-text-container ">
+                            <p class="card_crm-number text">14/05/21</p>
+                            <p class="card_crm-number text">14:40 PM</p>
+    
+                        </div>
+                    </div>
+                    <div class="card_crm-buttons">
+                        <span class="card_crm-buttons-container">
+                            <img class="card_crm-buttons-circle-1" src="assets/imgs/Group 780 green.png" alt="">
+                            <button class="card_crm-button1 text">CRM</button>
+                        </span>
+                        <span class="card_crm-buttons-container">
+                            <button class="card_crm-buttons-circle"><img class="img_crm-button" src="./assets/imgs/Ellipse green.png" alt=""></button>
+                            <button class="card_crm-buttons-circle"><img class="img_crm-button" src="./assets/imgs/Ellipse green.png" alt=""></button>
+                            <button class="card_crm-buttons-circle"><img class="img_crm-button" src="./assets/imgs/Group 854 icon purple.png" alt=""></button>
+                        </span>
+                     
+                    </div>
+                </div>
+                  
+            </div>
+            <div class="card_crm-contrainer hidden">
+                <h1 class="title_crm-card3 text">Pós-Venda</h1>
+                <form class="search_form_card-crm" action="">
+                    <input placeholder="Buscar" class="input_search_card-crm" type="text">
+                    <button class="button_search_card-crm" type="submit"><img class="img_lupa" src="./assets/imgs/lupa-arredondada.png" alt=""></button>
+                </form>
+                <div class="card_crm">
+                    <div class="card_crm-content">
+                        <div class="card_crm-text-container">
+                            <h2 class="card_crm-title text">Anna witson</h2>
+                            <p class="card_crm-text text">Compra S23 Ultra</p>
+                            <p class="card_crm-text-status">Data Retorno: 16/06/2023</p>
+                            <p class="card_crm-text-status">Data fechamento: 16/06/2023</p>
+                            <p class="card_crm-text-status">Status: Em negociação</p>
+                        </div>
+                        <div class="card_crm-text-container ">
+                            <p class="card_crm-number text">14/05/21</p>
+                            <p class="card_crm-number text">14:40 PM</p>
+    
+                        </div>
+                    </div>
+                    <div class="card_crm-buttons">
+                        <span class="card_crm-buttons-container">
+                            <img class="card_crm-buttons-circle-1" src="./assets/imgs/Group 778 yellow.png" alt=""></img>
+                            <button class="card_crm-button2 text">CRM</button>
+                        </span>
+                        <span class="card_crm-buttons-container">
+                            <button class="card_crm-buttons-circle"><img class="img_crm-button" src="./assets/imgs/Ellipse yellow.png" alt=""></button>
+                            <button class="card_crm-buttons-circle"><img class="img_crm-button" src="./assets/imgs/Ellipse yellow.png" alt=""></button>
+                            <button class="card_crm-buttons-circle"><img class="img_crm-button" src="./assets/imgs/Group 854 icon purple.png" alt=""></button>
+                        </span>
+                     
+                    </div>
+                </div>
+                <div class="card_crm">
+                    <div class="card_crm-content">
+                        <div class="card_crm-text-container">
+                            <h2 class="card_crm-title text">Anna witson</h2>
+                            <p class="card_crm-text text">Compra S23 Ultra</p>
+                            <p class="card_crm-text-status">Data Retorno: 16/06/2023</p>
+                            <p class="card_crm-text-status">Data fechamento: 16/06/2023</p>
+                            <p class="card_crm-text-status">Status: Em negociação</p>
+                        </div>
+                        <div class="card_crm-text-container ">
+                            <p class="card_crm-number text">14/05/21</p>
+                            <p class="card_crm-number text">14:40 PM</p>
+    
+                        </div>
+                    </div>
+                    <div class="card_crm-buttons">
+                        <span class="card_crm-buttons-container">
+                            <img class="card_crm-buttons-circle-1" src="./assets/imgs/Group 778 yellow.png" alt="">
+                            <button class="card_crm-button2 text">CRM</button>
+                        </span>
+                        <span class="card_crm-buttons-container">
+                            <button class="card_crm-buttons-circle"><img class="img_crm-button" src="./assets/imgs/Ellipse yellow.png" alt=""></button>
+                            <button class="card_crm-buttons-circle"><img class="img_crm-button" src="./assets/imgs/Ellipse yellow.png" alt=""></button>
+                            <button class="card_crm-buttons-circle"><img class="img_crm-button" src="./assets/imgs/Group 854 icon purple.png" alt=""></button>
+                        </span>
+                     
+                    </div>
+                </div>
+                <div class="card_crm">
+                    <div class="card_crm-content">
+                        <div class="card_crm-text-container">
+                            <h2 class="card_crm-title text">Anna witson</h2>
+                            <p class="card_crm-text text">Compra S23 Ultra</p>
+                            <p class="card_crm-text-status">Data Retorno: 16/06/2023</p>
+                            <p class="card_crm-text-status">Data fechamento: 16/06/2023</p>
+                            <p class="card_crm-text-status">Status: Em negociação</p>
+                        </div>
+                        <div class="card_crm-text-container ">
+                            <p class="card_crm-number text">14/05/21</p>
+                            <p class="card_crm-number text">14:40 PM</p>
+    
+                        </div>
+                    </div>
+                    <div class="card_crm-buttons">
+                        <span class="card_crm-buttons-container">
+                            <img class="card_crm-buttons-circle-1" src="./assets/imgs/Group 778 yellow.png" alt=""></img>
+                            <button class="card_crm-button2 text">CRM</button>
+                        </span>
+                        <span class="card_crm-buttons-container">
+                            <button class="card_crm-buttons-circle"><img class="img_crm-button" src="./assets/imgs/Ellipse yellow.png" alt=""></button>
+                            <button class="card_crm-buttons-circle"><img class="img_crm-button" src="./assets/imgs/Ellipse yellow.png" alt=""></button>
+                            <button class="card_crm-buttons-circle"><img class="img_crm-button" src="./assets/imgs/Group 854 icon purple.png" alt=""></button>
+                        </span>
+                     
+                    </div>
+                </div>
+                <div class="card_crm">
+                    <div class="card_crm-content">
+                        <div class="card_crm-text-container">
+                            <h2 class="card_crm-title text">Anna witson</h2>
+                            <p class="card_crm-text text">Compra S23 Ultra</p>
+                            <p class="card_crm-text-status">Data Retorno: 16/06/2023</p>
+                            <p class="card_crm-text-status">Data fechamento: 16/06/2023</p>
+                            <p class="card_crm-text-status">Status: Em negociação</p>
+                        </div>
+                        <div class="card_crm-text-container ">
+                            <p class="card_crm-number text">14/05/21</p>
+                            <p class="card_crm-number text">14:40 PM</p>
+    
+                        </div>
+                    </div>
+                    <div class="card_crm-buttons">
+                        <span class="card_crm-buttons-container">
+                            <img class="card_crm-buttons-circle-1" src="./assets/imgs/Group 778 yellow.png" alt=""></img>
+                            <button class="card_crm-button2 text">CRM</button>
+                        </span>
+                        <span class="card_crm-buttons-container">
+                            <button class="card_crm-buttons-circle"><img class="img_crm-button" src="./assets/imgs/Ellipse yellow.png" alt=""></button>
+                            <button class="card_crm-buttons-circle"><img class="img_crm-button" src="./assets/imgs/Ellipse yellow.png" alt=""></button>
+                            <button class="card_crm-buttons-circle"><img class="img_crm-button" src="./assets/imgs/Group 854 icon purple.png" alt=""></button>
+                        </span>
+                     
+                    </div>
+                </div>
+                  
+        </div>
+         
+        </div>
+      
+    </div>
    
+
+    <div id="button_abreCRm-mobile" onclick=" openList('button_abreCRm-mobile'),openList('carrousel-mobile'), openList('perfil_lead')" class="card_perfil_mobile text">
+        <button class="button_bottom-mobile"><span class="text_hidden">aaaa</span></button>
+        <p class="card_button-text-mobile text">Perfil Lead CRM</p>
+        <img class="metrics_img_arrow-mobile"  src="./assets/imgs/arrow.svg" alt="">
+    </div>
+
+    <div id="perfil_lead" class="hidden">
+        <div class="voltar_page-container">
+            <svg onclick="openList('button_abreCRm-mobile'),openList('carrousel-mobile'), openList('perfil_lead')"  class="svg  voltar_page-icon " width="41" height="41" viewBox="0 -10 61 78" fill="none" style="" xmlns="http://www.w3.org/2000/svg">
+                <path d="M30.5013 38.125L38.1263 30.5M38.1263 30.5L30.5013 22.875M38.1263 30.5L10.168 30.5"  stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M10.168 17.7917V12.7084C10.168 11.3047 11.3059 10.1667 12.7096 10.1667H48.293C49.6967 10.1667 50.8346 11.3047 50.8346 12.7084V48.2917C50.8346 49.6955 49.6967 50.8334 48.293 50.8334H12.7096C11.3059 50.8334 10.168 49.6955 10.168 48.2917V43.2084"  stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            <img class="voltar_page-icon-person" src="./assets/imgs/person-circle.svg"alt="">
+        </div>   
+        
+    <div  class="perfil_lead_crm-container ">
+        <form class="search_form_lead-crm" action="">
+            <input  class="input_search_lead-crm" type="text">
+            <button class="button_search_lead-crm" type="submit"><img class="img_lupa" src="./assets/imgs/lupa-arredondada.png" alt=""></button>
+        </form>
+        <h2 class="title_crm-lead text">Perfil Lead CRM</h2>
+        <div class="card_perfil-container">
+            <div class="card_buttons-perfil">
+                <div class="carrousel">
+                    <div class="regular slider">
+                        
+                       <div id="button_perfil-lead-crm-mobile" onclick=" openListCrm('perfilLeadCrm-mobile', 'button_perfil-lead-crm-mobile', ['button_perfil-lead-crm-mobile','button_medias-mobile','button_trilhaDeAtendimento-mobile','button_perfilPosVenda-mobile'  ], ['midias-mobile', 'trilhaDeAtendimento-mobile','perfilPosVenda-mobile', 'perfilLeadCrm-mobile'])"
+                       class=" card_perfil text card_perfil-text button_evidencia ">
+                      <button class="card_perfil-button"><span class="text_hidden">aaaa</span></button>
+                      <p class=" card_button-text">Perfil
+                          Lead CRM</p>
+                     
+                      </div>
+                      <div id="button_medias-mobile" onclick="openListCrm('midias-mobile', 'button_medias-mobile', ['button_perfil-lead-crm-mobile','button_medias-mobile','button_trilhaDeAtendimento-mobile', 'button_perfilPosVenda-mobile' ], ['midias-mobile', 'trilhaDeAtendimento-mobile','perfilPosVenda-mobile', 'perfilLeadCrm-mobile'])"
+                      class="card_perfil text card_perfil-text">
+                     <button class="card_perfil-button"><span class="text_hidden">aaaa</span></button>
+                     <p class=" card_button-text">Medias</p>
+                    
+                     </div>
+                     <div id="button_trilhaDeAtendimento-mobile" onclick="openListCrm('trilhaDeAtendimento-mobile', 'button_trilhaDeAtendimento-mobile', ['button_perfil-lead-crm-mobile','button_medias-mobile','button_trilhaDeAtendimento-mobile', 'button_perfilPosVenda-mobile' ], ['midias-mobile', 'trilhaDeAtendimento-mobile','perfilPosVenda-mobile', 'perfilLeadCrm-mobile'])"
+                     class=" text card_perfil card_perfil-text">
+                    <button class="card_perfil-button"><span class="text_hidden">aaaa</span></button>
+                    <p class="card_button-text">Trilha de 
+                      Atendimento</p>
+                   
+                    </div>
+                    <div id="button_perfilPosVenda-mobile" onclick="openListCrm('perfilPosVenda-mobile', 'button_perfilPosVenda-mobile', ['button_perfil-lead-crm-mobile','button_medias-mobile','button_trilhaDeAtendimento-mobile', 'button_perfilPosVenda-mobile' ], ['midias-mobile', 'trilhaDeAtendimento-mobile','perfilPosVenda-mobile', 'perfilLeadCrm-mobile'])"
+                    class="card_perfil text card_perfil-text">
+                    <button class="card_perfil-button"><span class="text_hidden">aaaa</span></button>
+                    <p class="card_button-text">Perfil
+                      Pós-Venda</p>
+                   
+                    </div>
+                     
+                    </div>
+                  
+                </div>
+            
+            
+              
+            
+            
+            
+            </div>
+            
+            
+            
+         <div id="perfilLeadCrm-mobile" class="chat_card_filtro-container ">
+            <div class="informações_iniciais-container">
+                <h3 class="title_informações text">Informações Iniciais</h3>
+                <div class="card_info">
+                  <div class="card_info_container">
+                     <svg class="card_info-img" width="48"  height="48" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+                      <div class="card_info-text">
+                          <h4 class="card_info_name text">Nome Completo</h4>
+                          <p class="card_info-data text">31 Out 2021  14:29PM</p>
+                      </div>
+                  </div>
+                 <div class="card_info_container">
+                    <div class="card_info_icons" >
+                         <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+                         <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+                         <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+                    </div>
+                 
+                    <form class="card_info-form" action="">
+                        <input class="card_info-input" type="text">
+                    </form>
+                 
+                  </div>
+              </div>
+             <div class="card_info">
+                <div class="card_info_container">
+                    <svg class="card_info-img" width="48"  height="48" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+                    <div class="card_info-text">
+                        <h4 class="card_info_name text">Email</h4>
+                        <p class="card_info-data text">31 Out 2021  14:29PM</p>
+                    </div>
+                </div>
+                <div class="card_info_container">
+                    <div class="card_info_icons" >
+                         <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+                         <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+                         <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+                         <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+                    </div>
+                 
+                    <form class="card_info-form" action="">
+                        <input class="card_info-input" type="text">
+                    </form>
+                 
+                </div>
+            </div>
+            <div class="card_info">
+                <div class="card_info_container">
+                    <svg class="card_info-img" width="48"  height="48" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+                    <div class="card_info-text">
+                        <h4 class="card_info_name text">Telefone</h4>
+                        <p class="card_info-data text">31 Out 2021  14:29PM</p>
+                    </div>
+                </div>
+                <div class="card_info_container">
+                    <div class="card_info_icons" >
+                         <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+                         <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+                         <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+                         <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+                    </div>
+                 
+                    <form class="card_info-form" action="">
+                        <input class="card_info-input" type="text">
+                    </form>
+                 
+               </div>
+           </div>
+        </div>
+     </div>
+    </div>
+    
+    
+    
+    
+    
+    <div id="midias-mobile" class="chat_card_filtro-container hidden">
+        <div class="informações_iniciais-container">
+            <h3 class="title_informações text">Mídias</h3>
+            <div class="card_info">
+        <div class="card_info_container">
+            <svg class="card_info-img" width="48"  height="48" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+            <div class="card_info-text">
+                <h4 class="card_info_name text">Áudio</h4>
+                <p class="card_info-data text">31 Out 2021  14:50PM</p>
+            </div>
+        </div>
+        <div class="card_info_container">
+            <div class="card_info_icons" >
+                <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+                <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+                <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+                    
+            </div>
+              <img class="card_info_icons-audio" src="./assets/imgs/audio.svg" alt="">
+        </div>
+     <div class="card_info">
+        <div class="card_info_container">
+          <svg class="card_info-img" width="48"  height="48" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+            <div class="card_info-text">
+                <h4 class="card_info_name text">Imagem</h4>
+                <p class="card_info-data text">31 Out 2021  13:45PM</p>
+            </div>
+        </div>
+        <div class="card_info_container">
+            <div class="card_info_icons" >
+                <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+                <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+                <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+                <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+            </div>
+         
+            <img class="card_info_icons-img-midias" src="assets/imgs/img-Midias.png" alt="">
+         
+        </div>
+    </div>
+    <div class="card_info">
+        <div class="card_info_container">
+          <svg class="card_info-img" width="48"  height="48" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+            <div class="card_info-text">
+                <h4 class="card_info_name text">Documento</h4>
+                <p class="card_info-data text">31 Out 2021  13:31PM</p>
+            </div>
+        </div>
+        <div class="card_info_container">
+            <div class="card_info_icons" >
+                 <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+                 <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+                 <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+                 <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+            </div>
+         
+            <img class="card_info_icons-img-midias" src="assets/imgs/img-Midias.png" alt="">
+    
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    
+    
+    
+    <div id="trilhaDeAtendimento-mobile" class="chat_card_filtro-container hidden">
+    <div class="informações_iniciais-container">
+    <h3 class="title_informações text">Trilha de 
+        Atendimento</h3>
+    <div class="card_info">
+        <div class="card_info_container">
+            <div class="card_info-img-messagesBallon-container">
+                <img class="card_info-img-messagesBallon" src="assets/imgs/ballonMessages.svg" alt="">
+            </div>
+            
+            <div class="card_info-text">
+                <h4 class="card_info_name text">Chat com Olivia B, Jason M</h4>
+                <p class="card_info-data text">31 Out 2021  14:29PM</p>
+            </div>
+        </div>
+        <div class="card_info_container">
+            <div class="card_info_icons" >
+                 <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+                 <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+                 <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+            </div>
+             
+            <form class="card_info-form" action="">
+                <input class="card_info-input" type="text">
+            </form>
+    
+    
+        </div>
+    </div>
+    <div class="card_info">
+        <div class="card_info_container">
+            <div class="card_info-img-messagesBallon-container">
+                <img class="card_info-img-messagesBallon" src="assets/imgs/ballonMessages.svg" alt="">
+            </div>
+            <div class="card_info-text">
+                <h4 class="card_info_name text">Chat com Ashley B</h4>
+                <p class="card_info-data text">3 Nov. 2021  14:30PM</p>
+            </div>
+        </div>
+        <div class="card_info_container">
+            <div class="card_info_icons" >
+                 <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+                 <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+                 <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+                 <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+            </div>
+         
+            <form class="card_info-form" action="">
+                <input class="card_info-input" type="text">
+            </form>
+         
+        </div>
+    </div>
+    <div class="card_info">
+        <div class="card_info_container">
+            <div class="card_info-img-messagesBallon-container">
+                <img class="card_info-img-messagesBallon" src="assets/imgs/ballonMessages.svg" alt="">
+            </div>
+            <div class="card_info-text">
+                <h4 class="card_info_name text">Pós-Venda com Ashley B</h4>
+                <p class="card_info-data text">6 Nov. 2021  14:35PM</p>
+            </div>
+        </div>
+        <div class="card_info_container">
+            <div class="card_info_icons" >
+                 <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+                 <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+                 <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+                 <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+            </div>
+                         
+            <form class="card_info-form" action="">
+                <input class="card_info-input" type="text">
+            </form>
+            
+    
+        </div>
+    </div>
+    </div>
+    </div>
+        
+             
+    <div id="perfilPosVenda-mobile" class="chat_card_filtro-container hidden">
+    
+    
+    <div class="informações_iniciais-container">
+    <h3 class="title_informações text">Informações Iniciais</h3>
+    <div class="card_info">
+        <div class="card_info_container">
+          <svg class="card_info-img" width="48"  height="48" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+            <div class="card_info-text">
+                <h4 class="card_info_name text">Produtos</h4>
+                <p class="card_info-data text">31 Out 2021  14:29PM</p>
+            </div>
+        </div>
+        <div class="card_info_container">
+            <div class="card_info_icons" >
+                 <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+                 <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+                 <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+            </div>
+             
+            <form class="card_info-pos-vendas" action="">
+                <input class="cadastro_pos_vendas-input-1" placeholder="Nome" type="text">
+                <input class="cadastro_pos_vendas-input-1" placeholder="Valor" type="text">
+                <input class="cadastro_pos_vendas-input-2" placeholder="Link do Produto" type="text">
+            </form>
+    
+    
+        </div>
+    </div>
+    <div class="card_info">
+        <div class="card_info_container">
+          <svg class="card_info-img" width="48"  height="48" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+            <div class="card_info-text">
+                <h4 class="card_info_name text">Feedback do Cliente</h4>
+                <p class="card_info-data text">31 Out 2021  14:30PM</p>
+            </div>
+        </div>
+        <div class="card_info_container">
+            <div class="card_info_icons" >
+                 <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+                 <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+                 <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+                 <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+            </div>
+        
+            <form class="card_info-form" action="">
+                <input class="card_info-input" type="text">
+            </form>
+         
+        </div>
+    </div>
+    <div class="card_info">
+        <div class="card_info_container">
+          <svg class="card_info-img" width="48"  height="48" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+            <div class="card_info-text">
+                <h4 class="card_info_name text">Reclamações</h4>
+                <p class="card_info-data text">31 Out 2021  14:35PM</p>
+            </div>
+        </div>
+        <div class="card_info_container">
+            <div class="card_info_icons" >
+                 <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+                 <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+                 <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+                 <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+                </svg>
+            </div>
+         
+            <form class="card_info-form" action="">
+                <input class="card_info-input" type="text">
+            </form>
+    
+    
+         </div>
+    </div>  
+    </div>
+    </div>
+
+</div>
+    
+   </div>
    
    <script src="./assets/js/noRefresh.js"></script>
    <script src='./assets/js/changeTheme.js'></script>

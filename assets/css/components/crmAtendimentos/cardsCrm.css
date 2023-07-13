@@ -282,10 +282,20 @@
 }
 
 
+
+
+
 .card_crm-contrainer {
+    box-shadow: var(--box-shadow-container);
+    border-radius: 0.5rem;
+    border: var(--border-box-shadow-container);
+    padding: 1rem;
+    max-height: 45vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
     margin-left: 0.5%;
     margin-top: 3%;
-    width: 30%;
+    width: 100%;
 }
 
 .title_crm {
@@ -311,5 +321,40 @@
 .img_titleCrm-mobile{
     height: 0.8rem;
     margin-top: 0.3rem;
+}
+
+.carrousel_mobile{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: -9%;
+}
+
+.card_crm-title {
+    font-size: 0.94rem;
+    font-weight: bold;
+    color: var(--tittle-color);
+}
+
+.card_crm-text {
+    color: var(--subtittle-color);
+    margin-left: 7rem;
+    font-size: 0.6rem;
+    margin-top: -1rem;
+}
+.card_crm-text-status {
+    display: flex;
+    font-size: 0.6rem;
+    margin-top: 0.5rem;
+    margin: 0.3rem;
+    margin-left: -0rem;
+}
+
+.card_crm-number {
+    margin-left: 0.5rem;
+    font-size: 0.5rem;
+    margin-top: 1rem;
+    margin: 0.1rem;
+    color: var(--tittle-color);
+
 }
 }

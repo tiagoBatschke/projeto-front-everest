@@ -118,6 +118,9 @@ inputUsado = document.getElementsByClassName(inputClass)
  
 }
 
+function openListMobile(id) {
+  document.getElementById(id).classList.toggle("hidden_mobile-crm");
+}
 
 
 
