@@ -99,8 +99,8 @@
         width: 90vw;
         margin-left: 8%;
         margin-top: 3%;
-        height: 350vh;
-        max-height: 300vh;
+        height: 250vh;
+        max-height: 250vh;
         flex-direction: column;
         padding-top: 10%;
     }
