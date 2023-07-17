@@ -1,594 +1,459 @@
-<main class="configEverest_container">
-    <div class="configEverest_configs-container">
-        <h1 class="configEverest_title title_color text">Configurações Everest</h1>
-
-        <div class="card_lembrete">
-            <h1   class="lembrete_title title_color text ">Lembrete de Pagamento</h1>
-            <p style="color: var(--text-color);" class="Lembrete_text text">Você pode adicionar mais <span style="font-weight: bold; color: var(--text-color);">10 funcionários</span> com o Plano de pagamento atual. Acesse “Pagamentos” para obter mais usuários.</p>
-        </div>
-        <div onclick="openPage('configGeralId', ['integracoesId', 'configColabId', 'configGeralId', 'cadastroUsuario'])"  class="configEverest_configs-cards">
-            <img class="configEverest_configs-cards-img" src="./assets/imgs/Rectangle 3281 blue.png" alt="">
-            <div class="configEverest_configs-cards-text-container">
-                <h2 class="configEverest_configs-cards-title title_color  text">Permissões Gerais</h2>
-                <p class="configEverest_configs-cards-text title_color text">Configure as permissões do Sistema</p>
-            </div>
-            <img class="metrics_img_arrow-1"  src="./assets/imgs/arrow.svg" alt="">
-        </div>
-        <div  onclick="openPage('configColabId', ['integracoesId', 'configColabId', 'configGeralId', 'cadastroUsuario'])" class="configEverest_configs-cards">
-            <img class="configEverest_configs-cards-img" src="./assets/imgs/Rectangle 3282 green.png" alt="">
-            <div class="configEverest_configs-cards-text-container">
-                <h2 class="configEverest_configs-cards-title title_color text">Permissões Colaboradores</h2>
-                <p class="configEverest_configs-cards-text title_color text">Configure as permissões de seus funcionários</p>
-            </div>
-            <img class="metrics_img_arrow-1"  src="./assets/imgs/arrow.svg" alt="">
-        </div>
-        <div onclick="openPage('cadastroUsuario', ['integracoesId', 'configColabId', 'configGeralId', 'cadastroUsuario'])"  class="configEverest_configs-cards">
-            <img class="configEverest_configs-cards-img" src="./assets/imgs/Rectangle 3283 yellow.png" alt="">
-            <div class="configEverest_configs-cards-text-container">
-                <h2 class="configEverest_configs-cards-title title_color text">Cadastro de Usuário</h2>
-                <p class="configEverest_configs-cards-text title_color text">Cadastre novos usuários no seu Everest</p>
-            </div>
-            <img class="metrics_img_arrow-1"  src="./assets/imgs/arrow.svg" alt="">
-        </div>
-        <!-- <div   class="configEverest_configs-cards">
-            <img class="configEverest_configs-cards-img" src="./assets/imgs/Rectangle 3284 gray.png" alt="">
-            <div class="configEverest_configs-cards-text-container">
-                <h2 class="configEverest_configs-cards-title text">Gerenciamento de Times</h2>
-                <p class="configEverest_configs-cards-text text">Crie, exclua e monte times com Colaboradores</p>
-            </div>
-            <img class="metrics_img_arrow-1"  src="./assets/imgs/arrow.svg" alt="">
-        </div> -->
-        <div onclick="openPage('integracoesId', ['integracoesId', 'configColabId', 'configGeralId', 'cadastroUsuario'])" class="configEverest_configs-cards">
-            <img class="configEverest_configs-cards-img" src="./assets/imgs/Rectangle 3285 pink.png
-            " alt="">
-            <div class="configEverest_configs-cards-text-container">
-                <h2 class="configEverest_configs-cards-title title_color text">Integrações</h2>
-                <p class="configEverest_configs-cards-text title_color text">Cadastre suas Redes Sociais no Everest</p>
-            </div>
-            <img class="metrics_img_arrow-1"  src="./assets/imgs/arrow.svg" alt="">
-        </div>
-        <!-- <div class="configEverest_configs-cards last_card">
-            <img class="configEverest_configs-cards-img" src="./assets/imgs/Rectangle 3286 blue light.png" alt="">
-            <div class="configEverest_configs-cards-text-container">
-                <h2 class="configEverest_configs-cards-title text">Pagamentos</h2>
-                <p class="configEverest_configs-cards-text text">Realize todos os seus pagamentos por aqui</p>
-                <img class="metrics_img_arrow-1"  src="./assets/imgs/arrow.svg" alt="">
-            </div>
-        </div> -->
-    </div>
-    <div id="configColabId" class="div_configs-container hidden">
-        <div class="config_colab-container">
-            <div class="config_colab">
-            <h1 class="integracoes_tittle title_color text">Configurações Colaboradores </h1>
-            <span class="integracoes_subtitle title_color text"> Atendente</span>
-            <p class="integrações_tittle-text text_color text"> Permissões do perfil de Atendente para geração de Lead, Chamado e
-                Personalização Everest:</p>
+<div class="perfil_lead_crm-container ">
+    <form class="search_form_lead-crm" action="">
+        <input  class="input_search_lead-crm" type="text">
+        <button class="button_search_lead-crm" type="submit"><img class="img_lupa" src="./assets/imgs/lupa-arredondada.png" alt=""></button>
+    </form>
+    <h2 class="title_crm-lead text">Perfil Lead CRM</h2>
+    <div class="card_perfil-container">
+        <div class="card_buttons-perfil">
+            <div class="carrousel">
+                <div class="regular_mobile slider">
+                    
+                   <div id="button_perfil-lead-crm" onclick=" openListCrm('perfilLeadCrm', 'button_perfil-lead-crm', ['button_perfil-lead-crm','button_medias','button_trilhaDeAtendimento','button_perfilPosVenda'  ], ['midias_mobile', 'trilhaDeAtendimento','perfilPosVenda', 'perfilLeadCrm'])"
+                   class=" card_perfil text card_perfil-text button_evidencia ">
+                  <button class="card_perfil-button"><span class="text_hidden">aaaa</span></button>
+                  <p class=" card_button-text">Perfil
+                      Lead CRM</p>
+                 
+                  </div>
+                  <div id="button_medias" onclick="openListCrm('midias_mobile', 'button_medias', ['button_perfil-lead-crm','button_medias','button_trilhaDeAtendimento', 'button_perfilPosVenda' ], ['midias_mobile', 'trilhaDeAtendimento','perfilPosVenda', 'perfilLeadCrm'])"
+                  class="card_perfil text card_perfil-text">
+                 <button class="card_perfil-button"><span class="text_hidden">aaaa</span></button>
+                 <p class=" card_button-text">Medias</p>
                 
-                   <form class="config_colab-form" action="">
-                    <label for="" class="config_colab-form-label text_color  text">
-                        <input id="inputLead" class="config_colab-form-input" type="radio" checked>
-                       
-                        Lead</label>
-                    <label for="" class="config_colab-form-label text_color  text">
-                        <input class="config_colab-form-input" type="radio" checked>
-                        
-                        Chamados</label>
-                    <label for="" class="config_colab-form-label text_color text">
-                        <input class="config_colab-form-input" type="radio" checked>
-                        
-                        Configurações Everest</label>
+                 </div>
+                 <div id="button_trilhaDeAtendimento" onclick="openListCrm('trilhaDeAtendimento', 'button_trilhaDeAtendimento', ['button_perfil-lead-crm','button_medias','button_trilhaDeAtendimento', 'button_perfilPosVenda' ], ['midias_mobile', 'trilhaDeAtendimento','perfilPosVenda', 'perfilLeadCrm'])"
+                 class=" text card_perfil card_perfil-text">
+                <button class="card_perfil-button"><span class="text_hidden">aaaa</span></button>
+                <p class="card_button-text">Trilha de 
+                  Atendimento</p>
                
-                   </form>
-                    
-            </div>
-            <div class="config_colab">
+                </div>
+                <div id="button_perfilPosVenda" onclick="openListCrm('perfilPosVenda', 'button_perfilPosVenda', ['button_perfil-lead-crm','button_medias','button_trilhaDeAtendimento', 'button_perfilPosVenda' ], ['midias_mobile', 'trilhaDeAtendimento','perfilPosVenda', 'perfilLeadCrm'])"
+                class="card_perfil text card_perfil-text">
+                <button class="card_perfil-button"><span class="text_hidden">aaaa</span></button>
+                <p class="card_button-text">Perfil
+                  Pós-Venda</p>
                
-                <span class="integracoes_subtitle title_color text">Supervisor de Vendas</span>
-                <p class="integrações_tittle-text text_color text"> Permissões do perfil de Supervisor de Vendas para geração de Lead, 
-                    Chamado e Personalização Everest:</p>
-                    
-                       <form class="config_colab-form" action="">
-                        <label for="" class="config_colab-form-label text_color  text">
-                            <input class="config_colab-form-input" type="radio" checked>
-                           
-                            Lead</label>
-                        <label for="" class="config_colab-form-label text_color  text">
-                            <input class="config_colab-form-input" type="radio" checked>
-                            
-                            Chamados</label>
-                        <label for="" class="config_colab-form-label text_color text">
-                            <input class="config_colab-form-input" type="radio" checked>
-                            
-                            Configurações Everest</label>
-                   
-                       </form>
-                        
                 </div>
-                <div class="config_colab">
-                    <span class="integracoes_subtitle title_color text"> Supervisor de Atendimento</span>
-                    <p class="integrações_tittle-text text_color text"> Permissões do perfil de Supervisor de Atendimento para geração de Lead,
-                        Chamado e Personalização Everest:</p>
-                        
-                           <form class="config_colab-form" action="">
-                            <label for="" class="config_colab-form-label text_color text">
-                                <input class="config_colab-form-input" type="radio" checked>
-                               
-                                Lead</label>
-                            <label for="" class="config_colab-form-label text_color text">
-                                <input class="config_colab-form-input" type="radio" checked>
-                                
-                                Chamados</label>
-                            <label for="" class="config_colab-form-label text_color text">
-                                <input class="config_colab-form-input" type="radio" checked>
-                                
-                                Configurações Everest</label>
-                       
-                           </form>
-                            
-                    </div>
+                 
                 </div>
-                <div class="config_colab_butons-container">
-                    <button class="config_colab_butons  text">Criar evento</button>
-                    <button class="config_colab_butons  text">Criar evento</button>
-                </div>
-    </div>
-    <div id="configGeralId" class="div_configs-container hidden">
-        <div class="config_colab-container">
-            <div class="config_colab">
-            <h1 class="integracoes_tittle title_color text">Configurações Gerais</h1>
-            <span class="integracoes_subtitle title_color text"> Atribuição</span>
-            <p class="integrações_tittle-text text_color text"> Distribuição dos Chamados para os Colaboradores:</p>
-                
-                   <form class="config_colab-form" action="">
-                    <label for="" class="config_colab-form-label text_color text">
-                        <input class="config_colab-form-input" type="radio" checked>
-                       
-                        Distribuição Manual</label>
-                    <label for="" class="config_colab-form-label text_color  text">
-                        <input class="config_colab-form-input" type="radio" checked>
-                        
-                        Distribuição Automática</label>
-                    <label for="" class="config_colab-form-label text_color text">
-                        <input class="config_colab-form-input" type="radio" checked>
-                        
-                        Configurações Everest</label>
-               
-                   </form>
-
-                   <p class="integrações_tittle-text text_color text"> Se acionado, somente usuários logados recebem Chamados:</p>
-
-                   <form class="config_colab-form" action="">
-                   <label for="" class="config_colab-form-label text_color text">
-                    <input class="config_colab-form-input" type="radio" checked>
-                    
-                    Somente usuários logados</label>
-           
-               </form>
-            </div>
-            <div class="config_colab">
-               
-                <span class="integracoes_subtitle title_color text">Interação com o Chat</span>
-                <p class="integrações_tittle-text text_color text"> Configurações a respeito dos Chats:</p>
-                    
-                       <form class="config_colab-form" action="">
-                        <label for="" class="config_colab-form-label text_color text">
-                            <input class="config_colab-form-input" type="radio" checked>
-                           
-                            Mascarar informações pessoais do Cliente</label>
-                        <label for="" class="config_colab-form-label text_color  text">
-                            <input class="config_colab-form-input" type="radio" checked>
-                            
-                            Administrador interage com os Chats</label>
-                        <label for="" class="config_colab-form-label text_color text">
-                            <input class="config_colab-form-input" type="radio" checked>
-                            
-                            Supervisor de Vendas interage com Chatst</label>
-                            <label for="" class="config_colab-form-label text_color text">
-                                <input class="config_colab-form-input" type="radio" checked>
-                                
-                                Supervisor de Atendimento interage com Chats</label>
-                   
-                       </form>
-                        
-                </div>
-           
-                <div class="config_colab_butons-container">
-                    <button class="config_colab_butons text">Criar evento</button>
-                    <button class="config_colab_butons text">Criar evento</button>
-                </div>
-            </div>
-    </div>
-  <div id="integracoesId" class="div_configs-container hidden">
-      <div class="integraçoes_configs ">
-        <div class="integracoes_intro">
-            <h1 class="integracoes_tittle title_color text">Integrações</h1>
-            <span class="integracoes_subtitle title_color text">Atribuições</span>
-            <p class="integrações_tittle-text title_color text">Selecione seus Colaboradores e suas respectivas conexões no Everest.</p>
-       </div>
-            <div class="container_integracoes">
-                <div class="integracoes_card_title-container">
-                    <img class="img_title-card" src="./assets/imgs/Rectangle 3284 gray.png" alt="">
-                    <div>
-                        <h2 class="tittle_midias-sociais text_color text">Facebook</h2>
-                        <p class="text_integrações_container  fundo_azul text">Foco Solution Provi...</p>
-                    </div>
-                  
-                </div>
-                <p class="text_integrações_container fundo_azul text">Total de Conexões Disponíveis:</p>
-                <p class="text_subtittle_container text_color text">Colaboradores Conectados</p>
-                <img class="img_circle_container" src="assets/imgs/Ellipse.png" alt="">
-                <img class="img_circle_container" src="assets/imgs/Ellipse.png" alt="">
-                <img class="img_circle_container" src="assets/imgs/Ellipse.png" alt="">
-                <img class="img_circle_container" src="assets/imgs/Group 777.png" alt="">
-            </div>
-            <div class="container_integracoes">
-                <div class="integracoes_card_title-container">
-                    <img class="img_title-card" src="./assets/imgs/Rectangle 3284 gray.png" alt="">
-                    <div>
-                        <h2 class="tittle_midias-sociais text_color text">Instagram</h2>
-                        <p class="text_integrações_container fundo_vermelho  text">@app-everest</p>
-                    </div>
-                  
-                </div>
-                  <p class="text_integrações_container fundo_vermelho text">Total de Conexões Disponíveis:</p>
-                  <p class="text_subtittle_container text_color text">Colaboradores Conectados</p>
-                  <img class="img_circle_container" src="assets/imgs/Ellipse red.png" alt="">
-                  <img class="img_circle_container" src="assets/imgs/Ellipse red.png" alt="">
-                  <img class="img_circle_container" src="assets/imgs/Ellipse red.png" alt="">
-                  <img class="img_circle_container" src="assets/imgs/Group 796.png" alt=""> 
-            </div>
-            <div class="container_integracoes">
-                <div class="integracoes_card_title-container">
-                    <img class="img_title-card" src="./assets/imgs/Rectangle 3284 gray.png" alt="">
-                    <div>
-                        <h2 class="tittle_midias-sociais text_color text">WhatsApp</h2>
-                        <p class="text_integrações_container fundo_verde  text">+55 11 9678-9090</p>
-                    </div>
-                  
-                </div>
-                  <p class="text_integrações_container fundo_verde text">Total de Conexões Disponíveis:</p>
-                  <p class="text_subtittle_container text_color text">Colaboradores Conectados</p>
-                  <img class="img_circle_container"  src="assets/imgs/Ellipse green.png" alt="">
-                  <img class="img_circle_container"  src="assets/imgs/Ellipse green.png" alt="">
-                  <img class="img_circle_container"  src="assets/imgs/Ellipse green.png" alt="">
-                  <img class="img_circle_container"  src="assets/imgs/Group 781 green.png" alt="">
-            </div>
-            <div class="container_integracoes">
-                <div class="integracoes_card_title-container">
-                    <img class="img_title-card" src="./assets/imgs/Rectangle 3284 gray.png" alt="">
-                    <div>
-                        <h2 class="tittle_midias-sociais text_color text">Telegram</h2>
-                        <p class="text_integrações_container fundo_azul-claro text">+55 11 9678-9090</p>
-                    </div>
-                  
-                </div>
-                  <p class="text_integrações_container fundo_azul-claro text">Total de Conexões Disponíveis:</p>
-                  <p class="text_subtittle_container text_color text">Colaboradores Conectados</p>
-                  <img class="img_circle_container"  src="assets/imgs/Ellipse.png" alt="">
-                  <img class="img_circle_container"  src="assets/imgs/Ellipse.png" alt="">
-                  <img class="img_circle_container"  src="assets/imgs/Ellipse.png" alt="">
-                  <img class="img_circle_container"  src="assets/imgs/Group 777.png" alt="">
-            </div>
-            <div class="container_integracoes">
-                <div class="integracoes_card_title-container">
-                    <img class="img_title-card" src="./assets/imgs/Rectangle 3284 gray.png" alt="">
-                    <div>
-                        <h2 class="tittle_midias-sociais text_color text">ChatBot Everest</h2>
-                        <p class="text_integrações_container fundo_azul text">Website #1</p>
-                    </div>
-                  
-                </div>
-                  <p class="text_integrações_container fundo_azul text">Total de Conexões Disponíveis:</p>
-                  <p class="text_subtittle_container text_color text">Colaboradores Conectados</p>
-                  <img class="img_circle_container"  src="assets/imgs/Ellipse.png" alt="">
-                  <img class="img_circle_container"  src="assets/imgs/Ellipse.png" alt="">
-                  <img class="img_circle_container"  src="assets/imgs/Ellipse.png" alt="">
-                  <img class="img_circle_container"  src="assets/imgs/Group 777.png" alt="">
-            </div>
-        </div>
-  </div>
-  <div id="cadastroUsuario" class="div_configs-container hidde">
-        <div class="config_colab-container">
-                <h1 class="integracoes_tittle title_color text">Cadastro de Usuário</h1>
-                <span class="integracoes_subtitle title_color text">Editar Perfil Existente?</span>
-                <p class="integrações_tittle-text text_color text"> Selecione abaixo o perfil e edite as informações necessárias.</p>
-                
-                <div  onclick="openList('listatopId')" class="cadastro_card-container">
-                    <div  class="cadastro_card">
-                        
-                        <img class="configEverest_configs-cards-img" src="./assets/imgs/Ellipse.yellow.user.png" alt="">
-                        <div class="card_cadastro-text">
-                            <h2 class="card_cadastro-title text_color text">Perfil do Colaborador</h2>
-                            <p class="card_cadastro-subtitle text">Cargo</p>
-                        </div>
-                       </div>
-                      
-                </div>
-                <div id="listatopId" class="listBottom-container  hidden">
-                    <form class="search_form_cardConfig" action="">
-                        <input class="input_search_header" type="text">
-                        <button class="button_header_search" type="submit"><img class="img_lupa" src="./assets/imgs/lupa-arredondada.png" alt=""></button>
-                    </form>
-                    <ul class="list-cardCadastro">
-                        <li class="list_item-cardCadastro background_blue text"><button class="button_list_item-cardCadastro"></button>Supervisor de Vendas</li>
-                        <li class="list_item-cardCadastro background_green text"><button class="button_list_item-cardCadastro"></button>Vendedor</li>
-                        <li class="list_item-cardCadastro background_yellow text"><button class="button_list_item-cardCadastro"></button>Supervisor de Atendimento</li>
-                        <li class="list_item-cardCadastro background_gray text"><button class="button_list_item-cardCadastro"></button>Atendente</li>
-                    </ul>
-                   </div>
-               
-               
-
-                <span class="integracoes_subtitle title_color  text">Novo Cadastro</span>
-                <p class="integrações_tittle-text text_color text">insira abaixo informações de um novo colaborador para criar seu
-                   <br>  perfil Everest.</p>
-                   
-                <span class="integracoes_subtitle title_color text">Informações Iniciais</span>    
-               <form action="">
-                    <input class="placeholder_color cadastro_form-input" placeholder="Nome*" type="text">
-                    <input class="placeholder_color cadastro_form-input" placeholder="Sobrenome*" type="text">
-                    <input class="placeholder_color cadastro_form-input" placeholder="Nascimento*" type="text">
-                    <input class="placeholder_color cadastro_form-input" placeholder="CPF" type="text">
-                    <input class="placeholder_color cadastro_form-input" placeholder="E-mail Profissional*" type="text">
-                    <input class="placeholder_color cadastro_form-input" placeholder="Contratação" type="text">
-                    <input class="placeholder_color cadastro_form-input-1" placeholder="Pais*" type="text">
-                    <input class="placeholder_color cadastro_form-input-1" placeholder="Estado*" type="text">
-                    <input class="placeholder_color cadastro_form-input-1" placeholder="Cidade*" type="text">
-                    <input class="placeholder_color cadastro_form-input-2" placeholder="CEP" type="text">
-                    <input class="placeholder_color cadastro_form-input-3" placeholder="Bairro, Rua/Avenida" type="text">
-                   
-               </form>
-                <span class="integracoes_subtitle title_color text">ID & Senha</span>
-                <p class="integrações_tittle-text text_color text">Gere um ID e Senha únicos para cada Cadastro. Ao salvar, você e seu novo cadastro receberão uma cópia das informações por e-mail. </p>
-               <form class="id-senha_container" action="">
-                <input class="placeholder_color  cadastro_form-input-3" placeholder="ID" type="text">
-                <input class="placeholder_color  cadastro_form-input-3" placeholder="SENHA*" type="text">
-               </form>
-               <button class="cadastro_usuario-button  text">Gerar</button>
-               <span class="integracoes_subtitle title_color text">Selecionar Tipo de Perfil</span>
-               <p class="integrações_tittle-text text_color text">Supervisor de Vendas, de Atendimento, Vendedor ou Atendente? </p>
-               
-
-               <div  onclick="openList('listaBottomId')" class="cadastro_card-container">
-                    <div  class="cadastro_card">
-                        
-                        <img class="configEverest_configs-cards-img" src="./assets/imgs/Ellipse.yellow.user.png" alt="">
-                        <div class="card_cadastro-text">
-                            <h2 class="card_cadastro-title text_color text">Perfil do Colaborador</h2>
-                            <p class="card_cadastro-subtitle text">Cargo</p>
-                        </div>
-                       </div>
-                      
-                </div>
-                <div id="listaBottomId" class="listBottom-container hidden">
-                    <form class="search_form_cardConfig" action="">
-                        <input class="input_search_header" type="text">
-                        <button class="button_header_search" type="submit"><img class="img_lupa" src="./assets/imgs/lupa-arredondada.png" alt=""></button>
-                    </form>
-                    <ul class="list-cardCadastro">
-                        <li class="list_item-cardCadastro background_blue text"><button class="button_list_item-cardCadastro"></button>Supervisor de Vendas</li>
-                        <li class="list_item-cardCadastro background_green text"><button class="button_list_item-cardCadastro"></button>Vendedor</li>
-                        <li class="list_item-cardCadastro background_yellow text"><button class="button_list_item-cardCadastro"></button>Supervisor de Atendimento</li>
-                        <li class="list_item-cardCadastro background_gray text"><button class="button_list_item-cardCadastro"></button>Atendente</li>
-                    </ul>
-                   </div>
-               </div>
-               
-               <div class="config_colab_butons-container">
-                <button class="config_colab_butons text">Criar evento</button>
-                <button class="config_colab_butons text">Criar evento</button>
-            </div>
+              
             </div>
         
-    </div>
-    <div id="tutorialId"  class="card_Tutorial hidden">
-        <div onclick="location.reload()" class="x_fechar-container "><p class="x_fechar text">X</p></div>
-        <div class="card_Tutorial-container">
-           
-            <div class="img_container"><img src="./assets/imgs/everest.svg" alt=""></div>
-            <div class="card_text-container">
-                <h2 class="card_title text">Tutorial Everest</h2>
-                <p class="card_text text">Olá Admin! <span class="card_text-blue text">Seja bem-vind@ ao Everest</span>, nosso software de Atendimento e CRM. </p>
-                <p class="card_text text">Á seguir, mostraremos em alguns passos tudo o que precisa saber para iniciar-se no Everest com muito sucesso. <span class="card_text-blue text">Vamos lá?</span></p>
+            <div class="custom-arrows"></div>
+          
+        
+        
+        
+        </div>
+        
+        
+        
+     <div id="perfilLeadCrm" class="chat_card_filtro-container ">
+        <div class="informações_iniciais-container">
+            <h3 class="title_informações text">Informações Iniciais</h3>
+            <div class="card_info">
+              <div class="card_info_container">
+                 <svg class="card_info-img" width="48"  height="48" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+        </svg>
+                  <div class="card_info-text">
+                      <h4 class="card_info_name text">Nome Completo</h4>
+                      <p class="card_info-data text">31 Out 2021  14:29PM</p>
+                  </div>
+              </div>
+             <div class="card_info_container">
+                <div class="card_info_icons" >
+                     <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+                     <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+                     <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+                </div>
+             
+                <form class="card_info-form" action="">
+                    <input class="card_info-input" type="text">
+                </form>
+             
+              </div>
+          </div>
+         <div class="card_info">
+            <div class="card_info_container">
+                <svg class="card_info-img" width="48"  height="48" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+        </svg>
+                <div class="card_info-text">
+                    <h4 class="card_info_name text">Email</h4>
+                    <p class="card_info-data text">31 Out 2021  14:29PM</p>
+                </div>
             </div>
-            <div class="card_buttons-container">
-                <button onclick="location.reload()" class="card_buttons-fechar text">Fechar</button>
-                <button onclick="openList('tutorialHomeiId'),openList('tutorialId') "   class="card_buttons text">Proximo</button>
+            <div class="card_info_container">
+                <div class="card_info_icons" >
+                     <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+                     <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+                     <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+                     <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+                </div>
+             
+                <form class="card_info-form" action="">
+                    <input class="card_info-input" type="text">
+                </form>
+             
             </div>
         </div>
+        <div class="card_info">
+            <div class="card_info_container">
+                <svg class="card_info-img" width="48"  height="48" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+        </svg>
+                <div class="card_info-text">
+                    <h4 class="card_info_name text">Telefone</h4>
+                    <p class="card_info-data text">31 Out 2021  14:29PM</p>
+                </div>
+            </div>
+            <div class="card_info_container">
+                <div class="card_info_icons" >
+                     <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+                     <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+                     <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+                     <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+                </div>
+             
+                <form class="card_info-form" action="">
+                    <input class="card_info-input" type="text">
+                </form>
+             
+           </div>
+       </div>
     </div>
-    <div id="tutorialHomeiId" class="card_Tutorial hidden">
-        <div onclick="location.reload()" class="x_fechar-container "><p class="x_fechar text">X</p></div>
-        <div class="card_Tutorial-container">
-           
-            <div class="img_container"><img class="img_card" src="./assets/imgs/img home.svg" alt=""></div>
-            <div class="card_text-container">
-                <h2 class="card_title text">Home</h2>
-                <p class="card_text text">As Métricas são<span class="card_text-blue text"> apontamentos</span> de atendimentos e outras infos gerais da empresa. Elas são preenchidas automaticamente com <span class="card_text-blue text"> informações geradas pelos seus usuários;</span> </p>
+ </div>
+</div>
+
+
+
+
+
+<div id="midias" class="chat_card_filtro-container hidden">
+    <div class="informações_iniciais-container">
+        <h3 class="title_informações text">Mídias</h3>
+        <div class="card_info">
+    <div class="card_info_container">
+        <svg class="card_info-img" width="48"  height="48" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+        </svg>
+        <div class="card_info-text">
+            <h4 class="card_info_name text">Áudio</h4>
+            <p class="card_info-data text">31 Out 2021  14:50PM</p>
+        </div>
+    </div>
+    <div class="card_info_container">
+        <div class="card_info_icons" >
+            <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+            <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+            <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
                 
-            </div>
-            <div class="card_buttons-container">
-                <button onclick="location.reload()" class="card_buttons-fechar text">Fechar</button>
-                <button onclick="openList('tutorialMenuiId'), openList('tutorialHomeiId') "    class="card_buttons text">Proximo</button>
+        </div>
+          <img class="card_info_icons-audio" src="./assets/imgs/audio.svg" alt="">
+    </div>
+ <div class="card_info">
+    <div class="card_info_container">
+      <svg class="card_info-img" width="48"  height="48" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+        </svg>
+        <div class="card_info-text">
+            <h4 class="card_info_name text">Imagem</h4>
+            <p class="card_info-data text">31 Out 2021  13:45PM</p>
+        </div>
+    </div>
+    <div class="card_info_container">
+        <div class="card_info_icons" >
+            <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+            <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+            <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+            <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+        </div>
+     
+        <img class="card_info_icons-img-midias" src="assets/imgs/img-Midias.png" alt="">
+     
+    </div>
+</div>
+<div class="card_info">
+    <div class="card_info_container">
+      <svg class="card_info-img" width="48"  height="48" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+        </svg>
+        <div class="card_info-text">
+            <h4 class="card_info_name text">Documento</h4>
+            <p class="card_info-data text">31 Out 2021  13:31PM</p>
+        </div>
+    </div>
+    <div class="card_info_container">
+        <div class="card_info_icons" >
+             <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+             <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+             <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+             <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+        </div>
+     
+        <img class="card_info_icons-img-midias" src="assets/imgs/img-Midias.png" alt="">
+
             </div>
         </div>
     </div>
-    <div id="tutorialMenuiId" class="card_Tutorial hidden">
-        <div onclick="location.reload()" class="x_fechar-container "><p class="x_fechar text">X</p></div>
-        <div class="card_Tutorial-container">
-           
-            <div class="img_container"><img class="img_card" src="./assets/imgs/menu.svg" alt=""></div>
-            <div class="card_text-container">
-                <h2 class="card_title text">Menu</h2>
-                <p class="card_text text">Veja as notificações no Sino, atalhos importantes em sua foto de perfil e mude para o<span class="card_text-blue text"> Dark Mode</span>  rapidamente clicando em cima do Sol;</p>
-                
-            </div>
-            <div class="card_buttons-container">
-                <button onclick="location.reload()" class="card_buttons-fechar text">Fechar</button>
-                <button onclick="openList('tutorialMenssegerId'), openList('tutorialMenuiId') "  class="card_buttons text">Proximo</button>
-            </div>
+</div>
+</div>
+
+
+
+
+<div id="trilhaDeAtendimento" class="chat_card_filtro-container hidden">
+<div class="informações_iniciais-container">
+<h3 class="title_informações text">Trilha de 
+    Atendimento</h3>
+<div class="card_info">
+    <div class="card_info_container">
+        <div class="card_info-img-messagesBallon-container">
+            <img class="card_info-img-messagesBallon" src="assets/imgs/ballonMessages.svg" alt="">
+        </div>
+        
+        <div class="card_info-text">
+            <h4 class="card_info_name text">Chat com Olivia B, Jason M</h4>
+            <p class="card_info-data text">31 Out 2021  14:29PM</p>
         </div>
     </div>
-    <div  id="tutorialMenssegerId"  class="card_Tutorial hidden">
-        <div onclick="location.reload()" class="x_fechar-container "><p class="x_fechar text">X</p></div>
-        <div class="card_Tutorial-container">
-           
-            <div class="img_container"><img class="img_card" src="./assets/imgs/messge.svg" alt=""></div>
-            <div class="card_text-container">
-                <h2 class="card_title text">Messenger</h2>
-                <p class="card_text text">Tela de Atendimento com <span class="card_text-blue text"> atalho para a visualização e criação do Perfil CRM</span>  do Cliente e outras funções no lado esquerdo: atalhos para “Novas”, “Finalizados” e “Arquivo”.</p>
-                
-            </div>
-            <div class="card_buttons-container">
-                <button onclick="location.reload()" class="card_buttons-fechar text">Fechar</button>
-                <button onclick="openList('tutorialAtendimentoId'), openList('tutorialMenssegerId') " class="card_buttons text">Proximo</button>
-            </div>
+    <div class="card_info_container">
+        <div class="card_info_icons" >
+             <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+             <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+             <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+        </div>
+         
+        <form class="card_info-form" action="">
+            <input class="card_info-input" type="text">
+        </form>
+
+
+    </div>
+</div>
+<div class="card_info">
+    <div class="card_info_container">
+        <div class="card_info-img-messagesBallon-container">
+            <img class="card_info-img-messagesBallon" src="assets/imgs/ballonMessages.svg" alt="">
+        </div>
+        <div class="card_info-text">
+            <h4 class="card_info_name text">Chat com Ashley B</h4>
+            <p class="card_info-data text">3 Nov. 2021  14:30PM</p>
         </div>
     </div>
-    <div id="tutorialAtendimentoId"  class="card_Tutorial hidden">
-        <div onclick="location.reload()" class="x_fechar-container "><p class="x_fechar text">X</p></div>
-        <div class="card_Tutorial-container">
-           
-            <div class="img_container"><img class="img_card" src="./assets/imgs/atendimento.svg" alt=""></div>
-            <div class="card_text-container">
-                <h2 class="card_title text">O Atendimento</h2>
-                <p class="card_text text">Acesse  <span class="card_text-blue text">"Novas"</span> para aceitar novos chats, <span class="card_text-blue text">"Arquivo"</span> para ver mensagens antigas e reabrir chamados e  <span class="card_text-blue text"> "Finalizados" </span>para ver chats terminados no dia atual.</p>
-                
-            </div>
-            <div class="card_buttons-container">
-                <button onclick="location.reload()" class="card_buttons-fechar text">Fechar</button>
-                <button onclick="openList('tutorialButtonAtendimentoId'), openList('tutorialAtendimentoId') " class="card_buttons text">Proximo</button>
-            </div>
+    <div class="card_info_container">
+        <div class="card_info_icons" >
+             <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+             <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+             <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+             <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+        </div>
+     
+        <form class="card_info-form" action="">
+            <input class="card_info-input" type="text">
+        </form>
+     
+    </div>
+</div>
+<div class="card_info">
+    <div class="card_info_container">
+        <div class="card_info-img-messagesBallon-container">
+            <img class="card_info-img-messagesBallon" src="assets/imgs/ballonMessages.svg" alt="">
+        </div>
+        <div class="card_info-text">
+            <h4 class="card_info_name text">Pós-Venda com Ashley B</h4>
+            <p class="card_info-data text">6 Nov. 2021  14:35PM</p>
         </div>
     </div>
-    <div id="tutorialButtonAtendimentoId"  class="card_Tutorial hidden">
-        <div onclick="location.reload()" class="x_fechar-container "><p class="x_fechar text">X</p></div>
-        <div class="card_Tutorial-container">
-           
-            <div class="img_container"><img class="img_card" src="./assets/imgs/botaoAtendimento.svg" alt=""></div>
-            <div class="card_text-container">
-                <h2 class="card_title text">Botões de Atendimento</h2>
-                <p class="card_text text">Realize o Atendimento com o<span class="card_text-blue text"> auxílio dos botões:</span> "Criar Lead CRM", "Criar Pós-Venda", Add Mídia, Add Atendente, Transferir Chat e mais!</p>
-                
-            </div>
-            <div class="card_buttons-container">
-                <button onclick="location.reload()" class="card_buttons-fechar text">Fechar</button>
-                <button onclick="openList('tutorialCrmId'), openList('tutorialButtonAtendimentoId') " class="card_buttons text">Proximo</button>
-            </div>
+    <div class="card_info_container">
+        <div class="card_info_icons" >
+             <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+             <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+             <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+             <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+        </div>
+                     
+        <form class="card_info-form" action="">
+            <input class="card_info-input" type="text">
+        </form>
+        
+
+    </div>
+</div>
+</div>
+</div>
+    
+         
+<div id="perfilPosVenda" class="chat_card_filtro-container hidden">
+
+
+<div class="informações_iniciais-container">
+<h3 class="title_informações text">Informações Iniciais</h3>
+<div class="card_info">
+    <div class="card_info_container">
+      <svg class="card_info-img" width="48"  height="48" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+        </svg>
+        <div class="card_info-text">
+            <h4 class="card_info_name text">Produtos</h4>
+            <p class="card_info-data text">31 Out 2021  14:29PM</p>
         </div>
     </div>
-    <div id="tutorialCrmId"  class="card_Tutorial hidden">
-        <div onclick="location.reload()" class="x_fechar-container "><p class="x_fechar text">X</p></div>
-        <div class="card_Tutorial-container">
-           
-            <div class="img_container"><img class="img_card" src="./assets/imgs/crm.svg" alt=""></div>
-            <div class="card_text-container">
-                <h2 class="card_title text">CRM</h2>
-                <p class="card_text text">CRM Padrão para a visualização geral dos Leads, Vendas e Pós-Vendas. Basta mover os quadrinhos de setor em setor para formalizar a Venda e Pós, ou o retorno ao estado de Lead.</p>
-                <span class="card_text-blue text">Filte por Atendimentos em que participou rapidamente em "Filtrar Por"</span> 
-                
-            </div>
-            <div class="card_buttons-container">
-                <button onclick="location.reload()" class="card_buttons-fechar text">Fechar</button>
-                <button onclick="openList('tutorialPersonalizaçãoId'), openList('tutorialCrmId') "  class="card_buttons text">Proximo</button>
-            </div>
+    <div class="card_info_container">
+        <div class="card_info_icons" >
+             <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+             <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+             <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+        </div>
+         
+        <form class="card_info-pos-vendas" action="">
+            <input class="cadastro_pos_vendas-input-1" placeholder="Nome" type="text">
+            <input class="cadastro_pos_vendas-input-1" placeholder="Valor" type="text">
+            <input class="cadastro_pos_vendas-input-2" placeholder="Link do Produto" type="text">
+        </form>
+
+
+    </div>
+</div>
+<div class="card_info">
+    <div class="card_info_container">
+      <svg class="card_info-img" width="48"  height="48" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+        </svg>
+        <div class="card_info-text">
+            <h4 class="card_info_name text">Feedback do Cliente</h4>
+            <p class="card_info-data text">31 Out 2021  14:30PM</p>
         </div>
     </div>
-    <div id="tutorialPersonalizaçãoId" class="card_Tutorial hidden">
-        <div onclick="location.reload()" class="x_fechar-container "><p class="x_fechar text">X</p></div>
-        <div class="card_Tutorial-container">
-           
-            <div class="img_container"><img class="img_card" src="./assets/imgs/personalizacao.svg" alt=""></div>
-            <div class="card_text-container">
-                <h2 class="card_title text">Personalização</h2>
-                <p class="card_text text">Adicione sua foto de perfil, escreva lembretes e mude  as cores do Everest para as da sua Empresa.</p>
-                
-                
-            </div>
-            <div class="card_buttons-container">
-                <button onclick="location.reload()" class="card_buttons-fechar text">Fechar</button>
-                <button onclick="openList('tutorialCalendarioId'), openList('tutorialPersonalizaçãoId') "  class="card_buttons text">Proximo</button>
-            </div>
+    <div class="card_info_container">
+        <div class="card_info_icons" >
+             <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+             <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+             <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+             <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+        </div>
+    
+        <form class="card_info-form" action="">
+            <input class="card_info-input" type="text">
+        </form>
+     
+    </div>
+</div>
+<div class="card_info">
+    <div class="card_info_container">
+      <svg class="card_info-img" width="48"  height="48" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+        </svg>
+        <div class="card_info-text">
+            <h4 class="card_info_name text">Reclamações</h4>
+            <p class="card_info-data text">31 Out 2021  14:35PM</p>
         </div>
     </div>
-    <div id="tutorialCalendarioId"  class="card_Tutorial hidden">
-        <div onclick="location.reload()" class="x_fechar-container "><p class="x_fechar text">X</p></div>
-        <div class="card_Tutorial-container">
-           
-            <div class="img_container"><img class="img_card" src="./assets/imgs/calendario.svg" alt=""></div>
-            <div class="card_text-container">
-                <h2 class="card_title text">Calendário</h2>
-                <p class="card_text text">Agende rapidamente reuniões, eventos e lembretes pessoais e gerais dentro do Everest!</p>
-                
-                
-            </div>
-            <div class="card_buttons-container">
-                <button onclick="location.reload()" class="card_buttons-fechar text">Fechar</button>
-                <button onclick="openList('tutorialConfigEverestId'), openList('tutorialCalendarioId') " class="card_buttons text">Proximo</button>
-            </div>
+    <div class="card_info_container">
+        <div class="card_info_icons" >
+             <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+             <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+             <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
+             <svg class="card_info_icons-img"  width="14"  height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" fill="var(--svg)"/>
+            </svg>
         </div>
-    </div>
-    <div id="tutorialConfigEverestId"  class="card_Tutorial hidden">
-        <div onclick="location.reload()" class="x_fechar-container "><p class="x_fechar text">X</p></div>
-        <div class="card_Tutorial-container">
-           
-            <div class="img_container"><img class="img_card" src="./assets/imgs/config.svg" alt=""></div>
-            <div class="card_text-container">
-                <h2 class="card_title text">Configurações Everest </h2>
-                <p class="card_text text">Configure as Permissão Gerais e dos Colaboradores no Sistema, Cadastre Usuários, Integre suas Redes Sociais fazendo o Login - ou excluindo ele -  e vá para Pagamentos realizar suas compras.</p>
-                
-                
-            </div>
-            <div class="card_buttons-container">
-                <button onclick="location.reload()" class="card_buttons-fechar text">Fechar</button>
-                <button onclick=" openList('tutorialPagamentosId'),openList('tutorialConfigEverestId')" class="card_buttons text">Proximo</button>
-            </div>
-        </div>
-    </div>
-    <div id="tutorialPagamentosId"  class="card_Tutorial hidden">
-        <div onclick="location.reload()" class="x_fechar-container "><p class="x_fechar text">X</p></div>
-        <div class="card_Tutorial-container">
-           
-            <div class="img_container"><img class="img_card" src="./assets/imgs/pagamento.svg" alt=""></div>
-            <div class="card_text-container">
-                <h2 class="card_title text">Pagamentos</h2>
-                <p class="card_text text">Selecione a quantidade de usuários e contas em redes sociais que deseja cadastrar no seu Everest e realize o pagamento. Depois, cadastre-os oficialmente na tela <br><span class="card_text-blue text"> Configurações Everest > Cadastro de Usuário</span></p>
-            </div>
-            <div class="card_buttons-container">
-                <button onclick="location.reload()" class="card_buttons-fechar text">Fechar</button>
-                <button onclick=" openList('tutorialMinhasComprasId'),openList('tutorialPagamentosId')" class="card_buttons text">Proximo</button>
-            </div>
-        </div>
-    </div>
-    <div id="tutorialMinhasComprasId" class="card_Tutorial hidden">
-        <div onclick="location.reload()" class="x_fechar-container "><p class="x_fechar text">X</p></div>
-        <div class="card_Tutorial-container">
-           
-            <div class="img_container"><img class="img_card" src="./assets/imgs/minhasCompras.svg" alt=""></div>
-            <div class="card_text-container">
-                <h2 class="card_title text">Minhas Compras</h2>
-                <p class="card_text text">Veja todas as compras realizadas por você no Everest, ativas e canceladas.<span class="card_text-blue text">  Edite informações sobre quantidade e método de pagamento</span> também.</p>
-            </div>
-            <div class="card_buttons-container">
-                <button onclick="location.reload()" class="card_buttons-fechar text">Fechar</button>
-                <button onclick=" openList('tutorialLastCardId'),openList('tutorialMinhasComprasId')" class="card_buttons text">Proximo</button>
-            </div>
-        </div>
-    </div>
-    <div id="tutorialLastCardId"  class="card_Tutorial hidden">
-        <div onclick="location.reload()" class="x_fechar-container "><p class="x_fechar text">X</p></div>
-        <div class="card_Tutorial-container">
-            <div class="card_text-container1">
-                <h2 class="card_title text">Como envio o acesso ás 
-                    contas de usuário aos meus 
-                    colaboradores?</h2>
-                <p class="card_text text">Ao cadastrar o usuário<span class="card_text-blue text">  digite um e-mail</span>  válido<span class="card_text-blue text">  e gere uma senha </span>para seu colaborador. Ele irá utilizá-lo para o login: e-mail cadastrado + senha. </p>
-                <p class="card_text text">E não se preocupe! Estas informações serão enviadas automaticamente para o seu e-mail - e o dele também</p>
-            </div>
-            <div class="card_buttons-container">
-                <button onclick="location.reload()" class="card_buttons-fechar text">Fechar</button>
-                <button onclick="location.reload()" class="card_buttons text">Finalizar</button>
-            </div>
-        </div>
-    </div>
-   </main>
+     
+        <form class="card_info-form" action="">
+            <input class="card_info-input" type="text">
+        </form>
+
+
+     </div>
+</div>  
+</div>
+</div>

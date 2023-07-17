@@ -150,13 +150,22 @@
         justify-content: space-evenly;
         margin-bottom: 5%;
         width: 90vw;
-        margin-left: 5vw
+        margin-left: 5vw;
+       
+        height: 75vh;
+        margin-top: 10%;
     }
     
     .div_configs-container {
         width: 100%;
         overflow-y: scroll;
-        min-height: 108vh;
+        max-height: 65vh;
+        
         z-index: 0;
+    }
+    .configEverest_title {
+        font-size: var(--tamanho-font);
+        font-weight: bold;
+        margin-top: 32%;
     }
 }

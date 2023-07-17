@@ -18,6 +18,7 @@
 .filtro_everest_chat-search {
     width: 100%;
     padding-bottom: 3rem;
+    margin-top: 20%;
 
 }
 
@@ -166,6 +167,15 @@
 .chat_card_filtro-container {
     width: 100%;
     height: 36vh;
+    max-height: 32vh;
+    overflow-y: scroll;
+    padding: 0rem 0.8rem;
+    margin-top: 0.5rem
+}
+
+.chat_card_filtro-container-filtarPor {
+    width: 100%;
+    height: 36vh;
     max-height: 36vh;
     overflow-y: scroll;
     padding: 0rem 0.8rem;
@@ -249,4 +259,80 @@
     background-color: var(--span-color);
     padding: 0.2rem;
     border-radius: 0.5rem;
+}
+
+@media (min-width: 250px)  and  (max-width: 500px){
+    .filtro_everest_chat-container {
+        width: 95%;
+        height: 50vh;
+        background-color: var(--container-color);
+        border-radius: 2rem 0rem 0rem 0rem;
+        border: var(--border-box-shadow-container);
+        margin-left: 2.5%;
+        margin-top: 8%;
+        
+    }
+    
+    
+    
+.filtro_everest_chat-arquivos-buttons-container {
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 6;
+    position: absolute;
+    width: 95%;
+}
+
+.filtro_everest_chat-arquivos-buttons {
+    border: none;
+    background-color: var(--container-tutorial);
+    border-radius: 0.5rem;
+    padding: 0.3rem 1rem;
+    width: 32%;
+    color: var(--svg);
+    font-size: 1rem;
+    font-weight: 500;
+    box-shadow: var(--border-box-shadow-container);
+}
+
+.chat_card_filtro-container {
+    width: 95%;
+    height: 18vh;
+    max-height: 18vh;
+    cursor: pointer;
+    padding: 0rem 0.8rem;
+    margin-top: 0.5rem;
+  
+   
+}
+.chat_card_filtro-container-filtarPor {
+    width: 100%;
+    height: 15vh;
+    max-height: 15vh;
+    overflow-y: scroll;
+    padding: 0rem 0.8rem;
+    margin-top: 0.5rem;
+
+}
+.filtro_aberto-buttons-container-fora{
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    margin-top: -13rem;
+    width: 90%;
+    margin-left: -8%;
+    background-color: var(--container-light);
+    padding-top: 0.2rem;
+}
+
+
+.aberto-buttons-fora {
+    width: 48%;
+}
+
+.aberto-buttons{
+    width: 49%;
+    margin-bottom: 2rem;
+    font-size: 0.8rem;
+}
 }
