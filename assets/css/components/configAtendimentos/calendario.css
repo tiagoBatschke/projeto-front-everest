@@ -593,9 +593,7 @@ select {
     overflow-y: scroll;
 }
 
-.hidden_mobile{
-    display: none;
-}
+
 
 .calendario_card-content-container{
     margin-top: 0.5rem;

@@ -360,7 +360,7 @@
         padding: 0rem;
         margin-left: 2.5%;
         margin-top: 5%;
-        display: none;
+        
     }
     
 .img_profile_chat {
@@ -371,7 +371,7 @@
 }
 .opened_chat_name-container {
     display: flex;
-    margin-top: 0.5rem;
+    margin-top: 30%;
     border-bottom: var(--border-container-color);
     padding-bottom: 1rem;
     width: 90%;
@@ -393,7 +393,7 @@
 }
 .chat_container {
     overflow-y: scroll;
-    max-height: 48vh;
+    max-height: 36vh;
     margin-bottom: 8%;
 }
 .card_confirmation-menuAtend {

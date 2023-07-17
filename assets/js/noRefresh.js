@@ -119,6 +119,10 @@ inputUsado = document.getElementsByClassName(inputClass)
 }
 
 
+function openListMobile(id) {
+  document.getElementById(id).classList.toggle("hidden_mobile");
+}
+
 
 
 uncheck('config_colab-form-input')

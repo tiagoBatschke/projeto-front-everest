@@ -234,19 +234,22 @@ input::placeholder {
         display: flex;
         align-items: center;
         justify-content: space-evenly;
+        width: 100%;
     }
     .container_nav_mobile{
-        display: inline;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
         background-color: var(--container-light);
         z-index: 5;
         position: fixed;
         margin-top: 75vh;
-        margin-left: 10vw;
-        width: 80vw;
+        margin-left: 16vw;
+        width: 70vw;
         border: var(--border-box-shadow-container);
         box-shadow: var(--box-shadow-container);
         border-radius: 0.5rem;
-      
+        height: 3rem;
         
     }
 
@@ -295,5 +298,12 @@ input::placeholder {
         border: none;
         
     }
+
+    .nav_icon_imgs-mobile-bar:hover{
+        cursor: pointer;
+    }
+
+    
+
 }
 

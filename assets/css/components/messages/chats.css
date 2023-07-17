@@ -160,7 +160,7 @@
 @media (min-width: 250px)  and  (max-width: 500px){
     .chats_container_notifications {
         width: 87%;
-        display: none;
+ 
     }
     .chats_cards_notifications-text {
         margin-left: 1rem;
@@ -220,5 +220,13 @@
         width: 90%;
         padding: 1rem;
         margin-top: 2%;
+    }
+
+    .chat_card_conversas:hover {
+      cursor: pointer;
+    }
+
+    .chats_cards_notifications:hover {
+        cursor: pointer;
     }
 }   
