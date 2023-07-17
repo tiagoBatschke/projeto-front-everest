@@ -206,8 +206,8 @@
     position: static;
     align-items: start;
     position: absolute;
-   margin-top: -9.5rem;
-   margin-left: 1.7rem;
+   margin-top: -11rem;
+   margin-left: 1rem;
 }
 
 .text_button-aberto{
@@ -316,6 +316,7 @@
 
 .socialChart_ul{
     overflow-y: scroll;
+    max-height: 50vh;
 }
 
 .social_titles_separation_graficos {

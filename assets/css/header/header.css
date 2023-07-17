@@ -217,6 +217,10 @@ input::placeholder {
     display: none;   
 }
 
+.voltar_page-container{
+    display: none;
+}
+
 @media (min-width: 250px)  and  (max-width: 500px){
     .header_home{
         display: none;

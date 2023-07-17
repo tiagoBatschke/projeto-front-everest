@@ -76,7 +76,7 @@
 
 .listaPagameto_item1 {
     color: var(--subtittle-color);
-    width: 100%;
+    width: 110%;
    
 }
 
@@ -84,9 +84,15 @@
 
     width: 2.5rem;
 }
-
-.tipoPagamento_select-everestPay {
-   background-color: var(--subtittle-color);
+.tipoPagamento_select-everestPay{
+    width: 110%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem 0.5rem 0 0;
+    padding: 0.5rem;
+    background-color: var(--container-lateral-bar);
+    border: none;
+    cursor: pointer;
 }
 
 .tipoPagamento_select-text {
@@ -144,7 +150,7 @@
 }
 
 .listaPagameto_container2 {
-    width: 27.8%;
+    width: 26.5%;
     margin-top: 20.2rem;
     margin-bottom: 1rem;
     border-radius: 0.5rem 0 0.5rem 0.5rem;
