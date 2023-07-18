@@ -165,14 +165,14 @@
     .div_configs-container {
         width: 100%;
         overflow-y: scroll;
-        max-height: 58vh;
-   
+        max-height: 65vh;
+        background-color: aqua;
         z-index: 0;
     }
     .div_configs-container2 {
         width: 100%;
         overflow-y: scroll;
-        max-height: 65vh;
+        max-height: 69vh;
         z-index: 0;
     }
     
