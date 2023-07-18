@@ -55,7 +55,7 @@
     padding: 2%;
     margin-bottom: 1rem;
     margin-top: 1rem;
-    background-image: linear-gradient(to right,  rgb(230, 230, 230),rgb(230, 230, 230), var(--container-color), var(--span-color));
+    background-image: linear-gradient(to right,  rgb(230, 230, 230),rgb(230, 230, 230), var(--span-color), var(--span-color));
 }
 .dashBoardCard_icons-container {
     display: flex;

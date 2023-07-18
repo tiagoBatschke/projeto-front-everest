@@ -118,6 +118,13 @@
     z-index: 0;
 }
 
+.div_configs-containe2 {
+    width: 60%;
+    overflow-y: scroll;
+    max-height: 95vh;
+    z-index: 0;
+}
+
 .configEverest_container-mobile{
    display: none;
 }
@@ -160,9 +167,17 @@
         width: 100%;
         overflow-y: scroll;
         max-height: 65vh;
+        background-color: aqua;
+        z-index: 0;
+    }
+    .div_configs-container2 {
+        width: 100%;
+        overflow-y: scroll;
+        max-height: 73vh;
         
         z-index: 0;
     }
+    
     .configEverest_title {
         font-size: var(--tamanho-font);
         font-weight: bold;

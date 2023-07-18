@@ -429,4 +429,14 @@
     width: 86%;
 
 }
+
+.card_confirmation-chat-buttons-container{
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 0%;
+    height: 2rem;
+    
+}
 }

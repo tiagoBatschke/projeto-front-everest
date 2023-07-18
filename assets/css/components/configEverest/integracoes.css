@@ -139,12 +139,12 @@
 }
 .integraçoes_configs {
     font-family: (Poppins);
-    margin-top: 10%;
+    margin-top: 20%;
     display: flex;
     flex-wrap: wrap;
     margin-left: 10%;
     width: 90%;
-    max-height: 85vh;
+    max-height: 90vh;
     overflow-y: scroll;
 }
 .text_integrações_container {

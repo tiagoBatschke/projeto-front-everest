@@ -168,7 +168,7 @@
     margin-top: -1rem;
     margin-bottom: 1rem;
     border-radius: 0.5rem 0 0.5rem 0.5rem;
-    background-color: var(--container-light);
+    background-color: transparent;
     border: none;
     cursor: pointer;
     position: fixed;

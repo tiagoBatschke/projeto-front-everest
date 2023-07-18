@@ -259,6 +259,13 @@
    width: 33.5%;
 }
 
+.listaPagamento2{
+   background-color: var(--body-color);
+   border-radius: 0 0 0.5rem 0.5rem;
+   padding: 0.5rem;
+   width: 33.5%;
+}
+
 
 .select_page-item{
    box-shadow: var(--box-shadow-container);
@@ -282,6 +289,13 @@
    padding: 0.5rem;
    width: 139%;
    
+}
+
+.listaPagamento2{
+   background-color: var(--body-color);
+   border-radius: 0 0 0.5rem 0.5rem;
+   padding: 0.5rem;
+   width: 139%;
 }
 .minhasCompras_everest-container {
    display: flex;
