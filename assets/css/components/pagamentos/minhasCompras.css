@@ -234,6 +234,11 @@
 }
 
 
+.pagamento_fora{
+   width: 30%;
+   
+}
+
 .listaPagameto_item {
    color: var(--subtittle-color);
 }
@@ -267,7 +272,10 @@
       background-color: var(--container-lateral-bar);
       width: 60vw;
    }
-   
+   .pagamento_fora{
+      width: 60vw;
+      
+   }
 .listaPagamento {
    background-color: var(--container-light);
    border-radius: 0 0 0.5rem 0.5rem;

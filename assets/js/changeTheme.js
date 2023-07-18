@@ -9,28 +9,41 @@ function toggleClass() {
   var ContainDark = page.classList.contains("dark_mode");
 
   if (ContainDark == true) {
-    DarkMode();
-    page.classList.remove("dark_mode");
+    light_theme()
+    DarkMode()
     document.getElementById("button_img").innerHTML =
       "<img src='./assets/imgs/Vector moon.png' class='img_icon_header'>";
     localStorage.setItem("mode", "light");
-  } else {
-    DarkMode();
+    console.log('tema claro')
+  } else if (ContainDark == false) {
+    DarkMode()
+    light_theme()
     document.getElementById("button_img").innerHTML =
       "<img src='./assets/imgs/sun_theme.svg' class='img_icon_header'>";
-    page.classList.add("dark_mode");
     localStorage.setItem("mode", "dark");
+  
+    console.log('tema escuro')
   }
 }
 
-function mantemMode() {
-  if (localStorage.getItem("mode") == "dark") {
-    toggleClass();
-  }
+ function  mantemMode(){
+    if (localStorage.getItem("mode") == "dark") {
+      DarkMode()
+   }else{
+    light_theme()
+  } 
+
 }
 
-function DarkMode() {
+
+  function DarkMode() {
   document.getElementById("page").classList.toggle("dark_mode");
+
 }
 
-mantemMode();
+function light_theme() {
+  document.getElementById("page").classList.toggle("light_theme");
+
+}
+
+mantemMode()
