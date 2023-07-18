@@ -341,7 +341,7 @@
     background-color: var(--container-light);
     margin-top: 1rem;
     position: fixed;
-    width: 100%;
+    width: 98%;
     margin-left: -1%;
     padding: 3rem 1rem;
 }
