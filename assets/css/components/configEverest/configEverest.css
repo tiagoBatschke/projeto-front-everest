@@ -165,7 +165,7 @@
     .div_configs-container {
         width: 100%;
         overflow-y: scroll;
-        max-height: 60vh;
+        max-height: 58vh;
   
         z-index: 0;
     }
