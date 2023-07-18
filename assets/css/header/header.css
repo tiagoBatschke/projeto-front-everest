@@ -247,7 +247,7 @@ input::placeholder {
         background-color: var(--container-light);
         z-index: 5;
         position: fixed;
-        margin-top: 80vh;
+        margin-top: 78vh;
         margin-left: 16vw;
         width: 70vw;
         border: var(--border-box-shadow-container);
