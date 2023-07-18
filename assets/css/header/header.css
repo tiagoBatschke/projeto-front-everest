@@ -249,7 +249,7 @@ input::placeholder {
         position: fixed;
         margin-top: 70vh;
         margin-left: 16vw;
-        width: 73vw;
+        width: 75vw;
         border: var(--border-box-shadow-container);
         box-shadow: var(--box-shadow-container);
         border-radius: 0.5rem;
