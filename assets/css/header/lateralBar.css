@@ -195,7 +195,7 @@ li {
         background-color: var(--svg);
         width: 20%;
         position: fixed;
-        margin-top: 30vh;
+        margin-top: 32vh;
         z-index: 8;
         margin-left: 16vw;
         border-radius: 0.5rem;
