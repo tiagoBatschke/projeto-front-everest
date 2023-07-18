@@ -158,7 +158,7 @@
         margin-bottom: 5%;
         width: 90vw;
         margin-left: 5vw;
-        height: 73vh;
+        height: 69vh;
         margin-top: 5%;
     }
     
@@ -173,7 +173,6 @@
         width: 100%;
         overflow-y: scroll;
         max-height: 69vh;
-        
         z-index: 0;
     }
     
