@@ -134,18 +134,19 @@
     .charts_paralelos {
         display: flex;
         margin-top: 2%;
-        width: 100vw;
-        margin-left: 10vw;
+        width: 90vw;
+        margin-left: 5vw;
         height: 16rem;
         margin-bottom: 1rem;
         background-color: var(--container-light);
         display: flex;
         flex-direction: column;
         margin-top: 5%;
+       
     }
     
     .socialChart {
-        width: 72vw;
+        width: 80vw;
         border-radius: 0.5rem;
         border: var(--border-box-shadow-container);
         box-shadow: var(--box-shadow-container);
