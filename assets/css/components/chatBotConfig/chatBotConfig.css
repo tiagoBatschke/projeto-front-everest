@@ -361,9 +361,9 @@
   
 .container_nav_configBot{
     display: flex;
-    width: 88% ;
+    width: 100% ;
     align-items: center;
-    margin-left: 5%;
+    margin-left: 0%;
     background-color: var(--container-light);
     justify-content:start;
     box-shadow: var(--box-shadow-container);
@@ -400,9 +400,9 @@
 
 .container_configBot-body{
    display: flex;
-   width: 80%;
+   width: 100%;
    align-items: center;
-   margin-left: 10%;
+   margin-left: 0%;
    background-color: var(--container-light);
    justify-content: space-evenly;
    border-radius:  0 0 0.5rem 0.5rem ;
@@ -428,7 +428,7 @@
 .config_chatBot-content{
     overflow-y: scroll;
     max-height: 90vh;
-    width: 100vw;
+    width: 95vw;
     
 }
 .container_dias-bot{
@@ -602,10 +602,10 @@
 
 .title_crm-container {
     display: flex;
-    margin-left: 5%;
+    margin-left: 2.5%;
     margin-top: 10%;
     color: var(--tittle-color);
-    width: 100%;
+    width: 94%;
     flex-wrap: nowrap;
 }
 .container_icons-bot{
@@ -630,5 +630,18 @@
 }
 .icons_mobile{
     display: flex;
+}
+.container_configBot-top{
+    display: flex;
+    width: 100% ;
+    align-items: center;
+    margin-left: 0%;
+    background-color: var(--container-light);
+    justify-content: space-evenly;
+    border-radius: 0.5rem 0.5rem  0 0;
+    border: var(--border-box-shadow-container);
+    margin-top: 1.3rem;
+    padding: 0.5rem;
+    flex-wrap: wrap;
 }
 }
