@@ -55,8 +55,8 @@
    .main_message{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    margin-left: 0%;
+    width: 90vw;
+    margin-left: 5vw;
     margin-top: 10%;
     border-radius: 0.5rem;
     box-shadow: var(--box-shadow-container);
