@@ -143,13 +143,13 @@
         width: 100vw;
         padding: 2%;
         margin-left: 0vw;
-        margin-top: -37%;
+        margin-top: -36%;
     }
     .minhaEqipe_container {
         border-radius: 0.5rem;
         box-shadow: var(--box-shadow-container);
         border: var(--border-box-shadow-container);
-        width:80vw;
+        width:90vw;
         margin-left: 10vw;
     }
     .card_colaborators_container {
