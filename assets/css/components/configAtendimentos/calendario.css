@@ -585,11 +585,11 @@ select {
     box-shadow: var(--box-shadow-container);
     border-radius: 0.5rem;
     border: var(--border-box-shadow-container);
-    width: 90%;
+    width: 105%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 0.5rem;
+    margin-left: -5%;
     overflow-y: scroll;
 }
 
@@ -603,11 +603,11 @@ select {
     box-shadow: var(--box-shadow-container);
     border-radius: 0.5rem;
     border: var(--border-box-shadow-container);
-    width: 80%;
+    width: 105%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: -2%;
+    margin-left: -5%;
     overflow-y: scroll;
     padding: 1rem;
 }
