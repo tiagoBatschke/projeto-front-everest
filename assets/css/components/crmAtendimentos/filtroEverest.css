@@ -298,12 +298,12 @@
 
 .chat_card_filtro-container {
     width: 95%;
-    height: 22vh;
-    max-height: 22vh;
+    height: 25vh;
+    max-height: 25vh;
     cursor: pointer;
     padding: 0rem 0.8rem;
     margin-top: 0.5rem;
-  
+    background-color: aqua;
    
 }
 .chat_card_filtro-container-filtarPor {
