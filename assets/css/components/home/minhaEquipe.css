@@ -140,10 +140,10 @@
 
 @media (min-width: 250px)  and  (max-width: 500px){
     .minhaEquipe_metrics_container {
-        width: 90vw;
+        width: 100vw;
         padding: 2%;
         margin-left: 0vw;
-       margin-top: -35%;
+       margin-top: -60%;
     }
     .minhaEqipe_container {
         border-radius: 0.5rem;
