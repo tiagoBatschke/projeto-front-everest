@@ -150,7 +150,7 @@
         box-shadow: var(--box-shadow-container);
         border: var(--border-box-shadow-container);
         width:90vw;
-        margin-left: 10vw;
+        margin-left: 5vw;
     }
     .card_colaborators_container {
         display: flex;
