@@ -429,7 +429,7 @@
     overflow-y: scroll;
     max-height: 90vh;
     width: 95vw;
-    
+    overflow-x: hidden;
 }
 .container_dias-bot{
     width: 100%;
