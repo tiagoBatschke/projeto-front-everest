@@ -149,7 +149,7 @@
         border-radius: 0.5rem;
         box-shadow: var(--box-shadow-container);
         border: var(--border-box-shadow-container);
-        width:90vw;
+        width:80vw;
         margin-left: 5vw;
     }
     .card_colaborators_container {
