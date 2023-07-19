@@ -326,4 +326,9 @@
    min-height: 270vh;
 
 }
+
+.listaPagameto_item {
+   color: var(--subtittle-color);
+}
+
 }
