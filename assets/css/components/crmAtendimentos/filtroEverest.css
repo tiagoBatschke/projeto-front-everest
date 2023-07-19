@@ -313,7 +313,7 @@
     overflow-y: scroll;
     padding: 0rem 0.8rem;
     margin-top: 0.5rem;
-
+    background-color: aqua;
 }
 .filtro_aberto-buttons-container-fora{
     display: flex;
