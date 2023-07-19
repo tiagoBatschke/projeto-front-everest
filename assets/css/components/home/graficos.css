@@ -134,8 +134,8 @@
     .charts_paralelos {
         display: flex;
         margin-top: 2%;
-        width: 80vw;
-        margin-left: -1%;
+        width: 90vw;
+        margin-left: 5vw;
         height: 16rem;
         margin-bottom: 1rem;
         background-color: var(--container-light);
@@ -162,11 +162,11 @@
     }
     
     .columnchart_container {
-        width: 85vw;
-        margin-left: 15%;
+        width: 90vw;
+        margin-left: 5vw;
         height: 20vh;
         overflow-x: scroll;
-        margin-left: -3%;
+    
     }
     
     
@@ -209,8 +209,9 @@
         display: flex;
         flex-wrap: nowrap;
         justify-content: space-evenly;
-        width: 82vw;
+        width: 90vw;
         margin-top: 98%;
+        margin-left: 5vw;
         
     }
     .metrics_title{

@@ -140,16 +140,17 @@
 
 @media (min-width: 250px)  and  (max-width: 500px){
     .minhaEquipe_metrics_container {
-        width: 80vw;
+        width: 90vw;
         padding: 2%;
-        margin-left: -1%;
+        margin-left: 0vw;
        margin-top: -35%;
     }
     .minhaEqipe_container {
         border-radius: 0.5rem;
         box-shadow: var(--box-shadow-container);
         border: var(--border-box-shadow-container);
-        width: 98%;
+        width:90vw;
+        margin-left: 5vw;
     }
     .card_colaborators_container {
         display: flex;
