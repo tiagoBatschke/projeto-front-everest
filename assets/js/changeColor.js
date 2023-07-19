@@ -53,10 +53,13 @@ function mantem(){
     var colorPrincipal = localStorage.getItem("colorPrincipal")
     var colorSecundaria =  localStorage.getItem("colorSecundaria");
     var tamanhoAtual = localStorage.getItem("tamanhoFont");
+    const barraCor = document.getElementById('barra_cor')
+    const barraCorSubtom = document.getElementById('barra_cor-subtom')
     if(localStorage.getItem("mudouCorPrincipal") === 'mudou'){
        changeColorPrincipal(colorPrincipal)
        changeColorSecundaria(colorSecundaria)
-       
+       barraCor.value = colorPrincipal
+       barraCorSubtom.value = colorSecundaria
     }
     if (localStorage.getItem("Font") === 'mudou') {
         document.documentElement.style.setProperty("--tamanho-font", tamanhoAtual)
@@ -91,6 +94,8 @@ function resetColor(){
 function executaChange() {
     const hex1 = document.getElementById('hex1')
     const hex2 = document.getElementById('hex2')
+    const barraCor = document.getElementById('barra_cor')
+    const barraCorSubtom = document.getElementById('barra_cor-subtom')
     hex1.addEventListener('keyup', function(e) {
         const template1 = new RegExp(/^[^a-z].{3,6}/g).test(`${hex1.value}`)
         var key = e.which|| e.keyCode        
@@ -112,6 +117,18 @@ function executaChange() {
                resetColor()
             }
         }
+    })
+    barraCor.addEventListener('change', ()=>{
+        if(  localStorage.getItem("mode") !== 'dark'){
+            changeColorPrincipal(barraCor.value)
+        }
+        
+    })
+    barraCorSubtom.addEventListener('change', ()=>{
+        if( localStorage.getItem("mode") !== 'dark'){
+            changeColorSecundaria(barraCorSubtom.value)
+        }
+        
     })
 }
 

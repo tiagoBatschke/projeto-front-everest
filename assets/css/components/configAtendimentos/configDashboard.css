@@ -10,6 +10,27 @@
     max-height: 34vh;
 }
 
+.barra_cores{
+    width: 90%;
+    border: none;
+    background-color: transparent;
+    height: 20px;
+    padding: none;
+
+}
+
+.barra_cores-subtom{
+    width: 20px;
+    border: none;
+    background-color: transparent;
+    height: 20px;
+    padding: none;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    
+    
+}
+
 
 .dashBoardCard_text-container {
     margin-left: 1.3rem;
