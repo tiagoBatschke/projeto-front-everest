@@ -248,8 +248,8 @@ input::placeholder {
         z-index: 5;
         position: fixed;
         margin-top: 70vh;
-        margin-left: 12.5vw;
-        width: 75vw;
+        margin-left: 12vw;
+        width: 76vw;
         border: var(--border-box-shadow-container);
         box-shadow: var(--box-shadow-container);
         border-radius: 0.5rem;
