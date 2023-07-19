@@ -146,7 +146,7 @@
     }
     
     .socialChart {
-        width: 85vw;
+        width: 83vw;
         border-radius: 0.5rem;
         border: var(--border-box-shadow-container);
         box-shadow: var(--box-shadow-container);
@@ -193,7 +193,7 @@
         border: var(--border-box-shadow-container);
         box-shadow: var(--box-shadow-container);
         background-color: var(--container-light);
-        width: 72vw;
+        width: 83vw;
         padding: 1rem;
         margin-top: 1rem;
     }
