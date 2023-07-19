@@ -430,6 +430,7 @@
     max-height: 90vh;
     width: 95vw;
     overflow-x: hidden;
+    margin-left: 2.5vw;
 }
 .container_dias-bot{
     width: 100%;
