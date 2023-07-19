@@ -361,7 +361,7 @@
   
 .container_nav_configBot{
     display: flex;
-    width: 100% ;
+    width: 92% ;
     align-items: center;
     margin-left: 0%;
     background-color: var(--container-light);
@@ -400,7 +400,7 @@
 
 .container_configBot-body{
    display: flex;
-   width: 100%;
+   width: 92%;
    align-items: center;
    margin-left: 0%;
    background-color: var(--container-light);
@@ -633,7 +633,7 @@
 }
 .container_configBot-top{
     display: flex;
-    width: 100% ;
+    width: 92% ;
     align-items: center;
     margin-left: 0%;
     background-color: var(--container-light);
