@@ -183,10 +183,12 @@
 
     .main_content_container {
         display: flex;
-        margin-left: 2rem;
+        margin-left: 0rem;
         flex-wrap: wrap;
         padding:  0rem 0rem;
+        width: 100vw;
         height: 230vh;
+        background-color: aqua;
     }
 
   
