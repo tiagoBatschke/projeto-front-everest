@@ -359,7 +359,7 @@
         </div>
     <main  id="main" class="hidden_mobile-crm">
    
-    <div class="title_crm-container">
+    <div  class="title_crm-container">
         <h1  class="title_crm text">Crm Atendimentos</h1>
         <span class="icons_title_crm"><img class="img_titleCrm-mobile" src="./assets/imgs/img_crm_heardr-heart.svg" alt=""></span>
         <span class="icons_title_crm  border_icon-crm"><img class="img_titleCrm-mobile" src="./assets/imgs/img_crm-header.svg" alt="">
@@ -1405,17 +1405,20 @@
     
    </main>
    <div id="main_mobile" class="main_mobile">
-    <div class="title_crm-container">
-        <h1  class="title_crm text">Crm Atendimentos</h1>
-        <span class="icons_title_crm"><img class="img_titleCrm-mobile" src="./assets/imgs/img_crm_heardr-heart.svg" alt=""></span>
-        <span class="icons_title_crm  border_icon-crm"><img class="img_titleCrm-mobile" src="./assets/imgs/img_crm-header.svg" alt="">
-            <p class="icons_title_crm-text text_color text">28/10</p>
-        </span>
-        <span class="icons_title_crm"><img class="img_titleCrm-mobile" src="./assets/imgs/circle_green.svg" alt="">
-            <p class="icons_title_crm-text text">Status</p>
-        </span>
-        
+    <div id="status_crm" >
+        <div  class="title_crm-container">
+            <h1  class="title_crm text ">Crm Atendimentos</h1>
+            <span class="icons_title_crm"><img class="img_titleCrm-mobile" src="./assets/imgs/img_crm_heardr-heart.svg" alt=""></span>
+            <span class="icons_title_crm  border_icon-crm"><img class="img_titleCrm-mobile" src="./assets/imgs/img_crm-header.svg" alt="">
+                <p class="icons_title_crm-text text_color text">28/10</p>
+            </span>
+            <span class="icons_title_crm"><img class="img_titleCrm-mobile" src="./assets/imgs/circle_green.svg" alt="">
+                <p class="icons_title_crm-text text">Status</p>
+            </span>
+            
+        </div>
     </div>
+    
     <div id="carrousel-mobile"  class="carrousel_mobile">
       
         <div class="regular_mobile slick">
@@ -1785,7 +1788,7 @@
     </div>
    
 
-    <div id="button_abreCRm-mobile" onclick=" openList('button_abreCRm-mobile'),openList('carrousel-mobile'), openList('perfil_lead')" class="card_perfil_mobile text">
+    <div id="button_abreCRm-mobile" onclick=" openList('button_abreCRm-mobile'),openList('carrousel-mobile'), openList('perfil_lead'), openListMobile('status_crm')" class="card_perfil_mobile text">
         <button class="button_bottom-mobile"><span class="text_hidden">aaaa</span></button>
         <p class="card_button-text-mobile text">Perfil Lead CRM</p>
         <img class="metrics_img_arrow-mobile"  src="./assets/imgs/arrow.svg" alt="">
