@@ -104,7 +104,8 @@
     /* width of the entire scrollbar */
 }
 
-@media (min-width: 250px)  and  (max-width: 500px){
+
+@media (min-width: 250px)  and  (max-width: 800px){
     
 .integracoes_tittle {
     font-size: 1.05rem;
@@ -161,4 +162,32 @@
     font-weight: bold;
     margin-bottom: 0.5rem;
 }
+}
+
+@media (min-width: 500px)  and  (max-width: 700px){
+    .container_integracoes {
+
+        margin-bottom: 1rem;
+        margin-left: 15%;
+        width: 60%;
+        padding: 0.5rem;
+        box-shadow: -0.1rem 0.2rem rgba(0, 0, 0, 0.074);
+        border-radius: 0.5rem;
+        border: 1px solid rgba(0, 0, 0, 0.074);
+    
+    }
+}
+
+@media (min-width: 700px)  and  (max-width: 800px){
+    .container_integracoes {
+
+        margin-bottom: 1rem;
+        margin-left: 15%;
+        width: 60%;
+        padding: 0.5rem;
+        box-shadow: -0.1rem 0.2rem rgba(0, 0, 0, 0.074);
+        border-radius: 0.5rem;
+        border: 1px solid rgba(0, 0, 0, 0.074);
+    
+    }
 }

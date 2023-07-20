@@ -244,7 +244,8 @@
     /* width of the entire scrollbar */
 }
 
-@media (min-width: 250px)  and  (max-width: 500px){
+
+@media (min-width: 250px)  and  (max-width: 800px){
 
     .main_card-container {
         display: flex;

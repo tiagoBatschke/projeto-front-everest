@@ -502,7 +502,8 @@ select {
 }
 
 
-@media (min-width: 250px)  and  (max-width: 500px){
+
+@media (min-width: 250px)  and  (max-width: 800px){
     
 .calendario_options-container {
     border: none;
@@ -766,4 +767,83 @@ select {
     font-size: 0.7rem ;
 }
 
+}
+
+
+@media (min-width: 450px)  and  (max-width: 600px){
+    .calendario {
+        margin-top: 1rem;
+        max-height: 9rem;
+        margin-bottom: -6rem;
+    }
+    .card_categorias-container{
+        background-color: var(--container-light);
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        z-index: 3;
+        margin-left: 40%;
+        margin-top: 10%;
+        height: 40vh;
+        max-height: 80vh;
+        overflow-y: scroll;
+        width: 40%;
+        border-radius: 0.5rem;
+        border: 1px solid var(--text-color) ;
+    }
+    .card_membros-container{
+        background-color: var(--container-light);
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        z-index: 3;
+        margin-left:20%;
+        margin-top: 10%;
+        height: 40vh;
+        max-height: 80vh;
+        overflow-y: scroll;
+        width: 60%;
+        border-radius: 0.5rem;
+        border: 1px solid var(--text-color) ;
+    }
+}
+
+
+@media (min-width: 600px)  and  (max-width: 800px){
+    .calendario {
+        margin-top: 1rem;
+        max-height: 9rem;
+        margin-bottom: -9rem;
+        
+    }
+    .card_categorias-container{
+        background-color: var(--container-light);
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        z-index: 3;
+        margin-left: 50%;
+        margin-top: 10%;
+        height: 40vh;
+        max-height: 80vh;
+        overflow-y: scroll;
+        width: 30%;
+        border-radius: 0.5rem;
+        border: 1px solid var(--text-color) ;
+    }
+    .card_membros-container{
+        background-color: var(--container-light);
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        z-index: 3;
+        margin-left:40%;
+        margin-top: 10%;
+        height: 40vh;
+        max-height: 80vh;
+        overflow-y: scroll;
+        width: 40%;
+        border-radius: 0.5rem;
+        border: 1px solid var(--text-color) ;
+    }
 }

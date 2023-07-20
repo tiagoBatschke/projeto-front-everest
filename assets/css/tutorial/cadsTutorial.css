@@ -294,7 +294,8 @@
     justify-content: center;
 }
 
-@media (min-width: 250px)  and  (max-width: 500px){
+
+@media (min-width: 250px)  and  (max-width: 800px){
     .card_title {
         font-size: 1rem;
         font-weight: bold;
@@ -351,4 +352,17 @@
 
  
     
+}
+
+@media (min-width: 800px)  and  (max-width: 1200px){
+    .icon_reunioes-card{
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0.5rem;
+        font-size: 0.5rem;
+    }
 }

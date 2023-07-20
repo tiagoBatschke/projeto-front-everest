@@ -51,7 +51,8 @@
 
 }
 
-@media (min-width: 250px)  and  (max-width: 500px){
+
+@media (min-width: 250px)  and  (max-width: 800px){
    .main_message{
     display: flex;
     flex-wrap: wrap;
@@ -68,4 +69,28 @@
     display: none;
    }
   
+}
+
+
+@media (min-width: 800px)  and  (max-width: 1200px){
+
+  .main_message{
+    display: flex;
+    flex-wrap: wrap;
+    width:60%;
+    margin-left: 13%;
+    margin-top: 5%;
+    border-radius: 0.5rem;
+    box-shadow: var(--box-shadow-container);
+    border: var(--border-box-shadow-container);
+   
+    max-height:100vh;
+   }
+
+   .main_message_container {
+    padding: 2rem 2rem;
+    width: 45%;
+    background-color: var(--container-light);
+    
+  }
 }

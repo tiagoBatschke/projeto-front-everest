@@ -274,7 +274,8 @@
 }
 
 
-@media (min-width: 250px)  and  (max-width: 500px){
+
+@media (min-width: 250px)  and  (max-width: 800px){
    .select_page {
       background-color: var(--container-lateral-bar);
       width: 60vw;
@@ -331,4 +332,42 @@
    color: var(--subtittle-color);
 }
 
+}
+
+@media (min-width: 500px)  and  (max-width: 600px){
+   .listaPagamento {
+      background-color: var(--container-light);
+      border-radius: 0 0 0.5rem 0.5rem;
+      padding: 0.5rem;
+      width: 127%;
+      margin-left: 7.5%;
+   
+   }
+
+   .listaPagamento2{
+      background-color: var(--body-color);
+      border-radius: 0 0 0.5rem 0.5rem;
+      padding: 0.5rem;
+      width: 138%;
+      margin-left: 3%;
+   }
+}
+
+@media (min-width: 600px)  and  (max-width: 800px){
+   .listaPagamento {
+      background-color: var(--container-light);
+      border-radius: 0 0 0.5rem 0.5rem;
+      padding: 0.5rem;
+      width: 127%;
+      margin-left: 7.5%;
+   
+   }
+   .listaPagamento2{
+      background-color: var(--body-color);
+      border-radius: 0 0 0.5rem 0.5rem;
+      padding: 0.5rem;
+      width: 138%;
+      margin-left: 3%;
+   }
+       
 }

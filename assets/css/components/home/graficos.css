@@ -128,7 +128,8 @@
     color: var(--tittle-color);
 }
 
-@media (min-width: 250px)  and  (max-width: 500px){
+
+@media (min-width: 250px)  and  (max-width: 800px){
 
     
     .charts_paralelos {
@@ -230,4 +231,109 @@
         padding: 0rem 2rem;
         margin-top: 0.3rem;
     }
+    .social_titles_separation_graficos{
+        margin-left: -3.5%;
     }
+
+    .social_titles_separation_graficos{
+        margin-left: -4.5%;
+    
+        }
+
+ 
+    }
+    @media (min-width: 500px)  and  (max-width: 600px){
+        .social_titles_separation_graficos{
+            margin-left: -3.5%;
+        }
+    }
+     
+    
+    @media (min-width: 600px)  and  (max-width: 700px){
+        .social_titles_separation_graficos{
+            margin-left: -3%;
+        }
+    }
+
+    @media (min-width: 700px)  and  (max-width: 800px){
+        .social_titles_separation_graficos{
+            margin-left: -2.8%;
+        }
+    }
+
+
+    @media (min-width: 800px)  and  (max-width: 1200px){
+        .social_titles_separation_graficos{
+            margin-left: -2%;
+            width: 94%;
+        }
+
+        .charts_paralelos {
+            display: flex;
+            margin-top: 2%;
+            width: 70%;
+            margin-left: 13%;
+            height: 17rem;
+            margin-bottom: 1rem;
+            background-color: var(--container-light);
+            flex-direction: row;
+           
+        }
+        
+        .socialChart {
+            width:40%;
+            border-radius: 0.5rem;
+            border: var(--border-box-shadow-container);
+            box-shadow: var(--box-shadow-container);
+            margin-top: 1rem;
+            padding: 0.3rem;
+            padding-top: 0;
+            padding-bottom: 1rem;
+          
+        }
+        
+        
+        .socialChart_ul {
+            display: flex;
+            flex-direction: column;
+            margin-bottom:1rem;
+            width: 40%;
+            margin-left: -3%;
+            
+           
+        
+    }
+
+    .graph_pie {
+        margin-left: 4%;
+        border-radius: 0.5rem;
+        border: var(--border-box-shadow-container);
+        box-shadow: var(--box-shadow-container);
+        background-color: var(--container-light);
+        width: 40%;
+        height: 15.6rem;
+        margin-top: 2%;
+        padding: 0.2rem;
+        padding-top: 0;
+          }
+
+    .columnchart_container {
+        width: 60%;
+        margin-left: 13%;
+        height: 30vh;
+        overflow-x: scroll;
+      
+        
+    }
+
+    .container_grafico{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        width: 90vw;
+        margin-top: 2%;
+        margin-left: 13%;
+        
+    }
+
+}

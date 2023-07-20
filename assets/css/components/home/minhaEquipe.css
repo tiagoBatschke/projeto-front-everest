@@ -138,7 +138,7 @@
 
 }
 
-@media (min-width: 250px)  and  (max-width: 500px){
+@media (min-width: 250px)  and  (max-width: 800px){
     .minhaEquipe_metrics_container {
         width: 100vw;
         padding: 2%;
@@ -194,4 +194,87 @@
 
   
     
+}
+
+
+@media (min-width: 800px)  and  (max-width: 1300px){
+
+    .minhaEquipe_metrics_container {
+        width: 60%;
+        padding: 2%;
+        margin-left: 9%;
+    
+    }
+
+   
+
+    .minhaEqipe_container {
+        border-radius: 0.5rem;
+        box-shadow: var(--box-shadow-container);
+        border: var(--border-box-shadow-container);
+        width:100%;
+        margin-left: 0vw;
+        
+    }
+    .minhaEquipe_titles_container {
+        display: flex;
+        background-color: var(--button-color-hover);
+        width: 100%;
+        border-radius: 0.5rem;
+    }
+     .colaborators_list {
+        display: flex;
+        justify-content: space-evenly;
+        width: 78%;
+        margin-left: 1.8rem;
+        margin-right: 0.5rem;
+        margin-top: 1rem;
+        
+    }
+    .card_colaborators_icons-container {
+        display: flex;
+        padding-bottom: 0.6rem;
+        margin-left: 1rem;
+        
+    }
+
+    .card_colaborators_icons-container_mid {
+        display: flex;
+        padding-bottom: 0.6rem;
+        margin-left: 0.5rem;
+        height: 0.8rem;
+    }
+    .card_colaborators_title {
+        font-weight: bold;
+        font-size: 0.7rem;
+        color: var(--tittle-color);
+    }
+    .card_colaborators_text {
+        font-size: 0.5rem;
+        color: var(--text-color);
+        margin-top: 0.2rem;
+        font-weight: bold;
+    }
+
+    .card_colaborators_icons {
+        margin-left: 0.8rem;
+        max-width: 1.5rem;
+        height: 0.5rem;
+    }
+
+    .minhaEquipe_titles {
+        font-size: 0.8rem;
+        color: var(--text-container-color);
+        margin-left: 0.5rem;
+        color: var(--text-container-color);
+    }
+    .main_content_container {
+        display: flex;
+        margin-left: 0rem;
+        flex-wrap: wrap;
+        padding:  0rem 0rem;
+        width: 100vw;
+        height: 180vh;
+     
+    }
 }

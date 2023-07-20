@@ -62,7 +62,8 @@
 
 }
 
-@media (min-width: 250px)  and  (max-width: 500px){
+
+@media (min-width: 250px)  and  (max-width: 800px){
     .svg_home{
         background-color: var(--background-ligth);
         width: 2rem;
@@ -80,6 +81,31 @@
         box-shadow: var(--box-shadow-container);
         width: 86vw;
         margin-left: 5vw;
+    }
+
+}
+
+@media (min-width: 800px)  and  (max-width: 1200px){
+    .metrics_text {
+        font-size: 0.6rem;
+        color: var(--text-color);
+    }
+
+    .metrics_title {
+        font-size: 0.8rem;
+        font-weight: bold;
+        color: var(--tittle-color);
+    }
+    .metrics_cards {
+        display: flex;
+        padding: 0.5rem;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 0.5rem;
+        margin-top: 0.7rem;
+        box-shadow: var(--box-shadow-container);
+        width: 98%;
+        margin-left: 0vw;
     }
 
 }

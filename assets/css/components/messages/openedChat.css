@@ -354,7 +354,8 @@
     /* width of the entire scrollbar */
 }
 
-@media (min-width: 250px)  and  (max-width: 500px){
+
+@media (min-width: 250px)  and  (max-width: 800px){
 
     .opened_chat-container {
         width: 95%;
@@ -439,4 +440,37 @@
     height: 2rem;
     
 }
+}
+
+@media (min-width: 450px)  and  (max-width: 600px){
+    .opened_chat_name-container {
+        display: flex;
+        margin-top: 17%;
+        border-bottom: var(--border-container-color);
+        padding-bottom: 1rem;
+        width: 90%;
+        margin-left: 5%;
+    }
+    .chat_container {
+        overflow-y: scroll;
+        max-height: 45vh;
+        margin-bottom: 8%;
+    }
+       
+}
+
+@media (min-width: 600px)  and  (max-width: 800px){
+    .opened_chat_name-container {
+        display: flex;
+        margin-top: 13%;
+        border-bottom: var(--border-container-color);
+        padding-bottom: 1rem;
+        width: 90%;
+        margin-left: 5%;
+    }
+    .chat_container {
+        overflow-y: scroll;
+        max-height: 43vh;
+        margin-bottom: 8%;
+    }
 }

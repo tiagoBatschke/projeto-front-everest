@@ -128,7 +128,8 @@
 .configEverest_container-mobile{
    display: none;
 }
-@media (min-width: 250px)  and  (max-width: 500px){
+
+@media (min-width: 250px)  and  (max-width: 800px){
     .configEverest_container{
         display: none;
     }

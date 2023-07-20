@@ -224,7 +224,8 @@
 
 
 
-@media (min-width: 250px)  and  (max-width: 500px){
+
+@media (min-width: 250px)  and  (max-width: 800px){
     .everestPay-contaiener {
         background-color: var(--container-color);
         margin-top: 1rem;
@@ -293,4 +294,38 @@
   
 }
 
+}
+
+@media (min-width: 500px)  and  (max-width: 600px){
+    .listaPagameto_container2 {
+        width: 56%;
+        margin-top: -1rem;
+        margin-bottom: 1rem;
+        border-radius: 0.5rem 0 0.5rem 0.5rem;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        position: relative;
+        z-index: 1;
+        margin-left: -27%;
+        
+        
+    }
+}
+
+@media (min-width: 600px)  and  (max-width: 800px){
+    .listaPagameto_container2 {
+        width: 56%;
+        margin-top: -1rem;
+        margin-bottom: 1rem;
+        border-radius: 0.5rem 0 0.5rem 0.5rem;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        position: relative;
+        z-index: 1;
+        margin-left: -27%;
+        
+        
+    }
 }

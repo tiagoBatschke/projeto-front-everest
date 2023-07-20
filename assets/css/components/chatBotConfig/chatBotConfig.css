@@ -219,18 +219,22 @@
     margin-right: 5%;
     flex-direction: row;
     justify-content: space-between;
+   
 }
 .form_registros2{
     width: 45%;
     max-height: 21vh;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     margin-top: 1.5rem;
     margin-bottom: 2rem;
     margin-right: 5%;
     flex-direction: column;
     justify-content: space-between;
+   
 }
+
+
 
 .input_container-registros{
     display: flex;
@@ -357,7 +361,8 @@
 }
 
 
-@media (min-width: 250px)  and  (max-width: 500px){
+
+@media (min-width: 250px)  and  (max-width: 800px){
   
 .container_nav_configBot{
     display: flex;
@@ -502,6 +507,7 @@
     flex-wrap: wrap;
     margin-top: 1.5rem;
     margin-bottom: 2rem;
+    
 }
 
 .faq_message_img{

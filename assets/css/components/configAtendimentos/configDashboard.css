@@ -156,7 +156,8 @@
     transition: 0.5s;
 }
 
-@media (min-width: 250px)  and  (max-width: 500px){
+
+@media (min-width: 250px)  and  (max-width: 800px){
     .dashBoard_card-container {
         display: flex;
         flex-direction: column;
@@ -228,9 +229,39 @@
         display: flex;
         flex-direction: column;
         margin-bottom: 1rem;
-        height: 36vh;
-        max-height: 36vh;
+        height: 26vh;
+        max-height: 26vh;
         margin-left: -5%;
     }
     
+}
+
+@media (min-width: 450px)  and  (max-width: 600px){
+    .dashBoard_card {
+        box-shadow: var(--box-shadow-container);
+        border-radius: 0.5rem;
+        border: var(--border-box-shadow-container);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+        height: 28vh;
+        max-height: 28vh;
+        margin-left: -3%;
+    }
+}
+
+@media (min-width: 600px)  and  (max-width: 800px){
+    .dashBoard_card {
+        box-shadow: var(--box-shadow-container);
+        border-radius: 0.5rem;
+        border: var(--border-box-shadow-container);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+        height: 28vh;
+        max-height: 28vh;
+        margin-left: -2%;
+    }
 }
