@@ -1,4 +1,4 @@
-var root = document.querySelector(":root");
+document.cookie = 'mode = "dark"';
 
 document.getElementById("button_img").innerHTML =
   "<img src='./assets/imgs/Vector moon.png' class='img_icon_header'>";
@@ -9,41 +9,45 @@ function toggleClass() {
   var ContainDark = page.classList.contains("dark_mode");
 
   if (ContainDark == true) {
-    light_theme()
     DarkMode()
     document.getElementById("button_img").innerHTML =
       "<img src='./assets/imgs/Vector moon.png' class='img_icon_header'>";
-    localStorage.setItem("mode", "light");
+    mode = 'light'
     console.log('tema claro')
   } else if (ContainDark == false) {
     DarkMode()
-    light_theme()
+    
     document.getElementById("button_img").innerHTML =
       "<img src='./assets/imgs/sun_theme.svg' class='img_icon_header'>";
-    localStorage.setItem("mode", "dark");
-  
+
     console.log('tema escuro')
   }
 }
 
- function  mantemMode(){
-    if (localStorage.getItem("mode") == "dark") {
-      DarkMode()
-   }else{
-    light_theme()
-  } 
+
+function mantemDarkMode(){
+  if(document.cookie == 'mode = "dark"'){
+    document.documentElement.style.setProperty("--subtittle-color", `#2A8BF2`)
+    document.documentElement.style.setProperty("--container-color", `#3A3A3A3A`)
+    document.documentElement.style.setProperty("--container-lateral-bar", `#3a3a3a`)
+    document.documentElement.style.setProperty("--span-color", `#2A8BF2`)
+    document.documentElement.style.setProperty("--svg", `#fff`)
+    document.documentElement.style.setProperty("--tittle-color", `#fff`)
+    localStorage.setItem("mudouCorPrincipal", 'naomudou')
+    console.log('teste')
+ }else{
+     changeColorPrincipal(localStorage.getItem("colorPrincipal"))
+     changeColorSecundaria(localStorage.getItem("colorSecundaria"))
+     
+ }
 
 }
 
-
-  function DarkMode() {
+function DarkMode() {
   document.getElementById("page").classList.toggle("dark_mode");
 
 }
 
-function light_theme() {
-  document.getElementById("page").classList.toggle("light_theme");
 
-}
 
-mantemMode()
+mantemDarkMode()

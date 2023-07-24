@@ -129,7 +129,7 @@
 }
 
 
-@media (min-width: 250px)  and  (max-width: 1300px){
+@media (min-width: 250px)  and  (max-width: 1400px){
 
     
     .charts_paralelos {
@@ -255,43 +255,65 @@
         }
     }
 
-    @media (min-width: 700px)  and  (max-width: 1300px){
+    @media (min-width: 800px)  and  (max-width: 1400px){
         .socialChart {
-            width: 40%;
+            width: 50%;
             border-radius: 0.5rem;
             border: var(--border-box-shadow-container);
             box-shadow: var(--box-shadow-container);
-            margin-top: 1rem;
+            margin-top: 0rem;
             padding: 1rem;
-            margin-left: 30%;
+            margin-left: -8%;
+            height: 25vh;
         }
 
         .graph_pie {
-            margin-left: 30%;
+            margin-left: 2%;
             border-radius: 0.5rem;
             border: var(--border-box-shadow-container);
             box-shadow: var(--box-shadow-container);
             background-color: var(--container-light);
             width: 40%;
             padding: 1rem;
-            margin-top: 1.5rem;
+            margin-top: 0rem;
+            height: 25vh;
         }
         .container_grafico{
             display: flex;
             flex-wrap: nowrap;
             justify-content: space-evenly;
-            width: 40%;
-            margin-top: 40%;
-            margin-left: 38%;
+            width: 100%;
+            margin-top: 10%;
+            margin-left: 0%;
             
         }
 
         .columnchart_container {
-            width: 40%;
-            margin-left: 35%;
+            width: 100%;
+            margin-left: 0%;
             height: 20vh;
             overflow-x: scroll;
             
+        }
+
+        .charts_paralelos {
+            display: flex;
+            margin-top: 2%;
+            width: 100%;
+            margin-left: 5vw;
+            height: 16rem;
+            margin-bottom: 1rem;
+            background-color: var(--container-light);
+            display: flex;
+            flex-direction: row;
+            margin-top: 5%;
+           
+        }
+
+        .main_message_graphcs-container{
+            
+            width: 60%;
+            margin-left: 20%;
         }
         
     }

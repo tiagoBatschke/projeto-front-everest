@@ -63,7 +63,9 @@
 }
 
 
-@media (min-width: 250px)  and  (max-width: 1300px){
+@media (min-width: 250px)  and  (max-width: 1400px)  {
+    
+    
     .svg_home{
         background-color: var(--background-ligth);
         width: 2rem;
@@ -82,10 +84,13 @@
         width: 86vw;
         margin-left: 5vw;
     }
+    .hidden_mobile-icons{
+        display: none;
+    }
 
 }
 
-@media (min-width: 800px)  and  (max-width: 1200px){
+@media (min-width: 800px)  and  (max-width: 1400px){
     .metrics_text {
         font-size: 0.6rem;
         color: var(--text-color);
@@ -106,6 +111,11 @@
         box-shadow: var(--box-shadow-container);
         width: 98%;
         margin-left: 0vw;
+       
+    }
+
+    .hidden_mobile-icons{
+        display: inline;
     }
 
 }

@@ -52,7 +52,10 @@
 }
 
 
-@media (min-width: 250px)  and  (max-width: 1300px){
+@media (min-width: 250px)  and  (max-width: 1400px){
+  
+
+
    .main_message{
     display: flex;
     flex-wrap: wrap;
@@ -72,13 +75,13 @@
 }
 
 
-@media (min-width: 800px)  and  (max-width: 1300px){
+@media (min-width: 800px)  and  (max-width: 1400px){
 
   .main_message{
     display: flex;
     flex-wrap: wrap;
-    width:40%;
-    margin-left: 30%;
+    width:100%;
+    margin-left: 0%;
     margin-top: 5%;
     border-radius: 0.5rem;
     box-shadow: var(--box-shadow-container);

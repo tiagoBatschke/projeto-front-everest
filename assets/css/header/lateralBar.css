@@ -231,14 +231,14 @@ li {
 
 
  
-@media (min-width: 450px)  and  (max-width: 1300px){
+@media (min-width: 450px)  and  (max-width: 600px){
     .container_nav_mobile-bar{
         background-color: var(--svg);
         width: 3rem;
         position: fixed;
         margin-top: 26vh;
         z-index: 8;
-        margin-left: 20%;
+        margin-left: 25%;
         border-radius: 0.5rem;
         height: 50vh;
         display: flex;
@@ -257,15 +257,15 @@ li {
         background-color: var(--svg);
         width: 3rem;
         position: fixed;
-        margin-top: 26vh;
         z-index: 8;
-        margin-left: 24%;
+        margin-left: 32%;
         border-radius: 0.5rem;
-        height: 50vh;
+        height:50vh;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
+       
     }
     .hidden_mobile{
         display: none;

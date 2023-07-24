@@ -121,7 +121,7 @@
     margin-top: -0.5rem;
 }
 
-@media(min-width:1300px) {
+@media(min-width:1400px) {
     .minhaEquipe_metrics_container {
         width: 32%;
         padding: 2%;
@@ -138,7 +138,7 @@
 
 }
 
-@media (min-width: 250px)  and  (max-width: 1300px){
+@media (min-width: 250px)  and  (max-width: 1400px){
     .minhaEquipe_metrics_container {
         width: 100vw;
         padding: 2%;
@@ -197,13 +197,13 @@
 }
 
 
-@media (min-width: 800px)  and  (max-width: 1300px){
+@media (min-width: 800px)  and  (max-width: 1400px){
 
     .minhaEquipe_metrics_container {
-        width: 40%;
+        width: 60%;
         padding: 2%;
-        margin-left: 30%;
-        margin-top: 0%;
+        margin-left: 20%;
+        margin-top: -20%;
     }
 
    
