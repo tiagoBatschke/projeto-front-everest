@@ -355,7 +355,7 @@
 }
 
 
-@media (min-width: 250px)  and  (max-width: 800px){
+@media (min-width: 250px)  and  (max-width: 1300px){
 
     .opened_chat-container {
         width: 95%;
@@ -460,6 +460,22 @@
 }
 
 @media (min-width: 600px)  and  (max-width: 800px){
+    .opened_chat_name-container {
+        display: flex;
+        margin-top: 13%;
+        border-bottom: var(--border-container-color);
+        padding-bottom: 1rem;
+        width: 90%;
+        margin-left: 5%;
+    }
+    .chat_container {
+        overflow-y: scroll;
+        max-height: 43vh;
+        margin-bottom: 8%;
+    }
+}
+
+@media (min-width: 800px)  and  (max-width: 1300px){
     .opened_chat_name-container {
         display: flex;
         margin-top: 13%;

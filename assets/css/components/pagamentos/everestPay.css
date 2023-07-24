@@ -225,7 +225,7 @@
 
 
 
-@media (min-width: 250px)  and  (max-width: 800px){
+@media (min-width: 250px)  and  (max-width: 1300px){
     .everestPay-contaiener {
         background-color: var(--container-color);
         margin-top: 1rem;
@@ -237,6 +237,7 @@
         margin-left: 0%;
         width: 100%;
         padding: 0.5rem;
+        
     }
 
 
@@ -270,7 +271,7 @@
     cursor: pointer;
     position: relative;
     z-index: 1;
-    
+   
 }
 
 .listaPagameto_container2 {
@@ -285,13 +286,15 @@
     z-index: 1;
     margin-left: -27%;
     
+    
 }
 
 
 .minhas_compras-pagamentoMensal{
     margin-left: -30%;
     margin-top: -0.9rem;
-  
+   
+    
 }
 
 }
@@ -327,5 +330,37 @@
         margin-left: -27%;
         
         
+    }
+}
+
+
+@media (min-width: 800px)  and  (max-width: 1300px){
+    .listaPagameto_container2 {
+        width: 56%;
+        margin-top: -1rem;
+        margin-bottom: 1rem;
+        border-radius: 0.5rem 0 0.5rem 0.5rem;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        position: relative;
+        z-index: 1;
+        margin-left: -27%;
+        
+        
+    }
+
+    .everestPay-contaiener {
+        background-color: var(--container-color);
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        border-radius: 0.9rem;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-left: 0%;
+        width: 60%;
+        padding: 0.5rem;
+        margin-left: 20%;
     }
 }

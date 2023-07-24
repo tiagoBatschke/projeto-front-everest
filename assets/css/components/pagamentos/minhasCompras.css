@@ -275,21 +275,24 @@
 
 
 
-@media (min-width: 250px)  and  (max-width: 800px){
+@media (min-width: 250px)  and  (max-width: 1300px){
    .select_page {
       background-color: var(--container-lateral-bar);
-      width: 60vw;
+      width: 80%;
+      
+    
    }
    .pagamento_fora{
-      width: 60vw;
+      width: 30%;
       
    }
 .listaPagamento {
    background-color: var(--container-light);
    border-radius: 0 0 0.5rem 0.5rem;
    padding: 0.5rem;
-   width: 139%;
-   
+   width: 148%;
+   margin-left: -4%;
+  
 }
 
 .listaPagamento2{
@@ -297,6 +300,7 @@
    border-radius: 0 0 0.5rem 0.5rem;
    padding: 0.5rem;
    width: 139%;
+   
 }
 .minhasCompras_everest-container {
    display: flex;
@@ -316,13 +320,14 @@
    margin-top: -2rem;
    position: relative;
    z-index: 1;
+   background-color:aqua ;
 }
 
 .minhasCompras_everest-container-main {
    display: flex;
    flex-direction: column;
-   width: 80%;
-   margin-left: 10%;
+   width: 50%;
+   margin-left: 25%;
    margin-top: 2%;
    min-height: 270vh;
 
@@ -330,6 +335,7 @@
 
 .listaPagameto_item {
    color: var(--subtittle-color);
+   
 }
 
 }
@@ -339,8 +345,8 @@
       background-color: var(--container-light);
       border-radius: 0 0 0.5rem 0.5rem;
       padding: 0.5rem;
-      width: 127%;
-      margin-left: 7.5%;
+      width: 142%;
+      margin-left: 1%;
    
    }
 
@@ -358,8 +364,8 @@
       background-color: var(--container-light);
       border-radius: 0 0 0.5rem 0.5rem;
       padding: 0.5rem;
-      width: 127%;
-      margin-left: 7.5%;
+      width: 142%;
+      margin-left: 1%;
    
    }
    .listaPagamento2{
@@ -368,6 +374,30 @@
       padding: 0.5rem;
       width: 138%;
       margin-left: 3%;
+   }
+       
+}
+
+@media (min-width: 800px)  and  (max-width: 1300px){
+   .listaPagamento {
+      background-color: var(--container-light);
+      border-radius: 0 0 0.5rem 0.5rem;
+      padding: 0.5rem;
+      width: 143%;
+      margin-left: 0%;
+     
+   }
+   .listaPagamento2{
+      background-color: var(--body-color);
+      border-radius: 0 0 0.5rem 0.5rem;
+      padding: 0.5rem;
+      width: 138%;
+      margin-left: 3%;
+   }
+   .pagamento_fora{
+      width: 30%;
+     
+      margin-left: 23%;
    }
        
 }

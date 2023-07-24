@@ -105,7 +105,7 @@
 }
 
 
-@media (min-width: 250px)  and  (max-width: 800px){
+@media (min-width: 250px)  and  (max-width: 1300px){
     
 .integracoes_tittle {
     font-size: 1.05rem;
@@ -189,5 +189,20 @@
         border-radius: 0.5rem;
         border: 1px solid rgba(0, 0, 0, 0.074);
     
+    }
+
+  
+}
+
+@media (min-width: 800px)  and  (max-width: 1300px){
+    .integraçoes_configs {
+        font-family: (Poppins);
+        margin-top: 8%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 27.5%;
+        width: 45%;
+        max-height: 90vh;
+        overflow-y: scroll;
     }
 }

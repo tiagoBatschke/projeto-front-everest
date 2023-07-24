@@ -63,7 +63,7 @@
 }
 
 
-@media (min-width: 250px)  and  (max-width: 800px){
+@media (min-width: 250px)  and  (max-width: 1300px){
     .svg_home{
         background-color: var(--background-ligth);
         width: 2rem;

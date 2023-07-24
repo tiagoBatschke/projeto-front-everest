@@ -214,7 +214,7 @@
 }
 
 
-@media (min-width: 250px)  and  (max-width: 800px){
+@media (min-width: 250px)  and  (max-width: 1300px){
     .card_cadastro-title {
         font-size: 0.9rem;
         color: var(--tittle-color);

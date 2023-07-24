@@ -52,7 +52,7 @@
 }
 
 
-@media (min-width: 250px)  and  (max-width: 800px){
+@media (min-width: 250px)  and  (max-width: 1300px){
    .main_message{
     display: flex;
     flex-wrap: wrap;
@@ -72,13 +72,13 @@
 }
 
 
-@media (min-width: 800px)  and  (max-width: 1200px){
+@media (min-width: 800px)  and  (max-width: 1300px){
 
   .main_message{
     display: flex;
     flex-wrap: wrap;
-    width:60%;
-    margin-left: 13%;
+    width:40%;
+    margin-left: 30%;
     margin-top: 5%;
     border-radius: 0.5rem;
     box-shadow: var(--box-shadow-container);
@@ -89,7 +89,7 @@
 
    .main_message_container {
     padding: 2rem 2rem;
-    width: 45%;
+    width: 100%;
     background-color: var(--container-light);
     
   }

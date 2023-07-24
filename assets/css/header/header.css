@@ -222,7 +222,7 @@ input::placeholder {
 }
 
 
-@media (min-width: 250px)  and  (max-width: 800px){
+@media (min-width: 250px)  and  (max-width: 1300px){
     .header_home{
         display: none;
     }

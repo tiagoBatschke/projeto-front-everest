@@ -158,7 +158,7 @@
 }
 
 
-@media (min-width: 250px)  and  (max-width: 800px){
+@media (min-width: 250px)  and  (max-width: 1300px){
     .chats_container_notifications {
         width: 87%;
  
@@ -273,4 +273,24 @@
         margin-left: 25%;
     }
        
+}
+
+@media (min-width: 800px)  and  (max-width: 1300px){
+    .chats_cards_notifications {
+        display: flex;
+        border-bottom: var(--border-box-shadow-container);
+        width: 60%;
+        padding: 1rem;
+        
+    }
+    .chat_card_conversas {
+        display: flex;
+        border: var(--border-box-shadow-container);
+        padding: 0.2rem;
+        border-radius: 0.5rem;
+        box-shadow: var(--box-shadow-container);
+        margin-bottom: 0.5rem;
+        width: 50%;
+        margin-left: 25%;
+    }
 }
