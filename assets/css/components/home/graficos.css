@@ -265,7 +265,7 @@
             margin-top: 0rem;
             padding: 1rem;
             margin-left: -8%;
-            height: 25vh;
+            height: 35vh;
         }
 
         .graph_pie {
@@ -277,14 +277,14 @@
             width: 40%;
             padding: 1rem;
             margin-top: 0rem;
-            height: 25vh;
+            height: 35vh;
         }
         .container_grafico{
             display: flex;
             flex-wrap: nowrap;
             justify-content: space-evenly;
             width: 100%;
-            margin-top: 10%;
+            margin-top: 0%;
             margin-left: 0%;
             
         }
@@ -302,7 +302,7 @@
             margin-top: 2%;
             width: 100%;
             margin-left: 5vw;
-            height: 16rem;
+            height: 40VH;
             margin-bottom: 1rem;
             background-color: var(--container-light);
             display: flex;

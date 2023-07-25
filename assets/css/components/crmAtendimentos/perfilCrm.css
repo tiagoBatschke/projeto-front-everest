@@ -252,7 +252,7 @@ input::placeholder {
     border-radius: 0.5rem;
     border: 1px solid rgba(0, 0, 0, 0.074);
     width: 80%;
-    margin-top: 5%;
+    margin-top: 1%;
     margin-bottom: 0.5rem;
     margin-left: 8%;
     color: var(--tittle-color);
@@ -262,6 +262,23 @@ input::placeholder {
     padding: 0.5rem;
   }
 
+
+  .container_nav_mobile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: var(--container-light);
+    z-index: 5;
+    position: fixed;
+    margin-top: 77vh;
+    margin-left: 12vw;
+    width: 76vw;
+    border: var(--border-box-shadow-container);
+    box-shadow: var(--box-shadow-container);
+    border-radius: 0.5rem;
+    height: 3rem;
+    
+}
   .button_bottom-mobile{
     border: none;
     background-color: var(--svg);
