@@ -263,22 +263,7 @@ input::placeholder {
   }
 
 
-  .container_nav_mobile{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    background-color: var(--container-light);
-    z-index: 5;
-    position: fixed;
-    margin-top: 73vh;
-    margin-left: 12vw;
-    width: 76vw;
-    border: var(--border-box-shadow-container);
-    box-shadow: var(--box-shadow-container);
-    border-radius: 0.5rem;
-    height: 3rem;
-    
-}
+
   .button_bottom-mobile{
     border: none;
     background-color: var(--svg);

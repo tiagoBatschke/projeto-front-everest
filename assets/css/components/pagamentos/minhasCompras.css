@@ -326,8 +326,8 @@
 .minhasCompras_everest-container-main {
    display: flex;
    flex-direction: column;
-   width: 50%;
-   margin-left: 25%;
+   width: 80%;
+   margin-left: 10%;
    margin-top: 2%;
    min-height: 270vh;
 
