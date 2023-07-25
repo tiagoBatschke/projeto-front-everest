@@ -8,6 +8,7 @@ function changeColorPrincipal(color1){
     document.documentElement.style.setProperty("--background-ligth", `${color1}2a`)
     localStorage.setItem("colorPrincipal", `${color1}`);
     localStorage.setItem("mudouCorPrincipal", 'mudou')
+    
 }
 
 
@@ -26,11 +27,12 @@ function mantemDarkMode(){
       document.documentElement.style.setProperty("--svg", `#fff`)
       document.documentElement.style.setProperty("--tittle-color", `#fff`)
       localStorage.setItem("mudouCorPrincipal", 'naomudou')
+
        
    }else{
        changeColorPrincipal(localStorage.getItem("colorPrincipal"))
        changeColorSecundaria(localStorage.getItem("colorSecundaria"))
-       
+      
    }
   
   }
@@ -54,8 +56,10 @@ function mantem(){
     var colorPrincipal = localStorage.getItem("colorPrincipal")
     var colorSecundaria =  localStorage.getItem("colorSecundaria");
     var tamanhoAtual = localStorage.getItem("tamanhoFont");
-    const barraCor = document.getElementById('barra_cor')
-    const barraCorSubtom = document.getElementById('barra_cor-subtom')
+    var tamanhoAtualMobile = localStorage.getItem("tamanho-mobile");
+    const barraCor = document.getElementById('barra_cor');
+    const barraCorSubtom = document.getElementById('barra_cor-subtom');
+    
     if(localStorage.getItem("mudouCorPrincipal") === 'mudou'){
        changeColorPrincipal(colorPrincipal)
        changeColorSecundaria(colorSecundaria)
@@ -64,6 +68,7 @@ function mantem(){
     }
     if (localStorage.getItem("Font") === 'mudou') {
         document.documentElement.style.setProperty("--tamanho-font", tamanhoAtual)
+        document.documentElement.style.setProperty("--tamanho-mobile", tamanhoAtualMobile)
         if (tamanhoAtual == '1.188rem') {
             showButtons('font1', ['font1','font2', 'font3', 'font4', 'font5'])
         }
@@ -79,6 +84,7 @@ function mantem(){
         if (tamanhoAtual == '2.125rem') {
             showButtons('font5', ['font1','font2', 'font3', 'font4', 'font5'])
         }
+        
     }
 }
 
@@ -139,29 +145,41 @@ function executaChange() {
 function mudaFont(idButton) {
    if (idButton == 'font1') {
     document.documentElement.style.setProperty("--tamanho-font", '1.188rem')
+    document.documentElement.style.setProperty("--tamanho-mobile", '0.7rem')
+    localStorage.setItem("tamanho-mobile", '0.7rem')
     localStorage.setItem("tamanhoFont", '1.188rem')
     localStorage.setItem("Font", 'mudou')
    }
    if (idButton == 'font2') {
     document.documentElement.style.setProperty("--tamanho-font", '1.438rem')
+    document.documentElement.style.setProperty("--tamanho-mobile", '0.8rem')
+    localStorage.setItem("tamanho-mobile", '0.8rem')
     localStorage.setItem("tamanhoFont", '1.438rem')
     localStorage.setItem("Font", 'mudou')
    }
    if (idButton == 'font3') {
     document.documentElement.style.setProperty("--tamanho-font", '1.563rem')
+    document.documentElement.style.setProperty("--tamanho-mobile", '0.9rem')
+    localStorage.setItem("tamanho-mobile", '0.9rem')
     localStorage.setItem("tamanhoFont", '1.563rem')
     localStorage.setItem("Font", 'mudou')
    }
    if (idButton == 'font4') {
     document.documentElement.style.setProperty("--tamanho-font", '1.813rem')
+    document.documentElement.style.setProperty("--tamanho-mobile", '1rem')
+    localStorage.setItem("tamanho-mobile", '1rem')
     localStorage.setItem("tamanhoFont", '1.813rem')
     localStorage.setItem("Font", 'mudou')
    }
    if (idButton == 'font5') {
     document.documentElement.style.setProperty("--tamanho-font", '2.125rem')
+    document.documentElement.style.setProperty("--tamanho-mobile", '1.1rem')
+    localStorage.setItem("tamanho-mobile", '1.1rem')
     localStorage.setItem("tamanhoFont", '2.125rem')
     localStorage.setItem("Font", 'mudou')
+    
    }
+  
 }
 
 function inicializa(){
@@ -176,3 +194,4 @@ function inicializa(){
 mantem()
 inicializa()
 executaChange()
+

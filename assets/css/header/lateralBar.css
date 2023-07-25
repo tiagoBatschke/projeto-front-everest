@@ -160,7 +160,7 @@ li {
 
 .navBar_aberta-card-subtitle {
     color: #F4F4F4;
-    font-size: 0.9rem;
+    font-size: var(--tamanho-mobile);
 }
 
 .navBar_aberta-card-container {

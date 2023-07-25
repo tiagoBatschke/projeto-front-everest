@@ -82,7 +82,7 @@
 }
 
 .card_info-data {
-  font-size: 0.8rem;
+   font-size: var(--tamanho-mobile);
   margin-left: 1rem;
   color: var(--text-color);
   margin-top: 0.3rem;
@@ -219,7 +219,7 @@ input::placeholder {
  
   margin-bottom: 0.5rem;
   margin-left: 0.3rem;
-  font-size: 0.8rem;
+  font-size: var(--tamanho-mobile);
 }
 .perfil_lead_crm-container::-webkit-scrollbar {
   width: 5px;
@@ -268,7 +268,7 @@ input::placeholder {
     border-radius: 0.5rem;
   }
   .card_button-text-mobile{
-     font-size: 0.8rem;
+      font-size: var(--tamanho-mobile);
      margin-left: 0rem;
      font-weight: bold;
   }

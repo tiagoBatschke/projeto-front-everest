@@ -94,7 +94,7 @@
 
 .number_minhasCompras-card {
    color: #f4f4f4df;
-   font-size: 0.8rem
+   font-size: var(--tamanho-mobile);
 
 }
 
@@ -125,7 +125,7 @@
 .minhasCompras_button-card {
    width: 80%;
    padding: 0rem;
-   font-size: 0.8rem;
+    font-size: var(--tamanho-mobile);
    border-radius: 0.5rem;
    border: none;
    background-color: var(--container-lateral-bar);
@@ -177,7 +177,7 @@
 }
 
 .minhasCompras_button-card1 {
-   font-size: 0.8rem;
+    font-size: var(--tamanho-mobile);
    color: var(--subtittle-color);
 }
 
@@ -192,7 +192,7 @@
 
 
 .everestPay_valores1 {
-   font-size: 0.95rem;
+   font-size: var(--tamanho-mobile);
    color: #fff;
 }
 
@@ -219,12 +219,12 @@
 
 .everestPay_valores-bold {
    color: #fff;
-   font-size: 0.8rem
+   font-size: var(--tamanho-mobile);
 }
 
 .everestPay_valores text{
    color: #fff;
-   font-size: 0.8rem
+   font-size: var(--tamanho-mobile);
 }
 
 

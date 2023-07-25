@@ -23,7 +23,7 @@
 }
 
 .chats_cards-text {
-    font-size: 0.9rem;
+    font-size: var(--tamanho-mobile);
     color: var(--text-color);
     margin-top: 0.3rem;
 
@@ -99,7 +99,7 @@
 }
 
 .chats_cards-title-conversas {
-    font-size: 0.8rem;
+     font-size: var(--tamanho-mobile);
     margin-top: 0.8rem;
     font-weight: bold;
     
@@ -117,7 +117,7 @@
     color: var(--text-container-color);
     border-radius: 2rem;
     padding: 0rem 0.5rem;
-    font-size: 0.8rem;
+     font-size: var(--tamanho-mobile);
 }
 
 .chats_cards_conversas-texticon {

@@ -30,7 +30,7 @@
 }
 
 .integrações_tittle-text {
-    font-size: 1.125rem;
+    font-size:1.2rem;
     color: var(--text-color);
     margin-top: 1rem;
 
@@ -57,7 +57,7 @@
 }
 
 .tittle_midias-sociais {
-    font-size: 1.063rem;
+    font-size: var(--tamanho-mobile);
     font-weight: bold;
     margin-bottom: 0.5rem;
 }
@@ -66,7 +66,7 @@
     color: #fff;
     border-radius: 0.5rem;
     padding: 0.3rem 0.6rem;
-    font-size: 0.75rem;
+    font-size: var(--tamanho-mobile);
     margin-bottom: 0.5rem;
     max-width: 85%;
 }
@@ -77,7 +77,7 @@
 }
 
 .text_subtittle_container {
-    font-size: 0.75rem;
+    font-size: var(--tamanho-mobile);
     font-weight: bold;
 
 }
@@ -108,20 +108,20 @@
 @media (min-width: 250px)  and  (max-width: 1300px){
     
 .integracoes_tittle {
-    font-size: 1.05rem;
+    font-size: var(--tamanho-mobile);
     font-weight: bold;
     margin-bottom: 1.8rem;
     margin-top: 12%
 }
 
 .integracoes_subtitle {
-    font-size: 0.95rem;
+    font-size: var(--tamanho-mobile);
     font-weight: bold;
     margin-bottom: 0.5rem;
 }
 
 .integrações_tittle-text {
-    font-size: 0.85rem;
+    font-size: var(--tamanho-mobile);
     color: var(--text-color);
     margin-top: 1rem;
 
@@ -152,13 +152,13 @@
     color: #fff;
     border-radius: 0.5rem;
     padding: 0.3rem 0.6rem;
-    font-size: 0.65rem;
+    font-size: var(--tamanho-mobile);
     margin-bottom: 0.5rem;
     width: 95%;
 }
 
 .tittle_midias-sociais {
-    font-size: 0.95rem;
+    font-size: var(--tamanho-mobile);
     font-weight: bold;
     margin-bottom: 0.5rem;
 }

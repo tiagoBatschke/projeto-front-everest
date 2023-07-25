@@ -48,7 +48,7 @@
 
 .lembrete_title {
     color: var(--subtittle-color);
-    font-size: 1.25;
+    font-size: var(--tamanho-mobile);
     margin-top: 0.5rem;
 }
 
@@ -56,7 +56,7 @@
     color: var(--text-color);
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
-    font-size: 0.875rem;
+    font-size: var(--tamanho-mobile);
 }
 
 .configEverest_configs-cards {
@@ -71,11 +71,11 @@
 }
 
 .configEverest_configs-cards-title {
-    font-size: 1.188rem;
+    font-size: var(--tamanho-mobile);
 }
 
 .configEverest_configs-cards-text {
-    font-size: 1rem;
+    font-size: var(--tamanho-mobile);;
     color: var(--text-color);
     font-weight: bold;
     margin-top: 0.6rem;
@@ -144,13 +144,13 @@
         width: 100%;
     }
     .configEverest_configs-cards-text {
-        font-size: 0.7rem;
+        font-size: var(--tamanho-mobile);
         color: var(--text-color);
         font-weight: bold;
         margin-top: 0.6rem;
     }
     .configEverest_configs-cards-title {
-        font-size: 0.9rem;
+        font-size: var(--tamanho-mobile);
     }
     .configEverest_configs-container{
         display: flex;

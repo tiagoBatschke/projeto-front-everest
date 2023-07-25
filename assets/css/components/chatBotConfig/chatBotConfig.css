@@ -75,7 +75,7 @@
 }
 
 .icons_title_bot-text {
-   font-size: 0.8rem;
+    font-size: var(--tamanho-mobile);
    margin-left: 0.5rem;
    
 }
@@ -117,7 +117,7 @@
 }
 
 .chatbot-text{
-    font-size: 0.8rem;
+    font-size: var(--tamanho-mobile);
 }
 
 .container_configBot-button{
@@ -144,7 +144,7 @@
 }
 
 .icons_dias_bot-text{
-    font-size: 1rem;
+    font-size: var(--tamanho-mobile);
     margin-left: 0.5rem;
     font-weight: bold;
     width: 10rem;
@@ -158,7 +158,7 @@
     outline: none;
     background-color: var(--container-light);
     color: var(--plaholder-color) ;
-    font-size: 1rem;
+    font-size: var(--tamanho-mobile);
 }
 
 
@@ -380,14 +380,14 @@
    
 }
 .icons_title_bot-text {
-    font-size: 0.6rem;
+    font-size: var(--tamanho-mobile);
     margin-left: 0.5rem;
     
  }
     
    
     .chatbot-text{
-        font-size: 0.6rem;
+        font-size: var(--tamanho-mobile);
     }
     .container_configBot{
         display: flex;
@@ -449,7 +449,7 @@
 }
 
 .icons_dias_bot-text{
-    font-size: 0.7rem;
+    font-size: var(--tamanho-mobile);
     margin-left: 0.5rem;
     font-weight: bold;
     width: 45%;
@@ -479,7 +479,7 @@
     color: var(--plaholder-color) ;
     width: 30%;
     margin-top: 0.5rem;
-    font-size: 0.55rem;
+    font-size: var(--tamanho-mobile);
 }
 
 .container_registro-bot{
@@ -547,7 +547,7 @@
 }
 
 .title_bot{
-    font-size: 0.89rem;
+    font-size: var(--tamanho-mobile);
     color: var(--tittle-color);
     font-weight: bold;
     margin-right: 1rem;
@@ -557,7 +557,7 @@
 }
 
 .title_bot2{
-    font-size: 0.89rem;
+    font-size:var(--tamanho-mobile);
     color: var(--tittle-color);
     font-weight: bold;
     margin-right: 1rem;
@@ -576,7 +576,7 @@
 .input_fuso-bot-label{
     font-weight: bold;
     width: 100%;
-    font-size: 0.75rem;
+    font-size: var(--tamanho-mobile);
    
 }
 
@@ -595,7 +595,7 @@
     font-weight: bold;
     width: 100%;
     margin-left: 0rem;
-    font-size: 0.75rem;
+    font-size: var(--tamanho-mobile);
 }
 
 .margin_left{

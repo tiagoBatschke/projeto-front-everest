@@ -125,14 +125,14 @@
     padding: 1rem;
     margin-top: 0.5rem;
     border-radius: 0.5rem;
-    font-size: 0.95rem;
+    font-size: var(--tamanho-mobile);
     color: var(--text-container-color)
 }
 
 .chat_response-hour {
     width: 70%;
     margin-left: 30%;
-    font-size: 0.8rem;
+     font-size: var(--tamanho-mobile);
     margin-top: 0.5rem;
     color: var(--text-color);
 }
@@ -152,7 +152,7 @@
 }
 
 .chat_message-hour {
-    font-size: 0.8rem;
+     font-size: var(--tamanho-mobile);
     margin-top: 0.5rem;
     color: var(--text-color);
     margin-left: 80%;
@@ -178,7 +178,7 @@
     margin-top: 0.5rem;
     border-radius: 0.5rem;
     color: var(--text-container-color);
-    font-size: 0.95rem;
+    font-size: var(--tamanho-mobile);
 }
 
 .chat_container {
@@ -308,7 +308,7 @@
    
 }
 .minhaEquipe_titles {
-    font-size: 1rem;
+    font-size: var(--tamanho-mobile);
     color: var(--text-container-color);
     margin-left: 0.5rem;
     color: var(--text-container-color);
@@ -380,7 +380,7 @@
 }
 .opened_chat-name {
     font-weight: bold;
-    font-size: 0.95rem;
+    font-size: var(--tamanho-mobile);
     color: var(--tittle-color);
     
     width: 100%;

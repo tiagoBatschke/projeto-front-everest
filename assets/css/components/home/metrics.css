@@ -14,7 +14,7 @@
 }
 
 .metrics_text {
-    font-size: 0.8rem;
+     font-size: var(--tamanho-mobile);
     color: var(--text-color);
 }
 
@@ -97,7 +97,7 @@
     }
 
     .metrics_title {
-        font-size: 0.8rem;
+         font-size: var(--tamanho-mobile);
         font-weight: bold;
         color: var(--tittle-color);
     }

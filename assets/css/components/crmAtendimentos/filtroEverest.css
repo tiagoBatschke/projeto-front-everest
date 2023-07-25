@@ -92,7 +92,7 @@
     padding: 0.3rem 1rem;
     width: 6rem;
     color: var(--svg);
-    font-size: 1rem;
+    font-size: var(--tamanho-mobile);
     font-weight: 500;
     box-shadow: var(--border-box-shadow-container);
 }
@@ -188,7 +188,7 @@
 }
 
 .chats_cards-title-filtro {
-    font-size: 0.8rem;
+     font-size: var(--tamanho-mobile);
     margin-top: 0.5rem;
     color: var(--tittle-color);
 }
@@ -291,7 +291,7 @@
     padding: 0.3rem 1rem;
     width: 90%;
     color: var(--svg);
-    font-size: 1rem;
+    font-size: var(--tamanho-mobile);
     font-weight: 500;
     box-shadow: var(--border-box-shadow-container);
     margin-left: 1%;
@@ -335,7 +335,7 @@
 .aberto-buttons{
     width: 49%;
     margin-bottom: 2rem;
-    font-size: 0.8rem;
+     font-size: var(--tamanho-mobile);
 }
 .filtro_everest_chat-arquivos {
     border-radius: 2.2rem 0rem 0rem 0rem;

@@ -22,8 +22,8 @@
     --plaholder-color: #393939;
     --background-ligth:#2a8bf22a;
     --tamanho-font : 1.563rem;
+    --tamanho-mobile: 0.9rem;
 }
-
 
 .dark_mode{
     --body-color: #2A2C2E;

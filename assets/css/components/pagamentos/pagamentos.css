@@ -25,7 +25,7 @@
     color: var(--text-color);
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
-    font-size: 0.875rem;
+    font-size: var(--tamanho-mobile);
 }
 
 
@@ -79,7 +79,7 @@
 }
 
 .contador_number {
-    font-size: 1rem;
+    font-size: var(--tamanho-mobile);
     height: 1.5rem;
     width: 1.5rem;
     display: flex;
@@ -97,7 +97,7 @@
 }
 
 .card_text {
-    font-size: 0.875rem;
+    font-size: var(--tamanho-mobile);
     color: var(--text-color);
     margin-top: 0.5rem;
 }
@@ -175,7 +175,7 @@
     padding: 0.3rem 1rem;
     width: 6rem;
     color: var(--svg);
-    font-size: 1rem;
+    font-size: var(--tamanho-mobile);
     font-weight: 500;
     box-shadow: var(--border-box-shadow-container);
 }
@@ -266,7 +266,7 @@
         margin-right: 0.2rem;
         border: none;
         background-color: transparent;
-        font-size: 0.8rem;
+         font-size: var(--tamanho-mobile);
         font-weight: lighter;
         cursor: pointer;
         color: var(--tittle-color);
@@ -286,7 +286,7 @@
 
     .pagamento_card-saldo {
         font-weight: bold;
-        font-size: 0.7rem;
+         font-size: var(--tamanho-mobile);
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         color: var(--tittle-color);
     }

@@ -66,7 +66,7 @@
     font-family: 'Baloo 2', cursive;
     padding: 0.7rem 0.5rem;
     width: 2rem;
-    font-size: 0.8rem;
+     font-size: var(--tamanho-mobile);
     color: var(--tittle-color);
 }
 
@@ -179,7 +179,7 @@
         margin-top: 0;
         margin-bottom: 1rem;
         color: var(--tittle-color);
-        font-size: 0.7rem;
+         font-size: var(--tamanho-mobile);
        
         width: 95%;
     }

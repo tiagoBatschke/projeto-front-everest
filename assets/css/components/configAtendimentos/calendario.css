@@ -34,7 +34,7 @@ td {
 }
 
 .calendario_options {
-    font-size: 0.8rem;
+    font-size: var(--tamanho-mobile);
     color: var(--tittle-color);
 }
 
@@ -111,7 +111,7 @@ select {
     color: var(--text-container-color);
     border-radius: 2rem;
     padding: 0rem 0.5rem;
-    font-size: 0.8rem;
+    font-size: var(--tamanho-mobile);
 
 }
 
@@ -152,12 +152,12 @@ select {
 
 .calendarioCard_text-title {
     font-weight: bold;
-    font-size: 1rem;
+    font-size: var(--tamanho-mobile);
     color: var(--tittle-color);
 }
 
 .calendarioCard_text {
-    font-size: 0.8rem;
+    font-size: var(--tamanho-mobile);
     color: var(--text-color);
     margin-top: 0.3rem;
 }
@@ -535,7 +535,7 @@ select {
     color: var(--text-container-color);
     border-radius: 2rem;
     padding: 0rem 0.2rem;
-    font-size: 0.8rem;
+    font-size: var(--tamanho-mobile);
 
 }
 
@@ -560,7 +560,7 @@ select {
 
 .calendarioCard_text-title {
     font-weight: bold;
-    font-size: 0.8rem;
+    font-size: var(--tamanho-mobile);
     color: var(--tittle-color);
 }
 
@@ -577,7 +577,7 @@ select {
     border-radius: 0.5rem;
     margin-top: 1rem;
     color: var(--text-container-color);
-    font-size: 1rem;
+    font-size: var(--tamanho-mobile);
     margin-bottom: 0.5rem;
 }
 
@@ -622,7 +622,7 @@ select {
 .label_checkbox {
     margin-left: 0rem;
     color: var(--text-container-color);
-    font-size: 0.7rem;
+    font-size: var(--tamanho-mobile);
 }
 
 .checkbox_reunioes{
@@ -701,7 +701,7 @@ select {
     margin-left: 0.5rem;
     font-weight: bold;
     color: var(--text-color);
-    font-size: 0.8rem;
+    font-size: var(--tamanho-mobile);
 }
 
 .card_categorias-container{
@@ -758,13 +758,13 @@ select {
 
 .calendarioCard_text-title {
     font-weight: bold;
-    font-size: 0.7rem;
+    font-size: var(--tamanho-mobile);
     color: var(--tittle-color);
 }
 
 .calendarioCard_text-blue{
     color: var(--svg);
-    font-size: 0.7rem ;
+    font-size: var(--tamanho-mobile);
 }
 
 }

@@ -51,7 +51,7 @@ body {
 
 .login_subtitle {
     margin-top: 0.5rem;
-    font-size: 0.9rem;
+    font-size: var(--tamanho-mobile);
     color: var(--text-color);
 }
 

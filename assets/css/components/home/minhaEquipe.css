@@ -17,7 +17,7 @@
 }
 
 .minhaEquipe_titles {
-    font-size: 1rem;
+    font-size: var(--tamanho-mobile);
     color: var(--text-container-color);
     margin-left: 0.5rem;
     color: var(--text-container-color);
@@ -64,12 +64,12 @@
 
 .card_colaborators_title {
     font-weight: bold;
-    font-size: 0.8rem;
+     font-size: var(--tamanho-mobile);
     color: var(--tittle-color);
 }
 
 .card_colaborators_text {
-    font-size: 0.7rem;
+     font-size: var(--tamanho-mobile);
     color: var(--text-color);
     margin-top: 0.2rem;
     font-weight: bold;
@@ -247,12 +247,12 @@
     }
     .card_colaborators_title {
         font-weight: bold;
-        font-size: 1rem;
+        font-size: var(--tamanho-mobile);
         color: var(--tittle-color);
        
     }
     .card_colaborators_text {
-        font-size: 0.8rem;
+         font-size: var(--tamanho-mobile);
         color: var(--text-color);
         margin-top: 0.2rem;
         font-weight: bold;
@@ -266,7 +266,7 @@
     }
 
     .minhaEquipe_titles {
-        font-size: 1rem;
+        font-size: var(--tamanho-mobile);
         color: var(--text-container-color);
         margin-left: 0.5rem;
         color: var(--text-container-color);
