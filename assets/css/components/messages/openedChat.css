@@ -361,7 +361,7 @@
         width: 95%;
         padding: 0rem;
         margin-left: 2.5%;
-        margin-top: 5%;
+        margin-top: -3%;
         
     }
     
@@ -478,7 +478,7 @@
 @media (min-width: 800px)  and  (max-width: 1300px){
     .opened_chat_name-container {
         display: flex;
-        margin-top: 13%;
+        margin-top: 8%;
         border-bottom: var(--border-container-color);
         padding-bottom: 1rem;
         width: 90%;
