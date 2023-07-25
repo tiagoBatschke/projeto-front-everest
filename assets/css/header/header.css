@@ -255,7 +255,7 @@ input::placeholder {
         box-shadow: var(--box-shadow-container);
         border-radius: 0.5rem;
         height: 3rem;
-        background-color:aqua ;
+        
     }
 
     .voltar_page-container{
