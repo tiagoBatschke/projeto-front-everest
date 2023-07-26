@@ -354,10 +354,10 @@
     
 }
 
-@media (min-width: 800px)  and  (max-width: 1200px){
+@media (min-width: 800px)  and  (max-width: 1400px){
     .icon_reunioes-card{
-        width: 1.5rem;
-        height: 1.5rem;
+        width: 2rem;
+        height: 2rem;
         border-radius: 1.5rem;
         display: flex;
         align-items: center;
