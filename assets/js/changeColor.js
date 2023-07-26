@@ -167,22 +167,22 @@ function mudaFont(idButton) {
    }
    if (idButton == 'font2') {
     document.documentElement.style.setProperty("--tamanho-font", '1.438rem')
-    document.documentElement.style.setProperty("--tamanho-mobile", '0.8rem')
-    localStorage.setItem("tamanho-mobile", '0.8rem')
+    document.documentElement.style.setProperty("--tamanho-mobile", '0.75rem')
+    localStorage.setItem("tamanho-mobile", '0.75rem')
     localStorage.setItem("tamanhoFont", '1.438rem')
     localStorage.setItem("Font", 'mudou')
    }
    if (idButton == 'font3') {
     document.documentElement.style.setProperty("--tamanho-font", '1.563rem')
-    document.documentElement.style.setProperty("--tamanho-mobile", '0.9rem')
-    localStorage.setItem("tamanho-mobile", '0.9rem')
+    document.documentElement.style.setProperty("--tamanho-mobile", '0.8rem')
+    localStorage.setItem("tamanho-mobile", '0.8rem')
     localStorage.setItem("tamanhoFont", '1.563rem')
     localStorage.setItem("Font", 'mudou')
    }
    if (idButton == 'font4') {
     document.documentElement.style.setProperty("--tamanho-font", '1.813rem')
-    document.documentElement.style.setProperty("--tamanho-mobile", '1rem')
-    localStorage.setItem("tamanho-mobile", '1rem')
+    document.documentElement.style.setProperty("--tamanho-mobile", '9rem')
+    localStorage.setItem("tamanho-mobile", '9rem')
     localStorage.setItem("tamanhoFont", '1.813rem')
     localStorage.setItem("Font", 'mudou')
    }
