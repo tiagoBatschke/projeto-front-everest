@@ -188,8 +188,8 @@ function mudaFont(idButton) {
    }
    if (idButton == 'font5') {
     document.documentElement.style.setProperty("--tamanho-font", '2.125rem')
-    document.documentElement.style.setProperty("--tamanho-mobile", '1.1rem')
-    localStorage.setItem("tamanho-mobile", '1.1rem')
+    document.documentElement.style.setProperty("--tamanho-mobile", '1.0.5rem')
+    localStorage.setItem("tamanho-mobile", '1.0.5rem')
     localStorage.setItem("tamanhoFont", '2.125rem')
     localStorage.setItem("Font", 'mudou')
     
