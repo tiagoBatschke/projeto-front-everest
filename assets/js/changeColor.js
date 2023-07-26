@@ -52,23 +52,17 @@ function showButtons(idButton, idsButtons) {
     document.getElementById(idButton).classList.toggle("text_color");
   }
 
-function mantem(){
+function mantemVisual(){
     var colorPrincipal = localStorage.getItem("colorPrincipal")
     var colorSecundaria =  localStorage.getItem("colorSecundaria");
     var tamanhoAtual = localStorage.getItem("tamanhoFont");
-    var tamanhoAtualMobile = localStorage.getItem("tamanho-mobile");
     const barraCor = document.getElementById('barra_cor');
     const barraCorSubtom = document.getElementById('barra_cor-subtom');
-    
     if(localStorage.getItem("mudouCorPrincipal") === 'mudou'){
-       changeColorPrincipal(colorPrincipal)
-       changeColorSecundaria(colorSecundaria)
-       barraCor.value = colorPrincipal
-       barraCorSubtom.value = colorSecundaria
+        barraCor.value = colorPrincipal
+        barraCorSubtom.value = colorSecundaria
     }
     if (localStorage.getItem("Font") === 'mudou') {
-        document.documentElement.style.setProperty("--tamanho-font", tamanhoAtual)
-        document.documentElement.style.setProperty("--tamanho-mobile", tamanhoAtualMobile)
         if (tamanhoAtual == '1.188rem') {
             showButtons('font1', ['font1','font2', 'font3', 'font4', 'font5'])
         }
@@ -87,6 +81,27 @@ function mantem(){
         
     }
 }
+
+
+function mantem(){
+    var colorPrincipal = localStorage.getItem("colorPrincipal")
+    var colorSecundaria =  localStorage.getItem("colorSecundaria");
+    var tamanhoAtual = localStorage.getItem("tamanhoFont");
+    var tamanhoAtualMobile = localStorage.getItem("tamanho-mobile");
+   
+   
+    if(localStorage.getItem("mudouCorPrincipal") === 'mudou'){
+       changeColorPrincipal(colorPrincipal)
+       changeColorSecundaria(colorSecundaria)
+    }
+    if (localStorage.getItem("Font") === 'mudou') {
+        document.documentElement.style.setProperty("--tamanho-font", `${tamanhoAtual}`)
+        document.documentElement.style.setProperty("--tamanho-mobile",`${tamanhoAtualMobile}` )
+    }
+   
+}
+
+
 
 function resetColor(){
    changeColorPrincipal('#2A8BF2')
@@ -193,5 +208,5 @@ function inicializa(){
 
 mantem()
 inicializa()
-executaChange()
+
 

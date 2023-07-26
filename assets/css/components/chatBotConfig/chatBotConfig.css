@@ -180,6 +180,7 @@
 .input_fuso-bot-label{
     font-weight: bold;
     width: 100%;
+    font-size: var(--tamanho-mobile);
 }
 
 .container_dias-bot-form{
