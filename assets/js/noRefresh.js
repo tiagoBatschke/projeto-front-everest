@@ -104,7 +104,7 @@ inputUsado = document.getElementsByClassName(inputClass)
   
   for (let i = 0; i < inputUsado.length; i++) {
     const element = inputUsado[i];
-    Contador = 1
+    Contador = 0
     element.addEventListener('click', function(){
       Contador++
       if(Contador % 2 === 0){
