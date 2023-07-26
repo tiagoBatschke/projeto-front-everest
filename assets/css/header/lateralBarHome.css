@@ -1,4 +1,4 @@
-@media (min-width: 250px)  and  (max-width: 1400px){
+@media (min-width: 250px)  and  (max-width: 1300px){
 
     .container_lateral_bar{
         display: none;
@@ -64,7 +64,7 @@
 }
 
  
-@media (min-width: 600px)  and  (max-width: 1400px){
+@media (min-width: 600px)  and  (max-width: 1300px){
     .container_nav_mobile-bar{
         background-color: var(--svg);
         width: 3rem;
