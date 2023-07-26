@@ -365,12 +365,12 @@
     
     .card_colaborators_title {
         font-weight: bold;
-         font-size: var(--tamanho-mobile);
+         font-size: var(--tamanho-font);
         color: var(--tittle-color);
     }
     
     .card_colaborators_text {
-         font-size: var(--tamanho-mobile);
+         font-size: var(--tamanho-font);
         color: var(--text-color);
         margin-top: 0.2rem;
         font-weight: bold;
