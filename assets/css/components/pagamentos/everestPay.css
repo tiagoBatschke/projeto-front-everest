@@ -225,7 +225,7 @@
 
 
 
-@media (min-width: 250px)  and  (max-width: 1300px){
+@media (min-width: 250px)  and   (max-width: 1200px){
     .everestPay-contaiener {
         background-color: var(--container-color);
         margin-top: 1rem;
@@ -334,7 +334,7 @@
 }
 
 
-@media (min-width: 800px)  and  (max-width: 1300px){
+@media (min-width: 800px)  and   (max-width: 1200px){
     .listaPagameto_container2 {
         width: 56%;
         margin-top: -1rem;

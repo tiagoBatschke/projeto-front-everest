@@ -295,7 +295,7 @@
 }
 
 
-@media (min-width: 250px)  and  (max-width: 1300px){
+@media (min-width: 250px)  and   (max-width: 1200px){
     .card_title {
         font-size: var(--tamanho-mobile);
         font-weight: bold;
@@ -365,4 +365,14 @@
         margin-top: 0.5rem;
         font-size: 0.5rem;
     }
+   
 }
+
+@media (min-width: 1400px){
+    .card_text {
+        font-size: 1rem;
+        text-align: center;
+        color: var(--text-color);
+    }
+}
+

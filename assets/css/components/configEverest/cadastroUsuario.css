@@ -214,7 +214,7 @@
 }
 
 
-@media (min-width: 250px)  and  (max-width: 1300px){
+@media (min-width: 250px)  and   (max-width: 1200px){
     .card_cadastro-title {
         font-size: var(--tamanho-mobile);
         color: var(--tittle-color);
@@ -329,4 +329,17 @@
     font-size: var(--tamanho-mobile);
     cursor: pointer;
 }
+}
+
+@media (min-width: 1400px){
+    .card_cadastro-title {
+        font-size: 1.2rem;
+        color: var(--tittle-color);
+        font-weight: bold;
+    }
+    .card_cadastro-subtitle {
+        font-size: 1rem;
+        color: var(--tittle-color);
+        margin-top: 0.2rem;
+    }
 }

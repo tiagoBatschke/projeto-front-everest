@@ -129,7 +129,7 @@
 }
 
 
-@media (min-width: 250px)  and  (max-width: 1300px){
+@media (min-width: 250px)  and   (max-width: 1200px){
 
     
     .charts_paralelos {
@@ -180,7 +180,6 @@
         margin-bottom: 1rem;
         color: var(--tittle-color);
          font-size: var(--tamanho-mobile);
-       
         width: 95%;
     }
     
@@ -256,7 +255,7 @@
         }
     }
 
-    @media (min-width: 800px)  and  (max-width: 1300px){
+    @media (min-width: 800px)  and   (max-width: 1200px){
         .socialChart {
             width: 50%;
             border-radius: 0.5rem;
@@ -320,7 +319,7 @@
     }
 
 
-    @media (min-width: 1300px)and  (max-width: 1500px){
+    @media (min-width: 1200px)and  (max-width: 1400px){
 
         .columnchart_container {
             width: 80%;
@@ -351,4 +350,68 @@
         
 }
 
+
+@media (min-width: 1400px){
+
+    .columnchart_container {
+        width: 80%;
+        margin-left: 20%;
+        height: 40vh;
+        overflow-x: scroll;
+        
+    }
+
+    .grafic_img {
+        margin-left: 5%;
+        fill: var(--tittle-color);
+    }
+
+    .container_grafico{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        width: 100%;
+        margin-top: 5%;
+        margin-left: -5%;
+        margin-bottom: 2%;
+        
+    }
+    .columnchart_container::-webkit-scrollbar {
+        width: 5px;
+        /* width of the entire scrollbar */
+    }
+
+    .charts_paralelos {
+        display: flex;
+        margin-top: 0%;
+        width: 82%;
+        margin-left: 9vw;
+        height: 30VH;
+        margin-bottom: 1rem;
+        background-color: var(--container-light);
+        display: flex;
+        flex-direction: row;
+        margin-top: 5%;
+       
+    }
+
+    .text_grafic {
+        font-family: 'Baloo 2', cursive;
+        margin-left: -20%;
+        margin-top: 0.2rem;
+        margin-bottom: 1rem;
+        color: var(--tittle-color);
+    }
+
+    .social_titles_separation_graficos {
+        padding: 0.5rem 1rem;
+        width: 90%;
+        margin-bottom: 0.5rem;
+        margin-left: 0%;
+        margin-top: -1rem;
+    }
+
+   
+    
+}
     

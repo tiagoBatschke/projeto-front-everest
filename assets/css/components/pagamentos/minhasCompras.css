@@ -275,7 +275,7 @@
 
 
 
-@media (min-width: 250px)  and  (max-width: 1300px){
+@media (min-width: 250px)  and   (max-width: 1200px){
    .select_page {
       background-color: var(--container-lateral-bar);
       width: 80%;
@@ -283,7 +283,7 @@
     
    }
    .pagamento_fora{
-      width: 30%;
+      width: 40%;
       
    }
 .listaPagamento {
@@ -378,7 +378,7 @@
        
 }
 
-@media (min-width: 800px)  and  (max-width: 1300px){
+@media (min-width: 800px)  and   (max-width: 1200px){
    .listaPagamento {
       background-color: var(--container-light);
       border-radius: 0 0 0.5rem 0.5rem;
@@ -401,3 +401,16 @@
    }
        
 }
+
+@media (min-width: 1500px) and (min-height: 800px)  {
+   .listaPagamento2{
+      background-color: var(--body-color);
+      border-radius: 0 0 0.5rem 0.5rem;
+      padding: 0.5rem;
+      width: 34.5%;
+      margin-left: -0.5%;
+      margin-top: -5.5%;
+      
+   }
+}
+

@@ -105,7 +105,7 @@
 }
 
 
-@media (min-width: 250px)  and  (max-width: 1300px){
+@media (min-width: 250px)  and   (max-width: 1200px){
     
 .integracoes_tittle {
     font-size: var(--tamanho-mobile);
@@ -194,7 +194,7 @@
   
 }
 
-@media (min-width: 800px)  and  (max-width: 1300px){
+@media (min-width: 800px)  and   (max-width: 1200px){
     .integraçoes_configs {
         font-family: (Poppins);
         margin-top: 8%;

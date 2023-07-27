@@ -363,7 +363,7 @@
 
 
 
-@media (min-width: 250px)  and  (max-width: 1300px){
+@media (min-width: 250px)  and   (max-width: 1200px){
   
 .container_nav_configBot{
     display: flex;
@@ -437,7 +437,7 @@
     width: 95vw;
     overflow-x: hidden;
     margin-left: 5vw;
-    background-color: aqua;
+   
 }
 .container_dias-bot{
     width: 100%;
@@ -655,7 +655,7 @@
 }
 }
 
-@media (min-width: 500px)  and  (max-width: 1300px){
+@media (min-width: 500px)  and   (max-width: 1200px){
     .container_nav_configBot{
         display: flex;
         width: 70%;
@@ -732,6 +732,25 @@
     }
     }
 
-@media (min-width: 1300px){
+@media (min-width: 1400px){
     .hidden_desktop{display: none;}
+
+    .chatbot-text{
+        font-size: 1rem;
+    }
+
+    .icons_dias_bot-text{
+        font-size: 1.1rem;
+        margin-left: 0.5rem;
+        font-weight: bold;
+        width: 45%;
+        
+    }
+
+    .input_fuso-bot-label{
+        font-weight: bold;
+        width: 100%;
+        font-size:1.1rem;
+       
+    }
 }

@@ -157,7 +157,7 @@
 }
 
 
-@media (min-width: 250px)  and  (max-width: 1300px){
+@media (min-width: 250px)  and   (max-width: 1200px){
     .dashBoard_card-container {
         display: flex;
         flex-direction: column;
@@ -266,7 +266,7 @@
     }
 }
 
-@media (min-width: 800px)  and  (max-width: 1300px){
+@media (min-width: 800px)  and   (max-width: 1200px){
     .dashBoard_card {
         box-shadow: var(--box-shadow-container);
         border-radius: 0.5rem;

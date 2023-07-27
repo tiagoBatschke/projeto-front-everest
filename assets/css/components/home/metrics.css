@@ -63,7 +63,7 @@
 }
 
 
-@media (min-width: 250px)  and  (max-width: 1400px)  {
+@media (min-width: 250px)  and   (max-width: 1200px)  {
     
     
     .svg_home{
@@ -90,7 +90,7 @@
 
 }
 
-@media (min-width: 800px)  and  (max-width: 1300px){
+@media (min-width: 800px)  and   (max-width: 1200px){
     .metrics_text {
         font-size: 0.6rem;
         color: var(--text-color);
@@ -120,7 +120,7 @@
 
 }
 
-@media (min-width: 1300px){
+@media (min-width: 1100px){
 
     .metrics_cards {
         display: flex;
@@ -169,4 +169,52 @@
     }
     
     
+  }
+
+  @media (min-width: 1400px){
+    .metrics_cards {
+        display: flex;
+        padding: 0.8rem;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 0.5rem;
+        margin-top: 1rem;
+        box-shadow: var(--box-shadow-container);
+        border: var(--border-box-shadow-container);
+        width: 94%;
+        margin-left: -0%;
+    }
+    
+    .metrics_imgs {
+        height: 1rem;
+    }
+    
+    .metrics_text {
+        font-size: var(--tamanho-mobile);
+        color: var(--text-color);
+    }
+    
+    .metrics_title {
+        font-size:1.2rem;
+        font-weight: bold;
+        color: var(--tittle-color);
+    }
+    
+    .metrics_text-container {
+        width: 60%;
+        padding-left: 1rem;
+        
+    }
+    
+    .metrics_img_arrow {
+        margin-bottom: 0rem;
+    }
+    
+    
+    .svg_home{
+        background-color: var(--background-ligth);
+        width: 3rem;
+        height: 3rem;
+        border-radius: 0.5rem;
+    }
   }

@@ -129,7 +129,7 @@
    display: none;
 }
 
-@media (min-width: 250px)  and  (max-width: 1300px){
+@media (min-width: 250px)  and   (max-width: 1200px){
     .configEverest_container{
         display: none;
     }
@@ -184,7 +184,7 @@
     }
 }
 
-@media (min-width: 800px)  and  (max-width: 1300px){
+@media (min-width: 800px)  and   (max-width: 1200px){
 
     .card_lembrete {
         box-shadow: var(--box-shadow-container);
@@ -195,5 +195,40 @@
         padding: 0.5rem;
         background-color: var(--container-light);
         margin-left: 23%;
+    }
+}
+
+@media (min-width: 1400px){
+
+    .configEverest_configs-cards-text-container {
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+        color: var(--color-text);
+        width: 20vw;
+       
+    }
+
+    .configEverest_configs-cards-title {
+        font-size: var(--tamanho-font);
+        font-weight: bold;
+    }
+
+    .configEverest_configs-cards-text {
+        font-size: 1rem;
+        color: var(--text-color);
+        font-weight: bold;
+        margin-top: 0.6rem;
+    }
+
+    .lembrete_title {
+        color: var(--subtittle-color);
+        font-size: var(--tamanho-font);
+        margin-top: 0.5rem;
+    }
+    .Lembrete_text {
+        color: var(--text-color);
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        font-size: 1.2rem;
     }
 }

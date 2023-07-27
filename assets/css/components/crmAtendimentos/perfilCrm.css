@@ -246,7 +246,7 @@ input::placeholder {
 }
 
 
-@media (min-width: 250px)  and  (max-width: 1300px){
+@media (min-width: 250px)  and   (max-width: 1200px){
   .card_perfil_mobile{
     box-shadow: -0.1rem 0.2rem rgba(0, 0, 0, 0.074);
     border-radius: 0.5rem;
@@ -370,7 +370,7 @@ input::placeholder {
        
 }
 
-@media (min-width: 800px)  and  (max-width: 1300px){
+@media (min-width: 800px)  and   (max-width: 1200px){
   .search_form_lead-crm {
     width: 85%;
     background-color: #979797;

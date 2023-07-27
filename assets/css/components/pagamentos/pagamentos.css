@@ -224,7 +224,7 @@
 
 
 
-@media (min-width: 250px)  and  (max-width: 1300px){
+@media (min-width: 250px)  and   (max-width: 1200px){
     .pagamentos_everest-container-main {
         display: flex;
         width: 84vw;
@@ -299,10 +299,10 @@
         margin-right: -0.5rem;
     }
     .listaPagamento1{
-        background-color: var(--container-light);
+       background-color: var(--container-light);
        border-radius: 0 0 0.5rem 0.5rem;
        padding: 0.5rem;
-       width:65%;
+       width:86%;
        
     }
 
@@ -317,7 +317,7 @@
         background-color: var(--container-light);
        border-radius: 0 0 0.5rem 0.5rem;
        padding: 0.5rem;
-       width:65%;
+       width:86%;
        
     }
 }
@@ -328,12 +328,12 @@
         background-color: var(--container-light);
        border-radius: 0 0 0.5rem 0.5rem;
        padding: 0.5rem;
-       width:65%;
+       width:86%;
        
     }
 }
 
-@media (min-width: 800px)  and  (max-width: 1300px){
+@media (min-width: 800px)  and   (max-width: 1200px){
 
     .listaPagamento1{
         background-color: var(--container-light);

@@ -222,7 +222,7 @@ input::placeholder {
 }
 
 
-@media (min-width: 250px)  and  (max-width: 1300px){
+@media (min-width: 250px)  and   (max-width: 1200px){
     .header_home{
         display: none;
     }
@@ -338,7 +338,7 @@ input::placeholder {
 }
 
 
-@media (min-width: 600px)  and  (max-width: 1300px){
+@media (min-width: 600px)  and   (max-width: 1200px){
 
     .container_nav_mobile{
         display: flex;

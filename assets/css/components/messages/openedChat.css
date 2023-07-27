@@ -355,7 +355,7 @@
 }
 
 
-@media (min-width: 250px)  and  (max-width: 1300px){
+@media (min-width: 250px)  and   (max-width: 1200px){
 
     .opened_chat-container {
         width: 95%;
@@ -475,7 +475,7 @@
     }
 }
 
-@media (min-width: 800px)  and  (max-width: 1300px){
+@media (min-width: 800px)  and   (max-width: 1200px){
     .opened_chat_name-container {
         display: flex;
         margin-top: 8%;

@@ -52,7 +52,7 @@
 }
 
 
-@media (min-width: 250px)  and  (max-width: 1300px){
+@media (min-width: 250px)  and   (max-width: 1200px){
   
 
 
@@ -75,7 +75,7 @@
 }
 
 
-@media (min-width: 800px)  and  (max-width: 1300px){
+@media (min-width: 800px)  and   (max-width: 1200px){
 
   .main_message{
     display: flex;
@@ -97,7 +97,7 @@
   }
 }
 
-@media (min-width: 1300px){
+@media (min-width: 1200px) and   (max-width: 1400px){
 
   .main_message{
     display: flex;
@@ -111,6 +111,23 @@
  
    
     max-height:100vh;
+   }
+  
+}
+
+
+@media (min-width: 1400px){
+
+  .main_message{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 40vw;
+    margin-left: 9vw;
+    margin-top: 5%;
+    border-radius: 0.5rem;
+    box-shadow: var(--box-shadow-container);
+    border: var(--border-box-shadow-container);
+    max-height:120vh;
    }
   
 }

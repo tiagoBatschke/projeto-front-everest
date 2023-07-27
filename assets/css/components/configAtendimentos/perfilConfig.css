@@ -94,7 +94,7 @@
 
 
 
-@media (min-width: 250px)  and  (max-width: 1300px){
+@media (min-width: 250px)  and   (max-width: 1200px){
     .main_config-container {
         display: flex;
         width: 90vw;
@@ -135,7 +135,7 @@
   
 }
 
-@media (min-width: 800px)  and  (max-width: 1300px){
+@media (min-width: 800px)  and   (max-width: 1200px){
     .perfilConfig_container {
         box-shadow: var(--box-shadow-container);
         border-radius: 0.5rem;

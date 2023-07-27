@@ -158,7 +158,7 @@
 }
 
 
-@media (min-width: 250px)  and  (max-width: 1300px){
+@media (min-width: 250px)  and   (max-width: 1200px){
     .chats_container_notifications {
         width: 87%;
  
@@ -275,7 +275,7 @@
        
 }
 
-@media (min-width: 800px)  and  (max-width: 1300px){
+@media (min-width: 800px)  and   (max-width: 1200px){
     .chats_cards_notifications {
         display: flex;
         border-bottom: var(--border-box-shadow-container);
