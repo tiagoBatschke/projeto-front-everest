@@ -1405,6 +1405,7 @@
     
    </main>
    <div id="main_mobile" class="main_mobile">
+    <div id="front" class="front">
     <div id="status_crm" >
         <div  class="title_crm-container">
             <h1  class="title_crm text ">Crm Atendimentos</h1>
@@ -1786,17 +1787,19 @@
         </div>
       
     </div>
-   
+    
 
-    <div id="button_abreCRm-mobile" onclick=" openList('button_abreCRm-mobile'),openList('carrousel-mobile'), openList('perfil_lead'), openListMobile('status_crm')" class="card_perfil_mobile text">
+    <div id="button_abreCRm-mobile" onclick="openList('front')" class="card_perfil_mobile text">
         <button class="button_bottom-mobile"><span class="text_hidden">aaaa</span></button>
         <p class="card_button-text-mobile text">Perfil Lead CRM</p>
         <img class="metrics_img_arrow-mobile"  src="./assets/imgs/arrow.svg" alt="">
     </div>
 
-    <div id="perfil_lead" class="hidden">
+    </div>
+
+    <div id="perfil_lead" class="perfil_lead_back">
         <div class="voltar_page-container">
-            <svg onclick=" openList('button_abreCRm-mobile'),openList('carrousel-mobile'), openList('perfil_lead'), openListMobile('status_crm')"  class="svg  voltar_page-icon " width="41" height="41" viewBox="0 -10 61 78" fill="none" style="" xmlns="http://www.w3.org/2000/svg">
+            <svg onclick="openList('front')"  class="svg  voltar_page-icon " width="41" height="41" viewBox="0 -10 61 78" fill="none" style="" xmlns="http://www.w3.org/2000/svg">
                 <path d="M30.5013 38.125L38.1263 30.5M38.1263 30.5L30.5013 22.875M38.1263 30.5L10.168 30.5"  stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                 <path d="M10.168 17.7917V12.7084C10.168 11.3047 11.3059 10.1667 12.7096 10.1667H48.293C49.6967 10.1667 50.8346 11.3047 50.8346 12.7084V48.2917C50.8346 49.6955 49.6967 50.8334 48.293 50.8334H12.7096C11.3059 50.8334 10.168 49.6955 10.168 48.2917V43.2084"  stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
@@ -1809,53 +1812,42 @@
             <button class="button_search_lead-crm" type="submit"><img class="img_lupa" src="./assets/imgs/lupa-arredondada.png" alt=""></button>
         </form>
         <h2 class="title_crm-lead text">Perfil Lead CRM</h2>
-        <div class="card_perfil-container">
-            <div class="card_buttons-perfil">
-                <div class="carrousel">
-                    <div class="regular_mobile slider">
-                        
-                       <div id="button_perfil-lead-crm-mobile" onclick=" openListCrm('perfilLeadCrm-mobile', 'button_perfil-lead-crm-mobile', ['button_perfil-lead-crm-mobile','button_medias-mobile','button_trilhaDeAtendimento-mobile','button_perfilPosVenda-mobile'  ], ['midias-mobile', 'trilhaDeAtendimento-mobile','perfilPosVenda-mobile', 'perfilLeadCrm-mobile'])"
-                       class=" card_perfil text card_perfil-text button_evidencia ">
-                      <button class="card_perfil-button"><span class="text_hidden">aaaa</span></button>
-                      <p class=" card_button-text">Perfil
-                          Lead CRM</p>
-                     
-                      </div>
-                      <div id="button_medias-mobile" onclick="openListCrm('midias-mobile', 'button_medias-mobile', ['button_perfil-lead-crm-mobile','button_medias-mobile','button_trilhaDeAtendimento-mobile', 'button_perfilPosVenda-mobile' ], ['midias-mobile', 'trilhaDeAtendimento-mobile','perfilPosVenda-mobile', 'perfilLeadCrm-mobile'])"
-                      class="card_perfil text card_perfil-text">
-                     <button class="card_perfil-button"><span class="text_hidden">aaaa</span></button>
-                     <p class=" card_button-text">Medias</p>
-                    
-                     </div>
-                     <div id="button_trilhaDeAtendimento-mobile" onclick="openListCrm('trilhaDeAtendimento-mobile', 'button_trilhaDeAtendimento-mobile', ['button_perfil-lead-crm-mobile','button_medias-mobile','button_trilhaDeAtendimento-mobile', 'button_perfilPosVenda-mobile' ], ['midias-mobile', 'trilhaDeAtendimento-mobile','perfilPosVenda-mobile', 'perfilLeadCrm-mobile'])"
-                     class=" text card_perfil card_perfil-text">
-                    <button class="card_perfil-button"><span class="text_hidden">aaaa</span></button>
-                    <p class="card_button-text">Trilha de 
-                      Atendimento</p>
-                   
-                    </div>
-                    <div id="button_perfilPosVenda-mobile" onclick="openListCrm('perfilPosVenda-mobile', 'button_perfilPosVenda-mobile', ['button_perfil-lead-crm-mobile','button_medias-mobile','button_trilhaDeAtendimento-mobile', 'button_perfilPosVenda-mobile' ], ['midias-mobile', 'trilhaDeAtendimento-mobile','perfilPosVenda-mobile', 'perfilLeadCrm-mobile'])"
-                    class="card_perfil text card_perfil-text">
-                    <button class="card_perfil-button"><span class="text_hidden">aaaa</span></button>
-                    <p class="card_button-text">Perfil
-                      Pós-Venda</p>
-                   
-                    </div>
-                     
-                    </div>
-                  
-                </div>
+        <div class="carrousel_mobile-perfil_lead">
+            <div class="regular_mobile-perfil_lead slick">
+                
+               <div id="button_perfil-lead-crm-mobile" onclick=" openListCrm('perfilLeadCrm-mobile', 'button_perfil-lead-crm-mobile', ['button_perfil-lead-crm-mobile','button_medias-mobile','button_trilhaDeAtendimento-mobile','button_perfilPosVenda-mobile'  ], ['midias-mobile', 'trilhaDeAtendimento-mobile','perfilPosVenda-mobile', 'perfilLeadCrm-mobile'])"
+               class=" card_perfil text card_perfil-text button_evidencia ">
+              <button class="card_perfil-button"><span class="text_hidden">aaaa</span></button>
+              <p class=" card_button-text">Perfil
+                  Lead CRM</p>
+             
+              </div>
+              <div id="button_medias-mobile" onclick="openListCrm('midias-mobile', 'button_medias-mobile', ['button_perfil-lead-crm-mobile','button_medias-mobile','button_trilhaDeAtendimento-mobile', 'button_perfilPosVenda-mobile' ], ['midias-mobile', 'trilhaDeAtendimento-mobile','perfilPosVenda-mobile', 'perfilLeadCrm-mobile'])"
+              class="card_perfil text card_perfil-text">
+             <button class="card_perfil-button"><span class="text_hidden">aaaa</span></button>
+             <p class=" card_button-text">Medias</p>
             
-            
-              
-            
-            
-            
+             </div>
+             <div id="button_trilhaDeAtendimento-mobile" onclick="openListCrm('trilhaDeAtendimento-mobile', 'button_trilhaDeAtendimento-mobile', ['button_perfil-lead-crm-mobile','button_medias-mobile','button_trilhaDeAtendimento-mobile', 'button_perfilPosVenda-mobile' ], ['midias-mobile', 'trilhaDeAtendimento-mobile','perfilPosVenda-mobile', 'perfilLeadCrm-mobile'])"
+             class=" text card_perfil card_perfil-text">
+            <button class="card_perfil-button"><span class="text_hidden">aaaa</span></button>
+            <p class="card_button-text">Trilha de 
+              Atendimento</p>
+           
             </div>
-            
-            
-            
-         <div id="perfilLeadCrm-mobile" class="chat_card_filtro-container2  ">
+            <div id="button_perfilPosVenda-mobile" onclick="openListCrm('perfilPosVenda-mobile', 'button_perfilPosVenda-mobile', ['button_perfil-lead-crm-mobile','button_medias-mobile','button_trilhaDeAtendimento-mobile', 'button_perfilPosVenda-mobile' ], ['midias-mobile', 'trilhaDeAtendimento-mobile','perfilPosVenda-mobile', 'perfilLeadCrm-mobile'])"
+            class="card_perfil text card_perfil-text">
+            <button class="card_perfil-button"><span class="text_hidden">aaaa</span></button>
+            <p class="card_button-text">Perfil
+              Pós-Venda</p>
+           
+            </div>
+             
+            </div>
+          
+        </div>
+        <div class="card_perfil-container">
+        <div id="perfilLeadCrm-mobile" class="chat_card_filtro-container2  ">
             <div class="informações_iniciais-container">
                 <h3 class="title_informações text">Informações Iniciais</h3>
                 <div class="card_info">
