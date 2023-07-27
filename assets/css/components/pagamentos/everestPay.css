@@ -362,5 +362,25 @@
         width: 60%;
         padding: 0.5rem;
         margin-left: 20%;
+       
     }
+}
+
+@media (min-width: 1200px){
+    .everestPay-contaiener {
+        background-color: var(--container-color);
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 0.9rem;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-left: 0%;
+        width: 30%;
+        padding: 0.5rem;
+        margin-left: 0%;
+        
+    }
+    
+    .mobile_descontos{display: none;}
 }
