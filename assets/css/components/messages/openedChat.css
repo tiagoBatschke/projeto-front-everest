@@ -490,3 +490,13 @@
         margin-bottom: 8%;
     }
 }
+
+@media (min-width: 1400px){
+    .opened_chat-container {
+        width: 40%;
+        padding: 1.8rem;
+        height: 80vh;
+        margin-top: 2%;
+       
+    }
+}
