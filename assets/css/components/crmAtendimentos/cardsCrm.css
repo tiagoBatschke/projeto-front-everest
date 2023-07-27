@@ -330,7 +330,7 @@
     position: absolute;
     background-color: var(--body-color);
     width: 100%;
-    max-height: 80vh;
+    height: 98vh;
 }
 
 .carrousel_mobile{
