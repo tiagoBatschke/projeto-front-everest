@@ -197,7 +197,7 @@ li {
         width: 20%;
         position: fixed;
         margin-top: 26.5vh;
-        z-index: 15;
+        z-index: 18;
         margin-left: 12vw;
         border-radius: 0.5rem;
         height: 50vh;
@@ -237,7 +237,7 @@ li {
         width: 3rem;
         position: fixed;
         margin-top: 26vh;
-        z-index: 8;
+        z-index: 18;
         margin-left: 25%;
         border-radius: 0.5rem;
         height: 50vh;
@@ -257,7 +257,7 @@ li {
         background-color: var(--svg);
         width: 3rem;
         position: fixed;
-        z-index: 8;
+        z-index: 18;
         margin-left: 32%;
         border-radius: 0.5rem;
         height:50vh;
