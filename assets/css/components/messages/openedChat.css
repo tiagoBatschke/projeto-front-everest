@@ -395,7 +395,7 @@
 }
 .chat_container {
     overflow-y: scroll;
-    max-height: 36vh;
+    max-height: 66vh;
     margin-bottom: 8%;
 }
 .card_confirmation-menuAtend {
