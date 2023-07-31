@@ -416,8 +416,9 @@
    padding: 0.5rem;
    border-top: none;
    flex-direction: column;
-   max-height: 120vh;
+   max-height: 160vh;
    margin-top: 10%;
+   background-color: aqua;
   
 }
 .container_registro-faq{
