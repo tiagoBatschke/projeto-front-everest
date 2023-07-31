@@ -434,7 +434,7 @@
 
 .config_chatBot-content{
     overflow-y: scroll;
-    max-height: 220vh;
+    max-height: 520vh;
     width: 95vw;
     overflow-x: hidden;
     margin-left: 5vw;
