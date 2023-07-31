@@ -221,8 +221,8 @@
 .list_chatOpened-container{
     position: fixed;
     z-index: 1;
-    margin-left: 25%;
-    margin-top: -1.8rem;
+    margin-left: 22%;
+    margin-top: -3.8rem;
     border-radius: 0.5rem;
     border: 1px solid var(--text-color) ;
 }
@@ -357,6 +357,15 @@
 
 @media (min-width: 250px)  and   (max-width: 1200px){
 
+    .list_chatOpened-container{
+        position: fixed;
+        z-index: 1;
+        margin-left: 50%;
+        margin-top: -2.8rem;
+        border-radius: 0.5rem;
+        border: 1px solid var(--text-color) ;
+    }
+
     .opened_chat-container {
         width: 95%;
         padding: 0rem;
@@ -443,6 +452,14 @@
 }
 
 @media (min-width: 450px)  and  (max-width: 600px){
+    .list_chatOpened-container{
+        position: fixed;
+        z-index: 1;
+        margin-left: 57%;
+        margin-top: -2.8rem;
+        border-radius: 0.5rem;
+        border: 1px solid var(--text-color) ;
+    }
     .opened_chat_name-container {
         display: flex;
         margin-top: 17%;
@@ -460,6 +477,14 @@
 }
 
 @media (min-width: 600px)  and  (max-width: 800px){
+    .list_chatOpened-container{
+        position: fixed;
+        z-index: 1;
+        margin-left: 62%;
+        margin-top: -2.8rem;
+        border-radius: 0.5rem;
+        border: 1px solid var(--text-color) ;
+    }
     .opened_chat_name-container {
         display: flex;
         margin-top: 13%;
@@ -476,6 +501,15 @@
 }
 
 @media (min-width: 800px)  and   (max-width: 1200px){
+
+    .list_chatOpened-container{
+        position: fixed;
+        z-index: 1;
+        margin-left: 64%;
+        margin-top: -2.8rem;
+        border-radius: 0.5rem;
+        border: 1px solid var(--text-color) ;
+    }
     .opened_chat_name-container {
         display: flex;
         margin-top: 8%;
