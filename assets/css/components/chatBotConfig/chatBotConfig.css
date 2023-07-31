@@ -333,7 +333,7 @@
 
 .faq_message_img{
     width: 100%;
-    height: 90%;
+    height: 100%;
     margin-left: -50%;
     margin-top: 24%;
     background-color: #fff;
@@ -441,12 +441,11 @@
 }
 .container_dias-bot{
     width: 100%;
-    height: 80vh;
-    max-height: 80vh;
+    height: 20vh;
+    max-height: 20vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
- 
     margin-top: 3rem;
 }
 
@@ -715,8 +714,8 @@
      }
      .faq_message_img{
         width: 80%;
-        height: 30%;
-        margin-left: 0%;
+        height: 100%;
+        margin-left: 3%;
         margin-top: -30%;
         
         

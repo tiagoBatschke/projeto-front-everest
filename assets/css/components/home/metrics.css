@@ -178,7 +178,7 @@
         justify-content: space-evenly;
         align-items: center;
         border-radius: 0.5rem;
-        margin-top: 1rem;
+        margin-top: 0.5rem;
         box-shadow: var(--box-shadow-container);
         border: var(--border-box-shadow-container);
         width: 94%;

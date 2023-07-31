@@ -30,7 +30,7 @@ function mantemDark(){
     page.classList.add("dark_mode");
     
   }
-
+ 
 }
 
 function DarkMode() {

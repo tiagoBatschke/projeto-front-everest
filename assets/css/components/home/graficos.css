@@ -356,7 +356,7 @@
     .columnchart_container {
         width: 80%;
         margin-left: 20%;
-        height: 40vh;
+        height: 21.6vh;
         overflow-x: scroll;
         
     }
@@ -371,7 +371,7 @@
         flex-wrap: nowrap;
         justify-content: space-evenly;
         width: 100%;
-        margin-top: 5%;
+        margin-top: 3%;
         margin-left: -5%;
         margin-bottom: 2%;
         
@@ -386,7 +386,7 @@
         margin-top: 0%;
         width: 82%;
         margin-left: 9vw;
-        height: 30VH;
+        height: 32VH;
         margin-bottom: 1rem;
         background-color: var(--container-light);
         display: flex;
